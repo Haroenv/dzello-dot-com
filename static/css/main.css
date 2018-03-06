@@ -21,20 +21,21 @@ header p {
 }
 
 .home-intro {
-  padding: 25px 0;
+  padding: 25px;
 }
 
 .home-intro-image {
   display: block;
   float: left;
-  width: 150px;
+  width: 20%;
+  margin: 0 20px;
   box-shadow: none;
 }
 
 .home-intro-text {
-  float: left;
-  margin: 0 0 0 50px;
-  width: 400px;
+  float: right;
+  width: 70%;
+  font-size: 15px;
 }
 
 .clearfix:after {
