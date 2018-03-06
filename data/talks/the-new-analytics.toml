@@ -1,0 +1,8 @@
+title = "The New Analytics - In The Cloud, Behind the API"
+date = "2014-02-24"
+venue = "IBM Pulse (dev@Pulse)"
+blog_url = "https://keen.io/blog/77850411340/presenting-the-new-analytics-at-ibm-pulse"
+slides_url = "https://speakerdeck.com/dzello/the-new-analytics-in-the-cloud-behind-the-api"
+abstract = '''
+Keen IO tells their journey of creating APIs to enable custom analytics for web, mobile, and Internet of things companies around the world. They'll share their vision that APIs are enabling a powerful new class of connected applications and discuss how they've benefitted from hosting analytics in the cloud. You'll also learn their approach to meeting the challenges that many startups face: high growth, fragmented users, scaling the business, and demanding system responsiveness in an API world.
+'''

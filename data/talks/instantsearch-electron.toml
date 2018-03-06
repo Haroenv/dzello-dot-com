@@ -1,0 +1,8 @@
+title = "Use React InstantSearch with Electron"
+venue = "Algolia Search Party"
+date = "2016-02-01"
+video_url = "https://www.youtube.com/watch?v=Dj5qF0ki6BY"
+demo_url = "https://github.com/algolia/instantsearch-electron"
+abstract = '''
+Algolia Developer Advocate Josh Dzielak announces a new project that makes it easy to create an instant search experience that runs as a desktop application.
+'''

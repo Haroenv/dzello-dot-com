@@ -1,3 +1,5 @@
 +++
-title = "Josh Dzielak - dzello.com"
+title = "Home"
+menu = "main"
+weight = 1
 +++

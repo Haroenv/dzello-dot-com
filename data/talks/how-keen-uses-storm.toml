@@ -1,0 +1,6 @@
+title = "How Keen IO uses Storm"
+venue = "SF Rails"
+date = "18-10-2013"
+abstract = '''
+This presentation discusses Storm, the distributed computation system, and how it’s used at Keen IO. Redstorm, which makes it possible to build Storm topologies in Ruby, is also discussed. First given at #sfrails in October 2013.
+'''

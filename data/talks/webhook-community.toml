@@ -1,0 +1,9 @@
+title = "Scaling community by webhooking the things"
+venue = "Open Source Show & Tell 2017"
+date = "10-06-2017"
+blog_url = "https://devrel.net/developer-experience/scale-community-support-apis"
+video_url = "https://vimeo.com/223525087"
+slides_url = "https://speakerdeck.com/dzello/scaling-community-by-webhooking-the-things"
+abstract = '''
+Don't make your forum an island. This lightning-length presentation provides a look at the Algolia community tech stack and then two new open source projects spun out of building it.
+'''

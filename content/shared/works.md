@@ -1,0 +1,7 @@
+- [Talks](/talks)
+- [Articles](/articles)
+- [Blog posts](/blog)
+- [Open source projects](/open-source)
+- [Podcast appearances](/podcasts)
+- [Github stats](/github)
+- [Media mentions](/media)

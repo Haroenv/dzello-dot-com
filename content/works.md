@@ -5,14 +5,6 @@ weight = "20"
 meta = "false"
 +++
 
-## videos and podcasts
-*   [Essential cast with Josh Dzielak (Burner, Dev Relations Lead @Algolia)](https://medium.com/essential-cast/josh-dzielak-ca685992e1d6) (Sep 2017)
-*   [Load dynamic serverless content faster with search](https://www.youtube.com/watch?v=-McGY7ZAAyw) (Algolia Search Party, August 2017)
-*   [Scaling community by webhooking the things](https://vimeo.com/223525087) (Open Source Show & Tell, June 2017)
-*   [How to scale community support for APIs [devrel.net]](https://devrel.net/developer-experience/scale-community-support-apis) (DevXCon, May 2017)
-*   [Use React InstantSearch with Electron](https://www.youtube.com/watch?v=Dj5qF0ki6BY) (Algolia Search Party, Jan 2017)
-*   [Oval Quotes Screencast - Scraping and Search](https://www.youtube.com/watch?v=xZTNzNjwl3w) (Youtube, March 2016)
-
 ## slides and transcripts
 
 *   [Instant browsing for static sites with Algolia](https://speakerdeck.com/dzello/instant-browsing-for-static-sites-with-algolia) (Serverless London meetup, Dec 2017)
@@ -23,7 +15,7 @@ meta = "false"
 *   [Voice trends and search](https://speakerdeck.com/dzello/voice-trends-and-search) (Hackference, Oct 2016)
 *   [10 Community Projects in 15 Minutes](https://speakerdeck.com/dzello/10-community-projects-in-15-minutes) (Algolia Search Party, Aug 2016)
 *   [Evolving Work - A presentation about the book Reinventing Organizations](https://dzello.github.io/evolving-work) (St. Jean de Passy, Nov 2015)
-*   [Store JSON in Cassandra the Hard Way](https://speakerdeck.com/dzello/store-json-the-hard-way) (Heavybit, July 2014)
+*   [Store JSON in Cassandra the Hard Way](https://speakerdeck.com/dzello/store-json-in-cassandra-the-hard-way) (Heavybit, July 2014)
 *   [The New Analytics - In The Cloud, Behind the API](https://speakerdeck.com/dzello/the-new-analytics-in-the-cloud-behind-the-api) (IBM Pulse, Feb 2014)
 *   [One Billion Per Second - The Rise of Designer Data Architectures](https://speakerdeck.com/dzello/one-billion-per-second-the-rise-of-designer-data-architectures) (Defrag, Nov 2013)
 *   [How Keen IO uses Storm](https://speakerdeck.com/dzello/how-keen-io-uses-storm) (SFRails, Oct 2013)

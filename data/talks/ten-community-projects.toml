@@ -1,0 +1,7 @@
+title = "10 Community Projects in 15 Minutes"
+venue = "Algolia Search Party"
+date = "10-08-2016"
+slides_url = "https://speakerdeck.com/dzello/10-community-projects-in-15-minutes"
+abstract = '''
+A tour of 10 Algolia community projects including instantsearch.js, Places, DocSearch, Wordpress and Magento plugins, and more.
+'''

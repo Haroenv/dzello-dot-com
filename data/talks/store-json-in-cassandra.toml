@@ -1,0 +1,7 @@
+title = "Store JSON in Cassandra the Hard Way"
+venue = "Heavybit"
+date = "2014-07-23"
+slides_url = "https://speakerdeck.com/dzello/store-json-in-cassandra-the-hard-way"
+abstract = '''
+Keen IO stores events in the same format that our customers send them in—JSON. Yet, Keen uses Cassandra, a distributed database without any JSON primitives, and Keen gives customers the ability to query over arbitrary (even nested) JSON dimensions. How can this be???
+'''

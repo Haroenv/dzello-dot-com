@@ -36,6 +36,7 @@ header p {
   float: right;
   width: 70%;
   font-size: 15px;
+  margin: 0;
 }
 
 .clearfix:after {
@@ -50,7 +51,7 @@ header p {
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 main div.hr {
-  border-bottom: 3px solid #cecece;
+  border-bottom: 4px solid #cecece;
 }
 
 #list li a {
