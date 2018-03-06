@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+  <div class="home-intro clearfix">
+    <img class="home-intro-image" src='/images/josh-profile.png'>
+    <p class="home-intro-text">
+      Hello! I'm Josh. Drawing on 5+ years of experiences with
+      B2D SaaS companies like <a href="https://algolia.com/">Algolia</a> and <a href="https://keen.io/">Keen IO</a>,
+      I can help you define developer product, marketing and community strategies that
+      will get developers excited to try your API, product or open source project.
+      <a href="/hire">Learn more.</a>
+    </p>
+  </div>
+
+  <div class="hr"></div>
+
+  <br>
+  <h2>Recent blog posts</h2>
+  <section id="home">
+    <ul>
+      {{ range $index, $page := first 3 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+      <li {{if eq $index 0}}class="first"{{end}}>
+        <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
+        {{ partial "aside" . }}
+        <p>{{ .Summary }}</p>
+        {{ if .Truncated }}
+        <a href="{{ .RelPermalink }}">Read more&hellip;</a>
+        <br>
+        <br>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    <p>
+      <a href="/blog">See all blog posts...</a>
+    </p>
+  </section>
+
+{{ end }}

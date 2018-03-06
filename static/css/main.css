@@ -1,0 +1,70 @@
+#container main {
+  font-size: 1.0rem;
+  line-height: 1.5;
+}
+
+header a,
+nav a {
+  color: #666;
+}
+
+main a {
+  color: #3333BB;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+header p {
+  margin: 1rem 0;
+}
+
+.home-intro {
+  padding: 25px 0;
+}
+
+.home-intro-image {
+  display: block;
+  float: left;
+  width: 150px;
+  box-shadow: none;
+}
+
+.home-intro-text {
+  float: left;
+  margin: 0 0 0 50px;
+  width: 400px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+main div.hr {
+  border-bottom: 3px solid #cecece;
+}
+
+#list li a {
+  display: inline-block;
+  width: 75%;
+}
+
+ul.pagination li.active a {
+  color: #666;
+}
+
+ul.pagination li.disabled a {
+  display: none;
+}
+
+.post-nav li {
+  max-width: 50%;
+}

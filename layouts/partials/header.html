@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+
+<head>
+  <title>{{ .Site.Title }}</title>
+  {{ partial "meta" . }}
+  {{ partial "header_includes" . -}}
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+        <a href="{{ relURL "/" }}">{{ .Site.Params.Header | markdownify }}</a>
+      </h1>
+      {{ partial "social" . }}
+      {{ with .Site.Params.tagline }}
+      <p>{{ . | markdownify }}</p>
+      {{ end }}
+    </header>
+
+    {{ partial "nav" . }}
+
+    <main>

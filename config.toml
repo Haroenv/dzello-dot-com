@@ -1,0 +1,27 @@
+baseurl = "https://dzello.com/"
+title = "Josh Dzielak - Developer tools and developer relations"
+languageCode = "en-us"
+copyright = "Copyright &copy; 2018 - Josh Dzielak"
+canonifyurls = true
+theme = "kiera"
+
+paginate = 10
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+googleAnalytics = "62V6D1ZEHQ"
+
+[author]
+    name = "Josh Dzielak"
+    github = "dzello"
+    linkedin = "dzello"
+    twitter = "dzello"
+    instagram = "josh_people"
+    gitlab = ""
+    facebook = ""
+
+[params]
+    description = "Personal site and blog with resources for people building developer tools"
+    tagline = "★ Developer tools and developer relations"
+    header = "Josh Dzielak - dzello.com"
+    image = "images/josh-profile.png"
