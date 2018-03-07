@@ -9,7 +9,7 @@ url = "/blog"
 icon = "pencil"
 
 [[ category ]]
-title = "Blog posts around the web"
+title = "Articles around the web"
 url = "/work/articles"
 icon = "globe"
 
