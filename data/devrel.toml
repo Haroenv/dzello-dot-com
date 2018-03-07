@@ -1,14 +1,3 @@
-[[ talk ]]
-title = "From few to some to many — How to scale community support for APIs"
-venue = "DevXCon 2017"
-date = "22-05-2017"
-blog_url = "https://devrel.net/developer-experience/scale-community-support-apis"
-video_url = "https://www.youtube.com/watch?v=dhAWeqQc-Xk"
-slides_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis"
-abstract = '''
-The free tier of many APIs includes “community support”. What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time? Drawing on 4 years of experience building developer communities at Keen IO and Algolia, I will discuss the role that conversations plan in developer experience, and show how to create a community support program that gets people talking.
-'''
-
 [[ article ]]
 title = "How I got into developer advocacy"
 date = "2017-03"
@@ -33,7 +22,13 @@ date = "2016-09"
 location = "Algolia Stories"
 url = "https://stories.algolia.com/the-developer-advocates-guide-to-github-universe-2016-202d1957af22"
 
-[[ activity ]]
-name = "Master of Ceremonies - Heavybit DevGuild, Developer Evangelism"
-url = "http://devguild.heavybit.com/developer-evangelism/"
-date = "2015-01"
+[[ talk ]]
+title = "From few to some to many — How to scale community support for APIs"
+venue = "DevXCon 2017"
+date = "22-05-2017"
+blog_url = "https://devrel.net/developer-experience/scale-community-support-apis"
+video_url = "https://www.youtube.com/watch?v=dhAWeqQc-Xk"
+slides_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis"
+abstract = '''
+The free tier of many APIs includes “community support”. What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time? Drawing on 4 years of experience building developer communities at Keen IO and Algolia, I will discuss the role that conversations plan in developer experience, and show how to create a community support program that gets people talking.
+'''
