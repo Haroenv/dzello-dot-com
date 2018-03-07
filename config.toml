@@ -14,10 +14,10 @@ googleAnalytics = "62V6D1ZEHQ"
 [author]
     name = "Josh Dzielak"
     github = "dzello"
+    gitlab = "dzello"
     linkedin = "dzello"
     twitter = "dzello"
     instagram = "josh_people"
-    gitlab = ""
     facebook = ""
 
 [params]
