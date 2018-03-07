@@ -12,7 +12,7 @@ url = "https://blog.algolia.com/algolia-building-for-developers-2017/"
 
 [[ article ]]
 title = "Introducing the Algolia Community forum and the Pioneer Badge"
-date = "12-2016"
+date = "2016-12"
 location = "Algolia Blog"
 url = "https://blog.algolia.com/algolia-community-forum-pioneer-badge/"
 
@@ -25,7 +25,7 @@ url = "https://stories.algolia.com/the-developer-advocates-guide-to-github-unive
 [[ talk ]]
 title = "From few to some to many — How to scale community support for APIs"
 venue = "DevXCon 2017"
-date = "22-05-2017"
+date = "2017-05"
 blog_url = "https://devrel.net/developer-experience/scale-community-support-apis"
 video_url = "https://www.youtube.com/watch?v=dhAWeqQc-Xk"
 slides_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis"
