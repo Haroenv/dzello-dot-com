@@ -16,7 +16,7 @@ title = "discourse-algolia"
 description = "A Discourse plugin that adds Algolia indexing and search"
 date = "2017"
 live_url = "https://meta.discourse.org/t/add-algolia-search-to-your-discourse/73517"
-github_url = "https://github.com/algolia/discourse-algolia)"
+github_url = "https://github.com/algolia/discourse-algolia"
 
 [[ project ]]
 title = "discourse-webhook-collector"
