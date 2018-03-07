@@ -13,7 +13,7 @@ The free tier of many APIs includes “community support”. What does that mean
 title = "Scaling community by webhooking the things"
 venue = "Open Source Show & Tell 2017"
 date = "10-06-2017"
-blog_url = "https://dzello.com/blog/2017-06-12-scale-community-support-by-webhooking-the-things-ossat-transcript/"
+blog_url = "/blog/2017-06-12-scale-community-support-by-webhooking-the-things-ossat-transcript/"
 video_url = "https://vimeo.com/223525087"
 slides_url = "https://speakerdeck.com/dzello/scaling-community-by-webhooking-the-things"
 abstract = '''
@@ -24,7 +24,7 @@ Don't make your forum an island. This lightning-length presentation provides a l
 title = "Instant browsing for static sites with Algolia"
 venue = "Serverless London"
 date = "12-05-2017"
-slides_url = "https://speakerdeck.com/dzello/load-dynamic-serverless-content-faster-with-search"
+slides_url = "https://speakerdeck.com/dzello/instant-browsing-for-static-sites-with-algolia"
 demo_url = "http://algolia-vs-backend.glitch.me/"
 abstract = '''
 A response to a user's action must take place in less than 100ms for the experience to feel immediate and natural. When content must be fetched from a traditional backend or API in response to a user's interaction, it can be very difficult to meet that requirement."
@@ -90,6 +90,7 @@ Keen IO stores events in the same format that our customers send them in—JSON.
 title = "How Keen IO uses Storm"
 venue = "SF Rails"
 date = "18-10-2013"
+slides_url = "https://speakerdeck.com/dzello/how-keen-io-uses-storm"
 abstract = '''
 This presentation discusses Storm, the distributed computation system, and how it’s used at Keen IO. Redstorm, which makes it possible to build Storm topologies in Ruby, is also discussed. First given at #sfrails in October 2013.
 '''
