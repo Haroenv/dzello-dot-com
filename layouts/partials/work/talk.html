@@ -1,5 +1,6 @@
 <li class="talk">
   <i class="fa fa-slideshare fa-lg"></i>
   <a href="{{ or .blog_url .video_url .slides_url .demo_url }}">{{ .title }}</a>
+  <p>{{ .date }}<br>{{ .venue }}</p>
   <p class="abstract">{{ .abstract }}</p>
 </li>

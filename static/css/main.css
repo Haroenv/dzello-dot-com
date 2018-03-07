@@ -120,21 +120,25 @@ ul.render-data li i {
   display: block;
   font-size: 2em;
   line-height: 1em;
-  margin: 15px;
+  margin: 15px 0 20px;
 }
 
 ul.render-data li a {
+  font-size: 1.2rem;
 }
 
 ul.render-data li p.abstract {
   color: #666666;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
-ul.render-data li.category {
+ul.render-data li.category a {
   font-size: 1.2rem;
 }
 
-ul.render-data li.talk {
+ul.render-data li.talk,
+ul.render-data li.article,
+ul.render-data li.activity,
+ul.render-data li.mention {
   width: 40%;
 }
