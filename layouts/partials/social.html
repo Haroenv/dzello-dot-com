@@ -7,6 +7,8 @@
   <li><a href="https://gitlab.com/{{ .Site.Author.gitlab }}"><i class="fa fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
   {{ end }} {{ if .Site.Author.linkedin }}
   <li><a href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  {{ end }} {{ if .Site.Author.medium }}
+  <li><a href="https://www.medium.com/@{{ .Site.Author.medium }}"><i class="fa fa-medium fa-lg" aria-hidden="true"></i></a></li>
   {{ end }} {{ if .Site.Author.facebook }}
   <li><a href="https://www.facebook.com/{{ .Site.Author.facebook }}"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
   {{ end }} {{ if .Site.Author.instagram }}
