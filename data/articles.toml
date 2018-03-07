@@ -1,6 +1,18 @@
 [[ article ]]
+title = "How Algolia Reduces Latency For 21B Searches Per Month"
+date = "2017-03"
+location = "StackShare"
+url = "https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month"
+
+[[ article ]]
+title = "Building for developers—a tour of new features and resources in 2017"
+date = "2017-06"
+location = "Algolia Blog"
+url = "https://blog.algolia.com/algolia-building-for-developers-2017/"
+
+[[ article ]]
 title = "Introducing the Algolia Community forum and the Pioneer Badge"
-date = "12-2016"
+date = "2016-12"
 location = "Algolia Blog"
 url = "https://blog.algolia.com/algolia-community-forum-pioneer-badge/"
 
@@ -24,15 +36,9 @@ url = "https://blog.algolia.com/algolia-vs-elasticsearch-developer-experience-ux
 
 [[ article ]]
 title = "Why we’re backing Open Collective and webpack"
-date = "11-2016"
+date = "2016-11"
 location = "Algolia Stories"
 url = "https://stories.algolia.com/why-were-backing-opencollective-and-webpack-39e39838f18a"
-
-[[ article ]]
-title = "Building for developers—a tour of new features and resources in 2017"
-date = "2017-06"
-location = "Algolia Blog"
-url = "https://blog.algolia.com/algolia-building-for-developers-2017/"
 
 [[ article ]]
 title = "The Developer Advocate's Guide to Github Universe"
@@ -41,20 +47,14 @@ location = "Algolia Stories"
 url = "https://stories.algolia.com/the-developer-advocates-guide-to-github-universe-2016-202d1957af22"
 
 [[ article ]]
-title = "How Algolia Reduces Latency For 21B Searches Per Month"
-date = "2017-03"
-location = "StackShare"
-url = "https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month"
-
-[[ article ]]
 title = "How I got into developer advocacy"
 date = "2017-03"
 location = "Medium"
 url = "https://medium.com/@dzello/how-i-got-into-developer-advocacy-93bad1678a67"
 
 [[ article ]]
-title = "Who’s Jeff?—Things we learned at #Serverlessconf London 2016 "
-date = "10-2016"
+title = "Who’s Jeff?—Things we learned at #Serverlessconf London 2016"
+date = "2016-10"
 location = "Algolia Stories"
 url = "https://stories.algolia.com/whos-jeff-things-we-learned-at-serverlessconf-london-2016-520a2869d95a"
 
@@ -66,7 +66,7 @@ url = "https://stackshare.io/posts/keen-io-tech-stack"
 
 [[ article ]]
 title = "On MLK Day and every day — you can lend your privilege "
-date = "01-2017"
+date = "2017-01"
 location = "Medium"
 url = "https://medium.com/@dzello/on-mlk-day-and-every-day-you-can-lend-your-privilege-240d97e62907"
 

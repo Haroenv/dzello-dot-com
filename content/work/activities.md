@@ -1,4 +1,5 @@
 +++
 title = "Activities"
-data_path = "activities"
 +++
+
+{{< render-data "activities" >}}

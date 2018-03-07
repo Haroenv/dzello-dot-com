@@ -1,4 +1,5 @@
 +++
-title = "Talks"
-data_path = "talks"
+title = "Talks and presentations"
 +++
+
+{{< render-data "talks" >}}

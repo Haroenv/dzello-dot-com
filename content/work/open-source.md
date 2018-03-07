@@ -1,4 +1,5 @@
 +++
 title = "Open source"
-data_path = "open-source"
 +++
+
+{{< render-data "open-source" >}}

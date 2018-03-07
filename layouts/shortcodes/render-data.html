@@ -1,0 +1,9 @@
+{{ with index $.Site.Data (.Get 0) }}
+  <ul>
+  {{ range $key, $element := . }}
+    {{ range $element }}
+      {{ partial (printf "work/%s.html" $key) . }}
+    {{ end }}
+  {{ end }}
+  </ul>
+{{ end }}

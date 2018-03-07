@@ -1,4 +1,5 @@
 +++
 title = "Media & press mentions"
-data_path = "media"
 +++
+
+{{< render-data "media" >}}

@@ -1,7 +1,5 @@
 +++
 title = "Github stats †"
-meta = "false"
-header = "false"
 +++
 
 *   1030 commits (2017)
