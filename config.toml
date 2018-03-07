@@ -1,4 +1,4 @@
-baseurl = "https://dzello.com/"
+baseURL = "https://dzello.com/"
 title = "Josh Dzielak - Developer tools and developer relations"
 languageCode = "en-us"
 copyright = "Copyright &copy; 2018 - Josh Dzielak"
