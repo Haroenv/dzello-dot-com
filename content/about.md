@@ -11,4 +11,4 @@ I enjoy building tools for developers and finding unique, authentic ways to dist
 
 ![](/images/josh-dzielak-devxcon.jpg "Josh Dzielak speaking at DevXCon")
 
-[see talks, writing, and activities...](/works)
+[see talks, writing, and activities...](/work/)

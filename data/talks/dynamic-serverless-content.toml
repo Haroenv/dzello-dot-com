@@ -1,8 +1,0 @@
-title = "Load dynamic serverless content faster with search"
-venue = "Algolia Search Party"
-date = "10-08-2017"
-video_url = "https://www.youtube.com/watch?v=-McGY7ZAAyw"
-slides_url = "https://speakerdeck.com/dzello/load-dynamic-serverless-content-faster-with-search"
-abstract = '''
-Even when time-to-first-byte is fast, delays in fetching dynamic content can still make your serverless app or static site feel sluggish. In this talk, we’ll look at how Algolia’s low-latency infrastructure and ability to rank results in advance can speed this up, without the user ever typing a search query.
-'''

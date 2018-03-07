@@ -1,7 +1,0 @@
-title = "Distributed Systems Are Everywhere - Where the full stack is headed"
-date = "2013-08-2013"
-venue = "Pivotal Labs"
-slides_url = "https://speakerdeck.com/dzello/distributed-systems-are-everywhere-where-the-full-stack-is-headed"
-abstract = '''
-The definition of a “full stack developer” is expanding to include a knowledge of distributed systems.
-'''

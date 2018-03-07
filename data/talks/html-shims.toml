@@ -1,7 +1,0 @@
-title = "Polyfills: Shims and Shivs"
-date = "31-10-2011"
-venue = "Disney Interactive HTML5 Summit"
-slides_url = "http://shims-and-shivs.herokuapp.com/"
-abstract = '''
-A Halloween-flavored introduction to using HTML polyfills.
-'''

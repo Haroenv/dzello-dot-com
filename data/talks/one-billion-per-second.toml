@@ -1,7 +1,0 @@
-title = "One Billion Per Second - The Rise of Designer Data Architectures"
-date = "04-11-2013"
-venue = "Defrag 2013"
-slides_url = "https://speakerdeck.com/dzello/one-billion-per-second-the-rise-of-designer-data-architectures"
-abstract = '''
-Getting answers to today’s questions often involves querying billions of records. New systems are being designed to process billion-record data sets in minutes. Or seconds. With a few tricks, you can build or adapt these systems to your needs.
-'''

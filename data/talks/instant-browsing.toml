@@ -1,8 +1,0 @@
-title = "Instant browsing for static sites with Algolia"
-venue = "Serverless London"
-date = "12-05-2017"
-slides_url = "https://speakerdeck.com/dzello/load-dynamic-serverless-content-faster-with-search"
-demo_url = "http://algolia-vs-backend.glitch.me/"
-abstract = '''
-The "R" in Google's RAIL web performance model is "Response". A response to a user's action must take place in less than 100ms for the experience to feel immediate and natural. When content must be fetched from a traditional backend or API in response to a user's interaction, it can be very difficult to meet that requirement. Algolia can help. Designed to power low-latency search-as-you-type experiences, Algolia responds to content fetching requests as "fast as ping". Learn how Algolia works and see how you can speed up your static sites. Demo included."
-'''

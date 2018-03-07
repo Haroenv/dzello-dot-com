@@ -1,0 +1,141 @@
+[[ talk ]]
+title = "Distributed Systems Are Everywhere - Where the full stack is headed"
+date = "2013-08-2013"
+venue = "Pivotal Labs"
+slides_url = "https://speakerdeck.com/dzello/distributed-systems-are-everywhere-where-the-full-stack-is-headed"
+abstract = '''
+The definition of a “full stack developer” is expanding to include a knowledge of distributed systems.
+'''
+
+[[ talk ]]
+title = "Load dynamic serverless content faster with search"
+venue = "Algolia Search Party"
+date = "10-08-2017"
+video_url = "https://www.youtube.com/watch?v=-McGY7ZAAyw"
+slides_url = "https://speakerdeck.com/dzello/load-dynamic-serverless-content-faster-with-search"
+abstract = '''
+Even when time-to-first-byte is fast, delays in fetching dynamic content can still make your serverless app or static site feel sluggish. In this talk, we’ll look at how Algolia’s low-latency infrastructure and ability to rank results in advance can speed this up, without the user ever typing a search query.
+'''
+
+[[ talk ]]
+title = "Evolving Work - A brief introduction to Reinventing Organizations"
+date = "2015-11-23"
+venue = "Universite Paris 7"
+slides_url = "https://speakerdeck.com/dzello/evolving-work"
+abstract = '''
+A talk about the competitive advantage of organizational design and why happiness in the workplace matters.
+'''
+
+[[ talk ]]
+title = "How Keen IO uses Storm"
+venue = "SF Rails"
+date = "18-10-2013"
+abstract = '''
+This presentation discusses Storm, the distributed computation system, and how it’s used at Keen IO. Redstorm, which makes it possible to build Storm topologies in Ruby, is also discussed. First given at #sfrails in October 2013.
+'''
+
+[[ talk ]]
+title = "Polyfills: Shims and Shivs"
+date = "31-10-2011"
+venue = "Disney Interactive HTML5 Summit"
+slides_url = "http://shims-and-shivs.herokuapp.com/"
+abstract = '''
+A Halloween-flavored introduction to using HTML polyfills.
+'''
+
+[[ talk ]]
+title = "Instant browsing for static sites with Algolia"
+venue = "Serverless London"
+date = "12-05-2017"
+slides_url = "https://speakerdeck.com/dzello/load-dynamic-serverless-content-faster-with-search"
+demo_url = "http://algolia-vs-backend.glitch.me/"
+abstract = '''
+The "R" in Google's RAIL web performance model is "Response". A response to a user's action must take place in less than 100ms for the experience to feel immediate and natural. When content must be fetched from a traditional backend or API in response to a user's interaction, it can be very difficult to meet that requirement. Algolia can help. Designed to power low-latency search-as-you-type experiences, Algolia responds to content fetching requests as "fast as ping". Learn how Algolia works and see how you can speed up your static sites. Demo included."
+'''
+
+[[ talk ]]
+title = "Use React InstantSearch with Electron"
+venue = "Algolia Search Party"
+date = "2016-02-01"
+video_url = "https://www.youtube.com/watch?v=Dj5qF0ki6BY"
+demo_url = "https://github.com/algolia/instantsearch-electron"
+abstract = '''
+Algolia Developer Advocate Josh Dzielak announces a new project that makes it easy to create an instant search experience that runs as a desktop application.
+'''
+
+[[ talk ]]
+title = "One Billion Per Second - The Rise of Designer Data Architectures"
+date = "04-11-2013"
+venue = "Defrag 2013"
+slides_url = "https://speakerdeck.com/dzello/one-billion-per-second-the-rise-of-designer-data-architectures"
+abstract = '''
+Getting answers to today’s questions often involves querying billions of records. New systems are being designed to process billion-record data sets in minutes. Or seconds. With a few tricks, you can build or adapt these systems to your needs.
+'''
+
+[[ talk ]]
+title = "From few to some to many — How to scale community support for APIs"
+venue = "DevXCon 2017"
+date = "22-05-2017"
+blog_url = "https://devrel.net/developer-experience/scale-community-support-apis"
+video_url = "https://www.youtube.com/watch?v=dhAWeqQc-Xk"
+slides_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis"
+abstract = '''
+The free tier of many APIs includes “community support”. What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time? Drawing on 4 years of experience building developer communities at Keen IO and Algolia, I will discuss the role that conversations plan in developer experience, and show how to create a community support program that gets people talking.
+'''
+
+[[ talk ]]
+title = "7 ways to search for a camelCased parameter in your docs"
+venue = "API Days Paris 2016"
+date = "13-12-2016"
+slides_url = "https://speakerdeck.com/dzello/7-ways-to-search-for-a-camelcased-parameter-in-your-docs"
+abstract = '''
+Technical documentation contains word patterns like camelCase that give traditional search engines a headache. See how Algolia makes camelCase parameters searchable by 7 different types of queries.
+'''
+
+[[ talk ]]
+title = "Store JSON in Cassandra the Hard Way"
+venue = "Heavybit"
+date = "2014-07-23"
+slides_url = "https://speakerdeck.com/dzello/store-json-in-cassandra-the-hard-way"
+abstract = '''
+Keen IO stores events in the same format that our customers send them in—JSON. Yet, Keen uses Cassandra, a distributed database without any JSON primitives, and Keen gives customers the ability to query over arbitrary (even nested) JSON dimensions. How can this be???
+'''
+
+[[ talk ]]
+title = "10 Community Projects in 15 Minutes"
+venue = "Algolia Search Party"
+date = "10-08-2016"
+slides_url = "https://speakerdeck.com/dzello/10-community-projects-in-15-minutes"
+abstract = '''
+A tour of 10 Algolia community projects including instantsearch.js, Places, DocSearch, Wordpress and Magento plugins, and more.
+'''
+
+[[ talk ]]
+title = "The New Analytics - In The Cloud, Behind the API"
+date = "2014-02-24"
+venue = "IBM Pulse (dev@Pulse)"
+blog_url = "https://keen.io/blog/77850411340/presenting-the-new-analytics-at-ibm-pulse"
+slides_url = "https://speakerdeck.com/dzello/the-new-analytics-in-the-cloud-behind-the-api"
+abstract = '''
+Keen IO tells their journey of creating APIs to enable custom analytics for web, mobile, and Internet of things companies around the world. They'll share their vision that APIs are enabling a powerful new class of connected applications and discuss how they've benefitted from hosting analytics in the cloud. You'll also learn their approach to meeting the challenges that many startups face: high growth, fragmented users, scaling the business, and demanding system responsiveness in an API world.
+'''
+
+[[ talk ]]
+title = "Voice trends and search"
+venue = "Hackference 2016"
+date = "21-10-2016"
+slides_url = "https://speakerdeck.com/dzello/voice-trends-and-search"
+abstract = '''
+A talk about the state of voice and how voice interfaces will impact search engines.
+'''
+
+[[ talk ]]
+title = "Scaling community by webhooking the things"
+venue = "Open Source Show & Tell 2017"
+date = "10-06-2017"
+blog_url = "https://dzello.com/blog/2017-06-12-scale-community-support-by-webhooking-the-things-ossat-transcript/"
+video_url = "https://vimeo.com/223525087"
+slides_url = "https://speakerdeck.com/dzello/scaling-community-by-webhooking-the-things"
+abstract = '''
+Don't make your forum an island. This lightning-length presentation provides a look at the Algolia community tech stack and then two new open source projects spun out of building it.
+'''

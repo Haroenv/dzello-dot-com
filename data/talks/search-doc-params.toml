@@ -1,7 +1,0 @@
-title = "7 ways to search for a camelCased parameter in your docs"
-venue = "API Days Paris 2016"
-date = "13-12-2016"
-slides_url = "https://speakerdeck.com/dzello/7-ways-to-search-for-a-camelcased-parameter-in-your-docs"
-abstract = '''
-Technical documentation contains word patterns like camelCase that give traditional search engines a headache. See how Algolia makes camelCase parameters searchable by 7 different types of queries.
-'''

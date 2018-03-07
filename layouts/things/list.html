@@ -1,8 +1,0 @@
-{{ define "main" }}
-  <h1>{{ .Page.Title }}</h1>
-  <ul>
-    {{ range (index $.Site.Data .Page.Params.Thing) }}
-      {{ partial "things/thing.html" . }}
-    {{ end }}
-</ul>
-{{ end }}

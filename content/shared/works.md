@@ -1,7 +1,0 @@
-- [Talks](/talks)
-- [Blog posts on dzello.com](/blog)
-- [Blog posts around the web](/articles)
-- [Open source projects](/open-source)
-- [Media and press mentions](/media)
-- [Podcast appearances](/podcasts)
-- [Github stats](/github)
