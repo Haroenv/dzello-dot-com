@@ -24,7 +24,7 @@ url = "/work/media"
 icon = "tv"
 
 [[ category ]]
-title = "Podcast appearances"
+title = "Podcast appearance"
 url = "/work/podcasts"
 icon = "microphone"
 
