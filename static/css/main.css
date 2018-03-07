@@ -80,3 +80,21 @@ footer h6 {
   margin: 25px auto;
   text-align: center;
 }
+
+ul.render-data {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.render-data li {
+  flex: 1;
+  width: 32%;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  height: 200px;
+}

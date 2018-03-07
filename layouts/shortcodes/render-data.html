@@ -1,5 +1,5 @@
 {{ with index $.Site.Data (.Get 0) }}
-  <ul class="render-data-list">
+  <ul class="render-data">
   {{ range $key, $element := . }}
     {{ range $element }}
       {{ partial (printf "work/%s.html" $key) . }}
