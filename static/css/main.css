@@ -29,7 +29,6 @@ header p {
   float: left;
   width: 20%;
   margin: 0 20px;
-  box-shadow: none;
 }
 
 .home-intro-text {
@@ -71,30 +70,71 @@ ul.pagination li.disabled a {
   max-width: 50%;
 }
 
-footer {
+#container > footer {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 
-footer h6 {
+#container > footer h6 {
   margin: 25px auto;
   text-align: center;
 }
 
+.image, figure img, img {
+  box-shadow: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 0.9rem;
+  text-align: center;
+  display: block;
+  margin: 3px 0 10px;
+  color: #666666;
+}
+
 ul.render-data {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 ul.render-data li {
-  flex: 1;
-  width: 32%;
+  flex-grow: 1;
+  width: 20%;
   border: 1px solid #cecece;
   border-radius: 5px;
+  padding: 20px;
   margin: 10px;
-  padding: 10px;
   text-align: center;
-  height: 250px;
+}
+
+ul.render-data li i {
+  display: block;
+  font-size: 2em;
+  line-height: 1em;
+  margin: 15px;
+}
+
+ul.render-data li a {
+}
+
+ul.render-data li p.abstract {
+  color: #666666;
+  font-size: 0.75rem;
+}
+
+ul.render-data li.category {
+  font-size: 1.2rem;
+}
+
+ul.render-data li.talk {
+  width: 40%;
 }

@@ -1,0 +1,39 @@
+[[ category ]]
+title = "Talks and presentations"
+url = "/work/talks"
+icon = "slideshare"
+
+[[ category ]]
+title = "Blog posts on dzello.com"
+url = "/blog"
+icon = "pencil"
+
+[[ category ]]
+title = "Blog posts around the web"
+url = "/work/articles"
+icon = "globe"
+
+[[ category ]]
+title = "Open source projects"
+url = "/work/open-source"
+icon = "code"
+
+[[ category ]]
+title = "Media and press mentions"
+url = "/work/media"
+icon = "tv"
+
+[[ category ]]
+title = "Podcast appearances"
+url = "/work/podcasts"
+icon = "microphone"
+
+[[ category ]]
+title = "Activities and volunteering"
+url = "/work/activities"
+icon = "fire"
+
+[[ category ]]
+title = "Github stats"
+url = "/work/github"
+icon = "github"

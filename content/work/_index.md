@@ -5,4 +5,4 @@ weight = "20"
 meta = "false"
 +++
 
-{{< work >}}
+{{< render-data "categories" >}}

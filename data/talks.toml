@@ -6,7 +6,7 @@ blog_url = "https://devrel.net/developer-experience/scale-community-support-apis
 video_url = "https://www.youtube.com/watch?v=dhAWeqQc-Xk"
 slides_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis"
 abstract = '''
-The free tier of many APIs includes “community support”. What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time? Drawing on 4 years of experience building developer communities at Keen IO and Algolia, I will discuss the role that conversations plan in developer experience, and show how to create a community support program that gets people talking.
+The free tier of many APIs includes “community support”. What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time?"
 '''
 
 [[ talk ]]
@@ -27,7 +27,7 @@ date = "12-05-2017"
 slides_url = "https://speakerdeck.com/dzello/load-dynamic-serverless-content-faster-with-search"
 demo_url = "http://algolia-vs-backend.glitch.me/"
 abstract = '''
-The "R" in Google's RAIL web performance model is "Response". A response to a user's action must take place in less than 100ms for the experience to feel immediate and natural. When content must be fetched from a traditional backend or API in response to a user's interaction, it can be very difficult to meet that requirement. Algolia can help. Designed to power low-latency search-as-you-type experiences, Algolia responds to content fetching requests as "fast as ping". Learn how Algolia works and see how you can speed up your static sites. Demo included."
+A response to a user's action must take place in less than 100ms for the experience to feel immediate and natural. When content must be fetched from a traditional backend or API in response to a user's interaction, it can be very difficult to meet that requirement."
 '''
 
 [[ talk ]]
@@ -119,7 +119,7 @@ venue = "IBM Pulse (dev@Pulse)"
 blog_url = "https://keen.io/blog/77850411340/presenting-the-new-analytics-at-ibm-pulse"
 slides_url = "https://speakerdeck.com/dzello/the-new-analytics-in-the-cloud-behind-the-api"
 abstract = '''
-Keen IO tells their journey of creating APIs to enable custom analytics for web, mobile, and Internet of things companies around the world. They'll share their vision that APIs are enabling a powerful new class of connected applications and discuss how they've benefitted from hosting analytics in the cloud. You'll also learn their approach to meeting the challenges that many startups face: high growth, fragmented users, scaling the business, and demanding system responsiveness in an API world.
+Keen IO tells their journey of creating APIs to enable custom analytics for web, mobile, and Internet of things companies around the world. They'll share their vision that APIs are enabling a powerful new class of connected applications and discuss how they've benefitted from hosting analytics in the cloud."
 '''
 
 [[ talk ]]
@@ -135,7 +135,7 @@ A Halloween-flavored introduction to using HTML polyfills.
 title = "Evolving Work - A brief introduction to Reinventing Organizations"
 date = "2015-11-23"
 venue = "Universite Paris 7"
-slides_url = "https://speakerdeck.com/dzello/evolving-work"
+slides_url = "https://dzello.github.io/evolving-work/#/"
 abstract = '''
 A talk about the competitive advantage of organizational design and why happiness in the workplace matters.
 '''

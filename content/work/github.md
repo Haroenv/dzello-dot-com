@@ -2,6 +2,8 @@
 title = "Github stats †"
 +++
 
+According to my [Github profile](https://dzello.com/github):
+
 *   1030 commits (2017)
 *   822 commits (2016)
 *   144 commits (2015)

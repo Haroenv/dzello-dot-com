@@ -4,4 +4,4 @@ menu = "main"
 weight = 1
 +++
 
-{{< work >}}
+{{< render-data "categories" >}}

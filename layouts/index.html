@@ -10,11 +10,11 @@
   <div class="hr"></div>
 
   <br>
-  <h2>See my...</h2>
+  <h1>My work</h1>
   {{ .Content }}
 
   <br>
-  <h2>Read blog posts...</h2>
+  <h1>Latest blog posts</h1>
   <section id="home">
     <ul>
       {{ range $index, $page := first 3 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
