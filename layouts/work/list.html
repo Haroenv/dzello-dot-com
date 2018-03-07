@@ -1,15 +1,4 @@
 {{ define "main" }}
   <h1>{{ .Page.Title }}</h1>
   {{ .Page.Content }}
-  {{ if isset .Page.Params "data_path" }}
-    {{ with index $.Site.Data .Page.Params.data_path }}
-      <ul>
-      {{ range $key, $element := . }}
-        {{ range $element }}
-          {{ partial (printf "work/%s.html" $key) . }}
-        {{ end }}
-      {{ end }}
-      </ul>
-    {{ end }}
-  {{ end }}
 {{ end }}
