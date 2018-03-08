@@ -27,3 +27,4 @@ pygmentsCodeFences = true
     og_image_width = "508"
     og_image_height = "506"
     google_analytics_id = "UA-24132749-1"
+    github_url = "https://github.com/dzello/dzello-dot-com"
