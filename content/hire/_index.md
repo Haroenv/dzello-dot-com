@@ -3,6 +3,7 @@ title = "Hire me!"
 menu = "main"
 weight = "50"
 meta = "false"
+layout = "single"
 +++
 
 I am available to help your company with a variety of developer-related needs:

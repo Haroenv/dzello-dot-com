@@ -3,6 +3,7 @@ title = "About"
 menu = "main"
 weight = "10"
 meta = "false"
+layout = "single"
 +++
 
 I'm Josh Dzielak a.k.a *dzello*. In both cases, the "dz" is pronounced like the "j" in "jam".
