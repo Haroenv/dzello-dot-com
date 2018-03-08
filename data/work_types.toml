@@ -1,39 +1,39 @@
-[[ category ]]
+[[ work_type ]]
 title = "Talks and presentations"
 url = "/work/talks"
 icon = "slideshare"
 
-[[ category ]]
+[[ work_type ]]
 title = "Blog posts on dzello.com"
 url = "/blog"
 icon = "pencil"
 
-[[ category ]]
+[[ work_type ]]
 title = "Articles around the web"
 url = "/work/articles"
 icon = "globe"
 
-[[ category ]]
+[[ work_type ]]
 title = "Open source projects"
 url = "/work/open-source"
 icon = "code"
 
-[[ category ]]
+[[ work_type ]]
 title = "Media and press mentions"
 url = "/work/media"
 icon = "tv"
 
-[[ category ]]
+[[ work_type ]]
 title = "Podcast appearance"
 url = "/work/podcasts"
 icon = "microphone"
 
-[[ category ]]
+[[ work_type ]]
 title = "Activities and volunteering"
 url = "/work/activities"
 icon = "fire"
 
-[[ category ]]
+[[ work_type ]]
 title = "Github stats"
 url = "/work/github"
 icon = "github"
