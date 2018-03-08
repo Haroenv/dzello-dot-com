@@ -9,7 +9,6 @@ paginate = 10
 summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
-googleAnalytics = "62V6D1ZEHQ"
 
 [author]
     name = "Josh Dzielak"
@@ -27,3 +26,4 @@ googleAnalytics = "62V6D1ZEHQ"
     og_image = "images/josh-dzielak-2018.png"
     og_image_width = "508"
     og_image_height = "506"
+    google_analytics_id = "UA-24132749-1"

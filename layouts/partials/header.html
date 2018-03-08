@@ -1,12 +1,10 @@
 <!doctype html>
-
 <html lang="{{ .Site.LanguageCode | default "en" }}">
-
 <head>
-  {{ partial "meta" . }}
+  {{ partial "meta" . -}}
   {{ partial "header_includes" . -}}
+  {{ partial "analytics" . -}}
 </head>
-
 <body>
   <div id="container">
     <header>
@@ -18,7 +16,5 @@
       <p>{{ . | markdownify }}</p>
       {{ end }}
     </header>
-
     {{ partial "nav" . }}
-
     <main>

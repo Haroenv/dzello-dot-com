@@ -5,15 +5,13 @@
   <meta name="description" content="{{ .Site.Params.description | default "The HTML5 Herald" }}" />
   <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
   <meta name="og:author" content="{{ .Params.Author | default .Site.Author.name }}" />
-
   {{ .Hugo.Generator -}}
-
   {{ if isset .Params "image" }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image }}" />
-    <meta property="og:image:width" content="{{ .Params.image_width }}" />
-    <meta property="og:image:height" content="{{ .Params.image_height }}" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image }}" />
+  <meta property="og:image:width" content="{{ .Params.image_width }}" />
+  <meta property="og:image:height" content="{{ .Params.image_height }}" />
   {{ else }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
-    <meta property="og:image:width" content="{{ .Site.Params.og_image_width }}" />
-    <meta property="og:image:height" content="{{ .Site.Params.og_image_height }}" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
+  <meta property="og:image:width" content="{{ .Site.Params.og_image_width }}" />
+  <meta property="og:image:height" content="{{ .Site.Params.og_image_height }}" />
   {{ end }}
