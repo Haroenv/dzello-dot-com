@@ -13,11 +13,25 @@ main a {
 }
 
 header h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 header p {
-  margin: 1rem 0;
+  margin: 0 0 0.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  #container header ul {
+    float: right;
+    margin: 1rem 0;
+  }
+  #container header ul li {
+    margin: 0 0 0 1rem;
+  }
+}
+
+#container header ul {
+  margin-bottom: 0.5rem;
 }
 
 .home-intro {
@@ -27,15 +41,21 @@ header p {
 .home-intro-image {
   display: block;
   float: left;
-  width: 20%;
+  width: 125px;
   margin: 0 20px;
 }
 
 .home-intro-text {
-  float: right;
-  width: 70%;
   font-size: 15px;
   margin: 7px 0 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .home-intro-text {
+    float: left;
+    width: 425px;
+    margin-left: 25px;
+  }
 }
 
 .clearfix:after {

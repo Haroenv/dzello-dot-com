@@ -11,10 +11,10 @@
       <h1>
         <a href="{{ relURL "/" }}">{{ .Site.Params.Header | markdownify }}</a>
       </h1>
-      {{ partial "social" . }}
       {{ with .Site.Params.tagline }}
-      <p>{{ . | markdownify }}</p>
+        <p>{{ . | markdownify }}</p>
       {{ end }}
+      {{ partial "social" . }}
     </header>
     {{ partial "nav" . }}
     <main>
