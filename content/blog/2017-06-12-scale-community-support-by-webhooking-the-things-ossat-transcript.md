@@ -6,7 +6,7 @@ image: /images/ossat-slides/file-page1.jpg
 title: Scale community support by webhooking the things - Open Source Show & Tell
 ---
 
-*These are the slides and transcript from a talk I gave at [Open Source Show and Tell 2017](http://opensourceshowandtell.com).*
+I gave a talk at [Open Source Show and Tell 2017](http://opensourceshowandtell.com) about how Algolia automates the flow of information between Discourse, Slack and our primary support tool HelpScout. Big thanks to everyone who came and to [Justin Johnson](https://taco.computer/) for organizing the event. The video, transcript and slides continue below.
 
 {{< vimeo 223525087 >}}
 

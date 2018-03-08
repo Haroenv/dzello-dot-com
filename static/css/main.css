@@ -166,3 +166,9 @@ ul.render-data li.mention {
 iframe {
   border: 0;
 }
+
+hr {
+  background-color: #f7f7f7;
+  border: 0;
+  height: 1px;
+}
