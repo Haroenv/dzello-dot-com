@@ -3,12 +3,12 @@ categories: ["Technology"]
 date: 2017-06-12T00:00:00Z
 description: The transcript and slides of a talk given by Josh Dzielak at Open Source Show and Tell 2017
 image: /images/ossat-slides/file-page1.jpg
-title: Scale community support by webhooking the things - OSSAT talk transcript
+title: Scale community support by webhooking the things - Open Source Show & Tell
 ---
 
-*These are the slides and transcript from a talk I gave at [Open Source Show and Tell 2017](http://opensourceshowandtell.com). Find the full PDF of the slides [here on Speakerdeck](https://speakerdeck.com/dzello/scaling-community-by-webhooking-the-things).*
+*These are the slides and transcript from a talk I gave at [Open Source Show and Tell 2017](http://opensourceshowandtell.com).*
 
-![slide](/images/ossat-slides/file-page1.jpg)
+{{< vimeo 223525087 >}}
 
 Hello and thank you for coming. My name is Josh Dzielak and I am a Developer Advocate at [Algolia](https://algolia.com/). Developers use Algolia's API to create search features for their websites and mobile applications.
 

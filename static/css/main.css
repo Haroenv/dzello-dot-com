@@ -162,3 +162,7 @@ ul.render-data li.activity,
 ul.render-data li.mention {
   width: 40%;
 }
+
+iframe {
+  border: 0;
+}
