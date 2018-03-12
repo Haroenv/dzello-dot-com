@@ -1,3 +1,12 @@
+h1, h2, h3, h4 {
+  margin-top: 2.5rem;
+  margin-bottom: 0rem;
+}
+
+h1:first-child {
+  margin-top: 1.5rem;
+}
+
 #container main {
   font-size: 1.0rem;
   line-height: 1.5;
@@ -148,6 +157,7 @@ ul.render-data li h5 {
   font-size: 1.2rem;
 }
 
+ul.render-data li h2,
 ul.render-data li h5 {
   margin: 0.5rem;
 }
@@ -157,16 +167,15 @@ ul.render-data li p.abstract {
   font-size: 0.85rem;
 }
 
-ul.render-data li.work_type a,
- {
+ul.render-data li.work_type a {
   font-size: 1.2rem;
 }
 
+ul.render-data li.talk,
 ul.render-data li.job {
   width: 100%;
 }
 
-ul.render-data li.talk,
 ul.render-data li.article,
 ul.render-data li.activity,
 ul.render-data li.project,

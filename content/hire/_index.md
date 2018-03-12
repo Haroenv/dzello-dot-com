@@ -1,22 +1,39 @@
 +++
-title = "Hire"
+title = "Don't DevRel alone!"
+menu_title = "Hire"
 menu = "main"
 weight = "50"
 meta = "false"
 layout = "single"
 +++
 
-I am available to help your company with a variety of developer-related needs:
+Whether you're starting from scratch or needing to scale up fast, developer relations is hard. Drawing on over 5 years of experience serving the needs of developers at fast-growing companies, I can help you craft and implement developer relations programs that are effective, measurable, and tailored to your specific resources and constraints.
 
-- Developer relations
-- Developer marketing
-- Developer community
-- API strategy
+{{< icon "handshake-o" >}}
 
-If you'd like to schedule a **free consultation**, please {{< mailto-author "send me an email" "." >}}
+# How can I help you?
+Developer relations is a big umbrella. Here are a few of the areas that I focus on. For each one, I try to bring a unique perspective as well as reusable tools, templates and assets that will help us move quickly.
 
-<br>
+## Community-accelerated awareness
+I believe that word of mouth is the most reliable and sustainable way to drive developer adoption, and nothing is better to accelerate word of mouth than frequent, well-told, and authentic stories from your most enthusiastic developer community members. I can help you design a strategy that mobilizes your existing community to build awareness on your behalf using tools I've developed or worked with like the ORBIT model and the commitment curve.
 
-# Featured DevRel talks and articles
+## Cringe-free developer marketing
+While I deeply believe that accelerating word-of-mouth and empowering the community to build awareness are the "high order" bits of driving platform adoption, that doesn't mean that a service can't benefit from some amount of first-party traditional marketing. In particular, DevRel can take advantage of two mature marketing capabilities — brand and demand gen. I can help you develop a strategy that effectively uses brand-building and demand gen techniques to keep your developer community engaged for the long haul.
+
+## Spreading developer culture internally
+If no one in your company gets developers, everything you ask for will be an
+uphill battle. You will watch, crestfallen, as much larger marketing and sales teams attempt to engage developers with strategies that don't work and erode the trust your team has invested its precious few resources in building.
+
+There's no elegant way to say it - this situation sucks - but it can be improved. Not by aggressively policing your marketing and sales colleagues, but by increasing their exposure to developers and developer culture. I can help you develop a practice of internal newsletters, workshops and hackathons that help your non-engineering and non-community colleagues better understand the habits and values of developers, helping everyone get a better return on their investments.
+
+{{< icon "line-chart" >}}
+
+# Want to chat?
+
+If you'd like to schedule a **free 30-minute consultation**, please {{< mailto-author "send me an email" "." >}}
+
+{{< icon "envelope-o" >}}
+
+# Further reading
 
 {{< render-data "devrel" >}}

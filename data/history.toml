@@ -45,3 +45,16 @@ Designed and implemented the core technology that powers Keen IO's analytics-as-
 based on Cassandra, Kafka, Storm and Zookeeper. Helped the company grow from 6
 to over 45 employees, raise $23m in funding and sign up thousands of customers.
 '''
+
+[[job]]
+title = "Analyst / Consultant / Manager"
+company = "Accenture"
+company_url = "https://accenture.com/"
+date = "2004 - 2009"
+description = '''
+Architected and built J2EE apps for Fortune 500 banks and insurance companies. At a
+time where most development was moving offshore, I was fortunate enough to be part
+of a special division that still did custom software development on a big scale.
+It was here that I first learned that I enjoyed consulting and helping people
+improve their processes and technology.
+'''

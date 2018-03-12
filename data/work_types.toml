@@ -1,7 +1,7 @@
 [[ work_type ]]
 title = "Work history"
 url = "/work/history"
-icon = "code"
+icon = "keyboard-o"
 
 [[ work_type ]]
 title = "Talks and presentations"
@@ -9,14 +9,14 @@ url = "/work/talks"
 icon = "slideshare"
 
 [[ work_type ]]
-title = "Blog posts on dzello.com"
-url = "/blog"
-icon = "pencil"
-
-[[ work_type ]]
 title = "Articles around the web"
 url = "/work/articles"
 icon = "globe"
+
+[[ work_type ]]
+title = "Blog posts on dzello.com"
+url = "/blog"
+icon = "pencil"
 
 [[ work_type ]]
 title = "Open source projects"

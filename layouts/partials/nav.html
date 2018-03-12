@@ -4,7 +4,7 @@
         {{ range .Site.Menus.main }}
         <li>
             <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (and (eq .Page.Dir $currentPage.Dir) (ne $currentPage.Dir "")) }}active{{end}}" href="{{.URL}}">
-                <i class="fa-li fa {{ .Pre }} fa-lg"></i><span>{{ .Name }}</span>
+                <i class="fa-li fa {{ .Pre }} fa-lg"></i><span>{{ or .Page.Params.menu_title .Page.Title }}</span>
             </a>
         </li>
         {{ end }}
