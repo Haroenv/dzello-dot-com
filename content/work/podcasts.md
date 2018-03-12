@@ -1,5 +1,5 @@
 +++
-title = "Podcast appearance"
+title = "Podcast appearances"
 +++
 
 {{< render-data "podcasts" >}}
