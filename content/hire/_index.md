@@ -15,10 +15,10 @@ Whether you're starting from scratch or needing to scale up fast, developer rela
 Developer relations is a big umbrella. Here are a few of the areas that I focus on. For each one, I try to bring a unique perspective as well as reusable tools, templates and assets that will help us move quickly.
 
 ## Community-accelerated awareness
-I believe that word of mouth is the most reliable and sustainable way to drive developer adoption, and nothing is better to accelerate word of mouth than frequent, well-told, and authentic stories from your most enthusiastic developer community members. I can help you design a strategy that mobilizes your existing community to build awareness on your behalf using tools I've developed or worked with like the ORBIT model and the commitment curve.
+I believe that word of mouth is the most reliable and sustainable way to drive developer adoption, and nothing accelerates word of mouth faster than frequent, well-told, and authentic stories from your most enthusiastic developer community members. I can help you design a strategy that mobilizes your existing community to build awareness on your behalf using tools I've developed or worked with like the ORBIT model and the commitment curve.
 
 ## Cringe-free developer marketing
-While I deeply believe that accelerating word-of-mouth and empowering the community to build awareness are the "high order" bits of driving platform adoption, that doesn't mean that a service can't benefit from some amount of first-party traditional marketing. In particular, DevRel can take advantage of two mature marketing capabilities — brand and demand gen. I can help you develop a strategy that effectively uses brand-building and demand gen techniques to keep your developer community engaged for the long haul.
+While I deeply believe that accelerating word-of-mouth and empowering the community to build awareness are the "high order" bits of driving platform adoption, that doesn't mean that a service can't benefit from some amount of first-party traditional marketing. In particular, DevRel can take advantage of two mature marketing foundations — brand and demand gen. At the same, DevRel can help make sure that marketing content wins developers' respect instead of making them tune out or cringe. I can help you develop a strategy that effectively uses brand-building and demand gen techniques to keep your developer community engaged for the long haul.
 
 ## Spreading developer culture internally
 If no one in your company gets developers, everything you ask for will be an
