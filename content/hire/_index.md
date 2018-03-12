@@ -34,6 +34,6 @@ If you'd like to schedule a **free 30-minute consultation**, please {{< mailto-a
 
 {{< icon "envelope-o" >}}
 
-# More DevRel perspective and examples
+# More thoughts on DevRel
 
 {{< render-data "devrel" >}}
