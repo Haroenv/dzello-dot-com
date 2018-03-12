@@ -1,5 +1,5 @@
 +++
-title = "Hire me!"
+title = "Hire"
 menu = "main"
 weight = "50"
 meta = "false"
@@ -13,7 +13,7 @@ I am available to help your company with a variety of developer-related needs:
 - Developer community
 - API strategy
 
-If you'd like to schedule a **free consultation**, please [send me an email](mailto:jdzielak@gmail.com).
+If you'd like to schedule a **free consultation**, please {{< mailto-author "send me an email" "." >}}
 
 <br>
 

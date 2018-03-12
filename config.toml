@@ -12,9 +12,10 @@ pygmentsCodeFences = true
 
 [author]
     name = "Josh Dzielak"
+    email = "jdzielak@gmail.com"
+    twitter = "dzello"
     github = "dzello"
     linkedin = "dzello"
-    twitter = "dzello"
     medium = "dzello"
     instagram = "josh_people"
     facebook = ""
