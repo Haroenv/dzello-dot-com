@@ -13,7 +13,7 @@ I am available to help your company with a variety of developer-related needs:
 - Developer community
 - API strategy
 
-If you'd like to schedule a **free consultation**, please email me at jdzielak at gmail dot com.
+If you'd like to schedule a **free consultation**, please [send me an email](mailto:jdzielak@gmail.com).
 
 <br>
 
