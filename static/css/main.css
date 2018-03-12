@@ -143,8 +143,13 @@ ul.render-data li i {
   margin: 15px 0 20px;
 }
 
-ul.render-data li a {
+ul.render-data li a,
+ul.render-data li h5 {
   font-size: 1.2rem;
+}
+
+ul.render-data li h5 {
+  margin: 0.5rem;
 }
 
 ul.render-data li p.abstract {
@@ -152,8 +157,13 @@ ul.render-data li p.abstract {
   font-size: 0.85rem;
 }
 
-ul.render-data li.work_type a {
+ul.render-data li.work_type a,
+ {
   font-size: 1.2rem;
+}
+
+ul.render-data li.job {
+  width: 100%;
 }
 
 ul.render-data li.talk,

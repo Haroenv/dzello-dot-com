@@ -1,4 +1,9 @@
 [[ work_type ]]
+title = "Work history"
+url = "/work/history"
+icon = "code"
+
+[[ work_type ]]
 title = "Talks and presentations"
 url = "/work/talks"
 icon = "slideshare"
