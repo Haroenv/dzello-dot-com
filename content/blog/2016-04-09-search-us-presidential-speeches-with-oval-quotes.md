@@ -14,4 +14,4 @@ The app lets you search over 500 historical speeches by US presidents. You can s
 
 Because the search is powered by Algolia, Oval Quotes has a lot of nice features that didn't require me building them. Typo correction, highlighting search terms in results and faceting (filtering) are all handled automatically by the [Algolia API](https://www.algolia.com/doc) and the [instantsearch.js](https://community.algolia.com/instantsearch.js/) open source library. Check out [this screencast](https://www.youtube.com/watch?v=xZTNzNjwl3w) to learn more about how Oval Quotes was built. The [source code](https://github.com/dzello/oval-quotes) is up on Github.
 
-Ready to try it out? Do know you how many presidents have mentioned [shoes](http://oval-quotes.dzello.com/?q=shoes&hPP=25&idx=paragraphs&p=0&is_v=1)?
+Ready to try it out? Do know you how many presidents have mentioned [shoes](http://dzello.github.io/oval-quotes?q=shoes&hPP=25&idx=paragraphs&p=0&is_v=1)?

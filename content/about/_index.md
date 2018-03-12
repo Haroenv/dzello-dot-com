@@ -12,4 +12,4 @@ A long-time software engineer, I enjoy building tools for developers and finding
 
 ![](/images/josh-dzielak-devxcon.jpg "Josh Dzielak speaking at DevXCon")
 
-[see talks, writing, and activities...](/work/)
+[see my talks, articles, and activities...](/work/)

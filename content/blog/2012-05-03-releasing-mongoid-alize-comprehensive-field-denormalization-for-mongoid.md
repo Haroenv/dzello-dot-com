@@ -116,7 +116,7 @@ Now we can write our HAML snippet like this:
 stored inside the `posts` collection and retrieved along with the post itself.
 Those other 10 lookups Never Happened!
 
-Voíla, Alizé!
+Voilà, Alizé!
 -------------
 Now we just need to make sure that the `user_name` attribute of the `Post` is populated.
 That's where `Mongoid::Alize` comes in.

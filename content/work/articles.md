@@ -1,5 +1,5 @@
 +++
-title = "Blog posts around the web"
+title = "Top articles and blog posts"
 +++
 
 {{< render-data "articles" >}}

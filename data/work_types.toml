@@ -9,13 +9,8 @@ url = "/work/talks"
 icon = "slideshare"
 
 [[ work_type ]]
-title = "Articles around the web"
+title = "Top articles and blog posts"
 url = "/work/articles"
-icon = "globe"
-
-[[ work_type ]]
-title = "Blog posts on dzello.com"
-url = "/blog"
 icon = "pencil"
 
 [[ work_type ]]
