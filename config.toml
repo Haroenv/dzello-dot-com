@@ -21,7 +21,7 @@ pygmentsCodeFences = true
 
 [params]
     description = "Personal site and blog with resources for people building developer tools"
-    tagline = "★ Developer tools and developer relations"
+    tagline = "Developer tools and developer relations"
     header = "Josh Dzielak - dzello.com"
     og_image = "images/josh-dzielak-2018.png"
     og_image_width = "508"
