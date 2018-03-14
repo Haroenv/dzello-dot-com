@@ -11,16 +11,17 @@ date = "2014-01"
 url = "https://www.wired.com/2014/01/keen/"
 
 [[ mention ]]
-title = "Differentiate your data: Keen’s APIs let your company build custom analytics"
-date = "2013-10"
-publisher = "VentureBeat"
-url = "https://venturebeat.com/2013/10/23/differentiate-your-data-keens-apis-let-your-company-build-custom-analytics/"
-
-[[ mention ]]
 title = "Keen IO has had technical issues lately. So it’s doing an AMA tomorrow"
 date = "02-2015"
 publisher = "VentureBeat"
 url = "https://venturebeat.com/2015/02/26/keen-io-has-had-technical-issues-lately-so-its-doing-an-ama-tomorrow/"
+hidden = true
+
+[[ mention ]]
+title = "Differentiate your data: Keen’s APIs let your company build custom analytics"
+date = "2013-10"
+publisher = "VentureBeat"
+url = "https://venturebeat.com/2013/10/23/differentiate-your-data-keens-apis-let-your-company-build-custom-analytics/"
 
 [[ mention ]]
 title = "Togetherville: A social network for kids"

@@ -2,7 +2,9 @@
   <ul class="render-data">
   {{ range $key, $element := . }}
     {{ range $element }}
-      {{ partial (printf "work/%s.html" $key) . }}
+      {{ if ne .hidden true }}
+        {{ partial (printf "work/%s.html" $key) . }}
+      {{ end }}
     {{ end }}
   {{ end }}
   </ul>
