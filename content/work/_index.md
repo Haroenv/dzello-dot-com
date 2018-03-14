@@ -6,4 +6,4 @@ weight = "20"
 meta = "false"
 +++
 
-{{< render-data "work_types" >}}
+{{< render-data list="work_types" >}}

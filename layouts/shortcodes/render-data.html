@@ -1,9 +1,13 @@
-{{ with index $.Site.Data (.Get 0) }}
+{{ $list := .Get "list" }}
+{{ $tag := .Get "tag" }}
+{{ with index $.Site.Data $list }}
   <ul class="render-data">
   {{ range $key, $element := . }}
     {{ range $element }}
       {{ if ne .hidden true }}
-        {{ partial (printf "work/%s.html" $key) . }}
+        {{ if or (not $tag) (eq $tag .tag)}}
+          {{ partial (printf "work/%s.html" $key) . }}
+        {{ end }}
       {{ end }}
     {{ end }}
   {{ end }}

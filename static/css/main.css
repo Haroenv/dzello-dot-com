@@ -3,7 +3,8 @@ h1, h2, h3, h4 {
   margin-bottom: 0rem;
 }
 
-h1:first-child {
+h1:first-child,
+#container h1 {
   margin-top: 1.5rem;
 }
 
@@ -176,6 +177,7 @@ ul.render-data li.job {
   width: 100%;
 }
 
+ul.render-data li.work_type,
 ul.render-data li.article,
 ul.render-data li.activity,
 ul.render-data li.project,

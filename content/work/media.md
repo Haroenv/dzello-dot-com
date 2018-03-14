@@ -2,4 +2,4 @@
 title = "Media & press mentions"
 +++
 
-{{< render-data "media" >}}
+{{< render-data list="media" >}}

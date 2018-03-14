@@ -36,4 +36,4 @@ If you'd like to schedule a **free 30-minute consultation**, please {{< mailto-a
 
 # More thoughts on DevRel
 
-{{< render-data "devrel" >}}
+{{< render-data list="devrel" >}}

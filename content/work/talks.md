@@ -2,4 +2,4 @@
 title = "Talks and presentations"
 +++
 
-{{< render-data "talks" >}}
+{{< render-data list="talks" >}}

@@ -4,4 +4,4 @@ menu = "main"
 weight = 1
 +++
 
-{{< render-data "work_types" >}}
+{{< render-data list="work_types" tag="homepage" >}}

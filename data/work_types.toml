@@ -2,21 +2,25 @@
 title = "Work history"
 url = "/work/history"
 icon = "keyboard-o"
+tag = "homepage"
 
 [[ work_type ]]
 title = "Talks and presentations"
 url = "/work/talks"
 icon = "slideshare"
+tag = "homepage"
 
 [[ work_type ]]
 title = "Articles around the web"
 url = "/work/articles"
 icon = "pencil"
+tag = "homepage"
 
 [[ work_type ]]
 title = "Open source projects"
 url = "/work/open-source"
 icon = "code"
+tag = "homepage"
 
 [[ work_type ]]
 title = "Media and press mentions"

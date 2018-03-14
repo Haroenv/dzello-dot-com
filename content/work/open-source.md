@@ -2,4 +2,4 @@
 title = "Open source projects"
 +++
 
-{{< render-data "open-source" >}}
+{{< render-data list="open-source" >}}

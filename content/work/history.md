@@ -2,6 +2,6 @@
 title = "Work History"
 +++
 
-{{< render-data "history" >}}
+{{< render-data list="history" >}}
 
-See more positions on [my LinkedIn profile](https://www.linkedin.com/in/dzello/).
+&nbsp;&nbsp;&nbsp;&nbsp;See more positions on [my LinkedIn profile](https://www.linkedin.com/in/dzello/).
