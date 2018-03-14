@@ -1,4 +1,14 @@
 [[ talk ]]
+title = "Sentry Scouts: Open Source Panel"
+venue = "Sentry Scouts Meetup #1"
+date = "2018-01-17"
+blog_url = "https://sentry.io/_/events/2018-01-17-sentry-scouts-1/"
+video_url = "https://vimeo.com/255440963"
+abstract = '''
+I joined several other developers and developer advocates to discuss how first-time contributors can get into open source and how companies benefit from being good stewards of their open source projects and developer community.
+'''
+
+[[ talk ]]
 title = "From few to some to many — How to scale community support for APIs"
 venue = "DevXCon 2017"
 date = "2017-05-22"
