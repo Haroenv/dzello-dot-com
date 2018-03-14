@@ -1,7 +1,7 @@
 {{ $list := .Get "list" }}
 {{ $tag := .Get "tag" }}
 {{ with index $.Site.Data $list }}
-  <ul class="render-data">
+  <ul class="data-list">
   {{ range $key, $element := . }}
     {{ range $element }}
       {{ if ne .hidden true }}

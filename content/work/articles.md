@@ -2,4 +2,4 @@
 title = "Articles around the web"
 +++
 
-{{< render-data list="articles" >}}
+{{< data-list list="articles" >}}

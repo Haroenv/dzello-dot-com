@@ -2,4 +2,4 @@
 title = "Activities"
 +++
 
-{{< render-data list="activities" >}}
+{{< data-list list="activities" >}}

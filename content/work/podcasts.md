@@ -2,4 +2,4 @@
 title = "Podcast appearances"
 +++
 
-{{< render-data list="podcasts" >}}
+{{< data-list list="podcasts" >}}

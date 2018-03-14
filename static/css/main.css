@@ -128,7 +128,7 @@ ul.pagination li.disabled a {
   color: #666666;
 }
 
-ul.render-data {
+ul.data-list {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
@@ -136,7 +136,7 @@ ul.render-data {
   padding: 0;
 }
 
-ul.render-data li {
+ul.data-list li {
   flex-grow: 1;
   width: 20%;
   border: 1px solid #cecece;
@@ -146,42 +146,42 @@ ul.render-data li {
   text-align: center;
 }
 
-ul.render-data li i {
+ul.data-list li i {
   display: block;
   font-size: 2em;
   line-height: 1em;
   margin: 15px 0 20px;
 }
 
-ul.render-data li a,
-ul.render-data li h5 {
+ul.data-list li a,
+ul.data-list li h5 {
   font-size: 1.2rem;
 }
 
-ul.render-data li h2,
-ul.render-data li h5 {
+ul.data-list li h2,
+ul.data-list li h5 {
   margin: 0.5rem;
 }
 
-ul.render-data li p.abstract {
+ul.data-list li p.abstract {
   color: #666666;
   font-size: 0.85rem;
 }
 
-ul.render-data li.work_type a {
+ul.data-list li.work_type a {
   font-size: 1.2rem;
 }
 
-ul.render-data li.talk,
-ul.render-data li.job {
+ul.data-list li.talk,
+ul.data-list li.job {
   width: 100%;
 }
 
-ul.render-data li.work_type,
-ul.render-data li.article,
-ul.render-data li.activity,
-ul.render-data li.project,
-ul.render-data li.mention {
+ul.data-list li.work_type,
+ul.data-list li.article,
+ul.data-list li.activity,
+ul.data-list li.project,
+ul.data-list li.mention {
   width: 40%;
 }
 
