@@ -9,7 +9,7 @@ url = "/work/talks"
 icon = "slideshare"
 
 [[ work_type ]]
-title = "Top articles and blog posts"
+title = "Articles around the web"
 url = "/work/articles"
 icon = "pencil"
 

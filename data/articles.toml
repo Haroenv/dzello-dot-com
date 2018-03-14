@@ -15,6 +15,7 @@ title = "Demystifying enter key submission for React forms with multiple buttons
 date = "2017-02"
 location = "dzello.com"
 url = "/blog/2017-02-19-demystifying-enter-key-submission-react-forms-multiple-buttons/"
+hidden = true
 
 [[ article ]]
 title = "How I got into developer advocacy"
@@ -87,9 +88,11 @@ title = "weeve - HTML5 Twitter uber-streaming powered by Firebase, Keen IO, and 
 date = "2012-12"
 location = "dzello.com"
 url = "/blog/2012-12-24-weeve-html5-twitter-uber-streaming-powered-by-firebase-keenio-and-singly/"
+hidden = true
 
 [[ article ]]
 title = "Releasing Mongoid Alize - Comprehensive field denormalization for Mongoid that stays in sync"
 date = "2012-05"
 location = "dzello.com"
 url = "/blog/2012-05-03-releasing-mongoid-alize-comprehensive-field-denormalization-for-mongoid/"
+hidden = true

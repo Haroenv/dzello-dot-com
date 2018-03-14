@@ -13,7 +13,7 @@
   {{ .Content }}
 
   <br>
-  <h1>Latest blog posts</h1>
+  <h1>Latest blog posts on dzello.com</h1>
   <section id="home">
     <ul>
       {{ range $index, $page := first 3 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
