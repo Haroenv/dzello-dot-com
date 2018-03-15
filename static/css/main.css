@@ -173,6 +173,7 @@ ul.work-type-list > li.work-section > a {
 }
 
 ul.work-type-list > li.talk,
+ul.work-type-list > li.engagement,
 ul.work-type-list > li.job {
   width: 100%;
 }
@@ -209,4 +210,15 @@ hr {
   background-color: #f7f7f7;
   border: 0;
   height: 1px;
+}
+
+p.spacing-icon {
+  margin: 40px 60px;
+}
+
+ul.work-type-engagements,
+ul.work-type-values {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

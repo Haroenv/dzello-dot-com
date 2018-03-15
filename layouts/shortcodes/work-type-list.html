@@ -1,7 +1,8 @@
 {{ $list := .Get "list" }}
 {{ $tag := .Get "tag" }}
+{{ $class := or (.Get "class") "work-type-list" }}
 {{ with index $.Site.Data.work $list }}
-  <ul class="work-type-list">
+  <ul class="{{ $class }}">
   {{ range $key, $element := . }}
     {{ range $element }}
       {{ if ne .hidden true }}
