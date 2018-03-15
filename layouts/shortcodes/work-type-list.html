@@ -1,12 +1,12 @@
 {{ $list := .Get "list" }}
 {{ $tag := .Get "tag" }}
 {{ with index $.Site.Data $list }}
-  <ul class="data-list">
+  <ul class="work-type-list">
   {{ range $key, $element := . }}
     {{ range $element }}
       {{ if ne .hidden true }}
         {{ if or (not $tag) (eq $tag .tag)}}
-          {{ partial (printf "work/%s.html" $key) . }}
+          {{ partial (printf "work-types/%s.html" $key) . }}
         {{ end }}
       {{ end }}
     {{ end }}

@@ -6,4 +6,4 @@ weight = "20"
 meta = "false"
 +++
 
-{{< data-list list="work-sections" >}}
+{{< work-type-list list="work-sections" >}}

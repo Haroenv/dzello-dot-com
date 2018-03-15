@@ -4,4 +4,4 @@ menu = "main"
 weight = 1
 +++
 
-{{< data-list list="work-sections" tag="homepage" >}}
+{{< work-type-list list="work-sections" tag="homepage" >}}

@@ -2,4 +2,4 @@
 title = "Activities"
 +++
 
-{{< data-list list="activities" >}}
+{{< work-type-list list="activities" >}}
