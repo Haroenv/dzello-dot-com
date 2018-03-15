@@ -26,6 +26,7 @@ date = "2017-10-06"
 blog_url = "/blog/2017-06-12-scale-community-support-by-webhooking-the-things-ossat-transcript/"
 video_url = "https://vimeo.com/223525087"
 slides_url = "https://speakerdeck.com/dzello/scaling-community-by-webhooking-the-things"
+github_url = "https://github.com/algolia/discourse-webhook-collector"
 abstract = '''
 Don't make your forum an island. This lightning-length presentation provides a look at the Algolia community tech stack and then two new open source projects spun out of building it.
 '''
@@ -35,7 +36,7 @@ title = "Instant browsing for static sites with Algolia"
 venue = "Serverless London"
 date = "2017-12-05"
 slides_url = "https://speakerdeck.com/dzello/instant-browsing-for-static-sites-with-algolia"
-demo_url = "http://algolia-vs-backend.glitch.me/"
+site_url = "http://algolia-vs-backend.glitch.me/"
 abstract = '''
 A response to a user's action must take place in less than 100ms for the experience to feel immediate and natural. When content must be fetched from a traditional backend or API in response to a user's interaction, it can be very difficult to meet that requirement."
 '''
@@ -55,7 +56,7 @@ title = "Use React InstantSearch with Electron"
 venue = "Algolia Search Party"
 date = "2016-02-01"
 video_url = "https://www.youtube.com/watch?v=Dj5qF0ki6BY"
-demo_url = "https://github.com/algolia/instantsearch-electron"
+github_url = "https://github.com/algolia/instantsearch-electron"
 abstract = '''
 Algolia Developer Advocate Josh Dzielak announces a new project that makes it easy to create an instant search experience that runs as a desktop application.
 '''

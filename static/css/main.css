@@ -136,7 +136,7 @@ ul.data-list {
   padding: 0;
 }
 
-ul.data-list li {
+ul.data-list > li {
   flex-grow: 1;
   width: 20%;
   border: 1px solid #cecece;
@@ -146,43 +146,59 @@ ul.data-list li {
   text-align: center;
 }
 
-ul.data-list li i {
+ul.data-list > li > i {
   display: block;
   font-size: 2em;
   line-height: 1em;
   margin: 15px 0 20px;
 }
 
-ul.data-list li a,
-ul.data-list li h5 {
+ul.data-list > li > a,
+ul.data-list > li > h5 {
   font-size: 1.2rem;
 }
 
-ul.data-list li h2,
-ul.data-list li h5 {
+ul.data-list > li > h2,
+ul.data-list > li > h5 {
   margin: 0.5rem;
 }
 
-ul.data-list li p.abstract {
+ul.data-list > li > p.abstract {
   color: #666666;
   font-size: 0.85rem;
 }
 
-ul.data-list li.work_type a {
+ul.data-list > li.work_type > a {
   font-size: 1.2rem;
 }
 
-ul.data-list li.talk,
-ul.data-list li.job {
+ul.data-list > li.talk,
+ul.data-list > li.job {
   width: 100%;
 }
 
-ul.data-list li.work_type,
-ul.data-list li.article,
-ul.data-list li.activity,
-ul.data-list li.project,
-ul.data-list li.mention {
+ul.data-list > li.work_type,
+ul.data-list > li.article,
+ul.data-list > li.activity,
+ul.data-list > li.project,
+ul.data-list > li.mention {
   width: 40%;
+}
+
+ul.links-list {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul.links-list > li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+ul.links-list > a {
+  font-size: 0.5rem;
 }
 
 iframe {
