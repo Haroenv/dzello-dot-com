@@ -9,7 +9,7 @@ layout = "single"
 
 Whether you're starting from scratch or needing to scale up fast, developer relations is hard. Drawing on over 5 years of experience serving the needs of developers at fast-growing companies, I can help you craft and implement developer relations programs that are effective, measurable, and tailored to your specific resources and constraints.
 
-{{< icon "handshake-o" >}}
+{{< spacing-icon "handshake-o" >}}
 
 # How can I help you?
 Developer relations is a big umbrella. Here are a few of the areas that I focus on. For each one, I try to bring a unique perspective as well as reusable tools, templates and assets that will help us move quickly.
@@ -26,13 +26,13 @@ uphill battle. You will watch, crestfallen, as much larger marketing and sales t
 
 There's no elegant way to say it - this situation sucks - but it can be improved. Not by aggressively policing your marketing and sales colleagues, but by increasing their exposure to developers and developer culture. I can help you develop a practice of internal newsletters, workshops and hackathons that help your non-engineering and non-community colleagues better understand the habits and values of developers, helping everyone get a better return on their investments.
 
-{{< icon "line-chart" >}}
+{{< spacing-icon "line-chart" >}}
 
 # Want to chat?
 
 If you'd like to schedule a **free 30-minute consultation**, please {{< mailto-author "send me an email" "." >}}
 
-{{< icon "envelope-o" >}}
+{{< spacing-icon "envelope-o" >}}
 
 # More thoughts on DevRel
 
