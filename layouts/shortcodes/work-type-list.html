@@ -1,6 +1,6 @@
 {{ $list := .Get "list" }}
 {{ $tag := .Get "tag" }}
-{{ with index $.Site.Data $list }}
+{{ with index $.Site.Data.work $list }}
   <ul class="work-type-list">
   {{ range $key, $element := . }}
     {{ range $element }}
