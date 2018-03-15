@@ -10,7 +10,7 @@
   <h1>My work</h1>
   {{ .Content }}
   <br>
-  <h1>Latest blog posts on dzello.com</h1>
+  <h1>Latest posts on dzello.com</h1>
   <section id="home">
     <ul>
       {{ range $index, $page := first 3 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
@@ -26,7 +26,7 @@
       {{ end }}
     </ul>
     <p>
-      <a href="/blog">See all blog posts...</a>
+      <a href="/blog">See all posts...</a>
     </p>
   </section>
 
