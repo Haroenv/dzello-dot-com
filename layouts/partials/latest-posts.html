@@ -1,0 +1,13 @@
+<ul>
+  {{ range $index, $page := first 3 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+  <li {{if eq $index 0}}class="first"{{end}}>
+    <h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
+    <p>{{ .Summary }}</p>
+    {{ partial "aside" . }}
+    {{ if .Truncated }}
+    <a href="{{ .RelPermalink }}">Read more&hellip;</a>
+    <br>
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>
