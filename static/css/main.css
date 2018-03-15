@@ -168,7 +168,7 @@ ul.data-list > li > p.abstract {
   font-size: 0.85rem;
 }
 
-ul.data-list > li.work_type > a {
+ul.data-list > li.work-section > a {
   font-size: 1.2rem;
 }
 
@@ -177,7 +177,7 @@ ul.data-list > li.job {
   width: 100%;
 }
 
-ul.data-list > li.work_type,
+ul.data-list > li.work-section,
 ul.data-list > li.article,
 ul.data-list > li.activity,
 ul.data-list > li.project,
