@@ -3,5 +3,5 @@
   <a href="{{ or .blog_url .video_url .slides_url .site_url }}">{{ .title }}</a>
   <p>{{ .date }}<br>{{ .venue }}</p>
   <p class="abstract">{{ .abstract }}</p>
-  {{ partial "work/links-list" . }}
+  {{ partial "work/_urls" . }}
 </li>

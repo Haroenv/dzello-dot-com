@@ -185,19 +185,19 @@ ul.data-list > li.mention {
   width: 40%;
 }
 
-ul.links-list {
+ul.work-type-urls {
   list-style-type: none;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-ul.links-list > li {
+ul.work-type-urls > li {
   display: inline-block;
   padding: 0 5px;
 }
 
-ul.links-list > a {
+ul.work-type-urls > a {
   font-size: 0.5rem;
 }
 
