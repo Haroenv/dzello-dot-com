@@ -39,6 +39,36 @@ Designed and implemented the core technology that powers Keen IO's analytics-as-
 '''
 
 [[ job ]]
+title = "Principal Engineer"
+company = "Disney Interactive"
+company_url = "https://en.wikipedia.org/wiki/Disney_Interactive"
+date = "2011 - 2012"
+logo = "/images/disney-logo.png"
+description = '''
+Helped design an Oauth-style authentication system for disney.com. Worked on internal analytics APIs and spoke at Disney's first HTML5 Summit.
+'''
+
+[[ job ]]
+title = "Founding Engineer"
+company = "Togetherville"
+company_url = "https://en.wikipedia.org/wiki/Togetherville"
+date = "2009 - 2011"
+logo = "/images/togetherville-logo.png"
+description = '''
+Lead engineer for Togetherville, a safe social network for kids acquired by the Walt Disney Company in 2011. Built the site in Ruby and Rails and JavaScript and helped scale the product to over a hundred thousand users.
+'''
+
+[[ job ]]
+title = "Client"
+company = "Pivotal Labs"
+company_url = "https://pivotal.io/labs"
+date = "2009 - 2010"
+logo = "/images/pivotal-labs-logo.png"
+description = '''
+I learned so much in my six months as a Pivotal Labs client that I have to include it here. Concepts like agile, MVP and pair programming were new to me when I arrived but practices I've carried with me through my career and have incorporated into my own consulting approach.
+'''
+
+[[ job ]]
 title = "Analyst / Consultant / Manager"
 company = "Accenture"
 company_url = "https://accenture.com/"
