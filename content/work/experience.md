@@ -1,5 +1,5 @@
 +++
-title = "Work History"
+title = "Work Experience"
 +++
 
 {{< work-type-list list="jobs" >}}

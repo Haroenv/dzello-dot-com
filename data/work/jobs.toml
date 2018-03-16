@@ -1,11 +1,11 @@
 [[ job ]]
 title = "Developer Relations Consultant"
 company = "dzello.com"
-company_url = "https://dzello.com/"
+company_url = "/hire/"
 date = "2018 - present"
 logo = "/images/dzello-logo.png"
 description = '''
-Serving clients who are looking to make their products more appealing to developers and increase adoption of their platform, API or service. As an external partner of developer relations teams, I am able to help them secure internal buy-in by designing programs that are effective, measurable and well-tailored to the needs and budget of their organization.
+Serving clients who want to increase adoption of their developer platform, API or service in unique and authentic ways. I help define and implement open source, community and cringe-free marketing strategies that inspire developers to open up their terminal and start writing code.
 '''
 
 [[ job ]]

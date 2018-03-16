@@ -154,7 +154,8 @@ ul.work-type-list > li > i {
   margin: 15px 0 20px;
 }
 
-ul.work-type-list > li > img {
+ul.work-type-list > li > img,
+ul.work-type-list > li > a > img {
   width: 250px;
   margin: 15px 0 10px;
 }
