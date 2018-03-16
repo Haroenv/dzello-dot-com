@@ -1,7 +1,10 @@
 <li class="job">
-  <i class="fa fa-keyboard-o fa-lg"></i>
+  {{ if .logo }}
+    <img src="{{ .logo }}">
+  {{ else }}
+    <i class="fa fa-keyboard-o fa-lg"></i>
+  {{ end }}
   <h2>{{ .title }}</h2>
-  <a href="{{ .company_url }}">{{ .company }}</a>
-  <br>{{ .date }}
+  <a href="{{ .company_url }}">{{ .company }}</a> &middot; {{ .date }}
   <p class="description">{{ .description }}</p>
 </li>

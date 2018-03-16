@@ -3,7 +3,7 @@ title = "Developer Relations Consultant"
 company = "dzello.com"
 company_url = "https://dzello.com/"
 date = "2018 - present"
-logo = "/images/josh-dzielak-2018.png"
+logo = "/images/dzello-logo.png"
 description = '''
 Serving clients who are looking to make their products more appealing to developers and increase adoption of their platform, API or service. As an external partner of developer relations teams, I am able to help them secure internal buy-in by designing programs that are effective, measurable and well-tailored to the needs and budget of their organization.
 '''
@@ -13,6 +13,7 @@ title = "Developer Relations Lead"
 company = "Algolia"
 company_url = "https://algolia.com/"
 date = "2017 - 2018"
+logo = "/images/algolia-logo-light.png"
 description = '''
 Built and managed a team of 5 developer advocates across the US and Europe, reporting to the VP Engineering. Managed a budget that included events, swag, marketing and community engagement. Guided key investments and partnerships. Worked closely with marketing, sales, customer success, solutions engineering, product and the executive team.
 '''
@@ -22,6 +23,7 @@ title = "Developer Advocate"
 company = "Algolia"
 company_url = "https://algolia.com/"
 date = "2016 - 2017"
+logo = "/images/algolia-logo-light.png"
 description = '''
 Created blog posts, talks and projects as Algolia's first developer advocate. Started Algolia's online community forum and grew it to over 1,000 users and 5,000 posts in year one. Founded Algolia's Search Party meetup which attracted over 500 developers in its first 18 months.
 '''
@@ -31,6 +33,7 @@ title = "VP Engineering"
 company = "Keen IO"
 company_url = "https://keen.io/"
 date = "2013 - 2015"
+logo = "/images/keen-io-logo.png"
 description = '''
 Designed and implemented the core technology that powers Keen IO's analytics-as-a-service API, based on Cassandra, Kafka, Storm and Zookeeper. Helped the company grow from 6 to over 45 employees, raise $23m in funding and sign up thousands of customers.
 '''
@@ -40,6 +43,7 @@ title = "Analyst / Consultant / Manager"
 company = "Accenture"
 company_url = "https://accenture.com/"
 date = "2004 - 2009"
+logo = "/images/accenture-logo.png"
 description = '''
 Architected and built J2EE apps for Fortune 500 banks and insurance companies. At a time where most development was moving offshore, I was fortunate enough to be part of a special division that still did custom software development on a big scale. It was here that I first learned that I enjoyed consulting and helping people improve their processes and technology.
 '''
