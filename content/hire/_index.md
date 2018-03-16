@@ -18,6 +18,10 @@ I prefer engagements based around well-scoped projects with few dependencies and
 
 {{< spacing-icon "wrench" >}}
 
+# How I got here
+
+!["Consulting + developer relations venn diagram"](/images/consulting-devrel-experience.png)
+
 # Values I practice
 
 {{< work-type-list list="values" class="work-type-values" >}}
@@ -26,6 +30,6 @@ I prefer engagements based around well-scoped projects with few dependencies and
 
 # Let's chat
 
-If you'd like to schedule a **free 30-minute consultation**, please {{< mailto-author "send me an email" "." >}}
+If you'd like to schedule a **free consultation**, please {{< mailto-author "send me an email" "." >}}
 
 {{< spacing-icon "envelope-o" >}}
