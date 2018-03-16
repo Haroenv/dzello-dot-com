@@ -2,6 +2,6 @@
 title = "Work History"
 +++
 
-{{< work-type-list list="history" >}}
+{{< work-type-list list="jobs" >}}
 
-&nbsp;&nbsp;&nbsp;&nbsp;See more positions on [my LinkedIn profile](https://www.linkedin.com/in/dzello/).
+{{< centered-link "see more on LinkedIn..." "https://www.linkedin.com/in/dzello/" >}}

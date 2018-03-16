@@ -2,4 +2,4 @@
 title = "Media & press mentions"
 +++
 
-{{< work-type-list list="media" >}}
+{{< work-type-list list="mentions" >}}

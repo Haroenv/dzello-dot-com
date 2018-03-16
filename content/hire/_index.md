@@ -7,16 +7,16 @@ meta = "false"
 layout = "single"
 +++
 
-My mission is to create something extraordinary for my clients with every engagement, something that has a big, measurable impact on the goals of my client's developer product or developer relations program.
+I do consulting for developer relations teams and companies whose customers are developers. My goal is to create something extraordinary for my clients with every engagement.
 
 {{< spacing-icon "handshake-o" >}}
 
 # How can I help you?
-I prefer engagements based around well-scoped projects with few dependencies and a high potential for impact. Here are 3 examples of projects that can fit into that category.
+I prefer engagements based around well-scoped projects with few dependencies and a high potential for impact. Here are a few examples of projects that can fit into that category.
 
 {{< work-type-list list="engagements" class="work-type-engagements" >}}
 
-{{< spacing-icon "lightbulb-o" >}}
+{{< spacing-icon "wrench" >}}
 
 # Values I practice
 
@@ -24,7 +24,7 @@ I prefer engagements based around well-scoped projects with few dependencies and
 
 {{< spacing-icon "heart-o" >}}
 
-# Want to chat?
+# Let's chat
 
 If you'd like to schedule a **free 30-minute consultation**, please {{< mailto-author "send me an email" "." >}}
 

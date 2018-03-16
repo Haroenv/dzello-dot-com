@@ -2,4 +2,4 @@
 title = "Open source projects"
 +++
 
-{{< work-type-list list="open-source" >}}
+{{< work-type-list list="projects" >}}
