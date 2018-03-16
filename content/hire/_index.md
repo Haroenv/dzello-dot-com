@@ -12,7 +12,7 @@ My mission is to create something extraordinary for my clients with every engage
 {{< spacing-icon "handshake-o" >}}
 
 # How can I help you?
-I prefer engagements based around specific projects with few dependencies and a large potential for upside. Currently, there are 3 broad categories of projects I feel I can deliver the most value to my clients in.
+I prefer engagements based around well-scoped projects with few dependencies and a high potential for impact. Here are 3 examples of projects that can fit into that category.
 
 {{< work-type-list list="engagements" class="work-type-engagements" >}}
 
