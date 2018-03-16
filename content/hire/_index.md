@@ -33,3 +33,8 @@ I prefer engagements based around well-scoped projects with few dependencies and
 If you'd like to schedule a **free consultation**, please {{< mailto-author "send me an email" "." >}}
 
 {{< spacing-icon "envelope-o" >}}
+
+# My DevRel talks and articles
+
+{{< work-type-list list="talks" tag="devrel" >}}
+{{< work-type-list list="articles" tag="devrel" >}}

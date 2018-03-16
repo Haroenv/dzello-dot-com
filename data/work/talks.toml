@@ -4,6 +4,7 @@ venue = "Sentry Scouts Meetup #1"
 date = "2018-01-17"
 blog_url = "https://sentry.io/_/events/2018-01-17-sentry-scouts-1/"
 video_url = "https://vimeo.com/255440963"
+tag = "devrel"
 abstract = '''
 I joined several other developers and developer advocates to discuss how first-time contributors can get into open source and how companies benefit from being good stewards of their open source projects and developer community.
 '''
@@ -15,6 +16,7 @@ date = "2017-05-22"
 blog_url = "https://devrel.net/developer-experience/scale-community-support-apis"
 video_url = "https://www.youtube.com/watch?v=dhAWeqQc-Xk"
 slides_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis"
+tag = "devrel"
 abstract = '''
 The free tier of many APIs includes “community support”. What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time?"
 '''
@@ -27,6 +29,7 @@ blog_url = "/blog/2017-06-12-scale-community-support-by-webhooking-the-things-os
 video_url = "https://vimeo.com/223525087"
 slides_url = "https://speakerdeck.com/dzello/scaling-community-by-webhooking-the-things"
 github_url = "https://github.com/algolia/discourse-webhook-collector"
+tag = "devrel"
 abstract = '''
 Don't make your forum an island. This lightning-length presentation provides a look at the Algolia community tech stack and then two new open source projects spun out of building it.
 '''
@@ -75,6 +78,7 @@ title = "10 Community Projects in 15 Minutes"
 venue = "Algolia Search Party"
 date = "2016-08-10"
 slides_url = "https://speakerdeck.com/dzello/10-community-projects-in-15-minutes"
+tag = "devrel"
 abstract = '''
 A tour of 10 Algolia community projects including instantsearch.js, Places, DocSearch, Wordpress and Magento plugins, and more.
 '''

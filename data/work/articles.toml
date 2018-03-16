@@ -8,6 +8,7 @@ url = "https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searche
 title = "Building for developers—a tour of new features and resources in 2017"
 date = "2017-06"
 location = "Algolia Blog"
+tag = "devrel"
 url = "https://blog.algolia.com/algolia-building-for-developers-2017/"
 
 [[ article ]]
@@ -21,6 +22,7 @@ hidden = true
 title = "How I got into developer advocacy"
 date = "2017-03"
 location = "Medium"
+tag = "devrel"
 url = "https://medium.com/@dzello/how-i-got-into-developer-advocacy-93bad1678a67"
 
 [[ article ]]
@@ -51,6 +53,7 @@ url = "https://blog.algolia.com/algolia-vs-elasticsearch-developer-experience-ux
 title = "Introducing the Algolia Community forum and the Pioneer Badge"
 date = "2016-12"
 location = "Algolia Blog"
+tag = "devrel"
 url = "https://blog.algolia.com/algolia-community-forum-pioneer-badge/"
 
 [[ article ]]
@@ -69,6 +72,7 @@ url = "https://stories.algolia.com/whos-jeff-things-we-learned-at-serverlessconf
 title = "The Developer Advocate's Guide to Github Universe"
 date = "2016-09"
 location = "Algolia Stories"
+tag = "devrel"
 url = "https://stories.algolia.com/the-developer-advocates-guide-to-github-universe-2016-202d1957af22"
 
 [[ article ]]
