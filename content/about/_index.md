@@ -14,7 +14,7 @@ A long-time software engineer, I enjoy building tools for developers and finding
 
 <hr>
 
-Occasionally, I make jokes about what it's like to be a programmer.
+For fun, I make jokes about what it's like to be a programmer.
 
 {{< tweet 863413810379591680 >}}
 
