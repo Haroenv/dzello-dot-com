@@ -1,6 +1,7 @@
 [[ mention ]]
 title = "Expert Tips for Being an A+ Open Source Contributor"
 publisher = "StackShare"
+publisher_logo = "/images/stackshare-logo.png"
 date = "2018-03-06"
 url = "https://stackshare.io/posts/expert-tips-open-source"
 
@@ -8,12 +9,14 @@ url = "https://stackshare.io/posts/expert-tips-open-source"
 title = "Keen IO has had technical issues lately. So it’s doing an AMA tomorrow"
 date = "2015-02-26"
 publisher = "VentureBeat"
+publisher_logo = "/images/venturebeat-logo.png"
 url = "https://venturebeat.com/2015/02/26/keen-io-has-had-technical-issues-lately-so-its-doing-an-ama-tomorrow/"
 hidden = true
 
 [[ mention ]]
 title = "The Next Big Thing You Missed: A Tiny Startup’s Plot to Beat Google at Big Data"
 publisher = "Wired"
+publisher_logo = "/images/wired-logo.png"
 date = "2014-01-28"
 url = "https://www.wired.com/2014/01/keen/"
 
@@ -21,16 +24,19 @@ url = "https://www.wired.com/2014/01/keen/"
 title = "Differentiate your data: Keen’s APIs let your company build custom analytics"
 date = "2013-10-23"
 publisher = "VentureBeat"
+publisher_logo = "/images/venturebeat-logo.png"
 url = "https://venturebeat.com/2013/10/23/differentiate-your-data-keens-apis-let-your-company-build-custom-analytics/"
 
 [[ mention ]]
 title = "Disney Acquires Social Network For Kids Togetherville"
 date = "2011-02-23"
 publisher = "TechCrunch"
+publisher_logo = "/images/techcrunch-logo.png"
 url = "https://techcrunch.com/2011/02/23/disney-acquires-social-network-for-kids-togetherville/"
 
 [[ mention ]]
 title = "Togetherville: A social network for kids"
 date = "2010-05-19"
 publisher = "CNN.com"
+publisher_logo = "/images/techcrunch-logo.png"
 url = "http://www.cnn.com/2010/TECH/05/19/wired.togetherville/index.html"

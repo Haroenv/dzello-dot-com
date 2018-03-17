@@ -1,5 +1,6 @@
 <li class="mention">
-  <i class="fa fa-tv fa-lg"></i>
+  <a href="{{ .url }}"><img src="{{ .publisher_logo }}"></a>
+  <br>
   <a href="{{ .url }}">{{ .title }}</a>
   <p>{{ .publisher }}<br>{{ dateFormat "January 2, 2006" .date }}</p>
 </li>
