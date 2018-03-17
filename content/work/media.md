@@ -1,5 +1,5 @@
 +++
-title = "Media & press mentions"
+title = "Media, press & blog mentions"
 +++
 
 {{< work-type-list list="mentions" >}}
