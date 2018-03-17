@@ -12,4 +12,10 @@ A long-time software engineer, I enjoy building tools for developers and finding
 
 !["Josh Dzielak programming at his laptop"](/images/josh-dzielak-programming.jpeg)
 
+<hr>
+
+Occasionally, I make jokes about what it's like to be a programmer.
+
+{{< tweet 863413810379591680 >}}
+
 {{< centered-link "see my talks, articles and experience..." "/work" >}}
