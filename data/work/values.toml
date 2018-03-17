@@ -1,10 +1,10 @@
 [[ value ]]
 name = "Candor"
-description = "I will ask you regularly what's working and what isn't"
+description = "I ask you regularly what's working and what isn't"
 
 [[ value ]]
 name = "Empathy"
-description = "I listen and I put in effort to understand your situation"
+description = "I listen closely to understand your situation"
 
 [[ value ]]
 name = "Adaptability"
@@ -12,7 +12,7 @@ description = "I revise my guidance quickly based on what we learn"
 
 [[ value ]]
 name = "Transparency"
-description = "I will tell you when I don't know something, no BS"
+description = "I tell you when I don't know something - no BS"
 
 [[ value ]]
 name = "Transformation"
