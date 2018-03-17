@@ -28,13 +28,12 @@ I prefer engagements based around well-scoped projects with few dependencies and
 
 {{< spacing-icon "heart-o" >}}
 
-# Let's chat
-
-If you'd like to schedule a **free consultation**, please {{< mailto-author "send me an email" "." >}}
+<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
+<iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrjVwH4OCjRNfojd?backgroundColor=white" frameborder="0" onmousewheel="" width="100%" height="891" style="background: white;"></iframe>
 
 {{< spacing-icon "envelope-o" >}}
 
-# My DevRel talks and articles
+# Further reading: my DevRel talks & articles
 
-{{< work-type-list list="talks" tag="devrel" >}}
 {{< work-type-list list="articles" tag="devrel" >}}
+{{< work-type-list list="talks" tag="devrel" >}}
