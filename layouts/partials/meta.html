@@ -8,10 +8,10 @@
   {{ .Hugo.Generator -}}
   {{ if isset .Params "image" }}
   <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image }}" />
-  <meta property="og:image:width" content="{{ .Params.image_width }}" />
-  <meta property="og:image:height" content="{{ .Params.image_height }}" />
+  <meta property="og:image:width" content="{{ .Params.imageWidth }}" />
+  <meta property="og:image:height" content="{{ .Params.imageHeight }}" />
   {{ else }}
-  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
-  <meta property="og:image:width" content="{{ .Site.Params.og_image_width }}" />
-  <meta property="og:image:height" content="{{ .Site.Params.og_image_height }}" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.ogImage }}" />
+  <meta property="og:image:width" content="{{ .Site.Params.ogImageWidth }}" />
+  <meta property="og:image:height" content="{{ .Site.Params.ogImageHeight }}" />
   {{ end }}
