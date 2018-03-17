@@ -1,5 +1,5 @@
 <li class="article">
   <i class="fa fa-pencil fa-lg"></i>
   <a href="{{ .url }}">{{ .title }}</a>
-  <p>{{ .location }} <br> {{ dateFormat "January 02, 2006" .date }}</p>
+  <p><a href="{{ .location_url }}">{{ .location }}</a> <br> {{ dateFormat "January 02, 2006" .date }}</p>
 </li>
