@@ -1,7 +1,7 @@
 <li class="talk">
   <i class="fa fa-slideshare fa-lg"></i>
   <a href="{{ or .blog_url .video_url .slides_url .site_url }}">{{ .title }}</a>
-  <p>{{ .date }}<br>{{ .venue }}</p>
-  <p class="abstract">{{ .abstract }}</p>
+  <p><a href="{{ .event_url }}">{{ .event }}</a> <br> {{ dateFormat "January 02, 2006" .date }}</p>
+  <p class="abstract">{{ .abstract | markdownify }}</p>
   {{ partial "work-types/_urls" . }}
 </li>
