@@ -61,6 +61,12 @@ github_url = "https://github.com/dzello/oval-quotes"
 video_url = "https://www.youtube.com/watch?v=xZTNzNjwl3w"
 
 [[ project ]]
+title = "Dashboards by Keen IO"
+description = "Responsive dashboard templates for Bootstrap (built by @larimer, I helped launch and promote it)"
+date = "2015"
+github_url = "https://github.com/keen/dashboards"
+
+[[ project ]]
 title = "aud"
 description = "Play MIDI tones according to text patterns in log files."
 date = "2013"

@@ -1,4 +1,9 @@
 <li class="engagement">
   <h2>{{ .name }}</h2>
-  <div>{{ .description }}</div>
+  <p>
+    {{ .description | markdownify }}
+  </p>
+  <p class="examples">
+    <strong>Experience</strong>: {{ .examples | markdownify }}
+  </p>
 </li>

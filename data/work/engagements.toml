@@ -3,15 +3,25 @@ name = "Open Source Projects"
 description = '''
 I can create a meaningful, contributor-friendly open source project that shows off your technology and inspires people to use it.
 '''
+examples = '''
+Created [discourse-algolia](https://github.com/algolia/discourse-algolia), [keen-gem](https://github.com/keenlabs/keen-gem), [mongoid-alize](https://github.com/dzello/mongoid_alize); worked on [TalkSearch](https://community.algolia.com/talksearch/), [DocSearch](https://community.algolia.com/docsearch/), [instantsearch.js](https://github.com/algolia/instantsearch.js),
+[Dashboards by Keen IO](https://github.com/keen/dashboards)
+'''
 
 [[ engagement ]]
 name = "Creative Content Series"
 description = '''
 I can create a series of blog posts and videos that look at your technology through a creative new lens, produced in a fun and engaging way.
 '''
+examples = '''
+Wrote the [Comparing Algolia and Elasticsearch for Consumer-Grade Search](https://blog.algolia.com/algolia-v-elasticsearch-latency/) three part series; wrote about [Algolia's ultra-low latency](https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month) on StackShare reaching [190 points on HackerNews](https://news.ycombinator.com/item?id=13994395)
+'''
 
 [[ engagement ]]
 name = "Online Community Bootstrapping"
 description = '''
 I can help get your online community off the ground with a combination of tools, integrations and outreach.
+'''
+examples = '''
+Launched [Algolia's Community Forum](https://discourse.algolia.com/) powered by Discourse and grew to over 1,000 users; launched [Keen IO's online community](https://groups.google.com/forum/#!forum/keen-io-devs) with Google Groups
 '''

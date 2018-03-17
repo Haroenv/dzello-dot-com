@@ -175,6 +175,7 @@ ul.work-type-list > li > h5 {
   margin: 0.5rem;
 }
 
+.examples,
 ul.work-type-list > li > p.abstract {
   color: #666666;
   font-size: 0.85rem;
