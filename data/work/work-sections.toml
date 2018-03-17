@@ -17,15 +17,15 @@ icon = "pencil"
 tag = "homepage"
 
 [[ work-section ]]
+title = "Media and press mentions"
+url = "/work/media"
+icon = "tv"
+
+[[ work-section ]]
 title = "Open source projects"
 url = "/work/open-source"
 icon = "code"
 tag = "homepage"
-
-[[ work-section ]]
-title = "Media and press mentions"
-url = "/work/media"
-icon = "tv"
 
 [[ work-section ]]
 title = "Podcast appearances"
