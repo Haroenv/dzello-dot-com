@@ -4,9 +4,6 @@ date: 2012-11-21T00:00:00Z
 title: Live-stream system audio from OSX Mountain Lion with Icecast2 and Darkice
 ---
 
-Any team can benefit from a widely-accessible streaming music server. Sharing the same music
-increases team flow and builds [culture](http://zachholman.com/talk/play). And funny things happen.
-
 To share both music and announcements, [party.io](http://party.io) uses [Play](https://github.com/play/play) from Github. Play is an 'employee-powered iTunes-based client-driven distributed music server for your office'.
 Our company DJ (a big-hearted, chrome-plated [hubot](http://hubot.github.com/)) manages Play and occasionally accepts submissions from the team.
 
@@ -18,8 +15,6 @@ This post explains how to put these pieces together.
 While it's a little more work, the outcome is the ability to stream **system audio** anywhere.
 This makes more scenarios possible and it requires less maintenance - there's no
 requirement to add media files in advance or to configure any applications.
-
-If you can hear it, you can stream it.
 
 ### Before starting
 You'll need the latest compiler installed, whether via XCode or the OSX Mountain Lion Command Line Tools installation at [http://connect.apple.com/](http://connect.apple.com/) (recommended if you don't need all of XCode). You'll need to be somewhat comfortable with working on the [command line](http://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line).
@@ -133,6 +128,5 @@ You won't be able to access your streaming server from outside your home network
 ### Bonus Gist
 If you get it all to work, you might want to run these programs in the background and on startup. I wrote up a few basic plist files to be used with launchd that do just that. You can find them in [this gist](https://gist.github.com/4126599).
 
-### Credits
-The creators of all of these fine tools.
-This article: *[Broadcasting music to multiple speakers](http://www.dudek.org/blog/140)*.
+### Thanks
+Thanks to the creators of all of these fine tools and the author of this article: *[Broadcasting music to multiple speakers](http://www.dudek.org/blog/140)*.
