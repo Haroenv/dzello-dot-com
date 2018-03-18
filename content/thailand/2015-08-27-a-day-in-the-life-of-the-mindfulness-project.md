@@ -7,7 +7,7 @@ I volunteered this summer at the Mindfulness Project, living and working in a sm
 
 This appreciation could not have come without the simple act of slowing down. The pace of the Mindfulness Project is like a café conversation with an old friend, utterly relaxed but passionate, calm but never for lack of intensity. At this pace the tight interconnection between the self, others, and the earth becomes clearer. The pace is set by the project’s schedule, which by my standards begins very, very early.
 
-![](/images/thailand-13.png)*The day starts at 4:50am*
+![](/images/thailand-13.png)*It's a pretty full day*
 
 ### Gong
 
