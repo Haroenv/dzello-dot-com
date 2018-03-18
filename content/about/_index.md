@@ -18,4 +18,14 @@ For fun, I make jokes about what it's like to be a programmer.
 
 {{< tweet 863413810379591680 >}}
 
+<br>
+<hr>
+
+Also for fun, I travel and sometimes journal about it.
+
+- [Thailand & Mindfulness Project Journal - 2015](/thailand)
+
+<hr>
+<br>
+
 {{< centered-link "see my talks, articles and experience..." "/work" >}}
