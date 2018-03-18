@@ -6,6 +6,13 @@ date = "2018-03-06"
 url = "https://stackshare.io/posts/expert-tips-open-source"
 
 [[ mention ]]
+title = "6 Questions for Startups to Ask Themselves Before Hiring Bootcamp Grads"
+publisher = "Job Portraits"
+publisher_logo = "/images/job-portraits-logo.png"
+date = "2015-04-07"
+url = "https://medium.com/job-portraits/6-questions-for-startups-to-ask-themselves-before-hiring-bootcamp-grads-fdb50a7c985"
+
+[[ mention ]]
 title = "Keen IO has had technical issues lately. So it’s doing an AMA tomorrow"
 date = "2015-02-26"
 publisher = "VentureBeat"
