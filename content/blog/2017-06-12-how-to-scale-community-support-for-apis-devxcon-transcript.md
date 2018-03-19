@@ -16,4 +16,4 @@ Get the slides on [Speakerdeck](https://speakerdeck.com/dzello/from-few-to-some-
 
 ---
 
-*Interested in unlocking the power of your developer community? [Let's chat](/hire).*
+*Interested in unlocking the power of your developer community? [Let's chat](/consulting).*

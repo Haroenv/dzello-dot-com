@@ -1,10 +1,11 @@
 +++
 title = "Don't DevRel alone!"
-menu_title = "Hire"
+menu_title = "Consulting"
 menu = "main"
 weight = "50"
 meta = "false"
 layout = "single"
+aliases = ["/hire"]
 +++
 
 I do consulting for developer relations teams and companies whose customers are developers. My goal is to create something extraordinary for my clients with every engagement.

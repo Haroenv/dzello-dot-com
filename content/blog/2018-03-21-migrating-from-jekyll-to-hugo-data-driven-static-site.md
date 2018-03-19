@@ -166,7 +166,7 @@ title = "Talks and presentations"
 
 That's all the *content* required to generate [dzello.com/work/talks](https://dzello.com/work/talks). All of the heavy lifting is offloaded to the shortcode, which is just formatting data from the TOML file.
 
-Best of all, the data can be reused. On my [Hire page](/hire), I wanted to include work I've done in the developer relations context across a multitude of content types including talks, articles and work experience. Rather than duplicate those into a new TOML file, I simply added a `tag` field to the existing TOML files and set `tag=devrel` where the item was related to DevRel:
+Best of all, the data can be reused. On my [Consulting page](/consulting), I wanted to include work I've done in the developer relations context across a multitude of content types including talks, articles and work experience. Rather than duplicate those into a new TOML file, I simply added a `tag` field to the existing TOML files and set `tag=devrel` where the item was related to DevRel:
 
 ``` toml
 [[ talk ]]
