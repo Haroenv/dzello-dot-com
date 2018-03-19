@@ -26,4 +26,4 @@ In 2010 The Guardian asked a few well-known authors to surrender a shortlist of 
 
 * “Regard yourself as a small corporation of one. Take yourself off on team-building exercises (long walks). Hold a Christmas party every year at which you stand in the corner of your writing room, shouting very loudly to yourself while drinking a bottle of white wine. Then masturbate under the desk. The following day you will feel a deep and cohering sense of embarrassment.” — Will Self
 
-![](https://cdn-images-1.medium.com/max/2000/1*5rcz4XtoqSIlPKDwQopWng.gif)
+![](/images/pen-spinning.gif)
