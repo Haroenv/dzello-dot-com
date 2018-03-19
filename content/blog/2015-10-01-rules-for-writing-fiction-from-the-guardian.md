@@ -4,7 +4,7 @@ date = "2015-01-01"
 categories = ["Technology"]
 +++
 
-In 2010 The Guardian asked a few well-known authors to surrender a shortlist of their personal do’s and don’ts. The result was a two part series full of brilliant insight and amusing contradiction. These are my ten favorites, chosen from over two hundred.
+In 2010 The Guardian asked a few well-known authors to surrender a shortlist of their personal do’s and don’ts. The result was a [two part series](https://www.theguardian.com/books/2010/feb/20/ten-rules-for-writing-fiction-part-one) full of brilliant insight and amusing contradiction. These are my ten favorites, chosen from over two hundred.
 
 * “Never complain of being misunderstood. You can choose to be understood, or you can choose not to.” — *David Hare*
 
