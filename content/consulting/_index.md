@@ -31,7 +31,7 @@ I prefer engagements based around well-scoped projects with few dependencies and
 
 # Where am I located?
 
-I'm currently based on out Paris, France meaning that most or all of my work will be remote for US-based clients. I try to be as flexible as possible with my schedule so I can meet during the most convenient times for your team, wherever they may be around the globe.
+I'm currently based out of Paris, France meaning that most or all of my work will be remote for US-based clients. I try to be as flexible as possible with my schedule so I can meet during the most convenient times for your team, wherever they may be around the globe.
 
 {{< spacing-icon "globe" >}}
 
