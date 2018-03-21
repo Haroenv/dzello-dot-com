@@ -1,6 +1,17 @@
+body,
+h1, h2, h3, h4, h5, h6,
+#container nav {
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
 h1, h2, h3, h4 {
   margin-top: 2.5rem;
   margin-bottom: 0rem;
+}
+
+#container header h1 {
+  font-family: "Ruda", sans-serif;
 }
 
 h1:first-child,
@@ -53,11 +64,10 @@ header p {
   float: left;
   width: 125px;
   height: 125px;
-  margin: 0 20px;
+  margin: 10px 20px;
 }
 
 .home-intro-text {
-  font-size: 15px;
   margin: 7px 0 0;
 }
 
@@ -161,7 +171,7 @@ ul.work-type-list > li > i {
 
 ul.work-type-list > li > img,
 ul.work-type-list > li > a > img {
-  width: 250px;
+  width: 225px;
   margin: 15px 0 10px;
 }
 
@@ -179,10 +189,6 @@ ul.work-type-list > li > h5 {
 ul.work-type-list > li > p.abstract {
   color: #666666;
   font-size: 0.85rem;
-}
-
-ul.work-type-list > li.work-section > a {
-  font-size: 1.2rem;
 }
 
 ul.work-type-list > li.talk,
