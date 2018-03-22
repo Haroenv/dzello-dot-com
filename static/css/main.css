@@ -178,6 +178,7 @@ ul.work-type-list > li > a > img {
 ul.work-type-list > li.talk > img {
   border-radius: 5px;
   width: 90%;
+  border: 1px solid #cecece;
 }
 
 ul.work-type-list > li > a,
