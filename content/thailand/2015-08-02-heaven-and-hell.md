@@ -11,9 +11,9 @@ I was out until 2am. At 9am I woke up and swallowed a breakfast of ibuprofen and
 
 After several relaxing minutes of eavesdropping on conversations in Thai I had no chance of understanding, my masseuse arrived to greet me. He was a large Thai man, large even by American standards, and his arms and legs had the bursting-at-the-veins appearance of someone who'd just left the gym. Oh good, I thought, someone who can really loosen me up.
 
-His first press into my legs, an inch above the knees, shot a seething spike of pain through my entire body. I convulsed. My back arched and my pelvis lifted so high that I must have graced my man-seuese's chest with my waist. I had completely forgotten how sensitive quads are after a run, especially after months of delicately excusing myself from each opportunity to go for a jog.
+His first press into my legs, an inch above the knees, shot a seething spike of pain through my entire body. I convulsed. My back arched and my pelvis lifted so high that I must have graced my man-sseuse's chest with my waist. I had completely forgotten how sensitive quads are after a run, especially after months of delicately excusing myself from each opportunity to go for a jog.
 
-If massage was soccer, Thai massage would be rugby. Physical contact and the infliction of pain upon the opponent isn't just allowed, it's encouraged, it's required*to win!
+If massage was soccer, Thai massage would be rugby. Physical contact and the infliction of pain upon the opponent isn't just allowed, it's encouraged, it's required to win!
 
 I had 1 hour and 58 minutes left to enjoy my massage. Or rather to survive it. I couldn't give up. Could I?
 
