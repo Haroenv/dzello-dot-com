@@ -175,6 +175,11 @@ ul.work-type-list > li > a > img {
   margin: 15px 0 10px;
 }
 
+ul.work-type-list > li.talk > img {
+  border-radius: 5px;
+  width: 90%;
+}
+
 ul.work-type-list > li > a,
 ul.work-type-list > li > h5 {
   font-size: 1.2rem;
