@@ -23,7 +23,9 @@ After all of this, would getting a massage be my undoing? Would getting a massag
 
 No. That would be so lame. I came here to learn something, not give up at the first or hundredth moment of discomfort. I came here to learn to meditate. Isn't this a good time to practice? Don't I really need meditation right now?
 
-Back on the mat, the masseuse flipped me over and starting working on my back. I bit through my teeth as his palms pushed my lower vertebrae down, squeezing my stomach into an upside-down pyramid. My five senses had been replaced with just one, a ceaseless accumulator of pain, curdling my synapses with each new elbow and knee.
+Back on the mat, the masseuse flipped me over and starting working on my back. I bit through my teeth as his palms pushed my lower vertebrae down, squeezing my stomach into an upside-down pyramid. My five senses were replaced with just one, a ceaseless accumulator of pain, a frantic injection of white noise into my eyes and ears.
+
+I am the mortar. His knee is the pestle.
 
 Meditation. Mindfulness. Where are you now?
 
