@@ -11,20 +11,33 @@ enableEmoji = true
 pygmentsCodeFences = true
 
 [author]
-    name = "Josh Dzielak"
-    email = "jdzielak@gmail.com"
-    twitter = "dzello"
-    github = "dzello"
-    linkedin = "dzello"
-    instagram = "josh_people"
-    facebook = ""
+name = "Josh Dzielak"
+email = "jdzielak@gmail.com"
+twitter = "dzello"
+github = "dzello"
+linkedin = "dzello"
+instagram = "josh_people"
+facebook = ""
 
 [params]
-    description = "Personal site and blog with resources for people building developer tools"
-    tagline = "Developer tools and developer relations"
-    header = "Josh Dzielak - dzello.com"
-    ogImage = "images/josh-dzielak-2018.png"
-    ogImageWidth = "508"
-    ogImageHeight = "506"
-    githubURL = "https://github.com/dzello/dzello-dot-com"
-    googleAnalytics = "UA-24132749-1"
+description = "Personal site and blog with resources for people building developer tools"
+tagline = "Developer tools and developer relations"
+header = "Josh Dzielak - dzello.com"
+ogImage = "images/josh-dzielak-2018.png"
+ogImageWidth = "508"
+ogImageHeight = "506"
+githubURL = "https://github.com/dzello/dzello-dot-com"
+googleAnalytics = "UA-24132749-1"
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[outputFormats.Algolia]
+baseName = "algolia"
+mediaType = "application/json"
+isPlainText = true
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink", "content"]
+params = ["categories"]
