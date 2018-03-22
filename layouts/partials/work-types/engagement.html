@@ -3,7 +3,14 @@
   <p>
     {{ .description | markdownify }}
   </p>
-  <p class="examples">
-    <strong>Experience</strong>: {{ .examples | markdownify }}
-  </p>
+  {{ with .examples }}
+    <p class="examples">
+      <strong>Experience</strong>: {{ . | markdownify }}
+    </p>
+   {{ end }}
+  {{ with .typical }}
+    <p class="examples">
+      <strong>Typical engagement</strong>: {{ . | markdownify }}
+    </p>
+   {{ end }}
 </li>

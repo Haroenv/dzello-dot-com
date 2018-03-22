@@ -1,27 +1,38 @@
 [[ engagement ]]
-name = "Open Source Projects"
+name = "Product & Positioning Deep Dive"
 description = '''
-I can create a meaningful, contributor-friendly open source project that shows off your technology and inspires people to use it.
+Do developers truly understand what your product does? Why it's different than your competitors? Why they can't just use open source instead? Great developer products can still be handicapped by a failure to clearly articulate both the problem and the solution, and it's impossible to build a compelling content strategy or a thriving community without addressing that first.
+
+Drawing on over 15 years of being a developer and 5 years building developer tools and communities, I can help you understand the way that your product makes developers feel and identify opportunities to improve your product, positioning and messaging.
+'''
+typical = '''
+Up to 8 hours / week for 6 weeks + monthly follow-ups
+'''
+
+[[ engagement ]]
+name = "Open Source Strategy"
+description = '''
+I can help you create a meaningful, contributor-friendly open source project whether you're looking to show off your technology or create goodwill in the community.
 '''
 examples = '''
-Created [discourse-algolia](https://github.com/algolia/discourse-algolia), [keen-gem](https://github.com/keenlabs/keen-gem), [mongoid-alize](https://github.com/dzello/mongoid_alize); worked on [TalkSearch](https://community.algolia.com/talksearch/), [DocSearch](https://community.algolia.com/docsearch/), [instantsearch.js](https://github.com/algolia/instantsearch.js),
+created [discourse-algolia](https://github.com/algolia/discourse-algolia), [keen-gem](https://github.com/keenlabs/keen-gem), [mongoid-alize](https://github.com/dzello/mongoid_alize); worked on [TalkSearch](https://community.algolia.com/talksearch/), [DocSearch](https://community.algolia.com/docsearch/), [instantsearch.js](https://github.com/algolia/instantsearch.js),
 [Dashboards by Keen IO](https://github.com/keen/dashboards)
 '''
 
 [[ engagement ]]
-name = "Creative Content Series"
+name = "Technical Content Strategy"
 description = '''
-I can create a series of blog posts and videos that look at your technology through a creative new lens, produced in a fun and engaging way.
+I can help you use content to reach developers in an effective, cringe-free fashion that will help you grow while establishing your reputation.
 '''
 examples = '''
-Wrote the [Comparing Algolia and Elasticsearch for Consumer-Grade Search](https://blog.algolia.com/algolia-v-elasticsearch-latency/) three part series; wrote about [Algolia's ultra-low latency](https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month) on StackShare reaching [190 points on HackerNews](https://news.ycombinator.com/item?id=13994395)
+wrote the [Comparing Algolia and Elasticsearch for Consumer-Grade Search](https://blog.algolia.com/algolia-v-elasticsearch-latency/) three part series; wrote about [Algolia's ultra-low latency](https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month) on StackShare reaching [190 points on HackerNews](https://news.ycombinator.com/item?id=13994395)
 '''
 
 [[ engagement ]]
-name = "Online Community Bootstrapping"
+name = "Community Strategy"
 description = '''
-I can help get your online community off the ground with a combination of tools, integrations and outreach.
+I can help get your community off the ground and start measuring it with a combination of tools, integrations, events and outreach.
 '''
 examples = '''
-Launched [Algolia's Community Forum](https://discourse.algolia.com/) powered by Discourse and grew to over 1,000 users; launched [Keen IO's online community](https://groups.google.com/forum/#!forum/keen-io-devs) with Google Groups
+launched [Algolia's Community Forum](https://discourse.algolia.com/) and grew it to over 1,000 users in year 1; created Algolia's [Search Party](https://www.youtube.com/playlist?list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_DFz8O) community meetup; launched [Keen IO's online community](https://groups.google.com/forum/#!forum/keen-io-devs) with Google Groups
 '''
