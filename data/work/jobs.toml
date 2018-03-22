@@ -35,7 +35,7 @@ company_url = "https://keen.io/"
 date = "2013 - 2015"
 logo = "/images/keen-io-logo.png"
 description = '''
-Designed and implemented the core technology that powers Keen IO's analytics-as-a-service API, based on Cassandra, Kafka, Storm and Zookeeper. Helped the company grow from 6 to over 45 employees, raise $23m in funding and sign up thousands of customers.
+Designed and implemented the core technology that powers Keen IO's analytics-as-a-service API, based on Cassandra, Kafka, Storm and Zookeeper. Helped the company grow from 6 to over 45 people, raise $23m in funding and sign up thousands of customers.
 '''
 
 [[ job ]]
