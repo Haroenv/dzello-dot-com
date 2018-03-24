@@ -175,6 +175,10 @@ ul.work-type-list > li > a > img {
   margin: 15px 0 10px;
 }
 
+ul.work-type-list > li > a > img.less-full {
+  width: 90%;
+}
+
 ul.work-type-list > li > a > img.full {
   width: 100%;
 }
@@ -204,15 +208,15 @@ ul.work-type-list > li > p.abstract {
 
 ul.work-type-list > li.talk,
 ul.work-type-list > li.engagement,
-ul.work-type-list > li.job {
+ul.work-type-list > li.job,
+ul.work-type-list > li.mention {
   width: 100%;
 }
 
 ul.work-type-list > li.work-section,
 ul.work-type-list > li.article,
 ul.work-type-list > li.activity,
-ul.work-type-list > li.project,
-ul.work-type-list > li.mention {
+ul.work-type-list > li.project {
   width: 40%;
 }
 

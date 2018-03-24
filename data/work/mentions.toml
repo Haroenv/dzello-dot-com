@@ -3,6 +3,7 @@ title = "Expert Tips for Being an A+ Open Source Contributor"
 publisher = "StackShare"
 publisher_logo = "/images/stackshare-logo.png"
 date = "2018-03-06"
+image_url = "/images/mentions/stackshare-open-source.png"
 url = "https://stackshare.io/posts/expert-tips-open-source"
 
 [[ mention ]]
@@ -10,6 +11,7 @@ title = "6 Questions for Startups to Ask Themselves Before Hiring Bootcamp Grads
 publisher = "Job Portraits"
 publisher_logo = "/images/job-portraits-logo.png"
 date = "2015-04-07"
+image_url = "/images/mentions/bootcamp-grads-job-portraits.jpg"
 url = "https://medium.com/job-portraits/6-questions-for-startups-to-ask-themselves-before-hiring-bootcamp-grads-fdb50a7c985"
 
 [[ mention ]]
@@ -26,12 +28,14 @@ publisher = "Wired"
 publisher_logo = "/images/wired-logo.png"
 date = "2014-01-28"
 url = "https://www.wired.com/2014/01/keen/"
+image_url = "/images/mentions/keen-io-team-wired-article.png"
 
 [[ mention ]]
 title = "Differentiate your data: Keen’s APIs let your company build custom analytics"
 date = "2013-10-23"
 publisher = "VentureBeat"
 publisher_logo = "/images/venturebeat-logo.png"
+image_url = "/images/mentions/josh-dan-kyle-venturebeat.png"
 url = "https://venturebeat.com/2013/10/23/differentiate-your-data-keens-apis-let-your-company-build-custom-analytics/"
 
 [[ mention ]]

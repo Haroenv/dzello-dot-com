@@ -1,6 +1,9 @@
 <li class="mention">
-  <a href="{{ .url }}"><img src="{{ .publisher_logo }}"></a>
-  <br>
+  {{ if isset . "image_url" }}
+    <a href="{{ .url }}"><img class="less-full" src="{{ .image_url }}"></a>
+    <br>
+  {{ end }}
   <a href="{{ .url }}">{{ .title }}</a>
-  <p>{{ .publisher }}<br>{{ dateFormat "January 2, 2006" .date }}</p>
+  <p>{{ dateFormat "January 2, 2006" .date }}</p>
+  <a href="{{ .url }}"><img src="{{ .publisher_logo }}"></a>
 </li>
