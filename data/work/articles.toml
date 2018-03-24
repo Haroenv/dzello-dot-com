@@ -3,6 +3,7 @@ title = "How Algolia Reduces Latency For 21B Searches Per Month"
 date = "2017-03-01"
 location = "StackShare"
 location_url = "https://stackshare.io/"
+image_url = "/images/articles/algolia-elasticsearch-latency.png"
 url = "https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month"
 
 [[ article ]]
@@ -11,6 +12,7 @@ date = "2017-06-07"
 tag = "devrel"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
+image_url = "/images/articles/algolia-community-article.png"
 url = "https://blog.algolia.com/algolia-building-for-developers-2017/"
 
 [[ article ]]
@@ -27,6 +29,7 @@ date = "2017-03-15"
 tag = "devrel"
 location = "Medium"
 location_url = "https://medium.com/@dzello"
+image_url = "/images/articles/dzello-elof-london.png"
 url = "https://medium.com/@dzello/how-i-got-into-developer-advocacy-93bad1678a67"
 
 [[ article ]]
@@ -34,6 +37,7 @@ title = "Comparing Algolia and Elasticsearch For Consumer-Grade Search Part 1: E
 date = "2017-03-22"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
+image_url = "/images/articles/algolia-elasticsearch-latency.png"
 url = "https://blog.algolia.com/algolia-v-elasticsearch-latency/"
 
 [[ article ]]
@@ -41,6 +45,7 @@ title = "On MLK Day and every day — you can lend your privilege "
 date = "2017-01-17"
 location = "Medium"
 location_url = "https://medium.com/@dzello"
+image_url = "/images/articles/access-lending-privilege.png"
 url = "https://medium.com/@dzello/on-mlk-day-and-every-day-you-can-lend-your-privilege-240d97e62907"
 
 [[ article ]]
@@ -48,6 +53,7 @@ title = "Comparing Algolia and Elasticsearch For Consumer-Grade Search Part 2: R
 date = "2017-04-20"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
+image_url = "/images/articles/algolia-elasticsearch-relevance.png"
 url = "https://blog.algolia.com/algolia-v-elasticsearch-relevance/"
 
 [[ article ]]
@@ -55,6 +61,7 @@ title = "Comparing Algolia and Elasticsearch For Consumer-Grade Search Part 3: D
 date = "2017-11-15"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
+image_url = "/images/articles/algolia-elasticsearch-developer-experience.png"
 url = "https://blog.algolia.com/algolia-vs-elasticsearch-developer-experience-ux/"
 
 [[ article ]]
@@ -63,6 +70,7 @@ date = "2016-12-23"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
 tag = "devrel"
+image_url = "/images/articles/algolia-pioneer-badge.png"
 url = "https://blog.algolia.com/algolia-community-forum-pioneer-badge/"
 
 [[ article ]]
@@ -70,6 +78,7 @@ title = "Why we’re backing Open Collective and webpack"
 date = "2016-11-23"
 location = "Algolia Stories"
 location_url = "https://stories.algolia.com/"
+image_url = "/images/articles/open-collective.png"
 url = "https://stories.algolia.com/why-were-backing-opencollective-and-webpack-39e39838f18a"
 
 [[ article ]]
@@ -77,6 +86,7 @@ title = "Who’s Jeff?—Things we learned at #Serverlessconf London 2016"
 date = "2016-10-28"
 location = "Algolia Stories"
 location_url = "https://stories.algolia.com/"
+image_url = "/images/articles/algolia-serverless-london.png"
 url = "https://stories.algolia.com/whos-jeff-things-we-learned-at-serverlessconf-london-2016-520a2869d95a"
 
 [[ article ]]
@@ -85,6 +95,7 @@ date = "2016-09-13"
 location = "Algolia Stories"
 location_url = "https://stories.algolia.com/"
 tag = "devrel"
+image_url = "/images/articles/developer-advocates-guide-to-github-universe.png"
 url = "https://stories.algolia.com/the-developer-advocates-guide-to-github-universe-2016-202d1957af22"
 
 [[ article ]]
@@ -92,6 +103,7 @@ title = "Search Party recap: 60+ attendees, 10 projects, 1 “magnificent” pho
 date = "2016-08-25"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
+image_url = "/images/articles/algolia-search-party-collage.png"
 url = "https://blog.algolia.com/search-party-recap-60-attendees-10-projects-1-magnificent-photo-booth/"
 
 [[ article ]]
@@ -99,6 +111,7 @@ title = "The Tech Stack Behind Keen IO's Analytics Backend Service"
 date = "2013-11-17"
 location = "StackShare"
 location_url = "https://stackshare.io/"
+image_url = "/images/articles/stackshare-keen-io-tech-stack.png"
 url = "https://stackshare.io/posts/keen-io-tech-stack"
 
 [[ article ]]

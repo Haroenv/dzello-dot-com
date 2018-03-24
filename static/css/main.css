@@ -175,6 +175,10 @@ ul.work-type-list > li > a > img {
   margin: 15px 0 10px;
 }
 
+ul.work-type-list > li > a > img.full {
+  width: 100%;
+}
+
 ul.work-type-list > li.talk > a > img {
   width: 90%;
 }
