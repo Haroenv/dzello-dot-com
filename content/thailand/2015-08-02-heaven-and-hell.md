@@ -19,13 +19,11 @@ I had 1 hour and 58 minutes left to enjoy my massage. Or rather to survive it. I
 
 No. In the last week I’d meditated in silence for three hours at a time. I'd been bitten by every mosquito in southeast Asia. I'd slept with only a yoga mat and a horrible sunburn between me and the floor. I'd woken up at 5am every day, scrambling to sweep away my mosquito net in a lightless room. I'd showered in only two buckets of rainwater, focusing on the important bits.
 
-After all of this, would getting a massage be my undoing? Would getting a massage be the thing that makes me call my airline and beg for a spot on the first flight tomorrow from Bangkok?
+After all of this, would getting a massage be my undoing? Would getting a massage be the thing that makes me call my airline and beg for a spot on the first flight home from Bangkok?
 
 No. That would be so lame. I came here to learn something, not give up at the first or hundredth moment of discomfort. I came here to learn to meditate. Isn't this a good time to practice? Don't I really need meditation right now?
 
-Back on the mat, the masseuse flipped me over and starting working on my back. I bit through my teeth as his palms pushed my lower vertebrae down, squeezing my stomach into an upside-down pyramid. My five senses were replaced with just one, a ceaseless accumulator of pain, a frantic injection of white noise into my eyes and ears.
-
-My back is the mortar. His knee is the pestle.
+Back on the mat, the masseuse flipped me over and starting working on my back. I bit through my teeth as his palms pushed my lower vertebrae down, squeezing my stomach into an upside-down pyramid. My five senses were replaced with just one, a ceaseless accumulator of pain, a frantic injection of white noise into my eyes and ears. My back was the mortar and his knee was the pestle.
 
 Meditation. Mindfulness. Where are you now?
 
