@@ -1,12 +1,16 @@
+{{ $link_url := or .blog_url .video_url .slides_url .site_url }}
 <li class="talk">
   {{ if isset . "image_url" }}
-    <img src="{{ .image_url }}">
+    <a href="{{ $link_url }}"><img src="{{ .image_url }}"></a>
     <br>
   {{ else }}
     <i class="fa fa-slideshare fa-lg"></i>
   {{ end }}
-  <a href="{{ or .blog_url .video_url .slides_url .site_url }}">{{ .title }}</a>
-  <p><a href="{{ .event_url }}">{{ .event }}</a> <br> {{ dateFormat "January 2, 2006" .date }}</p>
+  <a href="{{ $link_url }}">{{ .title }}</a>
+  <p>
+    <a href="{{ .event_url }}">{{ .event }}</a> &middot; {{ dateFormat "January 2, 2006" .date }}
+    <br>
+  </p>
   <p class="abstract">{{ .abstract | markdownify }}</p>
-  {{ partial "work-types/_urls" . }}
+  <p>{{ partial "work-types/_urls" . }}</p>
 </li>
