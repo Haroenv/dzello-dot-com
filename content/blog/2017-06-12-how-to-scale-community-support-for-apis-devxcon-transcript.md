@@ -2,7 +2,7 @@
 categories = ["Technology"]
 date = "2017-06-12T00:00:00Z"
 description = "A talk given by Josh Dzielak at DevXCon 2017"
-image = "/images/devxcon-slides/file-page1.jpg"
+image = "/images/josh-dzielak-devxcon.jpg"
 title = "How to scale community support for APIs - DevXCon 2017"
 
 +++
