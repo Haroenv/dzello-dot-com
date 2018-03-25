@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-06-22T00:00:00Z
-title: Serve mobile-specific templates easily with Padrino & Sinatra
----
++++
+categories = ["Technology"]
+date = "2011-06-22T00:00:00Z"
+title = "Serve mobile-specific templates easily with Padrino & Sinatra"
+
++++
 
 <p><a href="http://www.padrinorb.com/">Padrino</a>&nbsp;provides support to&nbsp;render templates dynamically (e.g. foo.js vs. foo.haml) based on request content type formats and also locales (e.g. en, fr, es).</p>
 <p>If you're not making use of the locales, you can use that mechanism for other purposes with just a simple override. When you need to render dynamic templates across your application, this may be a better alternative than patching out Padrino's entire render method (it's quite long) or writing a separate rendering function that all actions would need to be aware of.</p>

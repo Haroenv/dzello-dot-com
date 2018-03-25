@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2014-10-30T00:00:00Z
-title: The OSS Streak Ends, Day 67, at Burning Man
----
++++
+categories = ["Technology"]
+date = "2014-10-30T00:00:00Z"
+title = "The OSS Streak Ends, Day 67, at Burning Man"
+
++++
 
 *Streak* and *Burning Man* are in the title but I assure you that this post is G-rated and family-friendly. As of August 23rd I had contributed to open source for 66 days in a row:
 

@@ -1,7 +1,8 @@
 +++
-title = "Not a company, a full-time side project"
-date = "2016-04-02"
 categories = ["Technology"]
+date = "2016-04-02"
+title = "Not a company, a full-time side project"
+
 +++
 
 I really connected with [this post](http://avc.com/2016/03/side-projects/) on AVC yesterday about side projects. The gist of the post is that we’re seeing less companies these days that started as spare-time side projects. One reason given is that there’s more work to do—to reach broad adoption you’ve got to build for all platforms. Another was that it’s easier to land seed money, so why not fundraise right now? I suspect there’s another reason too, which is that startups are more competitive than ever and it’s harder to justify experimental projects under duress.

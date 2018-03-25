@@ -1,10 +1,10 @@
----
-title: Migrating from Jekyll to Hugo to create a data-driven static site
-date: '2018-03-26T00:00:00+02:00'
-draft: true
-categories:
-  - Technology
----
++++
+title = "Migrating from Jekyll to Hugo to create a data-driven static site"
+date = "2018-03-26T00:00:00+02:00"
+draft = true
+categories = ["Technology"]
++++
+
 I'm happy to say that [dzello.com](https://dzello.com/), my personal site and blog, is now built with [Hugo](https://gohugo.io/). I've always found stories about migrations and stack changes to be useful (and fascinating) and I'll share mine here.
 
 ## Why do the migration?

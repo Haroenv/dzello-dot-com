@@ -1,6 +1,7 @@
 +++
-title = "Parallel Journeys"
 date = "2015-07-13"
+title = "Parallel Journeys"
+
 +++
 
 I rolled out of bed at 2, brushed my teeth, and took the hotel elevator down to the pool deck. Double americano, three days in a row now. Not exactly roughing it yet.

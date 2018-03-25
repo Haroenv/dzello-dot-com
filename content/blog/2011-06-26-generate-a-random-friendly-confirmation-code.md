@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-06-26T00:00:00Z
-title: Generate a random, friendly confirmation code in pure Ruby
----
++++
+categories = ["Technology"]
+date = "2011-06-26T00:00:00Z"
+title = "Generate a random, friendly confirmation code in pure Ruby"
+
++++
 
 <p>Here&rsquo;s a really handy trick for generating a pseudo-random alphanumeric code in pure Ruby &ndash; no gems or dependencies needed.</p>
 

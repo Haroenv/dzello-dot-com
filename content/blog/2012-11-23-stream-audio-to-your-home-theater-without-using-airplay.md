@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-11-23T00:00:00Z
-title: Stream Audio To Your Home Theater Without Using Airplay
----
++++
+categories = ["Technology"]
+date = "2012-11-23T00:00:00Z"
+title = "Stream Audio To Your Home Theater Without Using Airplay"
+
++++
 
 I wrote a post earlier this week about [live streaming system audio from Mac OSX](http://www.dzello.com/blog/2012/11/21/live-stream-audio-from-osx-mountain-lion-with-icecast-and-darkice/).
 

@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-06-19T00:00:00Z
-title: Mongoid Alize 0.2.0 - denormalize methods, redefine callbacks, improved speed, and more!
----
++++
+categories = ["Technology"]
+date = "2012-06-19T00:00:00Z"
+title = "Mongoid Alize 0.2.0 - denormalize methods, redefine callbacks, improved speed, and more!"
+
++++
 
 Today I published 0.2.0 of [Mongoid::Alizé](https://github.com/dzello/mongoid_alize). This version comes with a host of new features, performance improvements, and more documentation.
 

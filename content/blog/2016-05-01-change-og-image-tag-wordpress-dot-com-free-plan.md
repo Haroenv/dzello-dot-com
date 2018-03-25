@@ -1,9 +1,10 @@
----
-categories: ["Technology"]
-date: 2016-05-01T00:00:00Z
-image: /images/estelle-murail-2016.jpg
-title: How to change the og:image tag on the wordpress.com free plan
----
++++
+categories = ["Technology"]
+date = "2016-05-01T00:00:00Z"
+image = "/images/estelle-murail-2016.jpg"
+title = "How to change the og:image tag on the wordpress.com free plan"
+
++++
 
 The wordpress.com free plan doesn't give you control over which image becomes the og:image
 [Open Graph](http://ogp.me/) meta tag on the pages and posts you've created. The tag is important because it's used to show a preview image

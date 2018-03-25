@@ -1,7 +1,9 @@
 +++
-title = "Blog Archive"
-menu_title = "Blog"
 menu = "main"
-weight = "30"
+menu_title = "Blog"
 meta = "false"
+title = "Blog Archive"
+weight = "30"
+
 +++
+

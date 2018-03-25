@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2014-06-23T00:00:00Z
-title: Open Source 365 - Ship Every Day for a Year
----
++++
+categories = ["Technology"]
+date = "2014-06-23T00:00:00Z"
+title = "Open Source 365 - Ship Every Day for a Year"
+
++++
 
 Five days ago I resolved to start and maintain a year-long open source contribution streak. After testing the waters for a few days I'm ready to announce my goal publicly. **From now until June 18, 2015 I will make at least one commit to an open source repository every day.**
 

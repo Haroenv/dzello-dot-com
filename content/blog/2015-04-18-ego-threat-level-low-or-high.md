@@ -1,7 +1,8 @@
 +++
-title = "Ego Threat Level — Low or High?"
-date = "2015-04-18"
 categories = ["Technology"]
+date = "2015-04-18"
+title = "Ego Threat Level — Low or High?"
+
 +++
 _“The essence of self-esteem is comparison.” — Dr. Heidi Grant Halvorson_
 

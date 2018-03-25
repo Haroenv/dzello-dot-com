@@ -1,8 +1,9 @@
----
-categories: ["Culture"]
-date: 2015-11-27T00:00:00Z
-title: Evolving Work—Paris
----
++++
+categories = ["Culture"]
+date = "2015-11-27T00:00:00Z"
+title = "Evolving Work—Paris"
+
++++
 
 ##### >> read on, or go directly to [the slides](https://dzello.github.io/evolving-work)
 

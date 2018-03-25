@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-04-06T00:00:00Z
-title: 'Auto-troll your app: a Ruby client for TrollemIpsum'
----
++++
+categories = ["Technology"]
+date = "2012-04-06T00:00:00Z"
+title = "Auto-troll your app: a Ruby client for TrollemIpsum"
+
++++
 
 I found [TrollemIpsum](http://trollemipsum.appspot.com) yesterday. Now I'm using it to generate my fixture data and generally auto-troll the applications.
 

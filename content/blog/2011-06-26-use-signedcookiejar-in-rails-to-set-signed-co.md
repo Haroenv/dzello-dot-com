@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-06-26T00:00:00Z
-title: Use SignedCookieJar in Rails to set signed cookies
----
++++
+categories = ["Technology"]
+date = "2011-06-26T00:00:00Z"
+title = "Use SignedCookieJar in Rails to set signed cookies"
+
++++
 
 <p>My Rails 3 application&rsquo;s use case &ndash; set a tamper-proof cookie other than the default session cookie (which your Rails app is probably already signing.) Maybe your application does this to track analytics, persistent information for logged out users, etc. Anyhow, it turns out it&rsquo;s really use to do this using the mechanism Rails itself uses for session cookies.</p>
 

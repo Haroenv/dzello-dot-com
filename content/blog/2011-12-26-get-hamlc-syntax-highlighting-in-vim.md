@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-12-26T00:00:00Z
-title: Get hamlc syntax highlighting in vim
----
++++
+categories = ["Technology"]
+date = "2011-12-26T00:00:00Z"
+title = "Get hamlc syntax highlighting in vim"
+
++++
 
 If you've used [haml-coffee](https://github.com/9elements/haml-coffee) templates, you might be amazed by much they look like Ruby Haml templates.
 

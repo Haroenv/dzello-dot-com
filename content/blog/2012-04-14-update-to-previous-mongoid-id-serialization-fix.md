@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-04-14T00:00:00Z
-title: Update to previous Mongoid id serialization fix
----
++++
+categories = ["Technology"]
+date = "2012-04-14T00:00:00Z"
+title = "Update to previous Mongoid id serialization fix"
+
++++
 
 Previously I had blogged about [one way](http://blog.joshdzielak.com/blog/2011/12/24/tame-the-mongoid-id-field-in-your-rails-and-backbone-js-app/) to get an `id` attribute included in the serialization of Mongoid documents.
 

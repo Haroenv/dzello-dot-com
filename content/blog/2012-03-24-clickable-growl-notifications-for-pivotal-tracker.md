@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-03-24T00:00:00Z
-title: Clickable Growl Notifications for Pivotal Tracker
----
++++
+categories = ["Technology"]
+date = "2012-03-24T00:00:00Z"
+title = "Clickable Growl Notifications for Pivotal Tracker"
+
++++
 
 When your team is greasing through the Pivotal Tracker backlog - adding/updating/finishing multiple stories a minute leading up to that big release - you get a sense for the value that Tracker's real-time web interface offers.
 

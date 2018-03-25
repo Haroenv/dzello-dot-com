@@ -1,9 +1,10 @@
 +++
-title = "Work and experience"
-menu_title = "Work"
 menu = "main"
-weight = "20"
+menu_title = "Work"
 meta = "false"
+title = "Work and experience"
+weight = "20"
+
 +++
 
 {{< work-type-list list="work-sections" >}}

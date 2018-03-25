@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-10-16T00:00:00Z
-title: Perception of Creativity in Development
----
++++
+categories = ["Technology"]
+date = "2012-10-16T00:00:00Z"
+title = "Perception of Creativity in Development"
+
++++
 
 *Previously I talked about [the concept of flow](http://www.dzello.com/blog/2012/09/27/lets-ship-flow/).*
 

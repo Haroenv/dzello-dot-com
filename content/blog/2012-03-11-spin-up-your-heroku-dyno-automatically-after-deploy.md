@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-03-11T00:00:00Z
-title: Spin up your Heroku dyno automatically after deploy
----
++++
+categories = ["Technology"]
+date = "2012-03-11T00:00:00Z"
+title = "Spin up your Heroku dyno automatically after deploy"
+
++++
 
 **See an update to this post with a more efficient solution [here](http://blog.joshdzielak.com/blog/2012/08/01/update-to-spin-up-heroku-dyno-automatically-after-deploy/)**.
 

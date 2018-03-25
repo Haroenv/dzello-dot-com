@@ -1,9 +1,10 @@
 +++
-title = "About"
-menu = "main"
-weight = "10"
-meta = "false"
 layout = "single"
+menu = "main"
+meta = "false"
+title = "About"
+weight = "10"
+
 +++
 
 I'm Josh Dzielak a.k.a *dzello*. In both cases, the "dz" is pronounced like the "j" in "jam".

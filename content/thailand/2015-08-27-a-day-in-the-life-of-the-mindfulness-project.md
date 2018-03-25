@@ -1,6 +1,7 @@
 +++
-title = "A Day In The Life Of The Mindfulness Project"
 date = "2015-08-27"
+title = "A Day In The Life Of The Mindfulness Project"
+
 +++
 
 I volunteered this summer at the Mindfulness Project, living and working in a small forest village in northern Thailand. Every day was a new adventure and every expectation I had going in was exceeded. I arrived skeptical but left convinced, or at least hopeful, that the solution for many of our greatest social and environmental challenges lies at the intersection of mindfulness, community, and sustainability; the conscious betterment of ourselves, our relationships, and our environment.

@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-08-24T00:00:00Z
-title: What is 'this'? - Revealing JavaScript's 'this' in different contexts
----
++++
+categories = ["Technology"]
+date = "2011-08-24T00:00:00Z"
+title = "What is 'this'? - Revealing JavaScript's 'this' in different contexts"
+
++++
 
 <p>Understanding the value of &lsquo;this&rsquo; in JavaScript as it appears in different contexts is a requisite to becoming an intermediate or advanced JavaScript programmer.</p>
 

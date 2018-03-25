@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-01-01T00:00:00Z
-title: 'Updated: Spin up your Heroku dyno automatically after deploy'
----
++++
+categories = ["Technology"]
+date = "2012-01-01T00:00:00Z"
+title = "Updated: Spin up your Heroku dyno automatically after deploy"
+
++++
 
 In March I had [written](http://www.dzello.com/blog/2012/03/11/spin-up-your-heroku-dyno-automatically-after-deploy/) about using a [Heroku deploy hook](https://devcenter.heroku.com/articles/deploy-hooks) to ensure your application's dyno(s) spin up immediately after a deploy. It's a simple hack, but it can save you a few seconds each time you hit a newly-deployed build.
 

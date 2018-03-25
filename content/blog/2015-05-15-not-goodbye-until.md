@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2015-05-15T00:00:00Z
-title: Not Goodbye. Until.
----
++++
+categories = ["Technology"]
+date = "2015-05-15T00:00:00Z"
+title = "Not Goodbye. Until."
+
++++
 
 Last week marked the end of my journey with Keen IO. What an incredible two and a half years it's been! I want to thank the founders, employees, investors, and community for the opportunity to be a part of something very special. It was a privilege working with each and every one of you. I'm so excited for the future of this company and the wonderful people behind it.
 

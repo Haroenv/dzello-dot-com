@@ -1,10 +1,11 @@
----
-categories: ["Technology"]
-date: 2017-05-29T00:00:00Z
-description: About my one-year anniversary at Algolia
-image: /images/one-year-cake.jpg
-title: Celebrating one year at Algolia
----
++++
+categories = ["Technology"]
+date = "2017-05-29T00:00:00Z"
+description = "About my one-year anniversary at Algolia"
+image = "/images/one-year-cake.jpg"
+title = "Celebrating one year at Algolia"
+
++++
 
 Last month was my 1-year anniversary at Algolia. Everyone gets a cake to share on both their birthday and work anniversaries. It's a very sweet tradition.
 

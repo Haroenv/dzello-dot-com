@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-06-24T00:00:00Z
-title: I'm joining party.io
----
++++
+categories = ["Technology"]
+date = "2012-06-24T00:00:00Z"
+title = "I'm joining party.io"
+
++++
 
 My search for what's next has ended. I'm joining forces with the super-talented [ninakix](https://twitter.com/ninakix) at party.io!
 

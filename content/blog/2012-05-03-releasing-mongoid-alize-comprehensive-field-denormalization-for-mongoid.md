@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-05-03T00:00:00Z
-title: Releasing Mongoid Alize - Comprehensive field denormalization for Mongoid that stays in sync
----
++++
+categories = ["Technology"]
+date = "2012-05-03T00:00:00Z"
+title = "Releasing Mongoid Alize - Comprehensive field denormalization for Mongoid that stays in sync"
+
++++
 
 *<span style="color: red">Warning:</span> The API has evolved since the initial release - make sure to check out [this post](http://blog.joshdzielak.com/blog/2012/07/28/mongoid-alize-0-dot-3-1-is-out/) before diving in!*
 

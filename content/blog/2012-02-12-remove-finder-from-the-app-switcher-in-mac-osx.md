@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-02-12T00:00:00Z
-title: Remove Finder from the Application Switcher in Mac OSX
----
++++
+categories = ["Technology"]
+date = "2012-02-12T00:00:00Z"
+title = "Remove Finder from the Application Switcher in Mac OSX"
+
++++
 
 When I'm doing web development, I typically only have 2 Mac Applications running - [iTerm2](http://www.iterm2.com) and a Web Browser.
 

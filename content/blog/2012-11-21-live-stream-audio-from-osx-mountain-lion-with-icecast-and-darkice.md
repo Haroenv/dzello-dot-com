@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-11-21T00:00:00Z
-title: Live-stream system audio from OSX Mountain Lion with Icecast2 and Darkice
----
++++
+categories = ["Technology"]
+date = "2012-11-21T00:00:00Z"
+title = "Live-stream system audio from OSX Mountain Lion with Icecast2 and Darkice"
+
++++
 
 To share both music and announcements, [party.io](http://party.io) uses [Play](https://github.com/play/play) from Github. Play is an 'employee-powered iTunes-based client-driven distributed music server for your office'.
 Our company DJ (a big-hearted, chrome-plated [hubot](http://hubot.github.com/)) manages Play and occasionally accepts submissions from the team.

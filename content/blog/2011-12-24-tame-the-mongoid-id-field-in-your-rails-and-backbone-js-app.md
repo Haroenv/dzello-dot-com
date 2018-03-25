@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-12-24T00:00:00Z
-title: Tame the Mongoid _id field in your Rails and Backbone JS App
----
++++
+categories = ["Technology"]
+date = "2011-12-24T00:00:00Z"
+title = "Tame the Mongoid _id field in your Rails and Backbone JS App"
+
++++
 
 ### The Identity Crisis - \_id vs id
 

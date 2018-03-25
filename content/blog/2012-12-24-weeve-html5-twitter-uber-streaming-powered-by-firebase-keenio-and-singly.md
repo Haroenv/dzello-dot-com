@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-12-24T00:00:00Z
-title: weeve - HTML5 Twitter uber-streaming powered by Firebase, Keen IO, and Singly
----
++++
+categories = ["Technology"]
+date = "2012-12-24T00:00:00Z"
+title = "weeve - HTML5 Twitter uber-streaming powered by Firebase, Keen IO, and Singly"
+
++++
 
 ![weeve logo](/images/weeve.png "weeve logo")
 

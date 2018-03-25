@@ -1,6 +1,7 @@
 +++
-title = "Heaven and Hell"
 date = "2015-08-02"
+title = "Heaven and Hell"
+
 +++
 
 I ran on Friday for the first time in months. Estelle from France asked if anyone wanted to join her for a jog and I, feeling so healthy and optimistic from all that meditation, said yes. There’s a beautiful lake in the middle of Khon Kaen that’s surrounded by a path, a very low barrier to running.

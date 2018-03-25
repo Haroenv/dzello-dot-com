@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-09-27T00:00:00Z
-title: Preview your Github README.md locally
----
++++
+categories = ["Technology"]
+date = "2011-09-27T00:00:00Z"
+title = "Preview your Github README.md locally"
+
++++
 
 <p>A good README.md is an essential tool to educate developers about your Github-hosted project.</p>
 

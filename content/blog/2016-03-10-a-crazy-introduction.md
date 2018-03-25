@@ -1,7 +1,8 @@
 +++
-title = "A Crazy introduction"
-date = "2016-03-10"
 categories = ["Technology"]
+date = "2016-03-10"
+title = "A Crazy introduction"
+
 +++
 
 I started building an app a few months ago. It’s called Crazy. Crazy helps you get knowledge out of your head and into a place where you can actually start to work with it. It’s an ideal tool for anyone who needs to tame large amounts of unstructured information — authors, researchers, journalists, engineers, designers, students, or teachers. But it’s so fast and minimal that you‘d be happy using it just to take notes.

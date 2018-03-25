@@ -1,9 +1,10 @@
----
-categories: ["Technology"]
-date: 2016-05-19T00:00:00Z
-image: /images/algolia-team.jpg
-title: I'm joining Algolia to help developers build search
----
++++
+categories = ["Technology"]
+date = "2016-05-19T00:00:00Z"
+image = "/images/algolia-team.jpg"
+title = "I'm joining Algolia to help developers build search"
+
++++
 
 **tl;dr:** I've joined [Algolia](https://algolia.com/about) as a developer advocate!
 

@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-07-13T00:00:00Z
-title: Jumping between JavaScript and Ruby Closures
----
++++
+categories = ["Technology"]
+date = "2011-07-13T00:00:00Z"
+title = "Jumping between JavaScript and Ruby Closures"
+
++++
 
 <p>These days I find myself constantly jumping between Ruby and Javascript when creating web applications. Some days I feel like <a href="http://en.wikipedia.org/wiki/Snow_Crash">Hiro Protagonist</a>, with these languages as my twin katanas.</p>
 

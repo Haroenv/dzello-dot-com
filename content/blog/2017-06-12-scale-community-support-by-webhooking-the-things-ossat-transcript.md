@@ -1,10 +1,11 @@
----
-categories: ["Technology"]
-date: 2017-06-12T00:00:00Z
-description: The transcript and slides of a talk given by Josh Dzielak at Open Source Show and Tell 2017
-image: /images/ossat-slides/file-page1.jpg
-title: Scale community support by webhooking the things - Open Source Show & Tell
----
++++
+categories = ["Technology"]
+date = "2017-06-12T00:00:00Z"
+description = "The transcript and slides of a talk given by Josh Dzielak at Open Source Show and Tell 2017"
+image = "/images/ossat-slides/file-page1.jpg"
+title = "Scale community support by webhooking the things - Open Source Show & Tell"
+
++++
 
 I gave a talk at [Open Source Show and Tell 2017](http://opensourceshowandtell.com) about how Algolia automates the flow of information between Discourse, Slack and our primary support tool HelpScout. Big thanks to everyone who came and to [Justin Johnson](https://taco.computer/) for organizing the event. The video, transcript and slides continue below.
 

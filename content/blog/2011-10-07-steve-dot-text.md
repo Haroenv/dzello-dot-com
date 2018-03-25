@@ -1,9 +1,10 @@
----
-categories: ["Personal"]
-date: 2011-10-07T00:00:00Z
-hidden: true
-title: Remembering Steve Jobs and My Apple IIe
----
++++
+categories = ["Personal"]
+date = "2011-10-07T00:00:00Z"
+hidden = true
+title = "Remembering Steve Jobs and My Apple IIe"
+
++++
 
 <p>tl;dr: R.I.P. Steve Jobs. You rocked the computer party.</p>
 

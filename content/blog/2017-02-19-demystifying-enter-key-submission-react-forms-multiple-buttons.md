@@ -1,11 +1,11 @@
----
-categories: ["Technology"]
-date: 2017-02-19T00:00:00Z
-description: Several important facts and best practices to make sure the enter key
-  behaves the way your users expect.
-image: /images/react-forms-codepen.png
-title: Demystifying enter key submission for React forms with multiple buttons
----
++++
+categories = ["Technology"]
+date = "2017-02-19T00:00:00Z"
+description = "Several important facts and best practices to make sure the enter key behaves the way your users expect."
+image = "/images/react-forms-codepen.png"
+title = "Demystifying enter key submission for React forms with multiple buttons"
+
++++
 
 There are some common problems that developers run into when trying to get enter key submission to work for forms with multiple buttons. This is true for both React and plain HTML.
 

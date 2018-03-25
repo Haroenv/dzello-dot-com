@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-09-27T00:00:00Z
-title: Here's To Flow
----
++++
+categories = ["Technology"]
+date = "2012-09-27T00:00:00Z"
+title = "Here's To Flow"
+
++++
 
 Do you know about Csíkszentmihályi's concept of <a href="http://en.wikipedia.org/wiki/Flow_(psychology)">flow</a>?
 

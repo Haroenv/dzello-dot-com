@@ -1,7 +1,8 @@
 +++
-title = "10 rules for writing fiction from The Guardian"
-date = "2015-01-01"
 categories = ["Technology"]
+date = "2015-01-01"
+title = "10 rules for writing fiction from The Guardian"
+
 +++
 
 In 2010 The Guardian asked a few well-known authors to surrender a shortlist of their personal do’s and don’ts. The result was a [two part series](https://www.theguardian.com/books/2010/feb/20/ten-rules-for-writing-fiction-part-one) full of brilliant insight and amusing contradiction. These are my ten favorites, chosen from over two hundred.

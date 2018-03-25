@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-06-24T00:00:00Z
-title: Nginx, gzip, and the Accept-Encoding header
----
++++
+categories = ["Technology"]
+date = "2011-06-24T00:00:00Z"
+title = "Nginx, gzip, and the Accept-Encoding header"
+
++++
 
 <p>To get gzip configured for nginx, first make sure the flag is set when you compile, or that the binary you&rsquo;ve installed was compiled with it on (seems to be the default). The flag is in the source at the path:</p>
 

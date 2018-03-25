@@ -1,7 +1,8 @@
 +++
-title = "Routine of late"
-date = "2016-02-09"
 categories = ["Technology"]
+date = "2016-02-09"
+title = "Routine of late"
+
 +++
 
 For the last few months I’ve had my head buried deep in the sands of a new programming project. That always means less writing and journaling and social media posting, and being a hermit IRL too. My only regret from these phases is the shut-in thing, but the upside is becoming a temporary wellness nut. No caffeine, little or no alcohol, daily meditation and yoga, trips to the organic supermarket instead of restaurants. The last two weeks have been particularly productive, 10,000 lines of code were written.

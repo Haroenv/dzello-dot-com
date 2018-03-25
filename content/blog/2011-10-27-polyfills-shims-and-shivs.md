@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-10-27T00:00:00Z
-title: 'Polyfills: Shims and Shivs'
----
++++
+categories = ["Technology"]
+date = "2011-10-27T00:00:00Z"
+title = "Polyfills: Shims and Shivs"
+
++++
 
 <p>Today I gave a presentation at Disney&rsquo;s HTML 5 Summit. It&rsquo;s about polyfills &ndash; generally, specifically, philosophically, etc.</p>
 

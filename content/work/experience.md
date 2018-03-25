@@ -1,5 +1,6 @@
 +++
 title = "Work Experience"
+
 +++
 
 {{< work-type-list list="jobs" class="work-type-list work-type-experience" >}}

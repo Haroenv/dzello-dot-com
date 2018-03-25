@@ -1,6 +1,7 @@
 +++
-title = "Countdown"
 date = "2015-06-30"
+title = "Countdown"
+
 +++
 
 I hope I’ve prepared enough for this trip. My flight leaves in two days.

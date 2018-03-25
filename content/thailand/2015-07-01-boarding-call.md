@@ -1,6 +1,7 @@
 +++
-title = "Boarding Call"
 date = "2015-07-01"
+title = "Boarding Call"
+
 +++
 
 I’m sitting at SFO International Gate G99, charging my body with pizza and my devices with the cables that I did not forget (yes!).

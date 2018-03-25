@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-08-12T00:00:00Z
-title: Use an HTTP Proxy with Capybara Mechanize
----
++++
+categories = ["Technology"]
+date = "2011-08-12T00:00:00Z"
+title = "Use an HTTP Proxy with Capybara Mechanize"
+
++++
 
 <p>Hooray for your awesomely fast and invisible <a href="https://github.com/jeroenvandijk/capybara-mechanize">capybara-mechanize</a> HTTP-based acceptance tests! Aren&rsquo;t they great? Well &ndash; until they break and you need to know just what in the Helper is going on back there.</p>
 

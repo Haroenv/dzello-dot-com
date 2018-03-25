@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-08-23T00:00:00Z
-title: Use httparty with rspec and capybara
----
++++
+categories = ["Technology"]
+date = "2011-08-23T00:00:00Z"
+title = "Use httparty with rspec and capybara"
+
++++
 
 <p>httparty can be a useful supplement to Capybara drivers for use in a <a href="https://github.com/jnicklas/capybara">Capybara</a> test suite. Take the example of an <a href="http://blog.joshdzielak.com/easiest-possible-rspec-performance-test-w-sce">rspec-based load test</a>.</p>
 

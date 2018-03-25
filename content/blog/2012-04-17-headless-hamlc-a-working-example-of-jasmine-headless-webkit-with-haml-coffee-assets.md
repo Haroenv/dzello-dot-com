@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-04-17T00:00:00Z
-title: headless_hamlc - A working example of jasmine-headless-webkit with haml_coffee_assets
----
++++
+categories = ["Technology"]
+date = "2012-04-17T00:00:00Z"
+title = "headless_hamlc - A working example of jasmine-headless-webkit with haml_coffee_assets"
+
++++
 
 I've [written before](http://blog.joshdzielak.com/blog/2011/12/24/using-haml-coffee-assets-with-jasmine-headless-webkit/) about using [haml_coffee_assets](https://github.com/netzpirat/haml_coffee_assets) to add Haml Coffee templates into your Rails asset pipeline. And how to test these templates using [jasmine-headless-webkit](https://github.com/johnbintz/jasmine-headless-webkit).
 

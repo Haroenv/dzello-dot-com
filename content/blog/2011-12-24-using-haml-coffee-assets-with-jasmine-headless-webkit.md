@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-12-24T00:00:00Z
-title: Using haml_coffee_assets with jasmine-headless-webkit
----
++++
+categories = ["Technology"]
+date = "2011-12-24T00:00:00Z"
+title = "Using haml_coffee_assets with jasmine-headless-webkit"
+
++++
 
 [haml_coffee_assets](https://github.com/netzpirat/haml_coffee_assets) allows you to use [haml-coffee](https://github.com/9elements/haml-coffee) templates in the Rails asset pipeline.
 

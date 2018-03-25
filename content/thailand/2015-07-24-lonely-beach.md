@@ -1,6 +1,7 @@
 +++
-title = "Lonely Beach"
 date = "2015-07-24"
+title = "Lonely Beach"
+
 +++
 
 It took a bus, an overnight, multiple taxis and a ferry to get from Bangkok to Koh Chang. It wasn’t the fastest route, but it was cheap, and not as stressful as a careening cliff-side minibus would have been.

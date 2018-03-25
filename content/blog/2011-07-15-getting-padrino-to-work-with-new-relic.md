@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-07-15T00:00:00Z
-title: Using New Relic to monitor a Padrino Application
----
++++
+categories = ["Technology"]
+date = "2011-07-15T00:00:00Z"
+title = "Using New Relic to monitor a Padrino Application"
+
++++
 
 <p>Getting New Relic hooked into your Padrino application isn&rsquo;t too hard &ndash; there are a just a few gotchas.</p>
 

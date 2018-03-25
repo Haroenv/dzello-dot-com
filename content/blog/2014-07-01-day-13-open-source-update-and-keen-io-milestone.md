@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2014-07-01T00:00:00Z
-title: OSS Streak Update, Day 13
----
++++
+categories = ["Technology"]
+date = "2014-07-01T00:00:00Z"
+title = "OSS Streak Update, Day 13"
+
++++
 
 Today is the 13th day of my 365-day Github [contribution streak](http://dzello.com/blog/2014/06/23/open-source-365-ship-every-day-for-a-year/).
 

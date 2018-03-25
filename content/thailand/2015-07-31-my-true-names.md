@@ -1,6 +1,7 @@
 +++
-title = "My True Names"
 date = "2015-07-31"
+title = "My True Names"
+
 +++
 
 Our teacher at the Mindfulness Project read us this beautiful poem during one of our nightly teachings. It was written by [Thích Nhất Hạnh](https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh), the well-known Vietnamese Buddhist monk, poet, and peace activist.

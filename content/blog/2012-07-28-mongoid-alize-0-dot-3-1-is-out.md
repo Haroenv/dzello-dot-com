@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2012-07-28T00:00:00Z
-title: Mongoid Alize 0.3.1 - unified API, polymorphic support, and increased flexibility
----
++++
+categories = ["Technology"]
+date = "2012-07-28T00:00:00Z"
+title = "Mongoid Alize 0.3.1 - unified API, polymorphic support, and increased flexibility"
+
++++
 
 Today I released 0.3.1 of [Mongoid::Alizé](https://github.com/dzello/mongoid_alize).
 

@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-08-18T00:00:00Z
-title: Monkeybrains Internet in Dogpatch
----
++++
+categories = ["Technology"]
+date = "2011-08-18T00:00:00Z"
+title = "Monkeybrains Internet in Dogpatch"
+
++++
 
 <p>When I moved into my current apartment in San Francisco's Dogpatch neighborhood, I invested considerable&nbsp;time and effort into getting Internet service from someone other than the incumbents - Comcast and AT&amp;T.</p>
 <p>Long story short, I feel that the current ISP oligarchy is hampering innovation in the United States and may put <a href="http://en.wikipedia.org/wiki/Network_neutrality">Net Neutrality</a> at risk globally in the future. As it is, the US ranks 10th of 14 on the <a href="http://en.wikipedia.org/wiki/Government_Broadband_Index_(gBBi)">Government Broadband Index</a>. If I, as an Internet Engineer, entrepreneur, open source contributor, etc, don't start using my dollars to upvote for more competition and transparency here, than who can I expect will?</p>

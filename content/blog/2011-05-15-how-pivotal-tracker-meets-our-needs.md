@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2011-05-15T00:00:00Z
-title: How Pivotal Tracker Meets Our Needs
----
++++
+categories = ["Technology"]
+date = "2011-05-15T00:00:00Z"
+title = "How Pivotal Tracker Meets Our Needs"
+
++++
 
 <p>For over a year now I've used&nbsp;<a href="http://pivotaltracker.com">Pivotal Tracker</a>&nbsp;on projects to answer the question - "what should I do next?" The tool has worked well for me, and recently I was asked to explain by someone a bit more.. er.. <a href="http://www.dack.com/web/bullshit.html">corporate</a>... exactly why it's so great and specifically how it 'meets our needs [being an agile development team]'.</p>
 <p>There's a lot of great things I could say about Tracker's features - a slick UI, intuitive navigation, evident emphasis on simplicity and productivity - but today I'll talk about how it helps our team power through everyday situations and successfully meets our needs as an agile project management tool.</p>

@@ -1,8 +1,9 @@
----
-categories: ["Technology"]
-date: 2016-04-09T00:00:00Z
-title: Search Presidential Speeches with Oval Quotes
----
++++
+categories = ["Technology"]
+date = "2016-04-09T00:00:00Z"
+title = "Search Presidential Speeches with Oval Quotes"
+
++++
 
 [Oval Quotes](http://oval-quotes.dzello.com) is a mashup I made using data from [The Miller Center](http://millercenter.org) and search from [Algolia](https://algolia.com/). It's highly compact and lots of fun to play with.
 
