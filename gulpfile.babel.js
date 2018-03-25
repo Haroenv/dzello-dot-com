@@ -79,9 +79,9 @@ function buildSite(cb, options, environment = "development") {
 
   // for netlify deployment
   if (process.env.BRANCH === "master") {
-    args.push(...["--baseURL", process.env.URL]);
+    args.push(...["--baseURL", process.env.URL + "/"]);
   } else if (process.env.DEPLOY_PRIME_URL) {
-    args.push(...["--baseURL", process.env.DEPLOY_PRIME_URL]);
+    args.push(...["--baseURL", process.env.DEPLOY_PRIME_URL + "/"]);
   }
 
   // for viewing previews with the default development task
