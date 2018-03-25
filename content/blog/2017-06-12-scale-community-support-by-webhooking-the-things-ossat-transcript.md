@@ -2,7 +2,7 @@
 categories = ["Technology"]
 date = "2017-06-12T00:00:00Z"
 description = "The transcript and slides of a talk given by Josh Dzielak at Open Source Show and Tell 2017"
-image = "/images/open-source-show-and-tell.jpg"
+image = "/images/talks/josh-dzielak-ossat-2017.jpg"
 title = "Scale community support by webhooking the things - presented at #OSSAT"
 
 +++
