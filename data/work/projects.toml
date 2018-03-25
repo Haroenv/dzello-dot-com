@@ -62,7 +62,7 @@ video_url = "https://www.youtube.com/watch?v=xZTNzNjwl3w"
 
 [[ project ]]
 title = "Dashboards by Keen IO"
-description = "Responsive dashboard templates for Bootstrap (built by @larimer, I helped launch and promote it)"
+description = "Responsive dashboard templates for Bootstrap (built by @larimer, I helped launch it)"
 date = "2015"
 github_url = "https://github.com/keen/dashboards"
 
