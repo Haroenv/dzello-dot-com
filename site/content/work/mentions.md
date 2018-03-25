@@ -4,4 +4,4 @@ dataList = "mentions"
 
 +++
 
-{{< work-type-list >}}
+{{< section-list-data >}}

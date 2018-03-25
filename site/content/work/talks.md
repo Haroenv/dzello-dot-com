@@ -4,4 +4,4 @@ dataList = "talks"
 
 +++
 
-{{< work-type-list >}}
+{{< section-list-data >}}

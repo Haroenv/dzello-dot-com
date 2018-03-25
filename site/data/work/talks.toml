@@ -104,7 +104,6 @@ event = "Algolia Search Party"
 event_url = "https://www.youtube.com/playlist?list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_DFz8O"
 date = "2016-08-10"
 slides_url = "https://speakerdeck.com/dzello/10-community-projects-in-15-minutes"
-tag = "devrel"
 image_url = "/images/talks/10-community-projects-slides.png"
 abstract = '''
 A tour of 10 Algolia community projects including instantsearch.js, Places, DocSearch, Wordpress and Magento plugins, and more.

@@ -75,7 +75,10 @@ gulp.task("server", ["hugo", "css", "js", "fonts"], () => {
  * Run hugo and build the site
  */
 function buildSite(cb, options, environment = "development") {
-  const args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
+  var args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
+  if (process.env.DEPLOY_PRIME_URL) {
+    args.push(...["--baseURL", process.env.DEPLOY_PRIME_URL]);
+  }
 
   process.env.NODE_ENV = environment;
 

@@ -16,13 +16,13 @@ I do consulting for developer relations teams and companies whose customers are 
 # How can I help you?
 I prefer engagements based around concentrated, well-scoped projects with few dependencies and a high potential for impact. Here are a few examples.
 
-{{< work-type-list list="engagements" class="work-type-engagements" >}}
+{{< section-list-data section="consulting" list="engagements" class="work-type-engagements" >}}
 
 {{< spacing-icon "wrench" >}}
 
 # Values I practice
 
-{{< work-type-list list="values" class="work-type-values" >}}
+{{< section-list-data section="consulting" list="values" class="work-type-engagements" >}}
 
 {{< spacing-icon "heart-o" >}}
 
@@ -43,7 +43,7 @@ I'm currently based out of Paris, France meaning that most or all of my work wil
 
 # Further reading: my DevRel talks & articles
 
-{{< work-type-list list="articles" tag="devrel" >}}
-{{< work-type-list list="talks" tag="devrel" >}}
+{{< section-list-data section="work" list="talks" tag="devrel" >}}
+{{< section-list-data section="work" list="articles" tag="devrel" >}}
 
 {{< centered-link "see more of my work and experience..." "/work" >}}

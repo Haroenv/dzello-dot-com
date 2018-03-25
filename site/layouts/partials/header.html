@@ -9,7 +9,7 @@
   <div id="container">
     <header>
       <h1>
-        <a href="{{ relURL "/" }}">{{ .Site.Params.Header | markdownify }}</a>
+        <a href="/">{{ .Site.Params.Header | markdownify }}</a>
       </h1>
       {{ with .Site.Params.tagline }}
         <p>{{ . | markdownify }}</p>
