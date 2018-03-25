@@ -15,7 +15,7 @@ A long-time software engineer, I enjoy building tools for developers and finding
 
 <hr>
 
-This was my pinned tweet for a while.
+I believe that developers need very specific conditions to do their best work.
 
 {{< tweet 863413810379591680 >}}
 
