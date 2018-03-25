@@ -1,6 +1,6 @@
 ---
 title: Migrating from Jekyll to Hugo to create a data-driven static site
-date: '2018-03-25T00:00:00+01:00'
+date: '2018-03-26T00:00:00+02:00'
 draft: true
 categories:
   - Technology
