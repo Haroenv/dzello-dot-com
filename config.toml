@@ -31,9 +31,17 @@ googleAnalytics = "UA-24132749-1"
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
+section = ["HTML", "RSS", "Api"]
+page = ["HTML", "Api"]
 
 [outputFormats.Algolia]
 baseName = "algolia"
+mediaType = "application/json"
+isPlainText = true
+notAlternative = true
+
+[outputFormats.Api]
+baseName = "api"
 mediaType = "application/json"
 isPlainText = true
 notAlternative = true

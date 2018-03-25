@@ -1,6 +1,7 @@
 +++
 title = "Activities"
+dataList = "activities"
 
 +++
 
-{{< work-type-list list="activities" >}}
+{{< work-type-list >}}

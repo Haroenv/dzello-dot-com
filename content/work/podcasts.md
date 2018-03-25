@@ -1,6 +1,7 @@
 +++
 title = "Podcast appearances"
+dataList = "podcasts"
 
 +++
 
-{{< work-type-list list="podcasts" >}}
+{{< work-type-list >}}

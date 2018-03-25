@@ -1,4 +1,4 @@
-{{ $list := .Get "list" }}
+{{ $list := or (.Get "list") $.Page.Params.dataList }}
 {{ $tag := .Get "tag" }}
 {{ $class := or (.Get "class") "work-type-list" }}
 {{ .Page.Site.Params.dateFormatLayout }}

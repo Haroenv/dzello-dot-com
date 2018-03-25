@@ -1,6 +1,7 @@
 +++
 title = "Open source projects"
+dataList = "projects"
 
 +++
 
-{{< work-type-list list="projects" >}}
+{{< work-type-list >}}
