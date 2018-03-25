@@ -20,12 +20,12 @@ tag = "homepage"
 title = "Media and press mentions"
 path = "work/mentions"
 icon = "tv"
+tag = "homepage"
 
 [[ workType ]]
 title = "Open source projects"
 path = "work/projects"
 icon = "code"
-tag = "homepage"
 
 [[ workType ]]
 title = "Podcast appearances"
