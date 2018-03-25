@@ -1,11 +1,10 @@
-+++
-title = "Migrating from Jekyll to Hugo to create a data-driven static site"
-description = "I migrated my personal web site stack from Jekyll to Hugo and am using data files and shortcodes extensively"
-date = "2018-03-18"
-categories = ["Technology"]
-draft = true
-+++
-
+---
+title: Migrating from Jekyll to Hugo to create a data-driven static site
+date: '2018-03-25T00:00:00+01:00'
+draft: true
+categories:
+  - Technology
+---
 I'm happy to say that [dzello.com](https://dzello.com/), my personal site and blog, is now built with [Hugo](https://gohugo.io/). I've always found stories about migrations and stack changes to be useful (and fascinating) and I'll share mine here.
 
 ## Why do the migration?
@@ -16,7 +15,7 @@ I'm happy to say that [dzello.com](https://dzello.com/), my personal site and bl
 
 **Speed**: The rumors are true - Hugo is insanely fast. For my site, consisting of 91 pages, it builds in 296 milliseconds. Incremental builds are much shorter. Why do I care? At this speed, you can immediately see your changes reflect in the page as soon as you hit save. For someone who needs to edit a CSS file 50 times before my floats line up right, that's a huge time-saver.
 
-``` shell
+```shell
 dzello-dot-com $ hugo
 
                    | EN
@@ -35,7 +34,7 @@ Total in 296 ms
 
 For an example with much more content, check out the new [Smashing Magazine](https://next.smashingmagazine.com/) site, purportedly building 60,000 pages in 5 seconds.
 
-**Data files**: Even though static site generators do a great job of separating *content* from *presentation* (i.e. Markdown files for content separate from HTML layouts), they don't always have a great answer for separating *data* from *content*. One thing that is easy to miss when moving from a traditional database-backed backend to a client-only static site is the ability to store rows and columns of data and use them to drive the presentation layer.
+**Data files**: Even though static site generators do a great job of separating _content_ from _presentation_ (i.e. Markdown files for content separate from HTML layouts), they don't always have a great answer for separating _data_ from _content_. One thing that is easy to miss when moving from a traditional database-backed backend to a client-only static site is the ability to store rows and columns of data and use them to drive the presentation layer.
 
 Often times, what should be data is treated as content. An example might be contact information that is copied and pasted across the site instead of kept DRY. Another example might be a table in a Markdown file that is frequently added to. Living in Markdown is ok if the data never needs to be queried or rendered in a different way, but once it does the pattern of storing it in Markdown breaks down.
 
@@ -48,7 +47,7 @@ It was a combination of manual work and (thankfully) some tools that helped auto
 **hugo migrate**
 The first thing I did was point Hugo to my existing Jekyll site and run the migration command:
 
-``` shell
+```shell
 hugo migrate dzello-dot-com-jekyll
 ```
 
@@ -64,7 +63,7 @@ Hugo makes it very easy to override files in themes due to an intuitive lookup o
 
 `define` blocks let you place markup within a named block inside of a layout or partial:
 
-``` html
+```html
 {{ define "header" }}
   <h1>Hello world!</h1>
 {{ end }}
@@ -72,7 +71,7 @@ Hugo makes it very easy to override files in themes due to an intuitive lookup o
 
 And render that block within a `baseof` or other layout file using the `block` statement:
 
-``` html
+```html
 <body>
   {{ block "header" }}
   ...
@@ -81,7 +80,7 @@ And render that block within a `baseof` or other layout file using the `block` s
 
 Resulting in:
 
-``` html
+```html
 <body>
   <h1>Hello world!</h1>
   ...
@@ -102,7 +101,7 @@ Once I had my blog content ported over, the next task was to add new types of pa
 
 With Hugo you can put JSON, YAML or TOML files in a `data` folder, which them becomes accessible inside of layouts, partials and shortcodes via the `$.Site.Data` parameter. I decided to use the TOML format, primarily to learn something new and because it has a nice-looking way to create arrays of objects, which looks like this:
 
-``` toml
+```toml
 [[ instrument ]]
 name = "guitar"
 family = "strings"
@@ -114,7 +113,7 @@ family = "brass"
 
 Given this data in a TOML file placed in `data/instruments.toml`, I can easily render the information about all of the instruments:
 
-``` html
+```html
 {{ range $.Site.Data.instruments }}
   <li>The {{ .name }} is a member of the {{ .family }} family.</li>
 {{ end }}
@@ -126,7 +125,7 @@ If you look at the [data folder](https://github.com/dzello/dzello-dot-com/data) 
 
 Shortcodes allow you to add specific blocks of HTML into your Markdown content without it getting messy. The classic example is embedding a Tweet inside of your content, which requires HTML being added to the page. Thankfully Hugo has a built-in shortcode for tweets, and adding one to a Markdown file is very easy:
 
-``` markdown
+```markdown
 People will say anything on twitter:
 
 {\{< tweet 123445667890 >}}
@@ -140,7 +139,7 @@ Here's an example that shows how this system renders the HTML bit for a conferen
 
 Here's the data, all of which can be seen in [data/talks.toml](https://github.com/dzello/dzello-com/data/talks.toml) in the Github repo for this site.
 
-``` toml
+```toml
 [[ talk ]]
 title = "From few to some to many — How to scale community support for APIs"
 event = "DevXCon"
@@ -157,18 +156,18 @@ The free tier of many APIs includes “community support”. What does that mean
 
 Here's the Markdown content page where this data is used, found in [content/work/talks.md](https://github.com/dzello/dzello-com/content/work/talks.toml).
 
-``` markdown
+```markdown
 +++
 title = "Talks and presentations"
 +++
 {\{< work-type-list list="talks" >}}
 ```
 
-That's all the *content* required to generate [dzello.com/work/talks](https://dzello.com/work/talks). All of the heavy lifting is offloaded to the shortcode, which is just formatting data from the TOML file.
+That's all the _content_ required to generate [dzello.com/work/talks](https://dzello.com/work/talks). All of the heavy lifting is offloaded to the shortcode, which is just formatting data from the TOML file.
 
 Best of all, the data can be reused. On my [Consulting page](/consulting), I wanted to include work I've done in the developer relations context across a multitude of content types including talks, articles and work experience. Rather than duplicate those into a new TOML file, I simply added a `tag` field to the existing TOML files and set `tag=devrel` where the item was related to DevRel:
 
-``` toml
+```toml
 [[ talk ]]
 title = "From few to some to many — How to scale community support for APIs"
 tag = "devrel"
@@ -176,7 +175,7 @@ tag = "devrel"
 
 Now, using a previous shortcode with a modification I made to filter by tags, I can grab just the DevRel-related content from each file:
 
-``` markdown
+```markdown
 {\{< work-type-list list="talks" tag="devrel" >}}
 ```
 
