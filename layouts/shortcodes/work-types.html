@@ -1,0 +1,8 @@
+{{ $tag := .Get "tag" }}
+<ul class="work-type-list">
+{{ range $.Site.Data.workTypes.workType }}
+  {{ if or (not $tag) (eq $tag .tag)}}
+    {{ partial "work-type.html" . $ }}
+  {{ end }}
+{{ end }}
+</ul>

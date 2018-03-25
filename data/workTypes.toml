@@ -1,43 +1,43 @@
-[[ work-section ]]
+[[ workType ]]
 title = "Work experience"
 url = "/work/jobs"
 icon = "keyboard-o"
 tag = "homepage"
 
-[[ work-section ]]
+[[ workType ]]
 title = "Talks and presentations"
 url = "/work/talks"
 icon = "slideshare"
 tag = "homepage"
 
-[[ work-section ]]
+[[ workType ]]
 title = "Articles around the web"
 url = "/work/articles"
 icon = "pencil"
 tag = "homepage"
 
-[[ work-section ]]
+[[ workType ]]
 title = "Media and press mentions"
 url = "/work/mentions"
 icon = "tv"
 
-[[ work-section ]]
+[[ workType ]]
 title = "Open source projects"
 url = "/work/projects"
 icon = "code"
 tag = "homepage"
 
-[[ work-section ]]
+[[ workType ]]
 title = "Podcast appearances"
 url = "/work/podcasts"
 icon = "microphone"
 
-[[ work-section ]]
+[[ workType ]]
 title = "Activities and volunteering"
 url = "/work/activities"
 icon = "fire"
 
-[[ work-section ]]
+[[ workType ]]
 title = "Github stats"
 url = "/work/github"
 icon = "github"
