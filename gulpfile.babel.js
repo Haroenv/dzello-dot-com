@@ -28,7 +28,7 @@ gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArg
 // Compile CSS with PostCSS
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
-    .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext(), cssnano()]))
+    .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext(), cssnano({ autoprefixer: false })]))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));
@@ -78,6 +78,9 @@ function buildSite(cb, options, environment = "development") {
   var args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
   if (process.env.DEPLOY_PRIME_URL) {
     args.push(...["--baseURL", process.env.DEPLOY_PRIME_URL]);
+  }
+  if (process.env.HUGO_PREVIEW) {
+    args.push(...hugoArgsPreview);
   }
 
   process.env.NODE_ENV = environment;

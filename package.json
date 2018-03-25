@@ -6,9 +6,10 @@
   "main": "index.js",
   "scripts": {
     "hugo": "gulp hugo",
+    "hugo": "gulp hugo-preview",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
-    "start": "gulp server",
+    "start": "HUGO_PREVIEW=1 gulp server",
     "lint": "eslint src"
   },
   "author": "",
