@@ -8,7 +8,7 @@ weight = "45"
 
 +++
 
-The [Work](/work) page on this site and its subpages are built from data that I've assembled about talks I've given, articles I've written and more. The data lives in [Hugo data templates](https://gohugo.io/templates/data-templates/) and is formatted in [TOML](https://github.com/toml-lang/toml). Here's an example from [data/work/stats.toml](https://github.com/dzello/dzello-dot-com/data/work/stats.toml):
+The [Work](/work) page on this site and its subpages are built from data that I've assembled about talks I've given, articles I've written, code I've committed and more. The data lives in [Hugo data templates](https://gohugo.io/templates/data-templates/) and is formatted in [TOML](https://github.com/toml-lang/toml). Here's an example from [data/work/stats.toml](https://github.com/dzello/dzello-dot-com/data/work/stats.toml):
 
 ```toml
 [[ github ]]
