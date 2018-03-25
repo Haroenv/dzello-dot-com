@@ -3,32 +3,30 @@ backend:
   name: github
   repo: dzello/dzello-dot-com
 
-media_folder: "static/images"
-public_folder: "images"
-publish_mode: "editorial_workflow"
+media_folder: static/images
+public_folder: images
+publish_mode: editorial_workflow
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
+  - name: blog
+    label: Blog
+    folder: content/blog
     create: true
-    format: "toml-frontmatter"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", required: false}
-      - {label: "Categories", name: categories, widget: list}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
-    format: "toml-frontmatter"
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Draft, name: draft, widget: boolean, required: false}
+      - {label: Categories, name: categories, widget: list}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: Body, name: body, widget: markdown}
+  - name: pages
+    label: Pages
     files:
-      - file: "content/_index.md"
-        label: "Home Page"
-        name: "home"
+      - file: content/_index.md
+        label: Home Page
+        name: home
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Introduction", name: "introduction", widget: "string"}
-          - {label: "Introduction Photo", name: "introductionPhoto", widget: "image"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Title, name: title, widget: string}
+          - {label: Introduction, name: introduction, widget: string}
+          - {label: Introduction Photo, name: introductionPhoto, widget: image}
+          - {label: Body, name: body, widget: markdown}
