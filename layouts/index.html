@@ -1,7 +1,7 @@
 {{ define "main" }}
 
   <div class="home-intro clearfix">
-    <img class="home-intro-image" src='{{ .Page.introductionPhoto }}'>
+    <img class="home-intro-image" src='{{ .Params.introductionPhoto }}'>
     <p class="home-intro-text">
       {{ .Params.introduction | markdownify }}
     </p>
