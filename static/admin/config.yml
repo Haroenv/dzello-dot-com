@@ -14,6 +14,18 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", required: false}
+      - {label: "Categories", name: categories, widget: list}
+      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Introduction", name: "introduction", widget: "string"}
+          - {label: "Introduction Photo", name: "introductionPhoto", widget: "image"}
+          - {label: "Body", name: "body", widget: "markdown"}

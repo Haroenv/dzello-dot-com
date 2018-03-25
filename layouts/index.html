@@ -1,9 +1,9 @@
 {{ define "main" }}
 
   <div class="home-intro clearfix">
-    <img class="home-intro-image" src='{{ .Site.Params.ogImage }}'>
+    <img class="home-intro-image" src='{{ .Page.introductionPhoto }}'>
     <p class="home-intro-text">
-      {{ readFile "/content/home/introduction.md" | markdownify }}
+      {{ .Params.introduction | markdownify }}
     </p>
   </div>
   <div class="hr"></div>
