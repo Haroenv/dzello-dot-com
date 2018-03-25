@@ -3,8 +3,9 @@ backend:
   name: github
   repo: dzello/dzello-dot-com
 
-media_folder: "static/images" # Folder where user uploaded files should go
+media_folder: "static/images"
 public_folder: "images"
+publish_mode: "editorial_workflow"
 
 collections:
   - name: "blog"
