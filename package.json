@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "hugo": "gulp hugo",
-    "hugo": "gulp hugo-preview",
+    "hugo-preview": "gulp hugo-preview",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
     "start": "HUGO_PREVIEW=1 gulp server",
@@ -15,7 +15,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "algoliasearch": "^3.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
     "babel-loader": "^7.0.0",
