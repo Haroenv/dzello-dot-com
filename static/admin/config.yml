@@ -18,6 +18,32 @@ collections:
       - {label: Categories, name: categories, widget: list}
       - {label: Image, name: image, widget: image, required: false}
       - {label: Body, name: body, widget: markdown}
+  - name: work
+    label: Work
+    folder: content/work
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Body, name: body, widget: markdown}
+  - name: thailand
+    label: Thailand
+    folder: content/thailand
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Draft, name: draft, widget: boolean, required: false}
+      - {label: Categories, name: categories, widget: list}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: Body, name: body, widget: markdown}
+  - name: data
+    label: Data
+    folder: data/work
+    extension: toml
+    format: toml-frontmatter
+    create: true
+    fields:
+      - {label: text, name: body, widget: text}
   - name: pages
     label: Pages
     files:
@@ -28,4 +54,16 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Introduction, name: introduction, widget: string}
           - {label: Introduction Photo, name: introductionPhoto, widget: image}
+          - {label: Body, name: body, widget: markdown}
+      - file: content/about/_index.md
+        label: About
+        name: about
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: content/consulting/_index.md
+        label: Consulting
+        name: consulting
+        fields:
+          - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
