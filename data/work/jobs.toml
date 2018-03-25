@@ -3,7 +3,7 @@ title = "Developer Relations Consultant"
 company = "dzello.com"
 company_url = "https://dzello.com/consulting/"
 date = "2018 - present"
-logo = "/images/dzello-logo.png"
+logo = "/images/experience/dzello-logo.png"
 description = '''
 Serving clients who want to increase adoption of their developer platform, API or service in unique and authentic ways. I help define and implement open source, community and cringe-free marketing strategies that inspire developers to stop surfing Reddit and start writing code.
 '''
@@ -13,7 +13,7 @@ title = "Developer Relations Lead"
 company = "Algolia"
 company_url = "https://algolia.com/"
 date = "2017 - 2018"
-logo = "/images/algolia-logo-light.png"
+logo = "/images/experience/algolia-logo-light.png"
 description = '''
 Built and managed a team of 5 developer advocates across the US and Europe, reporting to the VP Engineering. Managed a budget that included events, swag, marketing and community engagement. Guided key investments and partnerships. Worked closely with marketing, sales, customer success, solutions engineering, product and the executive team.
 '''
@@ -23,7 +23,7 @@ title = "Developer Advocate"
 company = "Algolia"
 company_url = "https://algolia.com/"
 date = "2016 - 2017"
-logo = "/images/algolia-logo-light.png"
+logo = "/images/experience/algolia-logo-light.png"
 description = '''
 Created blog posts, talks and projects as Algolia's first developer advocate. Started Algolia's online community forum and grew it to over 1,000 users in the first year. Created Algolia's Search Party meetup series and spoke at conferences in the US and Europe.
 '''
@@ -33,7 +33,7 @@ title = "VP Engineering"
 company = "Keen IO"
 company_url = "https://keen.io/"
 date = "2013 - 2015"
-logo = "/images/keen-io-logo.png"
+logo = "/images/experience/keen-io-logo.png"
 description = '''
 Designed and implemented the core technology that powers Keen IO's analytics-as-a-service API, based on Cassandra, Kafka, Storm and Zookeeper. Helped the company grow from 6 to over 45 people, raise $23m in funding and sign up thousands of customers.
 '''
@@ -43,7 +43,7 @@ title = "Principal Engineer"
 company = "Disney Interactive"
 company_url = "https://en.wikipedia.org/wiki/Disney_Interactive"
 date = "2011 - 2012"
-logo = "/images/disney-logo.png"
+logo = "/images/experience/disney-logo.png"
 description = '''
 Helped design an Oauth-style authentication system for disney.com. Worked on internal analytics APIs and spoke at Disney's first HTML5 Summit.
 '''
@@ -53,7 +53,7 @@ title = "Founding Engineer"
 company = "Togetherville"
 company_url = "https://en.wikipedia.org/wiki/Togetherville"
 date = "2009 - 2011"
-logo = "/images/togetherville-logo.png"
+logo = "/images/experience/togetherville-logo.png"
 description = '''
 Lead engineer for Togetherville, a safe social network for kids acquired by the Walt Disney Company in 2011. Built the site in Ruby and Rails and JavaScript and helped scale the product to over a hundred thousand users.
 '''
@@ -63,7 +63,7 @@ title = "Client"
 company = "Pivotal Labs"
 company_url = "https://pivotal.io/labs"
 date = "2009 - 2010"
-logo = "/images/pivotal-labs-logo.png"
+logo = "/images/experience/pivotal-labs-logo.png"
 description = '''
 I learned so much in my six months as a Pivotal Labs client that I have to include it here. Concepts like agile, MVP and pair programming were new to me when I arrived but practices I've carried with me through my career and have incorporated into my own consulting approach.
 '''
@@ -73,7 +73,7 @@ title = "Analyst / Consultant / Manager"
 company = "Accenture"
 company_url = "https://accenture.com/"
 date = "2004 - 2009"
-logo = "/images/accenture-logo.png"
+logo = "/images/experience/accenture-logo.png"
 description = '''
 Architected and built J2EE apps for Fortune 500 banks and insurance companies. At a time where most development was moving offshore, I was fortunate enough to be part of a special division that still did custom software development on a big scale. It was here that I first learned that I enjoyed consulting and helping people improve their processes and technology.
 '''

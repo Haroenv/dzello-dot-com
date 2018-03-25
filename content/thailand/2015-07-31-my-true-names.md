@@ -34,4 +34,4 @@ to be a caterpillar in the heart of a flower, to be a jewel hiding itself in a s
 
 — Thích Nhất Hạnh
 
-![](/images/thailand-10.jpeg)
+![](/images/thailand/thailand-10.jpeg)

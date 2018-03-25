@@ -5,7 +5,7 @@ event_url = "https://sentry.io/_/events/2018-01-17-sentry-scouts-1/"
 date = "2018-01-17"
 blog_url = "https://stackshare.io/posts/expert-tips-open-source"
 video_url = "https://vimeo.com/255440963"
-image_url = "/images/sentry-scouts-open-source-panel.png"
+image_url = "/images/talks/josh-dzielak-sentry-scouts.jpg"
 tag = "devrel"
 abstract = '''
 I joined several other developers and developer advocates to discuss how first-time contributors can get into open source and how companies benefit from being good stewards of their open source projects and developer community.
@@ -19,7 +19,7 @@ date = "2017-05-22"
 blog_url = "https://devrel.net/developer-experience/scale-community-support-apis"
 video_url = "https://www.youtube.com/watch?v=dhAWeqQc-Xk"
 slides_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis"
-image_url = "/images/josh-dzielak-devxcon.jpg"
+image_url = "/images/talks/josh-dzielak-devxcon-2017.png"
 tag = "devrel"
 abstract = '''
 The free tier of many APIs includes “community support”. What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time?"
@@ -32,7 +32,7 @@ event_url = "https://www.youtube.com/playlist?list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_
 date = "2017-10-08"
 video_url = "https://www.youtube.com/watch?v=-McGY7ZAAyw"
 slides_url = "https://speakerdeck.com/dzello/load-dynamic-serverless-content-faster-with-search"
-image_url = "/images/josh-dzielak-algolia-search-party-vault.png"
+image_url = "/images/talks/josh-dzielak-algolia-search-party-vault.png"
 abstract = '''
 Even when time-to-first-byte is fast, delays in fetching dynamic content can still make your serverless app or static site feel sluggish. In this talk, we’ll look at how Algolia’s low-latency infrastructure and ability to rank results in advance can speed this up, without the user ever typing a search query.
 '''
@@ -46,7 +46,7 @@ blog_url = "/blog/2017-06-12-scale-community-support-by-webhooking-the-things-os
 video_url = "https://vimeo.com/223525087"
 slides_url = "https://speakerdeck.com/dzello/scaling-community-by-webhooking-the-things"
 github_url = "https://github.com/algolia/discourse-webhook-collector"
-image_url = "/images/open-source-show-and-tell.jpg"
+image_url = "/images/talks/josh-dzielak-ossat-2017.jpg"
 tag = "devrel"
 abstract = '''
 Don't make your forum an island. This lightning-length presentation provides a look at the Algolia community tech stack and then two new open source projects spun out of building it.
@@ -59,7 +59,7 @@ event_url = "https://www.youtube.com/playlist?list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_
 date = "2017-01-25"
 video_url = "https://www.youtube.com/watch?v=Dj5qF0ki6BY"
 github_url = "https://github.com/algolia/instantsearch-electron"
-image_url = "/images/josh-dzielak-algolia-search-party-react-electron.png"
+image_url = "/images/talks/josh-dzielak-algolia-search-party-react-electron.png"
 abstract = '''
 Algolia Developer Advocate Josh Dzielak announces a new project that makes it easy to create an instant search experience that runs as a desktop application.
 '''
@@ -71,7 +71,7 @@ event_url = "https://serverless.london/"
 date = "2017-12-05"
 slides_url = "https://speakerdeck.com/dzello/instant-browsing-for-static-sites-with-algolia"
 site_url = "http://algolia-vs-backend.glitch.me/"
-image_url = "/images/instant-browsing-slides.png"
+image_url = "/images/talks/instant-browsing-slides.png"
 abstract = '''
 A response to a user's action must take place in less than 100ms for the experience to feel immediate and natural. When content must be fetched from a traditional backend or API in response to a user's interaction, it can be very difficult to meet that requirement."
 '''
@@ -82,7 +82,7 @@ event = "API Days Paris"
 event_url = "http://www.apidays.io/"
 date = "2016-12-13"
 slides_url = "https://speakerdeck.com/dzello/7-ways-to-search-for-a-camelcased-parameter-in-your-docs"
-image_url = "/images/api-days-camel-case-docs.png"
+image_url = "/images/talks/api-days-camel-case-docs.png"
 abstract = '''
 Technical documentation contains word patterns like camelCase that give traditional search engines a headache. See how Algolia makes camelCase parameters searchable by 7 different types of queries.
 '''
@@ -93,7 +93,7 @@ event = "Hackference"
 event_url = "https://2016.hackference.co.uk/"
 date = "2016-10-21"
 slides_url = "https://speakerdeck.com/dzello/voice-trends-and-search"
-image_url = "/images/hackference-voice-search-slides.png"
+image_url = "/images/talks/hackference-voice-search-slides.png"
 abstract = '''
 A talk about the state of voice and how voice interfaces will impact search engines.
 '''
@@ -105,7 +105,7 @@ event_url = "https://www.youtube.com/playlist?list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_
 date = "2016-08-10"
 slides_url = "https://speakerdeck.com/dzello/10-community-projects-in-15-minutes"
 tag = "devrel"
-image_url = "/images/10-community-projects-slides.png"
+image_url = "/images/talks/10-community-projects-slides.png"
 abstract = '''
 A tour of 10 Algolia community projects including instantsearch.js, Places, DocSearch, Wordpress and Magento plugins, and more.
 '''
@@ -116,9 +116,9 @@ date = "2016-06-23"
 event = "Cultureindustry Conference"
 event_url = "http://www.larca.univ-paris-diderot.fr/archives/w3.univ-paris-diderot.fr/EtudesAnglophones/pga1e7.html?bc=CHVR&page=fiche_colloque&g=sm&numevent=227"
 slides_url = "https://dzello.github.io/evolving-work/#/"
-image_url = "/images/cultureindustry-logo.png"
+image_url = "/images/talks/cultureindustry-logo-2016.png"
 abstract = '''
-Given to a mixed audience of academics and industrialists at the Université Paris Diderot. I spoke about how creative organizations build products in the image of their own culture, and about *gossip* as the most reliable source of information in both human and computer networks.
+Given to an audience of academics and industrialists at the Université Paris Diderot. I spoke about how creative organizations build products in the image of their own culture, and about *gossip* as the most reliable source of information in both human and computer networks.
 '''
 
 [[ talk ]]
@@ -128,7 +128,7 @@ event = "St. Jean de Passy, Paris"
 event_url = "http://www.saintjeandepassy.fr/"
 blog_url = "/blog/2015-11-27-evolving-work-paris/"
 slides_url = "https://dzello.github.io/evolving-work/#/"
-image_url = "/images/st-jean-de-passy.jpg"
+image_url = "/images/talks/josh-dzielak-st-jean-de-passy-2015.jpg"
 abstract = '''
 Given to college-level business students, this was a talk about how the most progressive organizations in Silicon Valley treat individuals as whole people, not just cogs in a machine. It includes a brief introduction to one of my favorite books on the subject, [Reinventing Organizations](http://www.reinventingorganizations.com/).
 '''
@@ -139,7 +139,7 @@ event = "Heavybit"
 event_url = "https://heavybit.com/"
 date = "2014-07-23"
 slides_url = "https://speakerdeck.com/dzello/store-json-in-cassandra-the-hard-way"
-image_url = "/images/store-json-in-cassandra-slides.png"
+image_url = "/images/talks/josh-dzielak-cassandra-heavybit.jpeg"
 abstract = '''
 Keen IO stores events in the same format that our customers send them in—JSON. Yet, Keen uses Cassandra, a distributed database without any JSON primitives, and Keen gives customers the ability to query over arbitrary (even nested) JSON dimensions. How can this be???
 '''
@@ -151,7 +151,7 @@ event = "IBM Pulse (dev@Pulse)"
 event_url = "https://www.ibm.com/developerworks/events/devpulse.html"
 blog_url = "https://keen.io/blog/77850411340/presenting-the-new-analytics-at-ibm-pulse"
 slides_url = "https://speakerdeck.com/dzello/the-new-analytics-in-the-cloud-behind-the-api"
-image_url = "/images/new-analytics-dev-at-pulse.png"
+image_url = "/images/talks/new-analytics-dev-at-pulse.png"
 abstract = '''
 Keen IO tells their journey of creating APIs to enable custom analytics for web, mobile, and Internet of things companies around the world. They'll share their vision that APIs are enabling a powerful new class of connected applications and discuss how they've benefitted from hosting analytics in the cloud."
 '''
@@ -162,7 +162,7 @@ date = "2013-11-04"
 event = "Defrag"
 event_url = "http://gluecon.com/"
 slides_url = "https://speakerdeck.com/dzello/one-billion-per-second-the-rise-of-designer-data-architectures"
-image_url = "/images/designer-data-architectures.png"
+image_url = "/images/talks/designer-data-architectures.png"
 abstract = '''
 Getting answers to today’s questions often involves querying billions of records. New systems are being designed to process billion-record data sets in minutes. Or seconds. With a few tricks, you can build or adapt these systems to your needs.
 '''
@@ -173,7 +173,7 @@ event = "SF Rails"
 event_url = "https://www.meetup.com/SFRails/messages/59941062/"
 date = "2013-10-18"
 slides_url = "https://speakerdeck.com/dzello/how-keen-io-uses-storm"
-image_url = "/images/how-keen-io-uses-storm.png"
+image_url = "/images/talks/how-keen-io-uses-storm.png"
 abstract = '''
 This presentation discusses Storm, the distributed computation system, and how it’s used at Keen IO. Redstorm, which makes it possible to build Storm topologies in Ruby, is also discussed.
 '''
@@ -184,7 +184,7 @@ date = "2013-08-06"
 event = "Pivotal Labs"
 event_url = "https://pivotal.io/labs"
 slides_url = "https://speakerdeck.com/dzello/distributed-systems-are-everywhere-where-the-full-stack-is-headed"
-image_url = "/images/distributed-systems-slides.png"
+image_url = "/images/talks/distributed-systems-slides.png"
 abstract = '''
 The definition of a “full stack developer” is expanding to include a knowledge of distributed systems.
 '''
@@ -195,7 +195,7 @@ date = "2011-10-31"
 event = "Disney Interactive HTML5 Summit"
 event_url = "https://dcpi.disney.com/"
 slides_url = "http://shims-and-shivs.herokuapp.com/"
-image_url = "/images/disney-html5-summit-logo.png"
+image_url = "/images/talks/disney-html5-summit-logo.png"
 abstract = '''
 A Halloween-flavored introduction to using HTML polyfills.
 '''

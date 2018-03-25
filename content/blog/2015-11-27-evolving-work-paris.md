@@ -2,6 +2,7 @@
 categories = ["Culture"]
 date = "2015-11-27T00:00:00Z"
 title = "Evolving Work—Paris"
+image = "/images/talks/josh-dzielak-st-jean-de-passy-2015.jpg"
 
 +++
 
@@ -9,7 +10,7 @@ title = "Evolving Work—Paris"
 
 Recently I was asked to give a talk about startups to the prépa classes of [St. Jean de Passy](http://www.saintjeandepassy.fr/) in Paris, France. These are top French students on the business school track. They're super sharp and it was a privilege to spend time with them.
 
-![Giving the presentation](/images/st-jean-de-passy.jpg)
+![Giving the presentation](/images/talks/josh-dzielak-st-jean-de-passy-2015.jpg)
 <span class="caption">startup dress code ftw</span>
 
 I chose to talk about how startup teams are structured and why thoughtful organization design is becoming a big competitive advantage. I wanted the students to think about questions like: *How can companies grow large without succumbing to bureaucracy?* and *What makes work fun?*

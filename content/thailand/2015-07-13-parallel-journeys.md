@@ -10,7 +10,7 @@ The pool’s peaceful weekday emptiness is less disturbed by the two chain-smoki
 
 It’s otherwise idyllic on the 10th floor of the Aloft Hotel Sukhamvit Soi 11 Bangkok. The water warm, the view captive. “Music” aside the environmental intrusions are benign, enough to make me wonder why I thought to mention them anyway. Old habit, I guess.
 
-![](/images/thailand-1.png)*Time for a quick cool-down in the pool.*
+![](/images/thailand/thailand-1.png)*Time for a quick cool-down in the pool.*
 
 It’s 98° at 46% humidity. In Celsius that’s 35°, also at 46% humidity. The percentage humidity is the same either way. Isn’t that neat?
 
@@ -34,7 +34,7 @@ These are the questions I feel invited to ponder by my surroundings, by the trav
 
 —
 
-![](/images/thailand-3.jpeg)
+![](/images/thailand/thailand-3.jpeg)
 
 Ok, pool time is over. Skip and I have to figure out where we’re staying tonight.
 
