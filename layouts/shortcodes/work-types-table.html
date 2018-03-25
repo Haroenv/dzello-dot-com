@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr class="headers">
+      <th>Work type</th>
+      <th>Location</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $.Page.Site.Data.workTypes.workType }}
+    <tr>
+      <td>{{ .title }}</td>
+      <td><a href="{{ $.Site.BaseURL }}{{ .path }}">{{ $.Site.BaseURL }}{{ .path }}</a></td>
+      <td>✅</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>

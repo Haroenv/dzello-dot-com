@@ -257,6 +257,16 @@ ul.work-type-values {
   padding: 0;
 }
 
-ul.latest-posts img {
+table {
+  border: 0;
+}
 
+table > thead > tr > th {
+  text-align: left;
+  padding: 5px;
+}
+
+table > thead > tr > th,
+table > tbody > tr > td {
+  padding: 3px;
 }
