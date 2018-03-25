@@ -1,6 +1,6 @@
 +++
 categories = ["Technology"]
-date = "2018-03-21T00:00:00+02:00"
+date = "2018-03-30"
 draft = true
 title = "Migrating from Jekyll to Hugo to create a data-driven static site"
 +++
