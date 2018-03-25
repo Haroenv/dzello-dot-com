@@ -2,10 +2,8 @@ backend:
   branch: master
   name: github
   repo: dzello/dzello-dot-com
-
 media_folder: static/images
 public_folder: images
-
 collections:
   - name: blog
     label: Blog
@@ -13,11 +11,11 @@ collections:
     create: true
     fields:
       - {label: Title, name: title, widget: string}
+      - {label: Body, name: body, widget: markdown}
       - {label: Date, name: date, widget: datetime}
       - {label: Draft, name: draft, widget: boolean, required: false}
       - {label: Categories, name: categories, widget: list}
       - {label: Image, name: image, widget: image, required: false}
-      - {label: Body, name: body, widget: markdown}
   - name: work
     label: Work
     folder: content/work
@@ -31,11 +29,11 @@ collections:
     create: true
     fields:
       - {label: Title, name: title, widget: string}
+      - {label: Body, name: body, widget: markdown}
       - {label: Date, name: date, widget: datetime}
       - {label: Draft, name: draft, widget: boolean, required: false}
       - {label: Categories, name: categories, widget: list}
       - {label: Image, name: image, widget: image, required: false}
-      - {label: Body, name: body, widget: markdown}
   - name: data
     label: Data
     folder: data/work
@@ -52,9 +50,9 @@ collections:
         name: home
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
           - {label: Introduction, name: introduction, widget: string}
           - {label: Introduction Photo, name: introductionPhoto, widget: image}
-          - {label: Body, name: body, widget: markdown}
       - file: content/about/_index.md
         label: About
         name: about
