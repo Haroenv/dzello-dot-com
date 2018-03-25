@@ -4,8 +4,7 @@ languageCode = "en-us"
 copyright = "Copyright &copy; 2018 - Josh Dzielak"
 canonifyurls = true
 theme = "kiera"
-
-paginate = 10
+paginate = 6
 summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
@@ -31,17 +30,11 @@ googleAnalytics = "UA-24132749-1"
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
-section = ["HTML", "RSS", "Api"]
-page = ["HTML", "Api"]
+section = ["HTML", "RSS", "JSON"]
+page = ["HTML", "JSON"]
 
 [outputFormats.Algolia]
 baseName = "algolia"
-mediaType = "application/json"
-isPlainText = true
-notAlternative = true
-
-[outputFormats.Api]
-baseName = "api"
 mediaType = "application/json"
 isPlainText = true
 notAlternative = true
