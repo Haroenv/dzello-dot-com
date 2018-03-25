@@ -4,6 +4,6 @@ dataList = "jobs"
 
 +++
 
-{{< work-type-list class="work-type-list work-type-experience" >}}
+{{< section-list-data class="section-list-data work-type-experience" >}}
 
 {{< centered-link "see more on LinkedIn..." "https://www.linkedin.com/in/dzello/" >}}

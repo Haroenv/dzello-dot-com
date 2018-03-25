@@ -4,4 +4,4 @@ dataList = "podcasts"
 
 +++
 
-{{< work-type-list >}}
+{{< section-list-data >}}

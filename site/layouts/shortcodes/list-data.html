@@ -1,14 +1,15 @@
 {{ $list := or (.Get "list") $.Page.Params.dataList }}
+
+{{ $class := or (.Get "class") "section-list-data" }}
 {{ $tag := .Get "tag" }}
-{{ $class := or (.Get "class") "work-type-list" }}
-{{ .Page.Site.Params.dateFormatLayout }}
-{{ with index $.Site.Data.work $list }}
+
+{{ with index $.Site.Data $list }}
   <ul class="{{ $class }}">
   {{ range $key, $element := . }}
     {{ range $element }}
       {{ if ne .hidden true }}
         {{ if or (not $tag) (eq $tag .tag)}}
-          {{ partial (printf "work/%s.html" $key) . $ }}
+          {{ partial (printf "%s.html" $key) . $ }}
         {{ end }}
       {{ end }}
     {{ end }}

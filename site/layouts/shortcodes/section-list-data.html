@@ -1,0 +1,21 @@
+{{ $section := or (.Get "section") $.Page.Type }}
+{{ $list := or (.Get "list") $.Page.Params.dataList }}
+
+{{ $class := or (.Get "class") "section-list-data" }}
+{{ $tag := .Get "tag" }}
+
+{{ with index $.Site.Data $section }}
+  {{ with index . $list }}
+    <ul class="{{ $class }}">
+    {{ range $key, $element := . }}
+      {{ range $element }}
+        {{ if ne .hidden true }}
+          {{ if or (not $tag) (eq $tag .tag)}}
+            {{ partial (printf "%s/%s.html" $section $key) . $ }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}

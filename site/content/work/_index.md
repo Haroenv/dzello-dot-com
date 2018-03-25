@@ -4,8 +4,8 @@ menu_title = "Work"
 meta = "false"
 title = "Work and experience"
 weight = "30"
-dataList = "work-types"
+dataList = "workTypes"
 
 +++
 
-{{< work-types >}}
+{{< list-data >}}

@@ -133,7 +133,7 @@ People will say anything on twitter:
 See what I mean? It's crazy!
 ```
 
-I ended up using shortcodes to render the data I store in the TOML files. I have a shortcode called `work-type-list.html` that is passed a path to the `$.Site.Data` map and a few other optional parameters for tag-matching and styling. Using the data at that location, the shortcode renders a list of all of the elements, with one bit of cleverness - it can use a different partial for rendering for each type of element it encounters in the data file.
+I ended up using shortcodes to render the data I store in the TOML files. I have a shortcode called `section-list-data.html` that is passed a path to the `$.Site.Data` map and a few other optional parameters for tag-matching and styling. Using the data at that location, the shortcode renders a list of all of the elements, with one bit of cleverness - it can use a different partial for rendering for each type of element it encounters in the data file.
 
 Here's an example that shows how this system renders the HTML bit for a conference talk, all the way from the data to the presentation.
 
@@ -160,7 +160,7 @@ Here's the Markdown content page where this data is used, found in [content/work
 +++
 title = "Talks and presentations"
 +++
-{\{< work-type-list list="talks" >}}
+{\{< section-list-data list="talks" >}}
 ```
 
 That's all the _content_ required to generate [dzello.com/work/talks](https://dzello.com/work/talks). All of the heavy lifting is offloaded to the shortcode, which is just formatting data from the TOML file.
@@ -176,7 +176,7 @@ tag = "devrel"
 Now, using a previous shortcode with a modification I made to filter by tags, I can grab just the DevRel-related content from each file:
 
 ```markdown
-{\{< work-type-list list="talks" tag="devrel" >}}
+{\{< section-list-data list="talks" tag="devrel" >}}
 ```
 
 ## What should you watch out for?

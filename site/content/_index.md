@@ -7,6 +7,6 @@ weight = 1
 
 +++
 
-{{< work-types tag="homepage" >}}
+{{< list-data list="workTypes" tag="homepage" >}}
 
 {{< centered-link "see all work..." "/work" >}}

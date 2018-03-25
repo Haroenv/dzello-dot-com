@@ -4,4 +4,4 @@ dataList = "activities"
 
 +++
 
-{{< work-type-list >}}
+{{< section-list-data >}}
