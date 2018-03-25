@@ -53,15 +53,21 @@ collections:
           - {label: Body, name: body, widget: markdown}
           - {label: Introduction, name: introduction, widget: string}
           - {label: Introduction Photo, name: introductionPhoto, widget: image}
-      - file: content/about/_index.md
+      - file: content/about.md
         label: About
         name: about
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-      - file: content/consulting/_index.md
+      - file: content/consulting.md
         label: Consulting
         name: consulting
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: content/api.md
+        label: API
+        name: api
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
