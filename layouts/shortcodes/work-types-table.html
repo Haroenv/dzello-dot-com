@@ -10,7 +10,7 @@
     {{ range $.Page.Site.Data.workTypes.workType }}
     <tr>
       <td>{{ .title }}</td>
-      <td><a href="{{ $.Site.BaseURL }}{{ .path }}">{{ $.Site.BaseURL }}{{ .path }}</a></td>
+      <td><a href="{{ $.Site.BaseURL }}{{ .path }}/index.json">{{ $.Site.BaseURL }}{{ .path }}/index.json</a></td>
       <td>✅</td>
     </tr>
     {{ end }}
