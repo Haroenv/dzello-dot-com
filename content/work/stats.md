@@ -1,6 +1,6 @@
 +++
 title = "Github stats †"
-dataList = "github"
+dataList = "stats"
 
 +++
 

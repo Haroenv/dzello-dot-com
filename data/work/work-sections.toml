@@ -1,6 +1,6 @@
 [[ work-section ]]
 title = "Work experience"
-url = "/work/experience"
+url = "/work/jobs"
 icon = "keyboard-o"
 tag = "homepage"
 
@@ -18,12 +18,12 @@ tag = "homepage"
 
 [[ work-section ]]
 title = "Media and press mentions"
-url = "/work/media"
+url = "/work/mentions"
 icon = "tv"
 
 [[ work-section ]]
 title = "Open source projects"
-url = "/work/open-source"
+url = "/work/projects"
 icon = "code"
 tag = "homepage"
 
