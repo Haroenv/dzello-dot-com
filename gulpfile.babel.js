@@ -76,9 +76,15 @@ gulp.task("server", ["hugo", "css", "js", "fonts"], () => {
  */
 function buildSite(cb, options, environment = "development") {
   var args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
-  if (process.env.DEPLOY_PRIME_URL) {
+
+  // for netlify deployment
+  if (process.env.BRANCH === "master") {
+    args.push(...["--baseURL", process.env.URL]);
+  } else if (process.env.DEPLOY_PRIME_URL) {
     args.push(...["--baseURL", process.env.DEPLOY_PRIME_URL]);
   }
+
+  // for viewing previews with the default development task
   if (process.env.HUGO_PREVIEW) {
     args.push(...hugoArgsPreview);
   }
