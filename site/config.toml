@@ -10,6 +10,9 @@ summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
 
+[blackfriday]
+smartypants = false
+
 [author]
 name = "Josh Dzielak"
 email = "jdzielak@gmail.com"
@@ -41,5 +44,5 @@ isPlainText = true
 notAlternative = true
 
 [params.algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink", "content"]
-params = ["categories"]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink", "content", "section", "path", "kind", "readingtime", "type", "weight", "url", "wordcount"]
+params = ["image", "categories", "draft"]

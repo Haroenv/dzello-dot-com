@@ -1,11 +1,12 @@
 @import "imports/normalize.css";
 @import "imports/google-fonts.css";
-@import "imports/kiera.css";
 @import "imports/instantsearch.css";
 @import "imports/instantsearch-theme-algolia.css";
+@import "imports/kiera.css";
+@import "imports/search.css";
 
 body,
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6, input,
 #container nav {
   font-weight: normal;
   font-family: "Open Sans", sans-serif;
