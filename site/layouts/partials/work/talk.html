@@ -1,4 +1,4 @@
-{{ $link_url := or .blog_url .video_url .slides_url .site_url }}
+{{ $link_url := or .event_url .blog_url .video_url .slides_url .site_url }}
 <li class="talk">
   {{ if isset . "image_url" }}
     <a href="{{ $link_url }}"><img src="{{ .image_url }}"></a>
