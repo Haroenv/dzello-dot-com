@@ -40,7 +40,8 @@ search.addWidget(
     container: '#algolia-search',
     magnifier: false,
     reset: false,
-    wrapInput: false
+    wrapInput: false,
+    autofocus: false
   })
 );
 
