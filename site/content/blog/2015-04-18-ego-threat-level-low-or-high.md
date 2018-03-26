@@ -4,11 +4,11 @@ date = "2015-04-18"
 title = "Ego Threat Level — Low or High?"
 
 +++
-_“The essence of self-esteem is comparison.” — Dr. Heidi Grant Halvorson_
+_"The essence of self-esteem is comparison." — Dr. Heidi Grant Halvorson_
 
 Comparison. Our brain does it all day long, usually without us knowing. We compare ourselves to friends, co-workers, spouses, the people ahead of us in line, the driver in the carpool lane, celebrities, and all the other humans we know about. The product of these comparisons is our self-esteem.
 
-> “Generally, \[self-esteem] comes from a nearly continuous stream of conscious and unconscious comparisons — how am I doing compared with other people?”
+> "Generally, \[self-esteem] comes from a nearly continuous stream of conscious and unconscious comparisons — how am I doing compared with other people?"
 
 This process is described in detail in Halvorson’s new book [No One Understands You and What to Do About It](http://www.amazon.com/One-Understands-You-What-About/dp/1625274122). The whole book is incredibly insightful, especially _Chapter 6: The Ego Lens_. There’s one thing in Chapter 6 that I found particularly interesting. It begins with this observation:
 
@@ -30,4 +30,4 @@ The _Closeness_ and _Relevance_ of the individuals we compare ourselves to predi
 
 Combine high relevance and high closeness (upper right) and the ego threat zone rises accordingly. Anecdotally this makes sense. Can you imagine facing your very own sister in a grand slam final? If you lose, how long will that next family dinner seem?
 
-> “When you are content to be simply yourself and don’t compare or compete, everyone will respect you.” — Lao Tzu
+> "When you are content to be simply yourself and don’t compare or compete, everyone will respect you." — Lao Tzu

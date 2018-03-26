@@ -16,4 +16,4 @@ The way Skip designed the trip (he gets all the credit for this) is an appealing
 
 For the first two weeks we’re to travel, experiencing and soaking up all the culture, people and food we can. The next six weeks are different. They’ll be spent in just one setting, a remote village outside of Khon Kaen affiliated with a Buddhist monastery. We’re volunteering for the [Mindfulness Project](http://www.mindfulness-project.org), a community eco-project that promotes permaculture and mindful living. It’s this leg’s rhythm I’m most excited about, faithful to nature and ancient wisdom, and I’ll have six full weeks to synchronize with it, internalize it, and just be with it.
 
-A friend of mine, aware of my restless tendencies, gave me some wisdom to take on this trip: *“Remember we are human *beings*, not human *doings*. You don’t always have to do. It’s ok to just be.”*
+A friend of mine, aware of my restless tendencies, gave me some wisdom to take on this trip: *"Remember we are human *beings*, not human *doings*. You don’t always have to do. It’s ok to just be."*

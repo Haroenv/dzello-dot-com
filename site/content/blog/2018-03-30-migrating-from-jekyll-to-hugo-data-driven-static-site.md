@@ -150,7 +150,7 @@ video_url = "https://www.youtube.com/watch?v=dhAWeqQc-Xk"
 slides_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis"
 tag = "devrel"
 abstract = '''
-The free tier of many APIs includes “community support”. What does that mean exactly? How involved dojs the company need to be for community support to be effective, and how should that evolve over time?"
+The free tier of many APIs includes "community support". What does that mean exactly? How involved dojs the company need to be for community support to be effective, and how should that evolve over time?"
 '''
 ```
 

@@ -8,7 +8,7 @@ I rolled out of bed at 2, brushed my teeth, and took the hotel elevator down to 
 
 The pool’s peaceful weekday emptiness is less disturbed by the two chain-smoking middle-aged Americans than by the music — TLC and Bruce Springsteen and everything in between — squeaking treble-only out of tinny waterproof speakers. Put another speaker here, they said. A speaker by every chair, they said.
 
-It’s otherwise idyllic on the 10th floor of the Aloft Hotel Sukhamvit Soi 11 Bangkok. The water warm, the view captive. “Music” aside the environmental intrusions are benign, enough to make me wonder why I thought to mention them anyway. Old habit, I guess.
+It’s otherwise idyllic on the 10th floor of the Aloft Hotel Sukhamvit Soi 11 Bangkok. The water warm, the view captive. "Music" aside the environmental intrusions are benign, enough to make me wonder why I thought to mention them anyway. Old habit, I guess.
 
 ![](/images/thailand/thailand-1.png)*Time for a quick cool-down in the pool.*
 

@@ -22,7 +22,7 @@ slides_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-sca
 image_url = "/images/talks/josh-dzielak-devxcon-2017.png"
 tag = "devrel"
 abstract = '''
-The free tier of many APIs includes “community support”. What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time?"
+The free tier of many APIs includes "community support". What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time?"
 '''
 
 [[ talk ]]
@@ -185,7 +185,7 @@ event_url = "https://pivotal.io/labs"
 slides_url = "https://speakerdeck.com/dzello/distributed-systems-are-everywhere-where-the-full-stack-is-headed"
 image_url = "/images/talks/distributed-systems-slides.png"
 abstract = '''
-The definition of a “full stack developer” is expanding to include a knowledge of distributed systems.
+The definition of a "full stack developer" is expanding to include a knowledge of distributed systems.
 '''
 
 [[ talk ]]
