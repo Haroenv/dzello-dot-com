@@ -30,5 +30,7 @@
     ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
     ;e.amplitude=n})(window,document);
     amplitude.getInstance().init("0a60eeb1230ebc7205c3760a305ee807");
-    amplitude.getInstance().logEvent('PAGEVIEW');
+    amplitude.getInstance().logEvent('PAGEVIEW', {
+      location: JSON.stringify(document.location)
+    });
 </script>
