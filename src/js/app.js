@@ -6,7 +6,7 @@ const search = instantsearch({
   indexName: "hugo-content",
   searchParameters: {
     hitsPerPage: 4,
-    filters: "type:blog AND kind:page AND draft:false"
+    filters: "kind:page AND draft:false"
   },
   searchFunction: function(helper) {
     if (helper.state.query) {
