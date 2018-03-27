@@ -85,10 +85,9 @@ gulp.task("algolia", [], (cb) => {
   const adminApiKey = process.env.ALGOLIA_ADMIN_KEY;
   const indexName = `${process.env.ALGOLIA_INDEX_BASE_NAME}-${process.env.COMMIT_REF}`;
   const indexFile = process.env.ALGOLIA_INDEX_FILE;
-  Promise.all([
-    algolia.pushData(indexName, indexFile),
-    algolia.setSettings(appId, adminApiKey, indexName)
-  ]).then((results) => {
+  algolia.pushData(indexName, indexFile).then(() => {
+    return algolia.setSettings(appId, adminApiKey, indexName);
+  }).then((results) => {
     console.log("Algolia: data and settings have been sync'd");
     cb();
   }).catch((e) => {
