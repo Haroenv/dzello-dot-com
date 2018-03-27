@@ -22,6 +22,8 @@ export default {
       attributesToSnippet: ['content: 20'],
       snippetEllipsisText: "…",
       attributesForFaceting: ['type', 'kind', 'section', 'draft']
+    }).then((content) => {
+      return index.waitTask(content.taskID);
     });
   }
 }

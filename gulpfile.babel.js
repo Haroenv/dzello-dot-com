@@ -15,7 +15,6 @@ import dotenv from 'dotenv';
 import algolia from "./scripts/algolia";
 
 dotenv.load();
-
 const browserSync = BrowserSync.create();
 
 // Hugo arguments
@@ -85,8 +84,8 @@ gulp.task("algolia", [], (cb) => {
   const adminApiKey = process.env.ALGOLIA_ADMIN_KEY;
   const indexName = `${process.env.ALGOLIA_INDEX_BASE_NAME}-${process.env.COMMIT_REF}`;
   const indexFile = process.env.ALGOLIA_INDEX_FILE;
-  algolia.pushData(indexName, indexFile).then(() => {
-    return algolia.setSettings(appId, adminApiKey, indexName);
+  algolia.setSettings(appId, adminApiKey, indexName).then((result) => {
+    return algolia.pushData(indexName, indexFile);
   }).then((results) => {
     console.log("Algolia: data and settings have been sync'd");
     cb();
