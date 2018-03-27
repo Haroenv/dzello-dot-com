@@ -11,6 +11,11 @@ import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
 
+import dotenv from 'dotenv';
+import algolia from "./scripts/algolia";
+
+dotenv.load();
+
 const browserSync = BrowserSync.create();
 
 // Hugo arguments
@@ -24,6 +29,10 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 // Build/production tasks
 gulp.task("build", ["css", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+
+// Build/production with algolia
+gulp.task("deploy", ['build'], () => { gulp.start("algolia"); });
+gulp.task("deploy-preview", ['build-preview'], () => { gulp.start("algolia"); });
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
@@ -69,6 +78,24 @@ gulp.task("server", ["hugo", "css", "js", "fonts"], () => {
   gulp.watch("./src/css/**/*.css", ["css"]);
   gulp.watch("./src/fonts/**/*", ["fonts"]);
   gulp.watch("./site/**/*", ["hugo"]);
+});
+
+gulp.task("algolia", [], (cb) => {
+  const appId = process.env.ALGOLIA_APP_ID;
+  const adminApiKey = process.env.ALGOLIA_ADMIN_KEY;
+  const indexName = `${process.env.ALGOLIA_INDEX_BASE_NAME}-${process.env.COMMIT_REF}`;
+  const indexFile = process.env.ALGOLIA_INDEX_FILE;
+  Promise.all([
+    algolia.pushData(indexName, indexFile),
+    algolia.setSettings(appId, adminApiKey, indexName)
+  ]).then((results) => {
+    console.log("Algolia: data and settings have been sync'd");
+    cb();
+  }).catch((e) => {
+    console.error("Algolia task failed!", e)
+    console.trace(e);
+    cb(e);
+  });
 });
 
 /**

@@ -1,9 +1,9 @@
 var instantsearch = window.instantsearch;
 
 const search = instantsearch({
-  appId: "62V6D1ZEHQ",
-  apiKey: "f62beb1c69d8ad7ae73b50e8db9da227",
-  indexName: "hugo-content",
+  appId: window.algolia.appId,
+  apiKey: window.algolia.searchApiKey,
+  indexName: window.algolia.indexName,
   searchParameters: {
     hitsPerPage: 4,
     filters: "kind:page AND draft:false"

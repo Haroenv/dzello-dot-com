@@ -32,6 +32,10 @@ ogImageHeight = "506"
 githubURL = "https://github.com/dzello/dzello-dot-com"
 googleAnalytics = "UA-24132749-1"
 
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink", "content", "section", "path", "kind", "readingtime", "type", "weight", "url", "wordcount"]
+params = ["image", "categories", "draft"]
+
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
 section = ["HTML", "RSS", "JSON"]
@@ -42,7 +46,3 @@ baseName = "algolia"
 mediaType = "application/json"
 isPlainText = true
 notAlternative = true
-
-[params.algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink", "content", "section", "path", "kind", "readingtime", "type", "weight", "url", "wordcount"]
-params = ["image", "categories", "draft"]
