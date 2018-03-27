@@ -119,13 +119,13 @@ ul.pagination li.disabled a {
   max-width: 50%;
 }
 
-#container > footer {
+#container footer {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
-#container > footer h6 {
+#container footer h6 {
   margin: 25px auto;
   text-align: center;
 }
