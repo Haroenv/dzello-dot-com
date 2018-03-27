@@ -2,7 +2,7 @@
 menu = "main"
 menu_title = "Blog"
 meta = "false"
-title = "Blog Archive"
+title = "Blog Posts"
 weight = "20"
 
 +++
