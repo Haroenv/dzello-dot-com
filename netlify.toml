@@ -1,5 +1,5 @@
 [build]
-command = "npm run build"
+command = "npm run deploy"
 publish = "dist"
 
 [context.production.environment]
@@ -8,13 +8,13 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
-command = "npm run build-preview"
+command = "npm run deploy-preview"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.36.1"
 
 [context.branch-deploy]
-command = "npm run build-preview"
+command = "npm run deploy-preview"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.36.1"
