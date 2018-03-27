@@ -25,6 +25,7 @@
   height: 30px;
   padding: 0 0 0 5px;
   width: 200px;
+  box-shadow: none;
 }
 
 #algolia-search:hover::placeholder {
