@@ -46,7 +46,7 @@
 }
 
 .ais-hits {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .ais-hits__empty p {
@@ -63,9 +63,8 @@
   margin: 0;
 }
 
-.ais-hits__empty {
+.ais-hits__empty p {
   color: red;
-  padding-top: 25px;
   font-size: 36px;
   text-align: center;
 }
@@ -82,7 +81,20 @@
   }
 }
 
-#main-inner.search-hidden {
+#main-inner.search-active {
   opacity: 0;
   transition: opacity 0.25s;
+}
+
+#algolia-attribution {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  width: 128px;
+  top: 20px;
+  right: 0;
+}
+
+#algolia-attribution.search-active {
+  display: block;
 }

@@ -11,10 +11,12 @@ const search = instantsearch({
   searchFunction: function(helper) {
     if (helper.state.query) {
       helper.search();
-      $("#main-inner").addClass("search-hidden");
+      $("#main-inner").addClass("search-active");
+      $("#algolia-attribution").addClass("search-active");
     } else {
       document.getElementById("algolia-hits").innerHTML = "";
-      $("#main-inner").removeClass("search-hidden");
+      $("#main-inner").removeClass("search-active");
+      $("#algolia-attribution").removeClass("search-active");
     }
   }
 });
@@ -31,7 +33,7 @@ search.addWidget(
         </p>
       </div>
       `,
-      footer: '<a href="https://algolia.com/"><img src="/images/search-by-algolia.png"></a>'
+      footer: '<a href="https://algolia.com/"><img src="/images/search-by-algolia.svg"></a>'
     }
   })
 );
