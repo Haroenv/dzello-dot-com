@@ -24,10 +24,9 @@ search.addWidget(
       empty: '<p>Drag, no results.</p>',
       item: `
       <div>
-        <a href="{{{ url }}}">
-          {{{_highlightResult.title.value}}}
-        </a>
-        <p>{{{_snippetResult.content.value}}}</p>
+        <p>
+          <a href="{{{ url }}}">{{{_highlightResult.title.value}}}</a> &middot; {{{_snippetResult.content.value}}}
+        </p>
       </div>
       `,
       footer: '<a href="https://algolia.com/"><img src="/images/search-by-algolia.png"></a>'
