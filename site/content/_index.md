@@ -7,6 +7,10 @@ weight = 1
 
 +++
 
+# See my work
+
 {{< list-data list="workTypes" tag="homepage" >}}
 
 {{< centered-link "see all work..." "/work" >}}
+
+# Latest blog posts
