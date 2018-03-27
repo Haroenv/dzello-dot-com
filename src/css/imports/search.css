@@ -33,7 +33,7 @@
   transition: opacity 0.525s;
 }
 
-main {
+#main-and-algolia {
   position: relative;
 }
 
@@ -42,14 +42,11 @@ main {
   box-sizing: border-box;
   width: 100%;
   top: 0;
+  z-index: 2;
 }
 
 .ais-hits {
-  background: #f5f5fa;
-  border-width: 0 1px 2px 1px;
-  border-color: #cecece;
-  border-style: solid;
-  padding: 0 20px;
+  margin-top: 20px;
 }
 
 .ais-hits__empty p {
@@ -58,17 +55,19 @@ main {
 }
 
 .ais-hits--item {
-  padding: 10px 5px 0;
+  padding: 10px 0;
+  margin: 20px 0;
 }
 
 .ais-hits--item p {
   margin: 0;
-  padding: 0 0 10px;
 }
 
 .ais-hits__empty {
-  background: yellow;
-  color: black;
+  color: red;
+  padding-top: 25px;
+  font-size: 36px;
+  text-align: center;
 }
 
 .ais-hits--item em {
@@ -81,4 +80,9 @@ main {
   #container nav ul li.search-holder {
     display: none;
   }
+}
+
+#main-inner.search-hidden {
+  opacity: 0;
+  transition: opacity 0.25s;
 }

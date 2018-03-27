@@ -5,14 +5,16 @@ const search = instantsearch({
   apiKey: window.algolia.searchApiKey,
   indexName: window.algolia.indexName,
   searchParameters: {
-    hitsPerPage: 4,
+    hitsPerPage: 5,
     filters: "kind:page AND draft:false"
   },
   searchFunction: function(helper) {
     if (helper.state.query) {
       helper.search();
+      $("#main-inner").addClass("search-hidden");
     } else {
       document.getElementById("algolia-hits").innerHTML = "";
+      $("#main-inner").removeClass("search-hidden");
     }
   }
 });
@@ -21,7 +23,7 @@ search.addWidget(
   instantsearch.widgets.hits({
     container: '#algolia-hits',
     templates: {
-      empty: '<p>Drag, no results.</p>',
+      empty: '<p>N😭 RESULTS</p>',
       item: `
       <div>
         <p>

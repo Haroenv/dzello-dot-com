@@ -1,11 +1,13 @@
-  </main>
-      <footer>
+        </main>
+        <footer>
           <h6>
             {{ .Site.Copyright | markdownify }} &middot;
             <a href="/blog/index.xml">Subscribe</a> &middot;
             <a href="{{ .Site.Params.github_url }} ">Code on Github</a>
           </h6>
-      </footer>
+        </footer>
+      </div>
+    </div>
   </div>
   <script>
     window.algolia = {
@@ -15,6 +17,7 @@
     }
   </script>
   <script defer src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
   <script defer src="/app.js"></script>
 </body>
 </html>
