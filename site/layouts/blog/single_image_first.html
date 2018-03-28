@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<article class="image-first">
+
+    <h1>{{ .Page.Title }}</h1>
+
+    <div class="blog-image-holder">
+      <img src="{{ .Page.Params.Image }}">
+    </div>
+
+    {{ if not .Params.meta }}
+        {{ partial "aside" . }}
+        <div class="clearfix"></div>
+    {{ end }}
+
+    {{.Content}}
+
+</article>
+
+{{ partial "single_footer" . }}
+
+{{ end }}

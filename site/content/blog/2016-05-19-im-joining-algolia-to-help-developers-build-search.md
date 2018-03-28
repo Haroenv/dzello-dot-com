@@ -1,6 +1,6 @@
 +++
 categories = ["Technology"]
-date = "2016-05-19T00:00:00Z"
+date = "2016-05-19"
 image = "/images/algolia-team.jpg"
 title = "I'm joining Algolia to help developers build search"
 
@@ -8,7 +8,7 @@ title = "I'm joining Algolia to help developers build search"
 
 **tl;dr:** I've joined [Algolia](https://algolia.com/about) as a developer advocate!
 
-![Josh Dzielak and Algolia](/images/algolia-team.jpg)
+{{< title-image >}}
 <span class="caption" style="text-align: center">Happy hour in the Paris office</span>
 
 Algolia helps developers build amazing search experiences *inside* of products and apps. Companies like [Medium](https://medium.com/search) and [ProductHunt](https://www.producthunt.com/search) use Algolia to deliver a super fast search-as-you-type experience. Popular developer tools like [React](https://facebook.github.io/react/), [Scala](http://docs.scala-lang.org/) and 100+ [more](https://github.com/algolia/docsearch-configs) use Algolia to make their [documentation instantly searchable](https://community.algolia.com/docsearch/), all for free as part of Algolia's community program. The search box on this blog is powered by [an Algolia-based project](https://blog.algolia.com/instant-search-blog-documentation-jekyll-plugin/) too.

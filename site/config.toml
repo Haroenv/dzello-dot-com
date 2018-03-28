@@ -3,7 +3,6 @@ title = "Josh Dzielak - Developer tools and developer relations consulting"
 languageCode = "en-us"
 languageLang = "en"
 copyright = "Copyright &copy; 2018 - Josh Dzielak"
-canonifyurls = true
 theme = "kiera"
 paginate = 6
 summaryLength = 30
