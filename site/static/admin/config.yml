@@ -2,12 +2,12 @@ backend:
   branch: master
   name: github
   repo: dzello/dzello-dot-com
-media_folder: static/images
-public_folder: images
+media_folder: site/static/images
+public_folder: site/images
 collections:
   - name: blog
     label: Blog
-    folder: content/blog
+    folder: site/content/blog
     create: true
     fields:
       - {label: Title, name: title, widget: string}
@@ -18,14 +18,14 @@ collections:
       - {label: Image, name: image, widget: image, required: false}
   - name: work
     label: Work
-    folder: content/work
+    folder: site/content/work
     create: true
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Body, name: body, widget: markdown}
   - name: thailand
     label: Thailand
-    folder: content/thailand
+    folder: site/content/thailand
     create: true
     fields:
       - {label: Title, name: title, widget: string}
@@ -36,7 +36,7 @@ collections:
       - {label: Image, name: image, widget: image, required: false}
   - name: data
     label: Data
-    folder: data/work
+    folder: site/data/work
     extension: toml
     format: toml-frontmatter
     create: true
@@ -45,7 +45,7 @@ collections:
   - name: pages
     label: Pages
     files:
-      - file: content/_index.md
+      - file: site/content/_index.md
         label: Home Page
         name: home
         fields:
@@ -53,19 +53,19 @@ collections:
           - {label: Body, name: body, widget: markdown}
           - {label: Introduction, name: introduction, widget: string}
           - {label: Introduction Photo, name: introductionPhoto, widget: image}
-      - file: content/about.md
+      - file: site/content/about.md
         label: About
         name: about
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-      - file: content/consulting.md
+      - file: site/content/consulting.md
         label: Consulting
         name: consulting
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-      - file: content/api.md
+      - file: site/content/api.md
         label: API
         name: api
         fields:
