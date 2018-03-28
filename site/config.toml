@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Josh Dzielak - Developer tools and developer relations"
+title = "Josh Dzielak - Developer tools and developer relations consulting"
 languageCode = "en-us"
 languageLang = "en"
 copyright = "Copyright &copy; 2018 - Josh Dzielak"
@@ -20,10 +20,9 @@ twitter = "dzello"
 github = "dzello"
 linkedin = "dzello"
 instagram = "josh_people"
-facebook = ""
 
 [params]
-description = "Personal site and blog with resources for people building developer tools"
+description = "Josh Dzielak, formerly of Disney, Keen IO and Algolia, shares his perspective on developer tools and developer relations"
 tagline = "Developer tools and developer relations"
 header = "Josh Dzielak - dzello.com"
 ogImage = "images/josh-dzielak-2018.png"

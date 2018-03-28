@@ -2,10 +2,13 @@
 layout = "single"
 menu = "main"
 meta = "false"
-title = "About"
+menuTitle = "About"
 weight = "10"
+title = "About me"
 
 +++
+
+# About my work
 
 I'm Josh Dzielak a.k.a *dzello*. In both cases, the "dz" is pronounced like the "j" in "jam".
 
@@ -13,19 +16,19 @@ A long-time software engineer, I enjoy building tools for developers and finding
 
 !["Josh Dzielak programming at his laptop"](/images/josh-dzielak-programming.jpeg)
 
-<hr>
+<br>
 
-I believe that developers need very specific conditions to do their best work.
+I believe that developers need specific conditions to do their best work.
 
 {{< tweet 863413810379591680 >}}
 
 <br>
 <hr>
 
-Also for fun, I travel and sometimes journal about it.
+# About my life
 
-- [Thailand & Mindfulness Project Journal - 2015](/thailand)
+I was born in Rockford, Illinois, a mid-sized industrial town halfway between Chicago and Madison on Interstate 90. I graduated from the University of Illinois at Urbana-Champaign in 2004 with a degree in Computer Science, but my love of programming had already shifted from deciphering algorithms to crafting web sites. In 2007 I moved out to San Francisco, California and joined my first startup in 2009.
 
-<br>
+Today I live in Paris with my wife Estelle. We love to cook, do yoga together and travel to San Francisco to see our friends, especially late in August. We like to accumulate experiences rather than things and we carry matching, aesthetically pleasing coffee mugs so we don't have to use disposable cups.
 
-{{< centered-link "see my talks, articles and experience..." "/work" >}}
+!["Josh and Estelle at Burning Man"](/images/josh-estelle-burning-man-2017.jpg)

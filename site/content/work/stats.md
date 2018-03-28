@@ -1,8 +1,10 @@
 +++
-title = "Github stats †"
+title = "Github stats"
 dataList = "stats"
 
 +++
+
+# Github stats <sup>†</sup>
 
 According to my [Github profile](https://dzello.com/github):
 

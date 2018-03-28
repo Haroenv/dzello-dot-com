@@ -4,4 +4,6 @@ dataList = "mentions"
 
 +++
 
+{{< title >}}
+
 {{< section-list-data >}}

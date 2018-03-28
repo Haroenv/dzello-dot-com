@@ -1,8 +1,8 @@
   <meta charset="utf-8" />
-  <title>{{ with .Page.Title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
+  <title>{{ with or .Page.Title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
   <meta name="og:title" content="{{ .Site.Title }}">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="{{ .Site.Params.description | default "The HTML5 Herald" }}" />
+  <meta name="description" content="{{ .Site.Params.description }}" />
   <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
   <meta name="og:author" content="{{ .Params.Author | default .Site.Author.name }}" />
   {{ .Hugo.Generator -}}

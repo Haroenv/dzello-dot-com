@@ -4,4 +4,6 @@ dataList = "podcasts"
 
 +++
 
+{{< title >}}
+
 {{< section-list-data >}}

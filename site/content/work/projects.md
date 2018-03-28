@@ -4,4 +4,6 @@ dataList = "projects"
 
 +++
 
+{{< title >}}
+
 {{< section-list-data >}}

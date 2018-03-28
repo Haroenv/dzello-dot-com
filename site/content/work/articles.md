@@ -4,4 +4,6 @@ dataList = "articles"
 
 +++
 
+{{< title >}}
+
 {{< section-list-data >}}

@@ -4,4 +4,6 @@ dataList = "talks"
 
 +++
 
+{{< title >}}
+
 {{< section-list-data >}}
