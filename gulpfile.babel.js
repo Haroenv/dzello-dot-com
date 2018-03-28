@@ -41,6 +41,12 @@ gulp.task("css", () => (
     .pipe(browserSync.stream())
 ));
 
+gulp.task("watch-assets", () => {
+  gulp.watch("./src/js/**/*.js", ["js"]);
+  gulp.watch("./src/css/**/*.css", ["css"]);
+  gulp.watch("./src/fonts/**/*", ["fonts"]);
+});
+
 // Compile Javascript
 gulp.task("js", (cb) => {
   const myConfig = Object.assign({}, webpackConfig);
