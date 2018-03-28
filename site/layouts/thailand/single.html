@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<article>
+
+    <h1>{{ .Page.Title }}</h1>
+
+    {{.Content}}
+
+</article>
+
+{{ partial "single_footer" . }}
+
+{{ end }}

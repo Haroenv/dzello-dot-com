@@ -23,7 +23,6 @@ I believe that developers need specific conditions to do their best work.
 {{< tweet 863413810379591680 >}}
 
 <br>
-<hr>
 
 # About my life
 
