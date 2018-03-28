@@ -28,6 +28,6 @@ I believe that developers need specific conditions to do their best work.
 
 I was born in Rockford, Illinois, a mid-sized industrial town halfway between Chicago and Madison on Interstate 90. I graduated from the University of Illinois at Urbana-Champaign in 2004 with a degree in Computer Science, but my love of programming had already shifted from deciphering algorithms to crafting web sites. In 2007 I moved out to San Francisco, California and joined my first startup in 2009.
 
-Today I live in Paris with my wife Estelle. We love to cook, do yoga together and travel to San Francisco to see our friends, especially late in August. We like to accumulate experiences rather than things and we carry matching, aesthetically pleasing coffee mugs so we don't have to use disposable cups.
+Today I live in Paris with my wife Estelle. We love to cook, do yoga together and travel to San Francisco to see our friends, especially late in August. We like to accumulate more experiences than things and we carry matching, aesthetically pleasing coffee mugs so we don't have to use disposable cups.
 
 !["Josh and Estelle at Burning Man"](/images/josh-estelle-burning-man-2017.jpg)
