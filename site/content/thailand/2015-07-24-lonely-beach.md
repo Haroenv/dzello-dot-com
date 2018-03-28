@@ -28,7 +28,7 @@ An utter lack of crowds meant that there were no lines to get a tattoo. Dangerou
 
 ![Möbius & Chill Vibes (top to bottom)](/images/thailand/thailand-8.jpeg)*Möbius & Chill Vibes (top to bottom)*
 
-That tattoo is the top half of what you see in the picture of my freckly ginger arm. Cristina drew the design on the spot and I believe — if vokda-aided memory serves me right — she used the word *möbius* to describe its true nature to the artist. So it's called Möbius. My first tattoo was the three lines underneath Möbius. Its name is Chill Vibes. They're friends.
+That tattoo is the top half of what you see in the picture of my freckly ginger arm. Cristina drew the design on the spot and I believe — if vokda-put-to-memory serves me right — she used the word *möbius* to describe its true nature to the artist. So it's called Möbius. My first tattoo was the three lines underneath Möbius. Its name is Chill Vibes. They're friends.
 
 ![](/images/thailand/thailand-9.jpeg)
 
