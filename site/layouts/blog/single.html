@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<article>
+
+    <h1>{{ .Page.Title }}</h1>
+
+    {{ if not .Params.meta }}
+        {{ partial "aside" . }}
+    {{ end }}
+
+    {{.Content}}
+
+</article>
+
+{{ partial "single_footer" . }}
+
+{{ end }}
