@@ -15,7 +15,6 @@ collections:
       - {label: Date, name: date, widget: datetime}
       - {label: Draft, name: draft, widget: boolean, required: false}
       - {label: Categories, name: categories, widget: list}
-      - {label: Image, name: image, widget: image, required: false}
   - name: work
     label: Work
     folder: site/content/work
@@ -33,7 +32,6 @@ collections:
       - {label: Date, name: date, widget: datetime}
       - {label: Draft, name: draft, widget: boolean, required: false}
       - {label: Categories, name: categories, widget: list}
-      - {label: Image, name: image, widget: image, required: false}
   - name: data
     label: Data
     folder: site/data/work
