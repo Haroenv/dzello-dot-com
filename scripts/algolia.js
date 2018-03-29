@@ -19,7 +19,7 @@ export default {
       searchableAttributes: ['unordered(title)', 'unordered(content)'],
       customRanking: ['desc(date)'],
       attributesToHighlight: ['title', 'content'],
-      attributesToSnippet: ['content: 20'],
+      attributesToSnippet: ['content: 40'],
       snippetEllipsisText: "…",
       attributesForFaceting: ['type', 'kind', 'section', 'draft']
     }).then((content) => {
