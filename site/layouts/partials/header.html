@@ -15,14 +15,10 @@
         <p>{{ . | markdownify }}</p>
       {{ end }}
       {{ partial "social" . }}
+      {{ partial "subscribe-modal" . }}
     </header>
     {{ partial "nav" . }}
     <div id="main-and-algolia">
       <main>
-        <div id="algolia-hits"></div>
-        <div id="algolia-attribution">
-          <a href="https://algolia.com/">
-            <img src="/images/search-by-algolia.png">
-          </a>
-        </div>
+        {{ partial "algolia-hits" . }}
         <div id="main-inner">
