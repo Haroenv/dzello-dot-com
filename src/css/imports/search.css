@@ -11,7 +11,7 @@
   margin-left: 3px;
   margin-top: -10px;
   margin-bottom: -8px;
-  width: 250px;
+  width: 330px;
   color: #666;
 }
 
@@ -24,7 +24,7 @@
   outline: 0;
   height: 30px;
   padding: 0 0 0 5px;
-  width: 200px;
+  width: 300px;
   box-shadow: none;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .ais-hits {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .ais-hits__empty p {
@@ -81,9 +81,9 @@
   }
 }
 
-#main-inner.search-active {
+.search-active {
   opacity: 0;
-  transition: opacity 0.25s;
+  transition: opacity 0.35s;
 }
 
 #algolia-attribution {
@@ -91,10 +91,10 @@
   position: absolute;
   z-index: 3;
   width: 128px;
-  top: 20px;
-  right: 0;
+  top: -28px;
+  right: 1px;
 }
 
-#algolia-attribution.search-active {
+#algolia-attribution.show {
   display: block;
 }

@@ -2,6 +2,7 @@
 @import "imports/google-fonts.css";
 @import "imports/instantsearch.css";
 @import "imports/instantsearch-theme-algolia.css";
+@import "imports/jquery.modal.css";
 @import "imports/kiera.css";
 @import "imports/search.css";
 @import "imports/blog.css";
@@ -13,9 +14,17 @@ h1, h2, h3, h4, h5, h6, input,
   font-family: "Open Sans", sans-serif;
 }
 
+#container main h1 {
+  line-height: 2.3rem;
+}
+
 h1, h2, h3, h4 {
   margin-top: 2.5rem;
   margin-bottom: 0rem;
+}
+
+header {
+  position: relative;
 }
 
 #container header h1 {
