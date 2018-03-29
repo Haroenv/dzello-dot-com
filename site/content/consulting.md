@@ -29,7 +29,8 @@ I prefer engagements based around concentrated, well-scoped projects with few de
 
 # How I got here
 
-!["Consulting + developer relations venn diagram"](/images/consulting-devrel-experience.png)
+{{< image title="Consulting and developer relations venn diagram" src="/images/consulting-devrel-experience.png" class="small" >}}
+
 
 # Where am I located?
 
