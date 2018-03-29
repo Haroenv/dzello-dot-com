@@ -31,8 +31,8 @@ githubURL = "https://github.com/dzello/dzello-dot-com"
 googleAnalytics = "UA-24132749-1"
 
 [params.algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink", "content", "section", "path", "kind", "readingtime", "type", "weight", "url", "wordcount"]
-params = ["image", "categories", "draft"]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink", "content", "section", "path", "kind", "readingtime", "type", "weight", "url", "wordcount", "draft"]
+params = ["image", "categories"]
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]

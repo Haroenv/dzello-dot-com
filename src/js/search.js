@@ -8,7 +8,7 @@ function initializeSearch() {
     indexName: window.algolia.indexName,
     searchParameters: {
       hitsPerPage: 5,
-      filters: "kind:page AND draft:false"
+      filters: "kind:page"
     },
     searchFunction: function(helper) {
       if (helper.state.query) {
