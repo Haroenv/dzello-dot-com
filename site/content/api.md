@@ -24,8 +24,6 @@ year = "2016"
 
 The dzello.com API makes this data freely available in JSON format, without asking any boring questions about why someone would ever want to use it.
 
-{{< spacing-icon "wrench" >}}
-
 # API Overview
 
 The API accepts HTTP GET requests and returns JSON.
@@ -39,7 +37,6 @@ There is none.
 You won't need it.
 
 <br>
-<hr>
 
 # API Reference
 
@@ -63,5 +60,4 @@ Here's a table with each work type and information about its API endpoint:
 
 {{< work-types-table >}}
 
-<br>
-<br>
+{{< spacing-icon "wrench" >}}
