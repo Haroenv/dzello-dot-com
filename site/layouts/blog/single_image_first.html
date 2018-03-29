@@ -4,8 +4,8 @@
 
     <h1>{{ .Page.Title }}</h1>
 
-    <div class="blog-image-holder">
-      <img src="{{ .Page.Params.Image }}">
+    <div class="image-outer title-image">
+      <img title="{{ .Page.Title }}" src="{{ .Page.Params.Image }}">
     </div>
 
     {{ if not .Params.meta }}

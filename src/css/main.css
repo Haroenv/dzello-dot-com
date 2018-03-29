@@ -5,6 +5,7 @@
 @import "imports/jquery.modal.css";
 @import "imports/kiera.css";
 @import "imports/search.css";
+@import "imports/subscribe.css";
 @import "imports/blog.css";
 
 body,
@@ -295,4 +296,33 @@ table > thead > tr > th {
 table > thead > tr > th,
 table > tbody > tr > td {
   padding: 3px;
+}
+
+.image-outer {
+  margin: 25px 0 30px;
+}
+
+.image-outer.title-image {
+  margin: 0;
+}
+
+.image-outer img {
+  display: block;
+  margin: 0 auto;
+}
+
+.image-outer .image-caption {
+  margin: auto;
+  width: 50%;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+  font-style: italic;
+}
+
+@media (min-width: 800px) {
+  .image-outer img.small {
+    width: 75%;
+  }
 }

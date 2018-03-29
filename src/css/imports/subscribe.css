@@ -1,0 +1,59 @@
+.modal {
+  padding: 30px;
+}
+
+.jquery-modal {
+  z-index: 10;
+}
+
+#subscribe-button {
+  position: absolute;
+  top: 33px;
+  right: 0;
+}
+
+#subscribe-button, #submit-button {
+  border: 2px dashed #e1e1e7;
+  background: #f1f1f7;
+  color: #000;
+  border-radius: 3px;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+#subscribe-button:hover, #submit-button:hover {
+  background: #e9e9f1;
+}
+
+#submit-button {
+  cursor: pointer;
+  padding: 10px;
+  line-height: 19px;
+}
+
+#subscribe-modal h2 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+#subscribe-modal input[type=email] {
+  width: 200px;
+  outline: 0;
+  padding: 10px;
+  border: 2px dashed #e1e1e7;
+  color: black;
+}
+
+#subscribe-form .status,
+#subscribe-form.status-success .fields {
+  display: none;
+}
+
+#subscribe-form.status-success .status {
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 0;
+  color: green;
+  text-align: center;
+}
