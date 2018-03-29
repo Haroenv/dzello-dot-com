@@ -1,10 +1,10 @@
 +++
 categories = ["Technology"]
-date = "2018-03-26"
+date = "2018-03-29"
 draft = true
 image = "/images/blog/josh-dzielak-frisbee.jpg"
 layout = "single_image_first"
-title = "Why I want to help developer relations teams prosper"
+title = "Why I want to help developer relations teams succeed"
 
 +++
 
@@ -24,7 +24,7 @@ In the end, that experience did count for something: I lasted 21 months instead 
 
 ## Success is not guaranteed
 
-Despite knowing them all by name, I still made all the classic mistakes:
+Despite knowing them all by name, I still made the classic rookie mistakes:
 
 - Didn't clearly set **expectations**
 - Didn't have a clear **vision**
@@ -32,6 +32,8 @@ Despite knowing them all by name, I still made all the classic mistakes:
 
 Because developer relations is ultimately a **stragic, optional investment** for any company, any one of these mistakes can spell doom for a developer relations team or, in my case, team leader.
 
-I want to help developer relations teams because I know how much it sucks when it's not working. We can talk about burnout, I was there. We can talk about frustration, I was frustrated and so was the company. We can talk about hiring developer advocates but failing to set them up for success - that part was the worst.
+I want to help developer relations teams because I know how much it sucks when it's not working. We can talk about burnout, I was there. We can talk about frustration, I was frustrated and so was the company. We can talk about hiring developer advocates but failing to set them up for success, painful for everyone involved.
 
 My belief is that it doesn't have to be that way.
+
+## How I can help

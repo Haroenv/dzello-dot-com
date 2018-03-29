@@ -1,6 +1,6 @@
 +++
 categories = ["Technology"]
-date = "2018-03-28"
+date = "2018-04-07"
 draft = true
 image = "/images/talks/josh-dzielak-sentry-scouts.jpg"
 layout = "single_image_first"
