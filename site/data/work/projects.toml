@@ -1,23 +1,9 @@
 [[ project ]]
-title = "Estelle & Josh"
-date = "2018"
-description = "A wedding site for my wife and I, built with Hugo."
-site_url = "https://estelle.and.dzello.com/"
-github_url = "https://github.com/dzello/estelle-and-josh"
-
-[[ project ]]
 title = "discourse-algolia"
 description = "A Discourse plugin that adds Algolia indexing and search."
 date = "2017"
 site_url = "https://meta.discourse.org/t/add-algolia-search-to-your-discourse/73517"
 github_url = "https://github.com/algolia/discourse-algolia"
-
-[[ project ]]
-title = "dzello-dot-com"
-description = "This site, built with Hugo making heavy use of data templates."
-date = "2018"
-site_url = "https://dzello.com/"
-github_url = "https://github.com/dzello/dzello-dot-com"
 
 [[ project ]]
 title = "discourse-webhook-collector"
@@ -34,16 +20,30 @@ github_url = "https://github.com/algolia/instantsearch-electron"
 video_url = "https://www.youtube.com/watch?v=Dj5qF0ki6BY"
 
 [[ project ]]
+title = "keen-gem"
+description = "Official Ruby client for the Keen IO API."
+date = "2013"
+github_url = "https://github.com/keenlabs/keen-gem"
+
+[[ project ]]
 title = "mongoid-alize"
 description = "Comprehensive, flexible denormalization for mongoid that stays in sync."
 date = "2012"
 github_url = "https://github.com/dzello/mongoid_alize"
 
 [[ project ]]
-title = "keen-gem"
-description = "Official Ruby client for the Keen IO API."
-date = "2013"
-github_url = "https://github.com/keenlabs/keen-gem"
+title = "dzello-dot-com"
+description = "This site, built with Hugo making heavy use of data templates."
+date = "2018"
+site_url = "https://dzello.com/"
+github_url = "https://github.com/dzello/dzello-dot-com"
+
+[[ project ]]
+title = "Estelle & Josh"
+date = "2018"
+description = "A wedding site for my wife and I, built with Hugo."
+site_url = "https://estelle.and.dzello.com/"
+github_url = "https://github.com/dzello/estelle-and-josh"
 
 [[ project ]]
 title = "vue-keen-dashboards"
