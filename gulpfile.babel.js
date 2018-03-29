@@ -109,7 +109,7 @@ gulp.task("server-hugo", ["hugo-server", "css", "js", "fonts", "watch-assets"]);
 gulp.task("algolia", [], (cb) => {
   const appId = process.env.ALGOLIA_APP_ID;
   const adminApiKey = process.env.ALGOLIA_ADMIN_KEY;
-  const indexName = `${process.env.ALGOLIA_INDEX_BASE_NAME}-${process.env.COMMIT_REF}`;
+  const indexName = `${process.env.ALGOLIA_INDEX_BASE_NAME}-${process.env.CONTEXT}-${process.env.COMMIT_REF}`;
   const indexFile = process.env.ALGOLIA_INDEX_FILE;
   algolia.setSettings(appId, adminApiKey, indexName).then((result) => {
     return algolia.pushData(indexName, indexFile);
