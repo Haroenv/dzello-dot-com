@@ -27,7 +27,7 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Use hugo for watching instead of gulp/browsersync
 gulp.task("hugo-server", (cb) => {
-  const args = ["server"].concat(["-w", "-p", "3000"]).concat(hugoArgsDefault);
+  const args = ["server"].concat(hugoArgsDefault).concat(["-w", "-p", "3000"]);
   if (process.env.HUGO_PREVIEW) {
     args.push(...hugoArgsPreview);
   }
@@ -103,7 +103,7 @@ gulp.task("server-browsersync", ["hugo", "css", "js", "fonts"], () => {
 });
 
 // Developer server with hugo server
-gulp.task("server-hugo", ["hugo-server", "watch-assets"]);
+gulp.task("server-hugo", ["hugo-server", "css", "js", "fonts", "watch-assets"]);
 
 // Task to create algolia index and push data
 gulp.task("algolia", [], (cb) => {
