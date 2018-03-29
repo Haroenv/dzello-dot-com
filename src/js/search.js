@@ -31,7 +31,7 @@ function initializeSearch() {
         item: `
         <div>
           <p>
-            <a href="{{{ url }}}">{{{_highlightResult.title.value}}}</a> &middot; {{{_snippetResult.content.value}}}
+            <a href="{{{ url }}}">{{{_highlightResult.title.value}}}</a> &middot; <span>{{{_snippetResult.content.value}}}</span>
           </p>
         </div>
         `,
