@@ -7,12 +7,15 @@
   "scripts": {
     "hugo": "gulp hugo",
     "hugo-preview": "gulp hugo-preview",
+    "hugo-server": "gulp hugo-server",
+    "watch-assets": "gulp watch-assets",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
     "deploy": "gulp deploy",
     "deploy-preview": "gulp deploy-preview",
     "algolia": "gulp algolia",
-    "start": "HUGO_PREVIEW=1 gulp server",
+    "start-browsersync": "HUGO_PREVIEW=1 gulp server-browsersync",
+    "start": "HUGO_PREVIEW=1 gulp server-hugo",
     "lint": "eslint src"
   },
   "author": "",

@@ -25,6 +25,22 @@ const hugoArgsPreview = ["--buildDrafts", "--buildFuture"];
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
+// Use hugo for watching instead of gulp/browsersync
+gulp.task("hugo-server", (cb) => {
+  const args = ["server"].concat(["-w", "-p", "3000"]).concat(hugoArgsDefault);
+  if (process.env.HUGO_PREVIEW) {
+    args.push(...hugoArgsPreview);
+  }
+  return spawn(hugoBin, args, {stdio: "inherit"}).on("close", (code) => {
+    if (code === 0) {
+      cb();
+    } else {
+      browserSync.notify("Hugo build failed :(");
+      cb("Hugo build failed");
+    }
+  });
+});
+
 // Build/production tasks
 gulp.task("build", ["css", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
@@ -41,6 +57,7 @@ gulp.task("css", () => (
     .pipe(browserSync.stream())
 ));
 
+// Watch all assets
 gulp.task("watch-assets", () => {
   gulp.watch("./src/js/**/*.js", ["js"]);
   gulp.watch("./src/css/**/*.css", ["css"]);
@@ -71,7 +88,7 @@ gulp.task('fonts', () => (
 ));
 
 // Development server with browsersync
-gulp.task("server", ["hugo", "css", "js", "fonts"], () => {
+gulp.task("server-browsersync", ["hugo", "css", "js", "fonts"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -85,6 +102,10 @@ gulp.task("server", ["hugo", "css", "js", "fonts"], () => {
   gulp.watch("./site/**/*", ["hugo"]);
 });
 
+// Developer server with hugo server
+gulp.task("server-hugo", ["hugo-server", "watch-assets"]);
+
+// Task to create algolia index and push data
 gulp.task("algolia", [], (cb) => {
   const appId = process.env.ALGOLIA_APP_ID;
   const adminApiKey = process.env.ALGOLIA_ADMIN_KEY;
