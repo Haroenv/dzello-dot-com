@@ -26,6 +26,13 @@ date = "2013"
 github_url = "https://github.com/keenlabs/keen-gem"
 
 [[ project ]]
+title = "Holy Emoji"
+description = "An Algolia-powered emoji search engine built with React InstantSearch."
+date = "2016"
+site_url = "https://holy-emoji-search.glitch.me/"
+glitch_url = "https://glitch.com/edit/#!/holy-emoji-search"
+
+[[ project ]]
 title = "mongoid-alize"
 description = "Comprehensive, flexible denormalization for mongoid that stays in sync."
 date = "2012"

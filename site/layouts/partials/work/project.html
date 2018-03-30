@@ -1,6 +1,6 @@
 <li class="project">
   <i class="fa fa-code fa-lg"></i>
-  <a href="{{ .github_url }}">{{ .title }}</a>
+  <a href="{{ or .github_url .glitch_url }}">{{ .title }}</a>
   <p class="abstract">{{ .description }}</p>
   {{ partial "work/_urls" . }}
 </li>

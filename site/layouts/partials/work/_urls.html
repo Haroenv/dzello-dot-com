@@ -14,4 +14,7 @@
   {{ if isset . "github_url" }}
     <li><a href="{{ .github_url }}">github</a></li>
   {{ end }}
+  {{ if isset . "glitch_url" }}
+    <li><a href="{{ .glitch_url }}">glitch</a></li>
+  {{ end }}
 </ul>
