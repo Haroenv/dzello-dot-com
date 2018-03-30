@@ -8,7 +8,7 @@ title = "Why I want to help developer relations teams succeed"
 
 +++
 
-<boom>B</boom>eing a developer advocate is supposed to be fun, right? Just check the twitter feed of any tech conference and you'll see photos of advocates giving talks, demoing cool tech or talking with people who share their passion. To the person who possesses that curious mix of geekiness and charisma, being a developer advocate sounds like a dream job come true.
+<boom>B</boom>eing a developer advocate is supposed to be fun, right? Just check the twitter feed of any tech conference and you'll see photos of advocates giving talks, demoing cool tech or immersed in conversation with people who share their passion. To the person who possesses that curious mix of geekiness and charisma, being a developer advocate sounds like a dream job come true.
 
 {{< image src="/images/blog/devrel-supergroup-photobooth.png" class="small" caption="left to right: [@picsoung](https://twitter.com/picsoung), [@taylor_atx](https://twitter.com/taylor_atx), [@jessicaewest](https://twitter.com/jessicaewest), [@elof](https://twitter.com/elof), [@dzello](https://twitter.com/dzello), [@romainhuet](https://twitter.com/romainhuet)" >}}
 
