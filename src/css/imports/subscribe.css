@@ -12,7 +12,7 @@
   right: 0;
 }
 
-#subscribe-button, #submit-button {
+#subscribe-button, #submit-button, .button {
   border: 2px dashed #e1e1e7;
   background: #f1f1f7;
   color: #000;
@@ -22,7 +22,7 @@
   font-family: monospace;
 }
 
-#subscribe-button:hover, #submit-button:hover {
+#subscribe-button:hover, #submit-button:hover, .button:hover {
   background: #e9e9f1;
 }
 
