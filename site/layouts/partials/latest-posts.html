@@ -1,18 +1,20 @@
 <ul class="latest-posts">
   {{ range $index, $page := first 3 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
-  <li {{if eq $index 0}}class="first"{{end}}>
-    {{ if isset .Params "image" }}
-      <a href="{{ .Permalink }}"><img src="{{ .Params.image }}"></a>
+    {{ if (not $page.Params.hidden) }}
+    <li {{if eq $index 0}}class="first"{{end}}>
+      {{ if isset .Params "image" }}
+        <a href="{{ .Permalink }}"><img src="{{ .Params.image }}"></a>
+      {{ end }}
+      <h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
+      <p>{{ .Summary }}</p>
+      {{ partial "aside" . }}
+      {{ if .Truncated }}
+      <a href="{{ .RelPermalink }}">Read more&hellip;</a>
+      <br>
+      <br>
+      <br>
+      {{ end }}
+    </li>
     {{ end }}
-    <h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
-    <p>{{ .Summary }}</p>
-    {{ partial "aside" . }}
-    {{ if .Truncated }}
-    <a href="{{ .RelPermalink }}">Read more&hellip;</a>
-    <br>
-    <br>
-    <br>
-    {{ end }}
-  </li>
   {{ end }}
 </ul>
