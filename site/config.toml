@@ -23,7 +23,7 @@ instagram = "josh_people"
 [params]
 description = "Josh Dzielak, formerly of Disney, Keen IO and Algolia, shares his perspective on developer tools and developer relations"
 tagline = "Developer tools and developer relations"
-header = "Josh Dzielak - dzello.com"
+header = "Josh Dzielak"
 ogImage = "images/josh-dzielak-2018.png"
 ogImageWidth = "508"
 ogImageHeight = "506"
