@@ -1,6 +1,6 @@
 +++
 categories = ["Technology"]
-date = "2018-03-29"
+date = "2018-03-30"
 draft = true
 image = "/images/blog/josh-dzielak-frisbee.png"
 layout = "single_image_first"
