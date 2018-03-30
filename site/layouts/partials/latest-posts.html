@@ -1,6 +1,5 @@
 <ul class="latest-posts">
   {{ range $index, $page := first 3 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
-    {{ if (not $page.Params.hidden) }}
     <li {{if eq $index 0}}class="first"{{end}}>
       {{ if isset .Params "image" }}
         <a href="{{ .Permalink }}"><img src="{{ .Params.image }}"></a>
@@ -15,6 +14,5 @@
       <br>
       {{ end }}
     </li>
-    {{ end }}
   {{ end }}
 </ul>

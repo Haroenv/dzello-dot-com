@@ -5,7 +5,7 @@
 {{- $validParams := $.Param "algolia.params" | default slice -}}
 {{- range $i, $hit := .Site.AllPages -}}
   {{- $dot := . -}}
-  {{- if (and (or $.Site.BuildDrafts (not $hit.Draft)) (not $hit.Params.hidden)) -}}
+  {{- if (or $.Site.BuildDrafts (not $hit.Draft)) -}}
     {{/* Set the hit's objectID */}}
     {{- .Scratch.SetInMap $hit.File.Path "objectID" $hit.UniqueID -}}
     {{/* Store built-in page variables in iterable object */}}

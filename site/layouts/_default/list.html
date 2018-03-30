@@ -11,12 +11,10 @@
     <h3>{{ .Key }}</h3>
     <ul>
         {{ range .Pages }}
-          {{ if (not .Params.hidden) }}
-            <li>
-                <a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
-                <time class="date-meta">{{ .Date.Format "Jan 2" }}</time>
-            </li>
-          {{ end }}
+          <li>
+              <a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
+              <time class="date-meta">{{ .Date.Format "Jan 2" }}</time>
+          </li>
         {{ end }}
     </ul>
 

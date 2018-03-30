@@ -2,7 +2,6 @@
 categories = ["Technology"]
 date = "2018-04-07"
 draft = true
-hidden = true
 image = "/images/talks/josh-dzielak-sentry-scouts.jpg"
 layout = "single_image_first"
 title = "Sentry Scouts—where the La Croix flows like water"

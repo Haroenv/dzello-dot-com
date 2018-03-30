@@ -1,7 +1,6 @@
 +++
 categories = ["Personal"]
 date = "2011-10-07T00:00:00Z"
-hidden = true
 title = "Remembering Steve Jobs and My Apple IIe"
 
 +++
