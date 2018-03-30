@@ -1,4 +1,11 @@
 export default function() {
+
+  $('a[data-modal]').click(function(event) {
+    $(this).modal();
+    logEvent("SUBSCRIBE_MODAL_OPENED");
+    return false;
+  });
+
   $("#subscribe-form").submit((event) => {
     event.preventDefault();
 
@@ -13,7 +20,8 @@ export default function() {
         $("#subscribe-form").addClass("status-success");
         $("#subscribe-form .status").append(
           `<p>✅<br><br>your ${email.match(/[^@]+$/)[0]} address is subscribed!</p>`);
+        logEvent("USER_SUBSCRIBED", { email: email });
       }
     });
   });
-}
+  }
