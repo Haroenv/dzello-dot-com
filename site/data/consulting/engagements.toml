@@ -20,19 +20,19 @@ created [discourse-algolia](https://github.com/algolia/discourse-algolia), [keen
 '''
 
 [[ engagement ]]
-name = "Technical Content Strategy"
-description = '''
-I can help you use content to reach developers in an effective, cringe-free fashion that will help you grow while establishing your reputation.
-'''
-examples = '''
-wrote the [Comparing Algolia and Elasticsearch for Consumer-Grade Search](https://blog.algolia.com/algolia-v-elasticsearch-latency/) three part series; wrote about [Algolia's ultra-low latency](https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month) on StackShare reaching [190 points on HackerNews](https://news.ycombinator.com/item?id=13994395)
-'''
-
-[[ engagement ]]
 name = "Community Strategy"
 description = '''
 I can help get your community off the ground and start measuring it with a combination of tools, integrations, events and outreach.
 '''
 examples = '''
 launched [Algolia's Community Forum](https://discourse.algolia.com/) and grew it to over 1,000 users in year 1; created Algolia's [Search Party](https://www.youtube.com/playlist?list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_DFz8O) community meetup; launched [Keen IO's online community](https://groups.google.com/forum/#!forum/keen-io-devs) with Google Groups
+'''
+
+[[ engagement ]]
+name = "Technical Content Strategy"
+description = '''
+I can help you use content to reach developers in an effective, cringe-free fashion that will help you grow while establishing your reputation.
+'''
+examples = '''
+wrote the [Comparing Algolia and Elasticsearch for Consumer-Grade Search](https://blog.algolia.com/algolia-v-elasticsearch-latency/) three part series; wrote about [Algolia's ultra-low latency](https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month) on StackShare reaching [190 points on HackerNews](https://news.ycombinator.com/item?id=13994395)
 '''
