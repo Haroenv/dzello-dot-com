@@ -30,7 +30,9 @@ I made a lot of rookie DevRel mistakes:
 - Didn't clearly set **expectations**
 - Didn't measure the **impact**
 
-Without these in place, a developer relation team is like a ship without a compass. Their efforts move them forward, sometimes at an impressive clip, but they don't stay pointed in one direction long enough so they end up going around in circles.
+Without these in place, a developer relation team is like a ship without a compass. Their efforts move them forward, sometimes at an impressive clip, but they don't stay pointed in one direction long enough and they end up going around in circles.
+
+{{< image src="/images/blog/around-in-circles.png" class="extra-small" >}}
 
 I want to help developer relations teams because I know how much it sucks when it's not working. Stress, frustration, burnout. Many of us have been there.
 

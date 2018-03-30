@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, input,
 }
 
 p {
-  margin-top: k0px;
+  margin-top: 5px;
 }
 
 #container main h1 {
@@ -25,7 +25,7 @@ p {
 
 h1, h2, h3, h4 {
   margin-top: 2.5rem;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
 }
 
 header {
@@ -303,7 +303,7 @@ table > tbody > tr > td {
 }
 
 .image-outer {
-  margin: 25px 0 30px;
+  margin: 35px 0 40px;
 }
 
 .image-outer.title-image {
@@ -327,5 +327,17 @@ table > tbody > tr > td {
 @media (min-width: 800px) {
   .image-outer img.small {
     width: 75%;
+  }
+  .image-outer img.extra-small {
+    width: 37.5%;
+  }
+}
+
+@media (max-width: 420px) {
+  #container nav ul li {
+    margin-left: 0.5em;
+  }
+  #container nav li {
+    font-size: 14px;
   }
 }

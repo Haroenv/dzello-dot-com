@@ -8,9 +8,10 @@
       </div>
     </li>
     {{ range .Site.Menus.main }}
-    <li class="nav-menu">
+    {{ $title := or .Page.Params.menuTitle .Page.Title }}
+    <li class="nav-menu item-{{ $title }}">
         <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (and (eq .Page.Dir $currentPage.Dir) (ne $currentPage.Dir "")) }}active{{end}}" href="{{.URL}}">
-            <i class="fa-li fa {{ .Pre }} fa-lg"></i><span>{{ or .Page.Params.menuTitle .Page.Title }}</span>
+            <i class="fa-li fa {{ .Pre }} fa-lg"></i><span>{{ $title }}</span>
         </a>
     </li>
     {{ end }}

@@ -20,6 +20,8 @@
   padding: 5px 12px;
   font-size: 14px;
   font-family: monospace;
+  margin: 5px 0;
+  display: inline-block;
 }
 
 #subscribe-button:hover, #submit-button:hover, .button:hover {
@@ -56,4 +58,13 @@
   margin-bottom: 0;
   color: green;
   text-align: center;
+}
+
+@media (max-width: 420px) {
+  #subscribe-button {
+    position: static;
+    /* left: 0;
+    right: auto;
+    top: 115px; */
+  }
 }
