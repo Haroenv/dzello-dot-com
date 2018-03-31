@@ -1,10 +1,11 @@
 +++
 title = "Work experience"
+menuTitle = "Experience"
 dataList = "jobs"
+menu = "work"
+weight = 10
 
 +++
-
-{{< title >}}
 
 {{< section-list-data class="section-list-data work-type-experience" >}}
 

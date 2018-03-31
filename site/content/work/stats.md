@@ -1,12 +1,11 @@
 +++
 title = "Github stats"
+menuTitle = "Stats"
 dataList = "stats"
+menu = "work"
+weight = 80
 
 +++
-
-# Github stats <sup>†</sup>
-
-According to my [Github profile](https://dzello.com/github):
 
 {{< section-list-data >}}
 

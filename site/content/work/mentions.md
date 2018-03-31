@@ -1,9 +1,10 @@
 +++
 title = "Media, press & blog mentions"
+menuTitle = "Mentions"
 dataList = "mentions"
+menu = "work"
+weight = 40
 
 +++
-
-{{< title >}}
 
 {{< section-list-data >}}

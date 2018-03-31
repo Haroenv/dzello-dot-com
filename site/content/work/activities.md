@@ -1,9 +1,9 @@
 +++
 title = "Activities"
 dataList = "activities"
+menu = "work"
+weight = 70
 
 +++
-
-# Various activities
 
 {{< section-list-data >}}

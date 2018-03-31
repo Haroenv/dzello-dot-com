@@ -1,9 +1,10 @@
 +++
 title = "Open source projects"
+menuTitle = "Projects"
 dataList = "projects"
+menu = "work"
+weight = 50
 
 +++
-
-{{< title >}}
 
 {{< section-list-data >}}
