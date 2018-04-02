@@ -11,10 +11,6 @@ I gave a talk at the excellent [DevXCon 2017](http://devxcon.com) in San Francis
 
 {{< youtube dhAWeqQc-Xk >}}
 
-Read the full transcript on [devrel.net](https://devrel.net/developer-experience/scale-community-support-apis).
+<br>
 
-Get the slides on [Speakerdeck](https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis).
-
----
-
-*Interested in unlocking the power of your developer community? [Let's chat](/consulting).*
+Read the full transcript on [devrel.net](https://devrel.net/developer-experience/scale-community-support-apis). Get the slides on [Speakerdeck](https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis).
