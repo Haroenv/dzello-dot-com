@@ -22,6 +22,7 @@
   font-family: monospace;
   margin: 5px 0;
   display: inline-block;
+  cursor: pointer;
 }
 
 #subscribe-button:hover, #submit-button:hover, .button:hover {
@@ -39,7 +40,7 @@
   margin-bottom: 1em;
 }
 
-#subscribe-modal input[type=email] {
+input[type=email] {
   width: 200px;
   outline: 0;
   padding: 10px;
@@ -63,8 +64,5 @@
 @media (max-width: 420px) {
   #subscribe-button {
     position: static;
-    /* left: 0;
-    right: auto;
-    top: 115px; */
   }
 }

@@ -13,7 +13,7 @@
     }}();
     window.logEvent = function(name, body) {
       var commonProps = {
-        location: JSON.stringify(document.location)
+        location: document.location
       };
       analytics.track(name, body);
     }

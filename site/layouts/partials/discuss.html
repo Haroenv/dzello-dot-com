@@ -1,0 +1,21 @@
+<div class="discuss">
+  <div class="twitter">
+    <p>Discuss on twitter</p>
+    <a class="twitter-share-button"
+      data-size="large"
+      href="https://twitter.com/intent/tweet?text={{ .Title }}%20-%20@dzello">Tweet</a>
+    <br><br>
+    <i class="fa fa-twitter fa-lg"></i>
+  </div>
+  <div class="form">
+    <p>Discuss over email</p>
+    <form id="discuss-form">
+      <div class="fields">
+        <input type="email" name="email" placeholder="Your email address" required>
+        <textarea name="text" rows="3" placeholder="What'd you think?" required></textarea>
+        <input type="submit" value="Submit" class="button">
+      </div>
+      <div class="status"></div>
+    </form>
+  </div>
+</div>

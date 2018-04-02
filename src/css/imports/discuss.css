@@ -1,0 +1,57 @@
+.discuss {
+  margin: 50px 0 0;
+  background: #f1f1f7;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.discuss iframe {
+  margin-top: 5px;
+}
+
+.discuss p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.discuss > div {
+  box-sizing: border-box;
+  padding: 30px;
+  width: 50%;
+}
+
+@media (max-width: 650px) {
+  .discuss > div {
+    width: 100%;
+  }
+}
+
+.discuss > div.twitter  {
+  text-align: center;
+}
+
+.discuss input[type="email"] {
+  width: 90%;
+}
+
+.discuss textarea {
+  width: 90%;
+  outline: 0;
+  padding: 10px;
+  border: 2px dashed #e1e1e7;
+  color: black;
+  margin-top: 5px;
+}
+
+#discuss-form .status,
+#discuss-form.status-success .fields {
+  display: none;
+}
+
+#discuss-form.status-success .status {
+  display: block;
+  margin-bottom: 0;
+  color: green;
+  text-align: center;
+}
