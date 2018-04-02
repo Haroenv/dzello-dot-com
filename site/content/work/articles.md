@@ -1,5 +1,5 @@
 +++
-title = "Articles around the web"
+title = "Articles"
 menuTitle = "Articles"
 dataList = "articles"
 menu = "work"

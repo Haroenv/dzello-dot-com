@@ -11,7 +11,7 @@ icon = "slideshare"
 tag = "homepage"
 
 [[ workType ]]
-title = "Articles around the web"
+title = "Articles"
 path = "work/articles"
 icon = "pencil"
 tag = "homepage"

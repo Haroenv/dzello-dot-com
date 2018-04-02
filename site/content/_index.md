@@ -11,6 +11,6 @@ weight = 1
 
 {{< list-data list="workTypes" tag="homepage" >}}
 
-{{< centered-link "see all work..." "/work" >}}
+{{< centered-link "see more work..." "/work" >}}
 
 # Latest blog posts
