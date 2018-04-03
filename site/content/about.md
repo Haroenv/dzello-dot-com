@@ -6,6 +6,8 @@ menuTitle = "About"
 weight = "10"
 title = "About me"
 image = "/images/blog/josh-dzielak-frisbee.png"
+imageWidth = 960
+imageHeight = 540
 
 +++
 
