@@ -1,0 +1,16 @@
+.button {
+  border: 2px dashed var(--inputBorderColor);
+  background: var(--greyBackgroundColor);
+  border-radius: 3px;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-family: monospace;
+  margin: 5px 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--greyBackgroundHoverColor);
+  transition: background-color 0.5s;
+}

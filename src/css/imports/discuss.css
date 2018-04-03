@@ -1,6 +1,6 @@
 .discuss {
   margin: 50px 0 0;
-  background: #f1f1f7;
+  background: var(--greyBackgroundColor);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -39,8 +39,7 @@
   width: 90%;
   outline: 0;
   padding: 10px;
-  border: 2px dashed #e1e1e7;
-  color: black;
+  border: 2px dashed var(--inputBorderColor);
   margin-top: 5px;
 }
 
@@ -52,6 +51,6 @@
 #discuss-form.status-success .status {
   display: block;
   margin-bottom: 0;
-  color: green;
+  color: var(--successColor);
   text-align: center;
 }

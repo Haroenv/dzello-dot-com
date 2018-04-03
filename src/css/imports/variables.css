@@ -1,0 +1,11 @@
+:root {
+  --greyBackgroundColor: #fafaff;
+  --greyBackgroundHoverColor: #e9e9f1;
+  --linkColor: #33b;
+  --textColor: #333;
+  --borderColor: #cecece;
+  --lightTextColor: #999;
+  --lightBorderColor: #f7f7f7;
+  --inputBorderColor: #e1e1e7;
+  --successColor: green;
+}

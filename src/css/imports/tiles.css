@@ -1,0 +1,43 @@
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tile {
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #cecece;
+  background: #f5f5fa;
+  margin: 15px 0;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.tile:hover {
+  background: var(--greyBackgroundHoverColor);
+  transition: background-color 0.5s;
+}
+
+@media only screen and (min-width: 440px) {
+  .tile {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.tile h2, .tile i {
+  display: block;
+  color: #333;
+  margin: 15px 0;
+}
+
+.tile h2 {
+  font-size: 22px;
+}
+
+.tile.tile-half {
+  width: 40%;
+}

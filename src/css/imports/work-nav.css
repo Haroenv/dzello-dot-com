@@ -14,5 +14,5 @@ ul.work-nav li {
 
 ul.work-nav li a.active {
   font-weight: bold;
-  color: #666;
+  color: var(--textColor);
 }

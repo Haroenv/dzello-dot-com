@@ -10,4 +10,4 @@ dataList = "workTypes"
 
 {{< title >}}
 
-{{< list-data >}}
+{{< list-data class="tiles" >}}

@@ -12,7 +12,7 @@
   margin-top: -10px;
   margin-bottom: -8px;
   width: 330px;
-  color: #666;
+  color: var(--lightTextColor);
 }
 
 #algolia-search {
@@ -61,12 +61,11 @@
 
 .ais-hits--item span {
   font-size: 13px;
-  color: #666;
+  color: var(--lightTextColor);
 }
 
 .ais-hits--item p {
   margin: 0;
-  text-align: justify;
 }
 
 .ais-hits__empty p {
