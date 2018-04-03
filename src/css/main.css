@@ -181,11 +181,6 @@ ul.section-list-data > li {
   }
 }
 
-ul.section-list-data.work-type-experience > li {
-  border-width: 0 0 1px 0;
-  border-radius: 0;
-}
-
 ul.section-list-data > li > i {
   display: block;
   font-size: 2em;

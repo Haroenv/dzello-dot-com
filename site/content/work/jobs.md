@@ -7,6 +7,6 @@ weight = 10
 
 +++
 
-{{< section-list-data class="section-list-data work-type-experience" >}}
+{{< section-list-data >}}
 
 {{< centered-link "see more on LinkedIn..." "https://www.linkedin.com/in/dzello/" >}}
