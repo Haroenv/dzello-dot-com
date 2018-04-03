@@ -17,7 +17,7 @@ icon = "pencil"
 tag = "homepage"
 
 [[ workType ]]
-title = "Media and press mentions"
+title = "Media and mentions"
 path = "work/mentions"
 icon = "tv"
 tag = "homepage"

@@ -6,4 +6,4 @@ weight = 70
 
 +++
 
-{{< section-list-data >}}
+{{< section-list-data class="tiles" >}}
