@@ -11,7 +11,7 @@ title = "Helping startups get developer relations right from day one"
 
 +++
 
-Starting this month, I'll be available for consulting and advising startups on developer relations. I love helping founders and early teams think through how they're going to get developers to try their product, and consulting is just a way to do more of that.
+Starting this month, I'll be available for consulting and advising startups on developer relations. I love helping founders and early teams think through how they're going to get developers to try out and eventually fall in love with their product.
 
 In the last five years I've worked at two business-to-developer (B2D) companies spanning 6 to 200 employees, first as the VP Engineering at [Keen IO](https://keen.io/) and then the Developer Relations Lead at [Algolia](https://algolia.com/). I've spoken at conferences like [DevXCon](https://devrel.net/developer-experience/scale-community-support-apis) and [API Days](https://speakerdeck.com/dzello/7-ways-to-search-for-a-camelcased-parameter-in-your-docs") and invested hundreds of hours getting to know developers, developer advocates and evangelists all over the world. I've advised dev-facing startups on a broad range of topics including developer experience, open source strategies, launching online communities & more.
 
