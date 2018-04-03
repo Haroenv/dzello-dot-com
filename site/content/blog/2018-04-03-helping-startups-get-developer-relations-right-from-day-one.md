@@ -19,4 +19,4 @@ In the last five years I've worked at two business-to-developer (B2D) companies 
 
 I've learned a lot of lessons over the past few years, a lot of do's and even more don'ts. As a consultant and advisor to startups, my goal is to take what I've learned about building and growing developer platforms and developer relations teams and use it to help more companies get their relationship with developers off on the right foot. My mission is help companies increase their value by increasing the value that they add to the developer community.
 
-If you're interested in discussing how I might be able to help your team, please [send me an email](josh@dzello.com) or head over to the [consulting page](/consulting) where you can learn more about me and what I offer.
+If you're interested in discussing how I might be able to help your team, please [send me an email](mailto:josh@dzello.com) or head over to the [consulting page](/consulting) where you can learn more. Hope to talk soon!
