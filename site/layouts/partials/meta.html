@@ -7,7 +7,7 @@
   <meta property="og:description" content="{{ .Site.Params.description}}">
   <meta name="description" content="{{ .Site.Params.description }}" />
   <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
-  <meta name="og:author" content="{{ .Params.Author | default .Site.Author.name }}" />
+  <meta property="og:author" content="{{ .Params.Author | default .Site.Author.name }}" />
   {{ .Hugo.Generator -}}
   {{ if isset .Params "image" }}
   <meta property="og:image" content="{{ .Params.image | absURL }}" />
