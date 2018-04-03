@@ -5,6 +5,9 @@ menu = "main"
 meta = "false"
 title = "Consulting"
 weight = "50"
+image = "/images/josh-dzielak-algolia-search-party.jpg"
+imageWidth = 2048
+imageHeight = 1536
 
 +++
 

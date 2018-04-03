@@ -18,7 +18,7 @@ If the image isn't the one you want, there's a workaround to change it but stay 
 Disclaimer: this workaround is based on trail and error from editing the Victorian Persistence blog's [team page](https://victorianpersistence.wordpress.com/team/)
 and could change at any time.
 
-{{< title-image >}}
+{{< single-image >}}
 <span class="caption" style="text-align: center">I am not a Victorian scholar, but Estelle is!</span>
 
 The solution is to re-upload the image you want to be the og:image but make sure that

@@ -1,6 +1,6 @@
 +++
 categories = ["Technology"]
-date = "2017-06-12T00:00:00Z"
+date = "2017-06-12"
 description = "A talk given by Josh Dzielak at DevXCon 2017"
 image = "/images/talks/josh-dzielak-devxcon-2017.png"
 imageWidth = 779

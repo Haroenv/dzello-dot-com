@@ -4,8 +4,11 @@
 
     <h1>{{ .Page.Title }}</h1>
 
-    <div class="image-outer title-image">
+    <div class="image-outer single-image">
       <img title="{{ .Page.Title }}" src="{{ .Page.Params.Image }}">
+      {{ with .Page.Params.imageCaption }}
+        <div class="caption">{{ . }}</div>
+      {{ end }}
     </div>
 
     {{ if not .Params.meta }}
@@ -16,6 +19,8 @@
     {{.Content}}
 
 </article>
+
+<hr>
 
 {{ partial "discuss" . }}
 

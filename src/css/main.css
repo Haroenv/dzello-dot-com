@@ -136,7 +136,7 @@ ul.pagination li.disabled a {
 #container footer {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 #container footer h6 {
@@ -290,7 +290,7 @@ table > tbody > tr > td {
   margin: 35px 0 40px;
 }
 
-.image-outer.title-image {
+.image-outer.single-image {
   margin: 0;
 }
 
@@ -302,7 +302,7 @@ table > tbody > tr > td {
 .image-outer .image-caption, .caption {
   display: block;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 14px;
   text-align: center;
   color: var(--lightTextColor);
