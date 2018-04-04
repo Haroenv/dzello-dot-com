@@ -9,6 +9,9 @@ summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
 
+[permalinks]
+  blog = "/:year/:month/:day/:title/"
+
 [blackfriday]
 smartypants = false
 
