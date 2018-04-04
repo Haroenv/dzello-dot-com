@@ -72,12 +72,12 @@ Each work type resource returns a JSON document that contains a key for that typ
 ```json
 {
   "article": [{
-    "date":"2017-03-01",
-    "image_url":"/images/articles/algolia-elasticsearch-latency.png",
-    "location":"StackShare",
-    "location_url":"https://stackshare.io/",
-    "title":"How Algolia Reduces Latency For 21B Searches Per Month",
-    "url":"https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month"
+    "date": "2017-03-01",
+    "image_url": "/images/articles/algolia-elasticsearch-latency.png",
+    "location": "StackShare",
+    "location_url": "https://stackshare.io/",
+    "title": "How Algolia Reduces Latency For 21B Searches Per Month",
+    "url": "https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month"
   }]
 }
 ```
