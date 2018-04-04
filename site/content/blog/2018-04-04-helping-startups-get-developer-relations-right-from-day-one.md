@@ -17,6 +17,6 @@ In the last five years I've worked at two business-to-developer (B2D) companies 
 
 {{< image title="Panel at Sentry Scouts meetup" class="small" src="/images/talks/josh-dzielak-sentry-scouts.jpg" caption="Speaking about open source in 2018 at [Sentry Scouts](https://sentry.io/_/events/2018-01-17-sentry-scouts-1/)" >}}
 
-From these experiences, I've learned a lot of lessons about building effective and sustainable programs for developer relations—a lot of do's and even more don'ts. With consulting, my goal is to take what I've learned and use it to help startups get off on the right foot in their relationship with developers. My mission is help companies grow by increasing the value that they add to the developer community.
+From these experiences, I've learned a lot of lessons about building effective and sustainable programs for developer relations—a lot of do's and even more don'ts. With consulting, my goal is to take what I've learned and use it to help startups get their reputation and relationship with developers off on the right foot. My mission is help companies grow by increasing the value that they add to the developer community.
 
 If you're interested in discussing how I might be able to help your team, please [send me an email](mailto:josh@dzello.com?subject=Help%20me%20with%20developer%20relations) or use the form on the [consulting page](/consulting). Hope to talk soon!
