@@ -5,7 +5,7 @@ description = "A talk given by Josh Dzielak at DevXCon 2017"
 image = "/images/talks/josh-dzielak-devxcon-2017.png"
 imageWidth = 779
 imageHeight = 452
-title = "How to scale community support for APIs - DevXCon 2017"
+title = "How to scale community support for APIs presented at DevXCon 2017"
 
 +++
 

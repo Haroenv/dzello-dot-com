@@ -5,7 +5,7 @@ description = "The transcript and slides of a talk given by Josh Dzielak at Open
 image = "images/talks/josh-dzielak-ossat-2017.jpg"
 imageWidth = 1200
 imageHeight = 900
-title = "Scale community support by webhooking the things - presented at #OSSAT"
+title = "Scale community support by webhooking the things"
 
 +++
 
