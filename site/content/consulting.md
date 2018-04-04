@@ -30,10 +30,6 @@ I prefer engagements based around concentrated, well-scoped projects with few de
 
 {{< spacing-icon "heart-o" >}}
 
-# How I got here
-
-{{< image title="Consulting and developer relations venn diagram" src="/images/consulting-devrel-experience.png" class="small" >}}
-
 # Where am I located?
 
 I'm currently based out of Paris, France meaning that most or all of my work will be remote for US-based clients. I try to be as flexible as possible with my schedule so I can meet during the most convenient times for your team, wherever they may be around the globe.
