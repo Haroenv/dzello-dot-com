@@ -10,11 +10,11 @@
     analytics.load("c5mxOa6ima5jJGNcru9HjriQoc4bgEwd");
     analytics.page();
     }}();
+    var commonProps = {
+      location: document.location
+    };
     window.logEvent = function(name, body) {
-      var commonProps = {
-        location: document.location
-      };
-      analytics.track(name, body);
+      analytics.track(name, Object.assign({}, commonProps, body));
     }
-    logEvent("PAGEVIEW");
+    analytics.page("{{ .Page.Type }}", commonProps);
   </script>
