@@ -13,7 +13,7 @@ imageHeight = 1536
 
 # Don't DevRel alone!
 
-I do consulting for developer relations teams and companies whose customers are developers. My mission is help companies increase their value by increasing the value that they add to the developer community.
+I do consulting for developer relations teams and companies whose customers are developers. My mission is help companies grow by increasing the value that they add to the developer community.
 
 {{< spacing-icon "handshake-o" >}}
 

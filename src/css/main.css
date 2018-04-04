@@ -287,7 +287,7 @@ table > tbody > tr > td {
 }
 
 .image-outer {
-  margin: 35px 0 40px;
+  margin: 35px 0;
 }
 
 .image-outer.single-image {

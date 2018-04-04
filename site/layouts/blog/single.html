@@ -12,9 +12,10 @@
 
 </article>
 
-<hr>
-
-{{ partial "discuss" . }}
+{{ if not .Page.Params.noDiscuss }}
+  <hr>
+  {{ partial "discuss" . }}
+{{ end }}
 
 {{ partial "single_footer" . }}
 
