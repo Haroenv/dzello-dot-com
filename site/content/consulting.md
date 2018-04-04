@@ -5,9 +5,10 @@ menu = "main"
 meta = "false"
 title = "Consulting"
 weight = "50"
-image = "/images/josh-dzielak-algolia-search-party.jpg"
-imageWidth = 2048
-imageHeight = 1536
+image = "/images/blog/josh-dzielak-heavybit-devguild-2015.jpg"
+imageWidth = 1024
+imageHeight = 684
+useSummaryForDescription = true
 
 +++
 

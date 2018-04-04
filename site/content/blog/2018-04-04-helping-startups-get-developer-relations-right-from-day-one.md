@@ -7,7 +7,6 @@ imageHeight = 684
 imageCaption = "🎤 MC'ing Heavybit's dev evangelism conference in 2015"
 layout = "single-image"
 title = "Helping startups get developer relations right from day one"
-description = "Starting this month, I'm offering consulting and advisorship to startups who are creating tools for developers."
 noDiscuss = true
 
 +++

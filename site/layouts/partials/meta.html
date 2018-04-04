@@ -1,18 +1,26 @@
-  {{- $description := or .Page.Params.description .Site.Params.description -}}
+  {{- $isBlogPost := and (eq .Page.Type "blog") (eq .Page.Kind "page") }}
+  {{- $description := or .Page.Summary .Site.Params.description -}}
   {{- .Hugo.Generator }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {{- if (and (eq .Page.Type "blog") (eq .Page.Kind "page")) }}
+  {{- if $isBlogPost }}
   <title>{{ .Page.Title }}</title>
   <meta property="og:title" content="{{ .Page.Title }}" />
   <meta property="og:type" content="article" />
+  <meta property="og:description" content="{{ .Page.Summary }}">
+  <meta name="description" content="{{ .Page.Summary }}" />
   {{- else }}
   <title>{{ with .Page.Title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
   <meta property="og:title" content="{{ with .Page.Title }}{{ . }} - {{ end }}{{ .Site.Title }}" />
   <meta property="og:type" content="website" />
+  {{- if .Page.Params.useSummaryForDescription }}
+  <meta property="og:description" content="{{ .Page.Summary }}">
+  <meta name="description" content="{{ .Page.Summary }}" />
+  {{- else }}
+  <meta property="og:description" content="{{ or .Page.Params.description .Site.Params.description }}">
+  <meta name="description" content="{{ or .Page.Params.description .Site.Params.description }}" />
+  {{- end }}
   {{- end }}
   <meta property="og:url" content="{{ .Permalink }}" />
-  <meta property="og:description" content="{{ $description  }}">
-  <meta name="description" content="{{ $description }}" />
   <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
   <meta property="og:author" content="{{ .Params.Author | default .Site.Author.name }}" />
   {{ if isset .Params "image" -}}

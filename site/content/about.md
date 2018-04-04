@@ -8,6 +8,7 @@ title = "About me"
 image = "/images/blog/josh-dzielak-frisbee.png"
 imageWidth = 960
 imageHeight = 540
+useSummaryForDescription = true
 
 +++
 

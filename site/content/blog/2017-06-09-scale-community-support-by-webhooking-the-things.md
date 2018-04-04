@@ -1,7 +1,6 @@
 +++
 categories = ["Technology"]
 date = "2017-06-09"
-description = "The transcript and slides of a talk given by Josh Dzielak at Open Source Show and Tell 2017 about automating and responding to activity from online communities."
 image = "images/talks/josh-dzielak-ossat-2017.jpg"
 imageWidth = 1200
 imageHeight = 900

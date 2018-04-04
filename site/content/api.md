@@ -5,6 +5,7 @@ menuTitle = "API"
 meta = "false"
 title = "dzello.com API documentation"
 weight = "45"
+useSummaryForDescription = true
 
 +++
 

@@ -1,7 +1,6 @@
 +++
 categories = ["Technology"]
 date = "2017-06-12"
-description = "A talk given by Josh Dzielak at DevXCon 2017 about the tools that Algolia uses to keep a high quality of service for supporing developers."
 image = "/images/talks/josh-dzielak-devxcon-2017.png"
 imageWidth = 779
 imageHeight = 452
