@@ -1,20 +1,26 @@
-  <meta charset="utf-8" />
+  {{- $description := or .Page.Params.description .Site.Params.description -}}
+  {{- .Hugo.Generator }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ with or .Page.Title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
-  <meta property="og:title" content="{{ .Site.Title }}">
-  <meta property="og:url" content="{{ .Permalink }}">
+  {{- if (and (eq .Page.Type "blog") (eq .Page.Kind "page")) }}
+  <title>{{ .Page.Title }}</title>
+  <meta property="og:title" content="{{ .Page.Title }}" />
+  <meta property="og:type" content="article" />
+  {{- else }}
+  <title>{{ with .Page.Title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ with .Page.Title }}{{ . }} - {{ end }}{{ .Site.Title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="{{ .Site.Params.description}}">
-  <meta name="description" content="{{ .Site.Params.description }}" />
+  {{- end }}
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:description" content="{{ $description  }}">
+  <meta name="description" content="{{ $description }}" />
   <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
   <meta property="og:author" content="{{ .Params.Author | default .Site.Author.name }}" />
-  {{ .Hugo.Generator -}}
-  {{ if isset .Params "image" }}
+  {{ if isset .Params "image" -}}
   <meta property="og:image" content="{{ .Params.image | absURL }}" />
   <meta property="og:image:width" content="{{ .Params.imageWidth }}" />
   <meta property="og:image:height" content="{{ .Params.imageHeight }}" />
-  {{ else }}
+  {{- else -}}
   <meta property="og:image" content="{{ .Site.Params.ogImage | absURL }}" />
   <meta property="og:image:width" content="{{ .Site.Params.ogImageWidth }}" />
   <meta property="og:image:height" content="{{ .Site.Params.ogImageHeight }}" />
-  {{ end }}
+  {{- end }}

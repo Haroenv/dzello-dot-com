@@ -2,7 +2,7 @@
 categories = ["Culture"]
 date = "2015-11-27T00:00:00Z"
 image = "/images/talks/josh-dzielak-st-jean-de-passy-2015.jpg"
-title = "Evolving Work—Paris"
+title = "Evolving Work - Paris"
 
 +++
 
