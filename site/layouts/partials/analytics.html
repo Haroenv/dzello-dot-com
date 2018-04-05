@@ -1,20 +1,31 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
-  <script>
+  <script type="text/javascript">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', '{{ .Site.Params.googleAnalytics }}');
+    gtag('config', {{ .Site.Params.googleAnalytics }});
   </script>
-  <script>
+  <script type="text/javascript">
     !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
     analytics.load("c5mxOa6ima5jJGNcru9HjriQoc4bgEwd");
-    analytics.page();
     }}();
-    var commonProps = {
-      location: document.location
+    {{- $segmentName := .Page.Title -}}
+    {{- $segmentCategory := or .Page.Section "none" -}}
+    var commonEventProperties = {
+      location: document.location,
+      name: {{ $segmentName }},
+      category: {{ $segmentCategory }},
+      site: {
+        type: {{ .Page.Type }},
+        section: {{ .Page.Section }},
+        kind: {{ .Page.Kind }},
+        title: {{ .Page.Title }},
+        url: {{ .Page.Permalink }},
+        date: {{ .Page.Date }}
+      }
     };
-    window.logEvent = function(name, body) {
-      analytics.track(name, Object.assign({}, commonProps, body));
+    window.logEvent = function(eventName, eventProperties) {
+      analytics.track(eventName, Object.assign({}, commonEventProperties, eventProperties));
     }
-    analytics.page("{{ .Page.Type }}", commonProps);
+    analytics.page("{{ $segmentCategory }}", "{{ $segmentName }}", commonEventProperties);
   </script>

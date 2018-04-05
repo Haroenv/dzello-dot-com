@@ -10,7 +10,7 @@
   <meta name="description" content="{{ .Page.Summary }}" />
   {{- else }}
   <title>{{ with .Page.Title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
-  <meta property="og:title" content="{{ with .Page.Title }}{{ . }} - {{ end }}{{ .Site.Title }}" />
+  <meta property="og:title" content="{{ .Page.Title }} - {{ .Site.Title }}" />
   <meta property="og:type" content="website" />
   {{- if .Page.Params.useSummaryForDescription }}
   <meta property="og:description" content="{{ .Page.Summary }}">

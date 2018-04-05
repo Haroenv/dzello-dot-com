@@ -3,6 +3,7 @@ introduction = "Hello! I'm Josh. Drawing on over 5 years of experience with B2D 
 introductionPhoto = "/images/josh-dzielak-2018.png"
 menu = "main"
 menuTitle = "Home"
+title = "Home"
 weight = 1
 
 +++
