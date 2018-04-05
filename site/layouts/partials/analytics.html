@@ -21,7 +21,9 @@
         kind: {{ .Page.Kind }},
         title: {{ .Page.Title }},
         url: {{ .Page.Permalink }},
-        date: {{ .Page.Date }}
+        date: {{ .Page.Date }},
+        environment: {{ getenv "CONTEXT" }},
+        commitRef: {{ getenv "COMMIT_REF" }}
       }
     };
     window.logEvent = function(eventName, eventProperties) {
