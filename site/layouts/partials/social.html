@@ -11,6 +11,8 @@
   <li><a href="https://www.medium.com/@{{ .Site.Author.medium }}"><i class="fa fa-medium fa-lg" aria-hidden="true"></i></a></li>
   {{ end }} {{ if .Site.Author.instagram }}
   <li><a href="https://instagram.com/{{ .Site.Author.instagram }}"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+  {{ end }} {{ if .Site.Author.calendly }}
+  <li><a href="https://calendly.com/{{ .Site.Author.calendly }}"><i class="fa fa-calendar fa-lg" aria-hidden="true"></i></a></li>
   {{ end }} {{ if .Site.Author.email }}
   <li><a href="mailto:{{ .Site.Author.email }}"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a></li>
   {{ end }}
