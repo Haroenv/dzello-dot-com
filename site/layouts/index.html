@@ -1,16 +1,20 @@
 {{ define "main" }}
 
-  <div class="home-intro clearfix">
-    <img class="home-intro-image" src='{{ .Params.introductionPhoto }}'>
-    <p class="home-intro-text">
-      {{ .Params.introduction | markdownify }}
-    </p>
-  </div>
-  <div class="hr"></div>
-  {{ .Content }}
-  <section id="home">
-    {{ partial "latest-posts" . }}
-    <p class="center"><a href="/blog">see more posts...</a></p>
-  </section>
+  <!-- Started -->
+	<div class="section started">
+		<div class="centrize full-width">
+			<div class="vertical-center">
+				<div class="started-content">
+					<div class="h-title glitch-effect" data-text="I'm {{ .Site.Author.name }}">I'm <span>{{ .Site.Author.name }}</span></div>
+					<div class="h-subtitle typing-subtitle">
+						<p>{{ .Site.Params.tagline }}</p>
+						<p>{{ .Site.Params.taglineTwo }}</p>
+						<p>{{ .Site.Params.taglineThree }}</p>
+					</div>
+					<span class="typed-subtitle"></span>
+				</div>
+			</div>
+		</div>
+	</div>
 
 {{ end }}

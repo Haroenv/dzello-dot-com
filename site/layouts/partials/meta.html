@@ -1,7 +1,8 @@
   {{- $isBlogPost := and (eq .Page.Type "blog") (eq .Page.Kind "page") }}
   {{- $description := or .Page.Summary .Site.Params.description -}}
   {{- .Hugo.Generator }}
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   {{- if $isBlogPost }}
   <title>{{ .Page.Title }}</title>
   <meta property="og:title" content="{{ .Page.Title }}" />

@@ -2,23 +2,28 @@
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
   {{ partial "meta" . -}}
-  {{ partial "header_includes" . -}}
+  {{ partial "css_includes" . -}}
   {{ partial "analytics" . -}}
 </head>
 <body>
-  <div id="container">
-    <header>
-      <h1>
-        <a href="/">{{ .Site.Params.Header | markdownify }}</a>
-      </h1>
-      {{ with .Site.Params.tagline }}
-        <p>{{ . | markdownify }}</p>
-      {{ end }}
-      {{ partial "social" . }}
-      {{ partial "subscribe-modal" . }}
-    </header>
+
+  <!-- Preloader -->
+	<div class="preloader">
+		<div class="centrize full-width">
+			<div class="vertical-center">
+				<div class="pre-inner">
+					<div class="load typing-load"><p>loading...</p></div>
+					<span class="typed-load"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <!-- Container -->
+  <div class="container">
+
+    <!-- Header -->
     {{ partial "nav" . }}
-    <div id="main-and-algolia">
-      <main>
-        {{ partial "algolia-hits" . }}
-        <div id="main-inner">
+
+    <!-- Wrapper -->
+    <div class="wrapper">

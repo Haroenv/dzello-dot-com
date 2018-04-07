@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{ $title := or .Page.Params.menuTitle .Page.Title }}
+
+<!-- Started -->
+<div class="section started">
+  <div class="centrize full-width">
+    <div class="vertical-center">
+      <div class="started-content">
+        <div class="h-title glitch-effect" data-text="{{ $title }}">{{ $title }}</div>
+        <div class="h-subtitle typing-bread">
+          <p><a href="/">Home</a> / {{ $title }}</p>
+        </div>
+        <span class="typed-bread"></span>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="mouse_btn"><span class="ion ion-mouse"></span></a>
+</div>
+
+<div class="section">
+  <div class="content">
+    <section id="list">
+      {{ $baseurl := .Site.BaseURL }}
+      {{ .Content }}
+      {{ range (.Paginate (.Data.Pages.GroupByDate "2006")).PageGroups  }}
+        <h3>{{ .Key }}</h3>
+        <ul>
+          {{ range .Pages }}
+            <li>
+                <a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
+                <time class="date-meta">{{ .Date.Format "Jan 2" }}</time>
+            </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+    </section>
+    {{ template "_internal/pagination.html" . }}
+  </div>
+</div>
+
+
+{{ end }}

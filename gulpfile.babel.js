@@ -1,12 +1,10 @@
 import gulp from "gulp";
+import path from "path";
 import {spawn} from "child_process";
 import hugoBin from "hugo-bin";
 import gutil from "gulp-util";
 import flatten from "gulp-flatten";
-import postcss from "gulp-postcss";
-import cssImport from "postcss-import";
-import cssnext from "postcss-cssnext";
-import cssnano from "cssnano";
+import less from "gulp-less";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
@@ -51,8 +49,8 @@ gulp.task("deploy-preview", ['build-preview'], () => { gulp.start("algolia"); })
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
-  gulp.src("./src/css/*.css")
-    .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext(), cssnano({ autoprefixer: false })]))
+  gulp.src("./src/css/*.less")
+    .pipe(less({ paths: [ path.join(__dirname, 'src', 'css', 'glitch') ]}))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));
@@ -60,7 +58,7 @@ gulp.task("css", () => (
 // Watch all assets
 gulp.task("watch-assets", () => {
   gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
+  gulp.watch("./src/css/**/*.{css,less}", ["css"]);
   gulp.watch("./src/fonts/**/*", ["fonts"]);
 });
 
@@ -97,7 +95,7 @@ gulp.task("server-browsersync", ["hugo", "css", "js", "fonts"], () => {
     notify: false
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
+  gulp.watch("./src/css/**/*.{css,less}", ["css"]);
   gulp.watch("./src/fonts/**/*", ["fonts"]);
   gulp.watch("./site/**/*", ["hugo"]);
 });
