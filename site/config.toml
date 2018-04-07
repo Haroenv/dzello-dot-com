@@ -3,7 +3,6 @@ title = "Josh Dzielak - Developer tools and developer relations"
 languageCode = "en-us"
 languageLang = "en"
 copyright = "Copyright &copy; 2018 - Josh Dzielak"
-theme = "kiera"
 paginate = 6
 summaryLength = 30
 enableEmoji = true
