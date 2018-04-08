@@ -5,6 +5,7 @@ import hugoBin from "hugo-bin";
 import gutil from "gulp-util";
 import flatten from "gulp-flatten";
 import less from "gulp-less";
+import autoprefixer from "gulp-autoprefixer";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
@@ -51,6 +52,7 @@ gulp.task("deploy-preview", ['build-preview'], () => { gulp.start("algolia"); })
 gulp.task("css", () => (
   gulp.src("./src/css/*.less")
     .pipe(less({ paths: [ path.join(__dirname, 'src', 'css', 'glitch') ]}))
+    .pipe(autoprefixer({browsers: [ 'ie >= 10', 'ie_mob >= 10', 'ff >= 30', 'chrome >= 34', 'safari >= 7', 'opera >= 23', 'ios >= 7', 'android >= 4.4', 'bb >= 10' ]}))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));
