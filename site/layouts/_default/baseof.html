@@ -1,4 +1,70 @@
-{{ partial "header" . }}
-{{- block "main" . -}}
-{{- end -}}
-{{ partial "footer" . }}
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "meta" . }}
+  {{ partial "css_includes" . }}
+  {{ block "glitch-css" . -}}
+  <link rel="stylesheet" type="text/css" href="/css/glitch-{{ or .Page.Params.themeColor .Site.Params.themeColor }}.css" />
+  {{- end }}
+</head>
+<body>
+  <div class="preloader">
+    <div class="centrize full-width">
+      <div class="vertical-center">
+        <div class="pre-inner">
+          <div class="load typing-load"><p>loading...</p></div>
+          <span class="typed-load"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    {{ partial "nav" . }}
+    <div class="wrapper">
+      <div class="section started">
+        <div class="centrize full-width">
+          <div class="vertical-center">
+            <div class="started-content">
+              {{ block "started-content" . -}}
+                {{- $title := or .Page.Params.menuTitle .Page.Title -}}
+                <div class="h-title glitch-effect" data-text="{{ $title }}">{{ $title }}</div>
+                <div class="h-subtitle typing-bread">
+                  <p><a href="/">Home</a> / {{ $title }}</p>
+                </div>
+                <span class="typed-bread"></span>
+              {{- end }}
+            </div>
+          </div>
+        </div>
+        {{ block "scroll-btn" . -}}
+        <a href="#" class="mouse_btn"><span class="ion ion-mouse"></span></a>
+        {{- end }}
+      </div>
+      {{- block "main" . -}}
+      {{- end }}
+    </div>
+    <footer>
+      {{- partial "social" . }}
+      <div class="copy">{{ .Site.Params.copyright }}</div>
+      <div class="clr"></div>
+    </footer>
+    <div class="line top"></div>
+    <div class="line bottom"></div>
+    <div class="line left"></div>
+    <div class="line right"></div>
+  </div>
+  {{- partial "analytics" . }}
+  {{- partial "algolia-variables" }}
+  <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/jquery.validate.js"></script>
+  <script src="/js/typed.js"></script>
+  <script src="/js/magnific-popup.js"></script>
+  <script src="/js/masonry.pkgd.js"></script>
+  <script src="/js/imagesloaded.pkgd.js"></script>
+  <script src="/js/masonry-filter.js"></script>
+  <script src="/js/glitche-scripts.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

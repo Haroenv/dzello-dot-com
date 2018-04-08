@@ -1,22 +1,15 @@
-{{ define "main" }}
+{{ define "started-content" -}}
+              <div class="date">{{ .Page.Date.Format "Jan 2 2006" }}</div>
+              <div class="h-title blog_title">{{ .Page.Title }}</div>
+              <div class="h-subtitle typing-bread">
+                <p><a href="/">Home</a> / <a href="/blog">Blog</a></p>
+              </div>
+{{- end }}
 
-<article>
-
-    <h1>{{ .Page.Title }}</h1>
-
-    {{ if not .Params.meta }}
-        {{ partial "aside" . }}
-    {{ end }}
-
-    {{ .Content }}
-
-</article>
-
-{{ if not .Page.Params.noDiscuss }}
-  <hr>
-  {{ partial "discuss" . }}
-{{ end }}
-
-{{ partial "single_footer" . }}
-
-{{ end }}
+{{ define "main" -}}
+<div class="section">
+  <div class="content">
+    {{ partial "layout/blog-single.html" . }}
+  </div>
+</div>
+{{- end }}

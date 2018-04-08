@@ -1,4 +1,4 @@
 +++
-title = "Thailand & Mindfulness Project Journal"
+title = "Thailand"
 
 +++

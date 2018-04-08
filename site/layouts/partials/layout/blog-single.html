@@ -1,0 +1,12 @@
+<div class="section">
+  <div class="content">
+    <div class="single-post-text">
+      {{ .Content }}
+    </div>
+    {{ if not .Page.Params.noDiscuss }}
+      <hr>
+      {{ partial "discuss" . }}
+    {{ end }}
+    {{ partial "blog_pagination" . }}
+  </div>
+</div>

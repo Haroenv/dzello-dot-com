@@ -5,6 +5,7 @@ menu = "main"
 menuTitle = "Home"
 title = "Home"
 weight = 1
+themeColor = "pink"
 
 +++
 

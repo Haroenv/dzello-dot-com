@@ -5,7 +5,6 @@ image = "/images/blog/josh-dzielak-heavybit-devguild-2015.jpg"
 imageWidth = 1024
 imageHeight = 684
 imageCaption = "🎤 MC'ing Heavybit's dev evangelism conference in 2015"
-layout = "single-image"
 title = "Helping startups get developer relations right from day one"
 noDiscuss = true
 

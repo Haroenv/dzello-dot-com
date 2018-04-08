@@ -1,27 +1,7 @@
 {{ define "main" }}
-
-  {{ $title := or .Page.Params.menuTitle .Page.Title }}
-
-  <!-- Started -->
-	<div class="section started">
-		<div class="centrize full-width">
-			<div class="vertical-center">
-				<div class="started-content">
-					<div class="h-title glitch-effect" data-text="{{ $title }}">{{ $title }}</div>
-					<div class="h-subtitle typing-bread">
-						<p><a href="/">Home</a> / {{ $title }}</p>
-					</div>
-					<span class="typed-bread"></span>
-				</div>
-			</div>
-		</div>
-		<a href="#" class="mouse_btn"><span class="ion ion-mouse"></span></a>
-	</div>
-
-	<div class="section">
-		<div class="content">
+  <div class="section">
+    <div class="content">
       {{ .Content }}
     </div>
   </div>
-
 {{ end }}

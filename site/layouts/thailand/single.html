@@ -1,13 +1,18 @@
-{{ define "main" }}
+{{ define "glitch-css" -}}
+<link rel="stylesheet" type="text/css" href="/css/glitch-orange.css" />
+{{- end }}
+{{ define "started-content" -}}
+              <div class="date">{{ .Page.Date.Format "Jan 2 2006" }}</div>
+              <div class="h-title blog_title">{{ .Page.Title }}</div>
+              <div class="h-subtitle typing-bread">
+                <p><a href="/">Home</a> / <a href="/thailand">Thailand</a></p>
+              </div>
+{{- end }}
 
-<article>
-
-    <h1>{{ .Page.Title }}</h1>
-
-    {{.Content}}
-
-</article>
-
-{{ partial "single_footer" . }}
-
-{{ end }}
+{{ define "main" -}}
+<div class="section">
+  <div class="content">
+    {{ partial "layout/blog-single.html" . }}
+  </div>
+</div>
+{{- end }}
