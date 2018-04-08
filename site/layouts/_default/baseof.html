@@ -26,10 +26,9 @@
           <div class="vertical-center">
             <div class="started-content">
               {{ block "started-content" . -}}
-                {{- $title := or .Page.Params.menuTitle .Page.Title -}}
-                <div class="h-title glitch-effect" data-text="{{ $title }}">{{ $title }}</div>
+                <div class="h-title glitch-effect" data-text="{{ .Page.Title }}">{{ .Page.Title }}</div>
                 <div class="h-subtitle typing-bread">
-                  <p><a href="/">Home</a> / {{ $title }}</p>
+                  <p><a href="/">Home</a> / {{ or .Page.Params.menuTitle .Page.Title }}</p>
                 </div>
                 <span class="typed-bread"></span>
               {{- end }}
