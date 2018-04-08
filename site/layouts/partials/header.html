@@ -1,29 +1,20 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
-  {{ partial "meta" . -}}
-  {{ partial "css_includes" . -}}
-  {{ partial "analytics" . -}}
+  {{ partial "meta" . }}
+  {{ partial "css_includes" . }}
 </head>
 <body>
-
-  <!-- Preloader -->
-	<div class="preloader">
-		<div class="centrize full-width">
-			<div class="vertical-center">
-				<div class="pre-inner">
-					<div class="load typing-load"><p>loading...</p></div>
-					<span class="typed-load"></span>
-				</div>
-			</div>
-		</div>
-	</div>
-
-  <!-- Container -->
+  <div class="preloader">
+    <div class="centrize full-width">
+      <div class="vertical-center">
+        <div class="pre-inner">
+          <div class="load typing-load"><p>loading...</p></div>
+          <span class="typed-load"></span>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container">
-
-    <!-- Header -->
     {{ partial "nav" . }}
-
-    <!-- Wrapper -->
     <div class="wrapper">

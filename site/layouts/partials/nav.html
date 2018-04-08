@@ -1,17 +1,17 @@
-{{ $currentPage := . }}
-<header>
-  <div class="head-top">
-    <a href="#" class="menu-btn"><span></span></a>
-    <div class="top-menu">
-      <ul>
-        {{ range .Site.Menus.main }}
-          {{ $title := or .Page.Params.menuTitle .Page.Title }}
-          <li class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (and (eq .Page.Dir $currentPage.Dir) (ne $currentPage.Dir "")) }}active{{end}}">
-            <a class="lnk" href="{{ .URL }}">{{ $title }}</a>
-          </li>
-        {{ end }}
-        <li><a href="#" class="btn">Subscribe</a></li>
-      </ul>
-    </div>
-  </div>
-</header>
+{{- $currentPage := . -}}
+    <header>
+      <div class="head-top">
+        <a href="#" class="menu-btn"><span></span></a>
+        <div class="top-menu">
+          <ul>
+            {{ range .Site.Menus.main -}}
+            {{- $title := or .Page.Params.menuTitle .Page.Title -}}
+            <li class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (and (eq .Page.Dir $currentPage.Dir) (ne $currentPage.Dir "")) }}active{{end}}">
+              <a class="lnk" href="{{ .URL }}">{{ $title }}</a>
+            </li>
+            {{ end -}}
+            <li><a href="#" class="btn">Subscribe</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>

@@ -25,9 +25,10 @@ calendly = "dzello"
 
 [params]
 description = "Formerly of Algolia, Keen IO and Disney, Josh Dzielak shares his perspective on developer tools and developer relations."
-tagline = "I build developer tools and communities."
-taglineTwo = "I'm based in Paris and San Francisco."
-taglineThree = "Welcome!"
+taglines = ["I build developer tools and communities.",
+            "I'm based in Paris and San Francisco.",
+            "Welcome!"]
+copyright = "© 2018 Josh Dzielak. All rights reserved."
 header = "Josh Dzielak"
 ogImage = "images/josh-dzielak-2018.png"
 ogImageWidth = "508"

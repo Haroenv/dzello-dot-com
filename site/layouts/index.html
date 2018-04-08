@@ -1,20 +1,19 @@
 {{ define "main" }}
-
-  <!-- Started -->
-	<div class="section started">
-		<div class="centrize full-width">
-			<div class="vertical-center">
-				<div class="started-content">
-					<div class="h-title glitch-effect" data-text="I'm {{ .Site.Author.name }}">I'm <span>{{ .Site.Author.name }}</span></div>
-					<div class="h-subtitle typing-subtitle">
-						<p>{{ .Site.Params.tagline }}</p>
-						<p>{{ .Site.Params.taglineTwo }}</p>
-						<p>{{ .Site.Params.taglineThree }}</p>
-					</div>
-					<span class="typed-subtitle"></span>
-				</div>
-			</div>
-		</div>
-	</div>
-
+      <div class="section started">
+        <div class="centrize full-width">
+          <div class="vertical-center">
+            <div class="started-content">
+              <div class="h-title glitch-effect" data-text="I'm {{ .Site.Author.name }}">
+                I'm <span>{{ .Site.Author.name }}</span>
+              </div>
+              <div class="h-subtitle typing-subtitle">
+                {{- range .Site.Params.taglines }}
+                <p>{{ . }}</p>
+                {{- end }}
+              </div>
+              <span class="typed-subtitle"></span>
+            </div>
+          </div>
+        </div>
+      </div>
 {{ end }}

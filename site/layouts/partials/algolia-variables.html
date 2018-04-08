@@ -1,7 +1,8 @@
-<script type="text/javascript">
-  window.algolia = {
-    appId: "{{ getenv "ALGOLIA_APP_ID" }}",
-    searchApiKey: "{{ getenv "ALGOLIA_SEARCH_API_KEY" }}",
-    indexName: "{{ getenv "ALGOLIA_INDEX_BASE_NAME" }}-{{ getenv "CONTEXT" }}-{{ getenv "COMMIT_REF" }}"
-  }
-</script>
+
+  <script>
+    window.algolia = {
+      appId: "{{ getenv "ALGOLIA_APP_ID" }}",
+      searchApiKey: "{{ getenv "ALGOLIA_SEARCH_API_KEY" }}",
+      indexName: "{{ getenv "ALGOLIA_INDEX_BASE_NAME" }}-{{ getenv "CONTEXT" }}-{{ getenv "COMMIT_REF" }}"
+    }
+  </script>
