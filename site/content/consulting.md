@@ -9,7 +9,7 @@ image = "/images/blog/josh-dzielak-heavybit-devguild-2015.jpg"
 imageWidth = 1024
 imageHeight = 684
 useSummaryForDescription = true
-themeColor = "blue"
+themeColor = "green"
 
 +++
 

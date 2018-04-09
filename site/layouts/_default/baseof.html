@@ -44,7 +44,10 @@
     </div>
     <footer>
       {{- partial "social" . }}
-      <div class="copy">{{ .Site.Params.copyright }}</div>
+      <div class="copy">{{ .Site.Params.copyright }} &middot;
+        <a href="/api">API</a> &middot;
+        <a href="{{ "/index.xml" | absURL }}">RSS</a>
+      </div>
       <div class="clr"></div>
     </footer>
     <div class="line top"></div>

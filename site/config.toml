@@ -2,7 +2,6 @@ baseURL = "/"
 title = "Josh Dzielak - Developer tools and developer relations"
 languageCode = "en-us"
 languageLang = "en"
-copyright = "Copyright &copy; 2018 - Josh Dzielak"
 paginate = 6
 summaryLength = 30
 enableEmoji = true
@@ -30,8 +29,8 @@ avatar = "josh-dzielak-profile-2018"
 
 [params]
 cl = "https://res.cloudinary.com/dzello/image/upload"
+copyright = "© 2018 Josh Dzielak"
 description = "Formerly of Algolia, Keen IO and Disney, Josh Dzielak shares his perspective on developer tools and developer relations."
-copyright = "© 2018 Josh Dzielak. All rights reserved."
 header = "Josh Dzielak"
 ogImage = "josh-dzielak-frisbee-2015.png"
 githubURL = "https://github.com/dzello/dzello-dot-com"
