@@ -18,7 +18,7 @@
           <ul>
             <li><strong>Name:</strong> {{ .Site.Author.name }}</li>
             <li><strong>Hometown:</strong> Rockford, USA</li>
-            <li><strong>First Computer:</strong> Apple IIe</li>
+            <li><strong>1st Computer:</strong> Apple IIe</li>
             <li><strong>E-mail:</strong> {{ .Site.Author.email }}</li>
             <li><strong>Residence: </strong> Paris, FR</li>
             <li><strong>Favorite Food:</strong> 🧀</li>
@@ -37,59 +37,11 @@
   <div class="section resume">
     <div class="content">
       <div class="cols">
-        <div class="col col-md">
+        <div class="col">
           <div class="title">
             <div class="title_inner">Experience</div>
           </div>
-          <div class="resume-items">
-            <div class="resume-item active">
-              <div class="date">2013 - Present</div>
-              <div class="name">Art Director - Facebook Inc</div>
-              <p>
-                Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
-                quis interdum nisi sollicitudin.
-              </p>
-            </div>
-            <div class="resume-item">
-              <div class="date">2011 - 2012</div>
-              <div class="name">Front-end Developer - Google Inc</div>
-              <p>
-                Duis ipsum ligula, feugiat nec auctor vitae, porta sit amet urna. Praesent ex lorem, porta nec aliquet eu,
-                ullamcorper eget nibh.
-              </p>
-            </div>
-            <div class="resume-item">
-              <div class="date">2009 - 2010</div>
-              <div class="name">Senior Developer - Abc Inc</div>
-              <p>
-                Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
-                quis interdum nisi sollicitudin.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col col-md">
-          <div class="title">
-            <div class="title_inner">Education</div>
-          </div>
-          <div class="resume-items">
-            <div class="resume-item">
-              <div class="date">2007 - 2008</div>
-              <div class="name">Art University of New York</div>
-              <p>
-                Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat, quis
-                interdum nisi sollicitudin.
-              </p>
-            </div>
-            <div class="resume-item">
-              <div class="date">2004 - 2006</div>
-              <div class="name">Front-end Course</div>
-              <p>
-                Duis ipsum ligula, feugiat nec auctor vitae, porta sit amet urna. Praesent ex lorem, porta nec aliquet eu,
-                ullamcorper eget nibh.
-              </p>
-            </div>
-          </div>
+          {{ partial "timeline" $.Site.Data.work.jobs.job }}
         </div>
       </div>
     </div>
