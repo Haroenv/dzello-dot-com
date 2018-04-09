@@ -10,18 +10,18 @@
         <div class="title_inner">{{ .Page.Title }}</div>
       </div>
       <div class="image">
-        {{ partial "cloudinary" "josh-dzielak-profile-2018" }}
+        {{ partial "cloudinary" .Site.Author.avatar }}
       </div>
       <div class="desc">
         <p>{{ .Page.Params.sectionDesc | markdownify }}</p>
         <div class="info-list">
           <ul>
             <li><strong>Name:</strong> {{ .Site.Author.name }}</li>
-            <li><strong>Hometown:</strong> Rockford, USA</li>
-            <li><strong>1st Computer:</strong> Apple IIe</li>
+            <li><strong>Hometown:</strong> {{ .Site.Author.hometown }}</li>
+            <li><strong>1st Computer:</strong> {{ .Site.Author.computer }}</li>
             <li><strong>E-mail:</strong> {{ .Site.Author.email }}</li>
-            <li><strong>Residence: </strong> Paris, FR</li>
-            <li><strong>Favorite Food:</strong> 🧀</li>
+            <li><strong>Residence: </strong> {{ .Site.Author.residence }}</li>
+            <li><strong>Favorite Food:</strong> {{ .Site.Author.food }}</li>
           </ul>
         </div>
         <div class="bts"><a target="_blank" href="https://linkedin.com/in/{{ .Site.Author.linkedin }}" class="btn fill" data-text="View CV">View CV</a></div>

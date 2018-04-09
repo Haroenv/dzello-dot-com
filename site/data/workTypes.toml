@@ -1,10 +1,4 @@
 [[ workType ]]
-title = "Work history"
-path = "work/jobs"
-icon = "keyboard-o"
-tag = "homepage"
-
-[[ workType ]]
 title = "Talks and presentations"
 path = "work/talks"
 icon = "slideshare"

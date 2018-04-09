@@ -22,6 +22,11 @@ github = "dzello"
 linkedin = "dzello"
 instagram = "josh_people"
 calendly = "dzello"
+computer = "Apple IIe"
+food = "🧀"
+hometown = "Rockford, USA"
+residence = "Paris, FR"
+avatar = "josh-dzielak-profile-2018"
 
 [params]
 cl = "https://res.cloudinary.com/dzello/image/upload"
