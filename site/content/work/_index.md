@@ -7,7 +7,3 @@ weight = "30"
 dataList = "workTypes"
 
 +++
-
-{{< title >}}
-
-{{< list-data class="tiles" >}}

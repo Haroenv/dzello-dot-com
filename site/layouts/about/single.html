@@ -41,7 +41,11 @@
           <div class="title">
             <div class="title_inner">Experience</div>
           </div>
-          {{ partial "timeline" $.Site.Data.work.jobs.job }}
+          <div class="resume-items">
+            {{ range $.Site.Data.work.jobs.job -}}
+              {{ partial "timeline-item" . }}
+            {{- end }}
+          </div>
         </div>
       </div>
     </div>

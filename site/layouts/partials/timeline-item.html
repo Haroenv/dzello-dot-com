@@ -1,0 +1,6 @@
+<div class="resume-item active">
+  <div class="date">{{ .date }}</div>
+  <div class="logo"><a href="{{ .company_url }}">{{ partial "cloudinary/custom" (dict "src" .company_logo "params" "e_trim") }}</a></div>
+  <div class="name">{{ .title }} <br> <a href="{{ .company_url }}">{{ .company }}</a></div>
+  <p>{{ .description }}</p>
+</div>

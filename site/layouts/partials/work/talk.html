@@ -1,16 +1,33 @@
 {{ $link_url := or .blog_url .video_url .slides_url .site_url }}
-<li class="talk">
-  {{ if isset . "image_url" }}
-    <a href="{{ $link_url }}"><img src="{{ .image_url }}"></a>
-    <br>
-  {{ else }}
-    <i class="fa fa-slideshare fa-lg"></i>
-  {{ end }}
-  <a href="{{ $link_url }}">{{ .title }}</a>
-  <p>
-    <a href="{{ .event_url }}">{{ .event }}</a> &middot; {{ dateFormat "January 2, 2006" .date }}
-    <br>
-  </p>
-  <p class="abstract">{{ .abstract | markdownify }}</p>
-  <p>{{ partial "work/_urls" . }}</p>
-</li>
+{{ $imageParams := "f_auto,q_auto,w_400,h_300,c_crop" }}
+<div class="box-item f-{{ .category}}">
+  <div class="image">
+    <a href="#popup-1" class="has-popup">
+      {{ partial "cloudinary/custom" (dict "src" .image_url "defaults" false "params" $imageParams) }}
+      <span class="info">
+        <span class="centrize full-width">
+          <span class="vertical-center">
+            <span class="ion ion-ios-plus-empty"></span>
+          </span>
+        </span>
+      </span>
+    </a>
+  </div>
+  <div class="desc">
+    <div class="category">Talks</div>
+    <a href="#popup-1" class="name has-popup">{{ .title }}</a>
+  </div>
+  <div id="popup-1" class="popup-box mfp-fade mfp-hide">
+    <div class="content">
+      <div class="image">
+        {{ partial "cloudinary/custom" (dict "src" .image_url "defaults" false "params" $imageParams) }}
+      </div>
+      <div class="desc">
+        <div class="category">{{ .category }}</div>
+        <h4>{{ .title }}</h4>
+        <p>{{ .abstract }}</p>
+        <a href="{{ $link_url }}" class="btn" data-text="View Project">View Project</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,7 +1,7 @@
 +++
 title = "Media, press & blog mentions"
 menuTitle = "Mentions"
-dataList = "mentions"
+dataList = "appearances"
 menu = "work"
 weight = 40
 

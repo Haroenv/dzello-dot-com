@@ -1,37 +1,31 @@
 [[ workType ]]
-title = "Talks and presentations"
-path = "work/talks"
-icon = "slideshare"
-tag = "homepage"
+title = "Talks"
+data = "talks"
+type = "talk"
+categories = [
+  "Community",
+  "Software",
+  "Culture",
+  "Search",
+  "Analytics"
+]
 
-[[ workType ]]
-title = "Articles"
-path = "work/articles"
-icon = "pencil"
-tag = "homepage"
-
-[[ workType ]]
-title = "Media and mentions"
-path = "work/mentions"
-icon = "tv"
-tag = "homepage"
-
-[[ workType ]]
-title = "Open source projects"
-path = "work/projects"
-icon = "code"
-
-[[ workType ]]
-title = "Podcast appearances"
-path = "work/podcasts"
-icon = "microphone"
-
-[[ workType ]]
-title = "Activities and volunteering"
-path = "work/activities"
-icon = "fire"
-
-[[ workType ]]
-title = "Github stats"
-path = "work/stats"
-icon = "github"
+# [[ workType ]]
+# title = "Articles"
+# data = "articles"
+# type = "article"
+#
+# [[ workType ]]
+# title = "Mentions"
+# data = "mentions"
+# type = "mention"
+#
+# [[ workType ]]
+# title = "Projects"
+# data = "projects"
+# type = "project"
+#
+# [[ workType ]]
+# title = "Activities"
+# data = "activities"
+# type = "activity"
