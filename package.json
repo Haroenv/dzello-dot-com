@@ -33,6 +33,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.11.6",
     "browser-sync": "^2.23.6",
+    "cloudinary-core": "^2.5.0",
     "css-loader": "^0.28.9",
     "cssnano": "^3.10.0",
     "dotenv": "^5.0.1",
