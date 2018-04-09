@@ -1,0 +1,2 @@
+{{ $dataImage := "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" }}
+<img class="cld-responsive" data-src="http://res.cloudinary.com/dzello/image/upload/f_auto,q_auto,w_auto,c_scale,e_trim,{{ index . "params" }}/{{ index . "src" }}" src="{{ (index . "dataImage") | default $dataImage }}">

@@ -2,7 +2,7 @@
 menu = "main"
 menuTitle = "Work"
 meta = "false"
-title = "Work and experience"
+title = "Work"
 weight = "30"
 dataList = "workTypes"
 

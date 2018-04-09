@@ -9,6 +9,7 @@ year = "2016"
 [[ github ]]
 commits = 133
 year = "2015"
+hidden = true
 
 [[ github ]]
 commits = 1033

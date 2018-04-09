@@ -1,0 +1,16 @@
+<div class="skills">
+  <ul>
+    {{ range . }}
+    {{ if (not .hidden) }}
+    <li>
+      <div class="name">&nbsp;</div>
+      <div class="progress">
+        <div class="percentage" style="width:{{ math.Floor (mul (div .commits 4079.0) 100.0) }}%">
+          <span class="percent">{{ .year }} &middot; {{ .commits }} commits</span>
+        </div>
+      </div>
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
+</div>
