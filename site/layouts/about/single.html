@@ -1,0 +1,102 @@
+{{ define "main" }}
+  <div class="section photo">
+    <div class="content">
+      {{ partial "cloudinary" (index .Params.images 0) }}
+    </div>
+  </div>
+  <div class="section about">
+    <div class="content">
+      <div class="title">
+        <div class="title_inner">{{ .Page.Title }}</div>
+      </div>
+      <div class="image">
+        {{ partial "cloudinary" "josh-dzielak-profile-2018" }}
+      </div>
+      <div class="desc">
+        <p>{{ .Page.Params.sectionDesc | markdownify }}</p>
+        <div class="info-list">
+          <ul>
+            <li><strong>Name:</strong> {{ .Site.Author.name }}</li>
+            <li><strong>Hometown:</strong> Rockford, USA</li>
+            <li><strong>First Computer:</strong> Apple IIe</li>
+            <li><strong>E-mail:</strong> {{ .Site.Author.email }}</li>
+            <li><strong>Residence: </strong> Paris, FR</li>
+            <li><strong>Favorite Food:</strong> 🧀</li>
+          </ul>
+        </div>
+        <div class="bts"><a target="_blank" href="https://linkedin.com/in/{{ .Site.Author.linkedin }}" class="btn fill" data-text="View CV">View CV</a></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="section photo">
+    <div class="content">
+      {{ partial "cloudinary" (index .Params.images 1) }}
+    </div>
+  </div>
+  <div class="section resume">
+    <div class="content">
+      <div class="cols">
+        <div class="col col-md">
+          <div class="title">
+            <div class="title_inner">Experience</div>
+          </div>
+          <div class="resume-items">
+            <div class="resume-item active">
+              <div class="date">2013 - Present</div>
+              <div class="name">Art Director - Facebook Inc</div>
+              <p>
+                Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
+                quis interdum nisi sollicitudin.
+              </p>
+            </div>
+            <div class="resume-item">
+              <div class="date">2011 - 2012</div>
+              <div class="name">Front-end Developer - Google Inc</div>
+              <p>
+                Duis ipsum ligula, feugiat nec auctor vitae, porta sit amet urna. Praesent ex lorem, porta nec aliquet eu,
+                ullamcorper eget nibh.
+              </p>
+            </div>
+            <div class="resume-item">
+              <div class="date">2009 - 2010</div>
+              <div class="name">Senior Developer - Abc Inc</div>
+              <p>
+                Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat,
+                quis interdum nisi sollicitudin.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md">
+          <div class="title">
+            <div class="title_inner">Education</div>
+          </div>
+          <div class="resume-items">
+            <div class="resume-item">
+              <div class="date">2007 - 2008</div>
+              <div class="name">Art University of New York</div>
+              <p>
+                Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue in leo feugiat, quis
+                interdum nisi sollicitudin.
+              </p>
+            </div>
+            <div class="resume-item">
+              <div class="date">2004 - 2006</div>
+              <div class="name">Front-end Course</div>
+              <p>
+                Duis ipsum ligula, feugiat nec auctor vitae, porta sit amet urna. Praesent ex lorem, porta nec aliquet eu,
+                ullamcorper eget nibh.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section photo">
+    <div class="content">
+      {{ partial "cloudinary" (index .Params.images 2) }}
+    </div>
+  </div>
+{{ end }}

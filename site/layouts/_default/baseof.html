@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
-  {{ partial "meta" . }}
-  {{ partial "css_includes" . }}
+  {{ partial "meta-tags" . }}
   {{ block "glitch-css" . -}}
   <link rel="stylesheet" type="text/css" href="/css/glitch-{{ or .Page.Params.themeColor .Site.Params.themeColor }}.css" />
   {{- end }}
+  {{ partial "link-tags" . }}
 </head>
 <body>
   <div class="preloader">
@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="container">
-    {{ partial "nav" . }}
+    {{ partial "top-menu" . }}
     <div class="wrapper">
       <div class="section started">
         <div class="centrize full-width">
@@ -54,16 +54,6 @@
   </div>
   {{- partial "analytics" . }}
   {{- partial "algolia-variables" }}
-  <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/jquery.validate.js"></script>
-  <script src="/js/typed.js"></script>
-  <script src="/js/magnific-popup.js"></script>
-  <script src="/js/masonry.pkgd.js"></script>
-  <script src="/js/imagesloaded.pkgd.js"></script>
-  <script src="/js/masonry-filter.js"></script>
-  <script src="/js/glitche-scripts.js"></script>
-  <script src="/app.js"></script>
+  {{- partial "javascripts" }}
 </body>
 </html>

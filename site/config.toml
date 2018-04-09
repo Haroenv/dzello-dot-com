@@ -9,7 +9,7 @@ enableEmoji = true
 pygmentsCodeFences = true
 
 [permalinks]
-  blog = "/:year/:month/:day/:title/"
+blog = "/:year/:month/:day/:title/"
 
 [blackfriday]
 smartypants = false
@@ -24,15 +24,11 @@ instagram = "josh_people"
 calendly = "dzello"
 
 [params]
+cl = "https://res.cloudinary.com/dzello/image/upload"
 description = "Formerly of Algolia, Keen IO and Disney, Josh Dzielak shares his perspective on developer tools and developer relations."
-taglines = ["I build developer tools and communities.",
-            "I'm based in Paris and San Francisco.",
-            "Welcome!"]
 copyright = "© 2018 Josh Dzielak. All rights reserved."
 header = "Josh Dzielak"
-ogImage = "images/josh-dzielak-2018.png"
-ogImageWidth = "508"
-ogImageHeight = "506"
+ogImage = "josh-dzielak-frisbee-2015.png"
 githubURL = "https://github.com/dzello/dzello-dot-com"
 googleAnalytics = "UA-24132749-1"
 themeColor = "blue"
