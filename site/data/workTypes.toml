@@ -2,6 +2,7 @@
 title = "Talks"
 data = "talks"
 type = "talk"
+image = "talks/josh-dzielak-sentry-scouts-audience-2018"
 categories = [
   "Community",
   "Software",
@@ -13,17 +14,24 @@ categories = [
 title = "Articles"
 data = "articles"
 type = "article"
+image = "josh-dzielak-astronaut-2017"
 categories = [
   "Community",
   "Search",
   "Software"
 ]
 
-# [[ workType ]]
-# title = "Mentions"
-# data = "mentions"
-# type = "mention"
-#
+[[ workType ]]
+title = "Mentions"
+data = "mentions"
+type = "mention"
+image = "john-edgar-josh-dzielak-justin-johnson-london-2014"
+categories = [
+  "Blogs",
+  "Podcasts",
+  "Press"
+]
+
 # [[ workType ]]
 # title = "Projects"
 # data = "projects"

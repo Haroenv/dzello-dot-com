@@ -1,9 +1,19 @@
-<li class="mention">
-  {{ if isset . "image_url" }}
-    <a href="{{ .url }}"><img class="less-full" src="{{ .image_url }}"></a>
-    <br>
-  {{ end }}
-  <a href="{{ .url }}">{{ .title }}</a>
-  <p>{{ dateFormat "January 2, 2006" .date }}</p>
-  <a href="{{ .url }}"><img src="{{ .publisher_logo }}"></a>
-</li>
+{{ $gridImageParams := "f_auto,q_auto,w_500,h_350,c_fill,g_auto,bo_2px_solid_rgb:f26b38" }}
+<div class="box-item f-{{ .work.category}}">
+  <div class="image">
+    <a target="_blank" href="{{ .work.url }}">
+      {{ partial "cloudinary/custom" (dict "src" (or .work.image_url .work.publisher_logo) "params" $gridImageParams) }}
+      <span class="info">
+        <span class="centrize full-width">
+          <span class="vertical-center">
+            <span class="ion ion-link"></span>
+          </span>
+        </span>
+      </span>
+    </a>
+  </div>
+  <div class="desc">
+    <div class="date">{{ dateFormat "Jan 2, 2006" .work.date }}</div>
+    <a target="_blank" href="{{ .work.url }}" class="name">{{ .work.title }}</a>
+  </div>
+</div>

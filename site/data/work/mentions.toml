@@ -1,53 +1,72 @@
 [[ mention ]]
+title = "Essential cast with Josh Dzielak (Burner, Dev Relations Lead @Algolia)"
+category = "Podcasts"
+url = "https://medium.com/essential-cast/josh-dzielak-ca685992e1d6"
+date = "2017-10-29"
+publisher = "Essential Cast"
+publisher_logo = "mentions/essential-cast-logo.png"
+image_url = "mentions/josh-dzielak-burning-man-essential-cast-2018.png"
+description = '''
+Josh has been through 6 burns. This has given him some perspective on how the Counter Culture and Burning Man have influenced culture at technology companies like Google, Apple, and Keen IO. We discuss this and more.
+'''
+
+[[ mention ]]
+category = "Blogs"
 title = "Expert Tips for Being an A+ Open Source Contributor"
 publisher = "StackShare"
-publisher_logo = "/images/mentions/logos/stackshare-logo.png"
+publisher_logo = "mentions/stackshare-logo.png"
 date = "2018-03-06"
-image_url = "/images/mentions/stackshare-open-source.png"
+image_url = "mentions/stackshare-open-source-2018.png"
 url = "https://stackshare.io/posts/expert-tips-open-source"
 
 [[ mention ]]
+category = "Blogs"
 title = "6 Questions for Startups to Ask Themselves Before Hiring Bootcamp Grads"
 publisher = "Job Portraits"
-publisher_logo = "/images/mentions/logos/job-portraits-logo.png"
+publisher_logo = "mentions/job-portraits-logo.png"
 date = "2015-04-07"
-image_url = "/images/mentions/bootcamp-grads-job-portraits.jpg"
+image_url = "mentions/bootcamp-grads-job-portraits-2014.jpg"
 url = "https://medium.com/job-portraits/6-questions-for-startups-to-ask-themselves-before-hiring-bootcamp-grads-fdb50a7c985"
 
 [[ mention ]]
+category = "Press"
 title = "Keen IO has had technical issues lately. So it’s doing an AMA tomorrow"
 date = "2015-02-26"
 publisher = "VentureBeat"
-publisher_logo = "/images/mentions/logos/venturebeat-logo.png"
+publisher_logo = "mentions/venturebeat-logo.png"
 url = "https://venturebeat.com/2015/02/26/keen-io-has-had-technical-issues-lately-so-its-doing-an-ama-tomorrow/"
 hidden = true
 
 [[ mention ]]
 title = "The Next Big Thing You Missed: A Tiny Startup’s Plot to Beat Google at Big Data"
-publisher = "Wired"
-publisher_logo = "/images/mentions/logos/wired-logo.png"
+category = "Press"
 date = "2014-01-28"
+publisher = "Wired"
+publisher_logo = "mentions/wired-logo.png"
+image_url = "mentions/keen-io-team-wired-2014.png"
 url = "https://www.wired.com/2014/01/keen/"
-image_url = "/images/mentions/keen-io-team-wired-article.png"
 
 [[ mention ]]
 title = "Differentiate your data: Keen’s APIs let your company build custom analytics"
+category = "Press"
 date = "2013-10-23"
 publisher = "VentureBeat"
-publisher_logo = "/images/mentions/logos/venturebeat-logo.png"
-image_url = "/images/mentions/josh-dan-kyle-venturebeat.png"
+publisher_logo = "mentions/venturebeat-logo.png"
+image_url = "mentions/josh-dzielak-dan-kador-kyle-wild-venturebeat-2013.png"
 url = "https://venturebeat.com/2013/10/23/differentiate-your-data-keens-apis-let-your-company-build-custom-analytics/"
 
 [[ mention ]]
 title = "Disney Acquires Social Network For Kids Togetherville"
+category = "Press"
 date = "2011-02-23"
 publisher = "TechCrunch"
-publisher_logo = "/images/mentions/logos/techcrunch-logo.png"
+publisher_logo = "mentions/techcrunch-logo.png"
 url = "https://techcrunch.com/2011/02/23/disney-acquires-social-network-for-kids-togetherville/"
 
 [[ mention ]]
 title = "Togetherville: A social network for kids"
+category = "Press"
 date = "2010-05-19"
 publisher = "CNN.com"
-publisher_logo = "/images/mentions/logos/cnn-com-logo.png"
+publisher_logo = "mentions/cnn-com-logo.png"
 url = "http://www.cnn.com/2010/TECH/05/19/wired.togetherville/index.html"

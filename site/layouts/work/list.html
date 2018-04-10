@@ -8,6 +8,13 @@
     {{- $workType := . -}}
     {{- $allWorks := index (index $.Site.Data.work $workType.data) $workType.type -}}
     {{- $works := first 5 (where $allWorks "hidden" "!=" true) }}
+    {{ if isset $workType "image" }}
+      <div class="section photo">
+        <div class="content">
+          {{ partial "cloudinary" $workType.image }}
+        </div>
+      </div>
+    {{ end }}
     <div class="section works">
       <div class="content">
         <div class="title">
@@ -22,7 +29,7 @@
             <div class="box-item">
               <div class="image">
                 <a href="/work/{{ $workType.data }}/">
-                  {{ partial "cloudinary/custom" (dict "src" "see-more" "params" "f_auto,w_500,h_250,c_lpad,bo_150px_solid_rgb:ffffff") }}
+                  {{ partial "cloudinary/custom" (dict "src" "work/see-more" "params" "f_auto,w_500,h_250,c_lpad,bo_150px_solid_rgb:ffffff") }}
                   <span class="info">
                     <span class="centrize full-width">
                       <span class="vertical-center">
