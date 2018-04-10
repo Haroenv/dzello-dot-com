@@ -2,7 +2,7 @@
 <div class="box-item f-{{ .work.category}}">
   <div class="image">
     <a target="_blank" href="{{ .work.url }}">
-      {{ partial "cloudinary/custom" (dict "src" (or .work.image_url .work.publisher_logo) "params" $gridImageParams) }}
+      {{ partial "cloudinary/custom" (dict "src" .work.image_url "params" $gridImageParams "overlay" (printf "l_text:Arial_80:hi,co_rgb:FFFFFF,b_rgb:FFFFFFDD,w_450,y_40,g_south,h_100/l_%s,h_76,c_scale,g_south,y_50,b_rgb:EBAA21,co_rgb:FFFFFF" (replace .work.publisher_logo "/" ":"))) }}
       <span class="info">
         <span class="centrize full-width">
           <span class="vertical-center">

@@ -1,1 +1,1 @@
-<img class="cld-responsive" data-src="http://res.cloudinary.com/dzello/image/upload/{{ index . "params" }}/{{ index . "src" }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+<img class="cld-responsive" data-src="http://res.cloudinary.com/dzello/image/upload/{{ index . "params" }}/{{ with index . "overlay"}}{{.}}/{{end}}{{ index . "src" }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">

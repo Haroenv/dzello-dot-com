@@ -61,6 +61,7 @@ category = "Press"
 date = "2011-02-23"
 publisher = "TechCrunch"
 publisher_logo = "mentions/techcrunch-logo.png"
+image_url = "mentions/techcrunch-togetherville.png"
 url = "https://techcrunch.com/2011/02/23/disney-acquires-social-network-for-kids-togetherville/"
 
 [[ mention ]]
@@ -69,4 +70,5 @@ category = "Press"
 date = "2010-05-19"
 publisher = "CNN.com"
 publisher_logo = "mentions/cnn-com-logo.png"
+image_url = "mentions/togetherville-screenshot.png"
 url = "http://www.cnn.com/2010/TECH/05/19/wired.togetherville/index.html"
