@@ -3,15 +3,6 @@
 *   Copyright © Glitche by beshleyua. All Rights Reserved.
 **/
 
-/* josh: this is moved out of $() so that it starts immediately,
-if it starts late it looks like a glitch
-*/
-/* Typed preload text */
-$('.typed-load').typed({
-  stringsElement: $('.typing-load'),
-  loop: true
-});
-
 $(function () {
   'use strict';
 
@@ -21,39 +12,6 @@ $(function () {
   var width = $(window).width();
   var height = $(window).height();
   $('.section.started').css({'height': height-60});
-
-  /* Preloader */
-  $(window).load(function() {
-    $(".preloader .pre-inner").fadeOut(800, function(){
-      /* Preload hide */
-      $('.preloader').fadeOut();
-      $('body').addClass('loaded');
-
-      /* Typed subtitle */
-      $('.typed-subtitle').typed({
-        stringsElement: $('.typing-subtitle'),
-        loop: true
-      });
-
-      /* Typed breadcrumbs */
-      $('.typed-bread').typed({
-        stringsElement: $('.typing-bread'),
-        showCursor: false
-      });
-    });
-  });
-
-  /*Fade-out animation between load pages*/
-  $('header, .typed-bread').on('click', 'a', function(){
-    var link = $(this).attr('href');
-
-    $('body').removeClass('loaded');
-    setTimeout(function() {
-      location.href = "" + link;
-    }, 500);
-
-    return false;
-  });
 
   /*Menu mobile*/
   $('header').on('click', '.menu-btn', function(){
@@ -94,60 +52,6 @@ $(function () {
       $('.top-menu ul li.active a.btn').addClass('glitch-effect-white');
     }
   }, 'a.btn, .btn');
-
-  /* Validate contact form */
-  $("#cform").validate({
-    rules: {
-      name: {
-        required: true
-      },
-      message: {
-        required: true
-      },
-      email: {
-        required: true,
-        email: true
-      }
-    },
-    success: "valid",
-    submitHandler: function() {
-      $.ajax({
-        url: 'mailer/feedback.php',
-        type: 'post',
-        dataType: 'json',
-        data: 'name='+ $("#cform").find('input[name="name"]').val() + '&email='+ $("#cform").find('input[name="email"]').val() + '&message=' + $("#cform").find('textarea[name="message"]').val(),
-        beforeSend: function() {
-
-        },
-        complete: function() {
-
-        },
-        success: function(data) {
-          $('#cform').fadeOut();
-          $('.alert-success').delay(1000).fadeIn();
-        }
-      });
-    }
-  });
-
-  /* Validate commect form */
-  $("#comment_form").validate({
-    rules: {
-      name: {
-        required: true
-      },
-      message: {
-        required: true
-      },
-      email: {
-        required: true,
-        email: true
-      }
-    },
-    success: "valid",
-    submitHandler: function() {
-    }
-  });
 
   /* Initialize masonry items */
   var $container = $('.box-items');

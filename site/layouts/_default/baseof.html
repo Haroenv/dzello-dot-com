@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
-  {{ partial "meta-tags" . }}
-  {{ block "glitch-css" . -}}
-  <link rel="stylesheet" type="text/css" href="/css/glitch-{{ or .Page.Params.themeColor .Site.Params.themeColor }}.css" />
+  {{ block "main-css" . -}}
+  <link rel="stylesheet" type="text/css" href="/css/main-{{ or .Page.Params.themeColor .Site.Params.themeColor }}.css" />
   {{- end }}
+  {{ partial "meta-tags" . }}
   {{ partial "link-tags" . }}
 </head>
 <body>
@@ -42,14 +42,7 @@
       {{- block "main" . -}}
       {{- end }}
     </div>
-    <footer>
-      {{- partial "social" . }}
-      <div class="copy">{{ .Site.Params.copyright }} &middot;
-        <a href="/api">API</a> &middot;
-        <a href="{{ "/index.xml" | absURL }}">RSS</a>
-      </div>
-      <div class="clr"></div>
-    </footer>
+    {{- partial "footer" . -}}
     <div class="line top"></div>
     <div class="line bottom"></div>
     <div class="line left"></div>
