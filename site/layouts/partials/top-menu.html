@@ -5,7 +5,7 @@
         <div class="top-menu">
           <ul>
             {{ range .Site.Menus.main -}}
-            {{- $title := or .Page.Params.menuTitle .Page.Title -}}
+            {{- $title := .Page.Title -}}
             <li class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (and (eq .Page.Dir $currentPage.Dir) (ne $currentPage.Dir "")) }}active{{end}}">
               <a class="lnk" href="{{ .URL }}">{{ $title }}</a>
             </li>

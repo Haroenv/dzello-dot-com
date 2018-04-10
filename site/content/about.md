@@ -1,9 +1,8 @@
 +++
 menu = "main"
 meta = "false"
-menuTitle = "About"
 weight = "20"
-title = "About me"
+title = "About"
 type = "about"
 useSummaryForDescription = true
 sectionDesc = '''

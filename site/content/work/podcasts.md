@@ -1,10 +1,8 @@
 +++
-title = "Podcast appearances"
-menuTitle = "Podcasts"
+title = "Podcasts"
 dataList = "podcasts"
 menu = "work"
 weight = 60
 
 +++
 
-{{< section-list-data >}}
