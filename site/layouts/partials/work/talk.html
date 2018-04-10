@@ -1,5 +1,5 @@
 {{ $link_url := or .blog_url .video_url .slides_url .site_url }}
-{{ $gridImageParams := "f_auto,q_auto,w_500,h_350,c_fill,g_auto,bo_1px_solid_rgb:f26b38" }}
+{{ $gridImageParams := "f_auto,q_auto,w_500,h_350,c_fill,g_auto,bo_2px_solid_rgb:f26b38" }}
 {{ $popupImageParams := "f_auto,q_auto,w_500" }}
 {{ $popupId := replace (base64Encode .title) "=" "" }}
 <div class="box-item f-{{ .category}}">
