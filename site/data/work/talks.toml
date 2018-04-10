@@ -5,8 +5,7 @@ date = "2018-01-17"
 event = "Sentry Scouts"
 blog_url = "https://sentry.io/_/events/2018-01-17-sentry-scouts-1/"
 vimeo_id = "255440963"
-image_url = "work/josh-dzielak-sentry-scouts-overlay"
-image_url_two = "work/josh-dzielak-sentry-scouts-audience"
+image_url = "talks/josh-dzielak-sentry-scouts-overlay"
 tag = "devrel"
 description = '''
 I joined several other developers and developer advocates to discuss how first-time contributors can get into open source and how companies benefit from being good stewards of their open source projects and developer community.
@@ -23,7 +22,7 @@ youtube_id = "dhAWeqQc-Xk"
 speakerdeck_id = "a20443afbfdf4732a5cff1d1f94c6ced"
 speakerdeck_ratio = "1.77777777777778"
 speakerdeck_url = "https://speakerdeck.com/dzello/from-few-to-some-to-many-how-to-scale-community-support-for-apis"
-image_url = "work/josh-dzielak-devxcon-2017"
+image_url = "talks/josh-dzielak-devxcon-2017"
 tag = "devrel"
 description = '''
 The free tier of many APIs includes "community support". What does that mean exactly? How involved does the company need to be for community support to be effective, and how should that evolve over time?
@@ -39,7 +38,7 @@ youtube_id = "-McGY7ZAAyw"
 speakerdeck_id = "c965cdf1ac0a470387a33599b86ebaf2"
 speakerdeck_ratio = "1.77777777777778"
 speakerdeck_url = "https://speakerdeck.com/dzello/load-dynamic-serverless-content-faster-with-search"
-image_url = "work/josh-dzielak-algolia-search-party-vault"
+image_url = "talks/josh-dzielak-algolia-search-party-vault"
 description = '''
 Even when time-to-first-byte is fast, delays in fetching dynamic content can still make your serverless app or static site feel sluggish. In this talk, we’ll look at how Algolia’s low-latency infrastructure and ability to rank results in advance can speed this up, without the user ever typing a search query.
 '''
@@ -56,7 +55,7 @@ speakerdeck_id = "5db20dfc248d42c19eefd337b6fdfa5e"
 speakerdeck_ratio = "1.77777777777778"
 speakerdeck_url = "https://speakerdeck.com/dzello/scaling-community-by-webhooking-the-things"
 github_url = "https://github.com/algolia/discourse-webhook-collector"
-image_url = "work/josh-dzielak-ossat-2017"
+image_url = "talks/josh-dzielak-ossat-2017"
 tag = "devrel"
 description = '''
 Don't make your forum an island. This lightning-length presentation provides a look at the Algolia community tech stack and then two new open source projects spun out of building it.
@@ -70,7 +69,7 @@ event_url = "https://www.youtube.com/playlist?list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_
 date = "2017-01-25"
 youtube_id = "Dj5qF0ki6BY"
 github_url = "https://github.com/algolia/instantsearch-electron"
-image_url = "work/josh-dzielak-algolia-search-party-react-electron"
+image_url = "talks/josh-dzielak-algolia-search-party-react-electron"
 description = '''
 Algolia Developer Advocate Josh Dzielak announces a new project that makes it easy to create an instant search experience that runs as a desktop application.
 '''
@@ -85,7 +84,7 @@ speakerdeck_id = "e2676d79541341c7b7cc9af2dc8e6490"
 speakerdeck_ratio = "1.77777777777778"
 speakerdeck_url = "https://speakerdeck.com/dzello/instant-browsing-for-static-sites-with-algolia"
 site_url = "http://algolia-vs-backend.glitch.me/"
-image_url = "work/instant-browsing-slides"
+image_url = "talks/instant-browsing-slides"
 description = '''
 A response to a user's action must take place in less than 100ms for the experience to feel immediate and natural. When content must be fetched from a traditional backend or API in response to a user's interaction, it can be very difficult to meet that requirement."
 '''
@@ -99,7 +98,7 @@ date = "2016-12-13"
 speakerdeck_id = "0ee028a4d5cf4a6e8841fe0c83a29e10"
 speakerdeck_ratio = "1.77777777777778"
 speakerdeck_url = "https://speakerdeck.com/dzello/7-ways-to-search-for-a-camelcased-parameter-in-your-docs"
-image_url = "work/api-days-camel-case-docs"
+image_url = "talks/api-days-camel-case-docs"
 description = '''
 Technical documentation contains word patterns like camelCase that give traditional search engines a headache. See how Algolia makes camelCase parameters searchable by 7 different types of queries.
 '''
@@ -113,7 +112,7 @@ date = "2016-10-21"
 speakerdeck_id = "558df5dc02094de49dd3f02b779d8117"
 speakerdeck_ratio = "1.77777777777778"
 speakerdeck_url = "https://speakerdeck.com/dzello/voice-trends-and-search"
-image_url = "work/hackference-voice-search-slides"
+image_url = "talks/hackference-voice-search-slides"
 description = '''
 A talk about the state of voice and how voice interfaces will impact search engines.
 '''
@@ -127,7 +126,7 @@ date = "2016-08-10"
 speakerdeck_id = "cf6d67a8df134ca781d91295eaf706fa"
 speakerdeck_ratio = "1.77777777777778"
 speakerdeck_url = "https://speakerdeck.com/dzello/10-community-projects-in-15-minutes"
-image_url = "work/10-community-projects-slides"
+image_url = "talks/10-community-projects-slides"
 description = '''
 A tour of 10 Algolia community projects including instantsearch.js, Places, DocSearch, Wordpress and Magento plugins, and more.
 '''
@@ -138,7 +137,7 @@ category = "Culture"
 date = "2016-06-23"
 event = "Cultureindustry Conference"
 event_url = "http://www.larca.univ-paris-diderot.fr/archives/w3.univ-paris-diderot.fr/EtudesAnglophones/pga1e7.html?bc=CHVR&page=fiche_colloque&g=sm&numevent=227"
-image_url = "work/cultureindustry-logo-2016"
+image_url = "talks/cultureindustry-logo-2016"
 description = '''
 Given to an audience of academics and industrialists at the Université Paris Diderot. I spoke about how creative organizations build products in the image of their own culture, and about *gossip* as the most reliable source of information in both human and computer networks.
 '''
@@ -154,7 +153,7 @@ site_url = "https://dzello.github.io/evolving-work/"
 speakerdeck_id = "ab2c381e204e4d16964e6739a3dce29c"
 speakerdeck_ratio = "1.77777777777778"
 speakerdeck_url = "https://speakerdeck.com/dzello/evolving-work"
-image_url = "work/josh-dzielak-st-jean-de-passy-2015"
+image_url = "talks/josh-dzielak-st-jean-de-passy-2015"
 description = '''
 Given to college-level business students, this was a talk about how the most progressive organizations in Silicon Valley treat individuals as whole people, not just cogs in a machine. It includes a brief introduction to one of my favorite books on the subject, [Reinventing Organizations](http://www.reinventingorganizations.com/).
 '''
@@ -168,7 +167,7 @@ date = "2014-07-23"
 speakerdeck_id = "c9387460f5bb0131c1fa560254398127"
 speakerdeck_ratio = "1.33333333333333"
 speakerdeck_url = "https://speakerdeck.com/dzello/store-json-in-cassandra-the-hard-way"
-image_url = "work/josh-dzielak-cassandra-heavybit"
+image_url = "talks/josh-dzielak-cassandra-heavybit"
 description = '''
 Keen IO stores events in the same format that our customers send them in—JSON. Yet, Keen uses Cassandra, a distributed database without any JSON primitives, and Keen gives customers the ability to query over arbitrary (even nested) JSON dimensions. How can this be???
 '''
@@ -183,7 +182,7 @@ blog_url = "https://keen.io/blog/77850411340/presenting-the-new-analytics-at-ibm
 speakerdeck_id = "400fcae08550013139401e8bca31f11c"
 speakerdeck_ratio = "1.29456384323641"
 speakerdeck_url = "https://speakerdeck.com/dzello/the-new-analytics-in-the-cloud-behind-the-api"
-image_url = "work/new-analytics-dev-at-pulse"
+image_url = "talks/new-analytics-dev-at-pulse"
 description = '''
 Keen IO tells their journey of creating APIs to enable custom analytics for web, mobile, and Internet of things companies around the world. They'll share their vision that APIs are enabling a powerful new class of connected applications and discuss how they've benefitted from hosting analytics in the cloud."
 '''
@@ -197,7 +196,7 @@ event_url = "http://gluecon.com/"
 speakerdeck_id = "183ded50f2a50131312b5a3c5b87e874"
 speakerdeck_ratio = "1.33333333333333"
 speakerdeck_url = "https://speakerdeck.com/dzello/one-billion-per-second-the-rise-of-designer-data-architectures"
-image_url = "work/designer-data-architectures"
+image_url = "talks/designer-data-architectures"
 description = '''
 Getting answers to today’s questions often involves querying billions of records. New systems are being designed to process billion-record data sets in minutes. Or seconds. With a few tricks, you can build or adapt these systems to your needs.
 '''
@@ -211,7 +210,7 @@ date = "2013-10-18"
 speakerdeck_id = "af8e13301a5001318b463620859eaef1"
 speakerdeck_ratio = "1.33333333333333"
 speakerdeck_url = "https://speakerdeck.com/dzello/how-keen-io-uses-storm"
-image_url = "work/how-keen-io-uses-storm"
+image_url = "talks/how-keen-io-uses-storm"
 description = '''
 This presentation discusses Storm, the distributed computation system, and how it’s used at Keen IO. Redstorm, which makes it possible to build Storm topologies in Ruby, is also discussed.
 '''
@@ -225,7 +224,7 @@ event_url = "https://pivotal.io/labs"
 speakerdeck_id = "224a7d201272013122537a8c3d77d5b5"
 speakerdeck_ratio = "1.33333333333333"
 speakerdeck_url = "https://speakerdeck.com/dzello/distributed-systems-are-everywhere-where-the-full-stack-is-headed"
-image_url = "work/distributed-systems-slides"
+image_url = "talks/distributed-systems-slides"
 description = '''
 The definition of a "full stack developer" is expanding to include a knowledge of distributed systems.
 '''
@@ -237,7 +236,7 @@ date = "2011-10-31"
 event = "Disney Interactive HTML5 Summit"
 event_url = "https://dcpi.disney.com/"
 slides_url = "http://shims-and-shivs.herokuapp.com/"
-image_url = "work/disney-html5-summit-logo"
+image_url = "talks/disney-html5-summit-logo"
 description = '''
 A Halloween-flavored introduction to using HTML polyfills.
 '''

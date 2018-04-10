@@ -9,11 +9,16 @@ categories = [
   "Search"
 ]
 
-# [[ workType ]]
-# title = "Articles"
-# data = "articles"
-# type = "article"
-#
+[[ workType ]]
+title = "Articles"
+data = "articles"
+type = "article"
+categories = [
+  "Community",
+  "Search",
+  "Software"
+]
+
 # [[ workType ]]
 # title = "Mentions"
 # data = "mentions"

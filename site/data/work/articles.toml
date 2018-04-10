@@ -1,22 +1,25 @@
 [[ article ]]
 title = "How Algolia Reduces Latency For 21B Searches Per Month"
+category = "Search"
 date = "2017-03-01"
 location = "StackShare"
 location_url = "https://stackshare.io/"
-image_url = "/images/articles/algolia-elasticsearch-latency.png"
+image_url = "articles/stackshare-algolia-latency.png"
 url = "https://stackshare.io/algolia/how-algolia-reduces-latency-for-21b-searches-per-month"
 
 [[ article ]]
 title = "Building for developers—a tour of new features and resources in 2017"
+category = "Community"
 date = "2017-06-07"
 tag = "devrel"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
-image_url = "/images/articles/algolia-community-article.png"
+image_url = "articles/algolia-community-article.png"
 url = "https://blog.algolia.com/algolia-building-for-developers-2017/"
 
 [[ article ]]
 title = "Demystifying enter key submission for React forms with multiple buttons"
+category = "Software"
 date = "2017-02-19"
 location = "dzello.com"
 location_url = "https://dzello.com/"
@@ -25,97 +28,109 @@ hidden = true
 
 [[ article ]]
 title = "How I got into developer advocacy"
+category = "Community"
 date = "2017-03-15"
 tag = "devrel"
 location = "Medium"
 location_url = "https://medium.com/@dzello"
-image_url = "/images/articles/dzello-elof-london.png"
+image_url = "articles/dzello-elof-london.png"
 url = "https://medium.com/@dzello/how-i-got-into-developer-advocacy-93bad1678a67"
 
 [[ article ]]
-title = "Comparing Algolia and Elasticsearch For Consumer-Grade Search Part 1: End-to-end Latency"
+title = "Comparing Algolia and Elasticsearch Part 1: End-to-end Latency"
+category = "Search"
 date = "2017-03-22"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
-image_url = "/images/articles/algolia-elasticsearch-latency.png"
+image_url = "articles/algolia-elasticsearch-latency.png"
 url = "https://blog.algolia.com/algolia-v-elasticsearch-latency/"
 
 [[ article ]]
 title = "On MLK Day and every day — you can lend your privilege "
+category = "Community"
 date = "2017-01-17"
 location = "Medium"
 location_url = "https://medium.com/@dzello"
-image_url = "/images/articles/access-lending-privilege.png"
+image_url = "articles/access-lending-privilege.png"
 url = "https://medium.com/@dzello/on-mlk-day-and-every-day-you-can-lend-your-privilege-240d97e62907"
 
 [[ article ]]
-title = "Comparing Algolia and Elasticsearch For Consumer-Grade Search Part 2: Relevance Isn’t Luck"
+title = "Comparing Algolia and Elasticsearch Part 2: Relevance Isn’t Luck"
+category = "Search"
 date = "2017-04-20"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
-image_url = "/images/articles/algolia-elasticsearch-relevance.png"
+image_url = "articles/algolia-elasticsearch-relevance.png"
 url = "https://blog.algolia.com/algolia-v-elasticsearch-relevance/"
 
 [[ article ]]
-title = "Comparing Algolia and Elasticsearch For Consumer-Grade Search Part 3: Developer Experience and UX"
+title = "Comparing Algolia and Elasticsearch Part 3: Developer Experience and UX"
+category = "Search"
 date = "2017-11-15"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
-image_url = "/images/articles/algolia-elasticsearch-developer-experience.png"
+image_url = "articles/algolia-elasticsearch-developer-experience.png"
 url = "https://blog.algolia.com/algolia-vs-elasticsearch-developer-experience-ux/"
 
 [[ article ]]
 title = "Introducing the Algolia Community forum and the Pioneer Badge"
+category = "Community"
 date = "2016-12-23"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
 tag = "devrel"
-image_url = "/images/articles/algolia-pioneer-badge.png"
+image_url = "articles/algolia-pioneer-badge.png"
 url = "https://blog.algolia.com/algolia-community-forum-pioneer-badge/"
 
 [[ article ]]
 title = "Why we’re backing Open Collective and webpack"
+category = "Community"
 date = "2016-11-23"
 location = "Algolia Stories"
 location_url = "https://stories.algolia.com/"
-image_url = "/images/articles/open-collective.png"
+image_url = "articles/open-collective.png"
 url = "https://stories.algolia.com/why-were-backing-opencollective-and-webpack-39e39838f18a"
 
 [[ article ]]
 title = "Who’s Jeff?—Things we learned at #Serverlessconf London 2016"
+category = "Community"
 date = "2016-10-28"
 location = "Algolia Stories"
 location_url = "https://stories.algolia.com/"
-image_url = "/images/articles/algolia-serverless-london.png"
+image_url = "articles/algolia-serverless-london.png"
 url = "https://stories.algolia.com/whos-jeff-things-we-learned-at-serverlessconf-london-2016-520a2869d95a"
 
 [[ article ]]
 title = "The Developer Advocate's Guide to Github Universe"
+category = "Community"
 date = "2016-09-13"
 location = "Algolia Stories"
 location_url = "https://stories.algolia.com/"
 tag = "devrel"
-image_url = "/images/articles/developer-advocates-guide-to-github-universe.png"
+image_url = "articles/developer-advocates-guide-to-github-universe.png"
 url = "https://stories.algolia.com/the-developer-advocates-guide-to-github-universe-2016-202d1957af22"
 
 [[ article ]]
 title = "Search Party recap: 60+ attendees, 10 projects, 1 magnificent photo booth"
+category = "Community"
 date = "2016-08-25"
 location = "Algolia Blog"
 location_url = "https://blog.algolia.com/"
-image_url = "/images/articles/algolia-search-party-collage.png"
+image_url = "articles/algolia-search-party-collage.png"
 url = "https://blog.algolia.com/search-party-recap-60-attendees-10-projects-1-magnificent-photo-booth/"
 
 [[ article ]]
 title = "The Tech Stack Behind Keen IO's Analytics Backend Service"
+category = "Software"
 date = "2013-11-17"
 location = "StackShare"
 location_url = "https://stackshare.io/"
-image_url = "/images/articles/stackshare-keen-io-tech-stack.png"
+image_url = "articles/stackshare-keen-io-tech-stack.png"
 url = "https://stackshare.io/posts/keen-io-tech-stack"
 
 [[ article ]]
 title = "weeve - HTML5 Twitter uber-streaming powered by Firebase, Keen IO, and Singly"
+category = "Software"
 date = "2012-12-24"
 location = "dzello.com"
 location_url = "https://dzello.com/"
@@ -124,6 +139,7 @@ hidden = true
 
 [[ article ]]
 title = "Releasing Mongoid Alize - Comprehensive field denormalization for Mongoid that stays in sync"
+category = "Software"
 date = "2012-05-03"
 location = "dzello.com"
 location_url = "https://dzello.com/"

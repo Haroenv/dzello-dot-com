@@ -31,7 +31,7 @@
         </div>
         {{- $type := $workType.type -}}
         <div class="box-items">
-          {{ range $works -}}
+          {{ range where $works "hidden" "!=" true -}}
             {{ partial (printf "work/tiles/%s" $type) (dict "page" $page "work" .) }}
           {{- end }}
         </div>

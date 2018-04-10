@@ -12,7 +12,7 @@ ascii();
 $(window).load(function() {
   setTimeout(function() {
     $(".h-title").removeClass("glitch-effect");
-  }, 5000);
+  }, 2500);
 });
 
 var cl = cloudinary.Cloudinary.new( { cloud_name: "dzello"});
