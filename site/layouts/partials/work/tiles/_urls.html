@@ -1,12 +1,12 @@
 <ul class="work-type-urls">
-  {{ if isset . "blog_url" }}
-    <li><a href="{{ .blog_url }}">blog post</a></li>
-  {{ end }}
-  {{ if isset . "video_url" }}
-    <li><a href="{{ .video_url }}">video</a></li>
-  {{ end }}
   {{ if isset . "slides_url" }}
     <li><a href="{{ .slides_url }}">slides</a></li>
+  {{ end }}
+  {{ if isset . "speakerdeck_url" }}
+    <li><a href="{{ .speakerdeck_url }}">slides</a></li>
+  {{ end }}
+  {{ if isset . "blog_url" }}
+    <li><a href="{{ .blog_url }}">blog post</a></li>
   {{ end }}
   {{ if isset . "site_url" }}
     <li><a href="{{ .site_url }}">site</a></li>
