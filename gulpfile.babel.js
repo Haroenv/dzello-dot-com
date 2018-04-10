@@ -50,8 +50,13 @@ gulp.task("deploy-preview", ['build-preview'], () => { gulp.start("algolia"); })
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
-  gulp.src("./src/css/*.less")
-    .pipe(less({ paths: [ path.join(__dirname, 'src', 'css', 'glitch') ]}))
+  gulp.src("./src/css/**/*.{css,less}")
+    .pipe(less({ paths: [
+      path.join(__dirname, 'src', 'css', 'glitch'),
+      path.join(__dirname, 'src', 'css', 'glitch', 'settings'),
+      path.join(__dirname, 'src', 'css', 'includes'),
+      path.join(__dirname, 'src', 'css', 'vendor')
+    ]}))
     .pipe(autoprefixer({browsers: [ 'ie >= 10', 'ie_mob >= 10', 'ff >= 30', 'chrome >= 34', 'safari >= 7', 'opera >= 23', 'ios >= 7', 'android >= 4.4', 'bb >= 10' ]}))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
