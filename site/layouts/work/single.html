@@ -31,7 +31,7 @@
         {{- $type := $workType.type -}}
         <div class="box-items">
           {{ range $works -}}
-            {{ partial (printf "work/%s.html" $type) . }}
+            {{ partial (printf "work/tiles/%s" $type) . }}
           {{- end }}
         </div>
       </div>

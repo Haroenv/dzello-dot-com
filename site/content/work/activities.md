@@ -5,5 +5,3 @@ menu = "work"
 weight = 70
 
 +++
-
-{{< section-list-data class="tiles" >}}

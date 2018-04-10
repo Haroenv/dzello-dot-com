@@ -15,7 +15,7 @@
         {{- $type := $workType.type -}}
         <div class="box-items">
           {{ range $works -}}
-            {{ partial (printf "work/%s.html" $type) . }}
+            {{ partial (printf "work/tiles/%s" $type) . }}
           {{- end }}
           {{ if ge (len $allWorks) 5 -}}
             <div class="box-item">

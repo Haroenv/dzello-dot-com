@@ -1,8 +1,8 @@
-
 {{ define "scroll-btn" -}}
     <span></span>
 {{- end }}
 
 {{ define "after-javascripts" -}}
+  {{- partial "algolia/variables" . }}
   <script async src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
 {{- end }}

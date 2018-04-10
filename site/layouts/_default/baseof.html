@@ -4,8 +4,8 @@
   {{ block "main-css" . -}}
   <link rel="stylesheet" type="text/css" href="/css/main-{{ or .Page.Params.themeColor .Site.Params.themeColor }}.css" />
   {{- end }}
-  {{ partial "meta-tags" . }}
-  {{ partial "link-tags" . }}
+  {{ partial "layout/meta-tags" . }}
+  {{ partial "layout/link-tags" . }}
 </head>
 <body>
   <div class="preloader">
@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="container">
-    {{ partial "top-menu" . }}
+    {{ partial "layout/top-menu" . }}
     <div class="wrapper">
       <div class="section started">
         <div class="centrize full-width">
@@ -42,15 +42,14 @@
       {{- block "main" . -}}
       {{- end }}
     </div>
-    {{- partial "footer" . -}}
+    {{- partial "layout/footer" . -}}
     <div class="line top"></div>
     <div class="line bottom"></div>
     <div class="line left"></div>
     <div class="line right"></div>
   </div>
-  {{- partial "analytics" . }}
-  {{- partial "algolia-variables" . }}
-  {{- partial "javascripts" . }}
+  {{- partial "layout/analytics" . }}
+  {{- partial "layout/javascripts" . }}
   {{- block "after-javascripts" . -}}
   {{- end }}
 </body>

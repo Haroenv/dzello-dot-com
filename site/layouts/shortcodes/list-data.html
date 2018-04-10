@@ -9,7 +9,7 @@
     {{ range $element }}
       {{ if ne .hidden true }}
         {{ if or (not $tag) (eq $tag .tag)}}
-          {{ partial (printf "%s.html" $key) . $ }}
+          {{ partial (printf "%s" $key) . $ }}
         {{ end }}
       {{ end }}
     {{ end }}

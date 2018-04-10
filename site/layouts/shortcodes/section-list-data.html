@@ -11,7 +11,7 @@
       {{ range $element }}
         {{ if ne .hidden true }}
           {{ if or (not $tag) (eq $tag .tag)}}
-            {{ partial (printf "%s/%s.html" $section $key) . $ }}
+            {{ partial (printf "%s/%s" $section $key) . $ }}
           {{ end }}
         {{ end }}
       {{ end }}

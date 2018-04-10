@@ -5,8 +5,8 @@
     </div>
     {{ if not .Page.Params.noDiscuss }}
       <hr>
-      {{ partial "discuss" . }}
+      {{ partial "blog/discuss" . }}
     {{ end }}
-    {{ partial "blog_pagination" . }}
+    {{ partial "blog/pagination" . }}
   </div>
 </div>

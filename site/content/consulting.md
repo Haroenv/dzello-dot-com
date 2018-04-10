@@ -41,10 +41,3 @@ I'm currently based out of Paris, France meaning that most or all of my work wil
 <iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrjVwH4OCjRNfojd?backgroundColor=white" frameborder="0" onmousewheel="" width="100%" height="891" style="background: white;"></iframe>
 
 {{< spacing-icon "envelope-o" >}}
-
-# Further reading: my DevRel talks & articles
-
-{{< section-list-data section="work" list="talks" tag="devrel" >}}
-{{< section-list-data section="work" list="articles" tag="devrel" >}}
-
-{{< centered-link "see more of my work and experience..." "/work" >}}
