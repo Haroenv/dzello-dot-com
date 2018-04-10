@@ -1,53 +1,53 @@
 [[ project ]]
 title = "discourse-algolia"
 description = "A Discourse plugin that adds Algolia indexing and search."
-date = "2017"
+year = "2017"
 site_url = "https://meta.discourse.org/t/add-algolia-search-to-your-discourse/73517"
 github_url = "https://github.com/algolia/discourse-algolia"
 
 [[ project ]]
 title = "discourse-webhook-collector"
 description = "Listen to Discourse events and send to other APIs using webtask.io."
-date = "2017"
+year = "2017"
 video_url = "https://vimeo.com/223525087"
 github_url = "https://github.com/algolia/discourse-webhook-collector"
 
 [[ project ]]
 title = "instantsearch-electron"
 description = "A boilerplate for building desktop React InstantSearch apps with Electron."
-date = "2016"
+year = "2016"
 github_url = "https://github.com/algolia/instantsearch-electron"
 video_url = "https://www.youtube.com/watch?v=Dj5qF0ki6BY"
 
 [[ project ]]
 title = "keen-gem"
 description = "Official Ruby client for the Keen IO API."
-date = "2013"
+year = "2013"
 github_url = "https://github.com/keenlabs/keen-gem"
 
 [[ project ]]
 title = "Holy Emoji"
 description = "An Algolia-powered emoji search engine built with React InstantSearch."
-date = "2016"
+year = "2016"
 site_url = "https://holy-emoji-search.glitch.me/"
 glitch_url = "https://glitch.com/edit/#!/holy-emoji-search"
 
 [[ project ]]
 title = "mongoid-alize"
 description = "Comprehensive, flexible denormalization for mongoid that stays in sync."
-date = "2012"
+year = "2012"
 github_url = "https://github.com/dzello/mongoid_alize"
 
 [[ project ]]
 title = "dzello-dot-com"
 description = "This site, built with Hugo making heavy use of data templates."
-date = "2018"
+year = "2018"
 site_url = "https://dzello.com/"
 github_url = "https://github.com/dzello/dzello-dot-com"
 
 [[ project ]]
 title = "Estelle & Josh"
-date = "2018"
+year = "2018"
 description = "A wedding site for my wife and I, built with Hugo."
 site_url = "https://estelle.and.dzello.com/"
 github_url = "https://github.com/dzello/estelle-and-josh"
@@ -55,14 +55,14 @@ github_url = "https://github.com/dzello/estelle-and-josh"
 [[ project ]]
 title = "vue-keen-dashboards"
 description = "A secure, extensible dashboard for your Keen IO data built with Vue.js."
-date = "2017"
+year = "2017"
 site_url = "https://vue-keen-dashboards.dzello.com/"
 github_url = "https://github.com/algolia/vue-keen-dashboards"
 
 [[ project ]]
 title = "Oval Quotes"
 description = "Search historical US presidential speeches, powered by Algolia."
-date = "2016"
+year = "2016"
 site_url = "http://dzello.github.io/oval-quotes/"
 github_url = "https://github.com/dzello/oval-quotes"
 video_url = "https://www.youtube.com/watch?v=xZTNzNjwl3w"
@@ -70,38 +70,38 @@ video_url = "https://www.youtube.com/watch?v=xZTNzNjwl3w"
 [[ project ]]
 title = "Dashboards by Keen IO"
 description = "Responsive dashboard templates for Bootstrap (built by @larimer, I helped launch it)"
-date = "2015"
+year = "2015"
 github_url = "https://github.com/keen/dashboards"
 
 [[ project ]]
 title = "aud"
 description = "Play MIDI tones according to text patterns in log files."
-date = "2013"
+year = "2013"
 github_url = "https://github.com/dzello/aud"
 
 [[ project ]]
 title = "github-webhook-collector"
 description = "Add a Keen IO webhook to all your Github repositories."
-date = "2014"
+year = "2014"
 github_url = "https://github.com/dzello/github-webhook-collector"
 
 [[ project ]]
 title = "keen-cli"
 description = "A command line interface for Keen IO."
-date = "2014"
+year = "2014"
 site_url = "https://blog.keen.io/365-days-of-open-source-contributions-heres-what-happened-on-day-12-6dcb6c08ea31"
 github_url = "https://github.com/keen/keen-cli"
 
 [[ project ]]
 title = "Pingpong"
 description = "HTTP monitoring for developers."
-date = "2014"
+year = "2014"
 site_url = "http://keen.github.io/pingpong/"
 github_url = "https://github.com/keen/pingpong"
 
 [[ project ]]
 title = "Pushpop"
 description = "A framework for scheduled integrations between popular services."
-date = "2015"
+year = "2015"
 site_url = "http://pushpop.keen.io/pushpop-slack/"
 github_url = "https://github.com/pushpop-project/pushpop"

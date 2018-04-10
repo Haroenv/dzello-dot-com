@@ -32,11 +32,12 @@ categories = [
   "Press"
 ]
 
-# [[ workType ]]
-# title = "Projects"
-# data = "projects"
-# type = "project"
-#
+[[ workType ]]
+title = "Projects"
+data = "projects"
+type = "project"
+categories = []
+
 # [[ workType ]]
 # title = "Activities"
 # data = "activities"
