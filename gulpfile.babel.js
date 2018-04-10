@@ -102,7 +102,7 @@ gulp.task("server-browsersync", ["hugo", "css", "js", "fonts"], () => {
   gulp.watch("./site/**/*", ["hugo"]);
 });
 
-// Developer server with hugo server
+// Development server with hugo server
 gulp.task("server-hugo", ["hugo-server", "css", "js", "fonts", "watch-assets"]);
 
 // Task to create algolia index and push data

@@ -1,11 +1,11 @@
-{{ $link_url := or .blog_url .video_url .slides_url .site_url }}
 {{ $gridImageParams := "f_auto,q_auto,w_500,h_350,c_fill,g_auto,bo_2px_solid_rgb:f26b38" }}
 {{ $popupImageParams := "f_auto,q_auto,w_500" }}
-{{ $popupId := replace (base64Encode .title) "=" "" }}
-<div class="box-item f-{{ .category}}">
+{{ $popupId := replace (base64Encode .work.title) "=" "" }}
+
+<div class="box-item f-{{ .work.category}}">
   <div class="image">
     <a href="#popup-{{ $popupId }}" class="has-popup">
-      {{ partial "cloudinary/custom" (dict "src" .image_url "params" $gridImageParams) }}
+      {{ partial "cloudinary/custom" (dict "src" .work.image_url "params" $gridImageParams) }}
       <span class="info">
         <span class="centrize full-width">
           <span class="vertical-center">
@@ -16,19 +16,28 @@
     </a>
   </div>
   <div class="desc">
-    <div class="date">{{ dateFormat "Jan 2, 2006" .date }}</div>
-    <a href="#popup-{{ $popupId }}" class="name has-popup">{{ .title }}</a>
+    <div class="date">{{ dateFormat "Jan 2, 2006" .work.date }}</div>
+    <a href="#popup-{{ $popupId }}" class="name has-popup">{{ .work.title }}</a>
   </div>
   <div id="popup-{{ $popupId }}" class="popup-box mfp-fade mfp-hide">
     <div class="content">
       <div class="image">
-        {{ partial "cloudinary/custom" (dict "src" .image_url "params" $popupImageParams) }}
+        {{ if .work.youtube_id }}
+          {{ partial "work/embeds/youtube" .work.youtube_id }}
+        {{ else if .work.vimeo_id }}
+          {{ partial "work/embeds/vimeo" .work.vimeo_id }}
+        {{ else if .work.speakerdeck_id }}
+          {{ partial "work/embeds/speakerdeck" (dict "id" .work.speakerdeck_id "ratio" .work.speakerdeck_ratio "page" .page) }}
+        {{ else }}
+          <a target="_blank" href="{{ .work.slides_url }}">
+            {{ partial "cloudinary/custom" (dict "src" (or .work.image_url_two .work.image_url) "params" $popupImageParams) }}
+          </a>
+        {{ end }}
       </div>
       <div class="desc">
-        <div class="category">{{ .category }}</div>
-        <h4>{{ .title }}</h4>
-        <p>{{ .abstract }}</p>
-        <a href="{{ $link_url }}" class="btn" data-text="View Project">View Project</a>
+        <div class="category">{{ .work.category }}</div>
+        <h4>{{ .work.title }}</h4>
+        <p>{{ .work.description }}</p>
       </div>
     </div>
   </div>

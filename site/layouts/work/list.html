@@ -3,6 +3,7 @@
 {{- end }}
 
 {{ define "main" -}}
+  {{ $page := . }}
   {{ range $.Site.Data.workTypes.workType -}}
     {{- $workType := . -}}
     {{- $allWorks := index (index $.Site.Data.work $workType.data) $workType.type -}}
@@ -15,7 +16,7 @@
         {{- $type := $workType.type -}}
         <div class="box-items">
           {{ range $works -}}
-            {{ partial (printf "work/tiles/%s" $type) . }}
+            {{ partial (printf "work/tiles/%s" $type) (dict "page" $page "work" .) }}
           {{- end }}
           {{ if ge (len $allWorks) 5 -}}
             <div class="box-item">

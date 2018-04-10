@@ -11,6 +11,7 @@
 {{- end }}
 
 {{ define "main" -}}
+  {{ $page := . }}
   {{- $workType := index (where $.Site.Data.workTypes.workType "data" .Page.Params.dataList) 0 -}}
   {{ if $workType -}}
     {{- $works := index (index $.Site.Data.work $workType.data) $workType.type -}}
@@ -31,7 +32,7 @@
         {{- $type := $workType.type -}}
         <div class="box-items">
           {{ range $works -}}
-            {{ partial (printf "work/tiles/%s" $type) . }}
+            {{ partial (printf "work/tiles/%s" $type) (dict "page" $page "work" .) }}
           {{- end }}
         </div>
       </div>

@@ -65,6 +65,25 @@ $(function () {
     });
   });
 
+  function magnificent() {
+    $('.has-popup').magnificPopup({
+      type: 'inline',
+      overflowY: 'auto',
+      closeBtnInside: true,
+      mainClass: 'mfp-fade',
+      callbacks: {
+        open: function() {
+          var embed = $(this.container).find(".embed");
+          embed.attr("src", embed.attr("data-src"));
+        },
+        close: function() {
+          var embed = $(this.container).find(".embed");
+          embed.attr("src", "");
+        }
+      }
+    });
+  }
+
   /* Initialize masonry filter */
   $('.filters label').on('change', 'input[type="checkbox"]', function() {
     if ($(this).is(':checked')) {
@@ -74,21 +93,11 @@ $(function () {
       $(this).parent().removeClass('glitch-effect');
     }
     /* Refresh Portfolio magnific popup */
-    $('.has-popup').magnificPopup({
-      type: 'inline',
-      overflowY: 'auto',
-      closeBtnInside: true,
-      mainClass: 'mfp-fade'
-    });
+    magnificent();
   });
 
   /* Portfolio magnific popup */
-  $('.has-popup').magnificPopup({
-    type: 'inline',
-      overflowY: 'auto',
-      closeBtnInside: true,
-      mainClass: 'mfp-fade'
-  });
+    magnificent();
 
   /* Resize function */
   $(window).resize(function() {
