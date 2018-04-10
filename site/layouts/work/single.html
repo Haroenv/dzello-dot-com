@@ -2,8 +2,18 @@
 <link rel="stylesheet" type="text/css" href="/css/main-orange.css" />
 {{- end }}
 
-{{ define "main" }}
-  {{ partial "work-nav" . }}
-  {{ .Page.Content }}
-  <p class="center"><br><a href="../">&laquo; back</a></p>
-{{ end }}
+{{ define "started-content" -}}
+  <div class="h-title glitch-effect" data-text="{{ .Page.Title }}">{{ .Page.Title }}</div>
+  <div class="h-subtitle typing-bread">
+    <p><a href="/work/">Work</a> / {{ or .Page.Params.menuTitle .Page.Title }}</p>
+  </div>
+  <span class="typed-bread"></span>
+{{- end }}
+
+{{ define "main" -}}
+  {{- $workType := index (where $.Site.Data.workTypes.workType "data" .Page.Params.dataList) 0 -}}
+  {{ if $workType -}}
+    {{- $works := index (index $.Site.Data.work $workType.data) $workType.type -}}
+    {{- partial "layout/work-single" (dict "workType" $workType "works" $works "top" $) -}}
+  {{- end }}
+{{- end }}

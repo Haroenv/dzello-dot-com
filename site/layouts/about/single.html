@@ -42,7 +42,7 @@
             <div class="title_inner">Experience</div>
           </div>
           <div class="resume-items">
-            {{ range $.Site.Data.work.jobs.job -}}
+            {{ range $.Site.Data.about.jobs.job -}}
               {{ partial "timeline-item" . }}
             {{- end }}
           </div>
@@ -60,7 +60,7 @@
       <div class="title">
         <div class="title_inner">Do I still code? (according to Github)</div>
       </div>
-      {{ partial "skills" $.Site.Data.work.stats.github }}
+      {{ partial "skills" $.Site.Data.about.stats.github }}
     </div>
   </div>
 {{ end }}

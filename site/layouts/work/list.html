@@ -3,29 +3,13 @@
 {{- end }}
 
 {{ define "main" -}}
-  {{ range $.Site.Data.workTypes.workType }}
-  <div class="section works">
-    <div class="content">
-      <div class="title">
-        <div class="title_inner">{{ .title }}</div>
-      </div>
-      <div class="filter-menu">
-        <div class="filters">
-          <div class="btn-group">
-            {{ range .categories }}
-            <label data-text="{{ . }}"><input type="checkbox" value="f-{{ . }}" />{{ . }}</label>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      {{- $works := index (index $.Site.Data.work .data) .type -}}
-      {{- $type := .type -}}
-      <div class="box-items">
-        {{ range $works -}}
-          {{ partial (printf "work/%s.html" $type) . }}
-        {{- end }}
-        {{- end }}
-      </div>
-    </div>
-  </div>
+  {{ range $.Site.Data.workTypes.workType -}}
+    {{- $workType := . -}}
+    {{- $works := index (index $.Site.Data.work $workType.data) $workType.type -}}
+    {{- $featuredWorks := first 6 $works }}
+    {{- partial "layout/work-single" (dict "workType" $workType "works" $featuredWorks "top" $) -}}
+    {{ if ge (len $works) 6 -}}
+    <
+    {{- end }}
+  {{- end }}
 {{- end }}
