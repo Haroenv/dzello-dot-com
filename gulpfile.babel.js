@@ -26,7 +26,7 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Use hugo for watching instead of gulp/browsersync
 gulp.task("hugo-server", (cb) => {
-  const args = ["server"].concat(hugoArgsDefault).concat(["-w", "-p", "3000"]);
+  const args = ["server"].concat(hugoArgsDefault).concat(["-w", "-p", "3000", "--disableFastRender"]);
   if (process.env.HUGO_PREVIEW) {
     args.push(...hugoArgsPreview);
   }
