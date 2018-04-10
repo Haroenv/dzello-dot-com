@@ -1,11 +1,11 @@
 {{ $link_url := or .blog_url .video_url .slides_url .site_url }}
-{{ $gridImageParams := "f_auto,q_auto,w_500,h_350,c_fill,g_auto,bo_3px_solid_rgb:f26b38" }}
+{{ $gridImageParams := "f_auto,q_auto,w_500,h_350,c_fill,g_auto,bo_1px_solid_rgb:f26b38" }}
 {{ $popupImageParams := "f_auto,q_auto,w_500" }}
 {{ $popupId := replace (base64Encode .title) "=" "" }}
 <div class="box-item f-{{ .category}}">
   <div class="image">
     <a href="#popup-{{ $popupId }}" class="has-popup">
-      {{ partial "cloudinary/custom" (dict "src" .image_url "defaults" false "params" $gridImageParams) }}
+      {{ partial "cloudinary/custom" (dict "src" .image_url "params" $gridImageParams) }}
       <span class="info">
         <span class="centrize full-width">
           <span class="vertical-center">
@@ -22,7 +22,7 @@
   <div id="popup-{{ $popupId }}" class="popup-box mfp-fade mfp-hide">
     <div class="content">
       <div class="image">
-        {{ partial "cloudinary/custom" (dict "src" .image_url "defaults" false "params" $popupImageParams) }}
+        {{ partial "cloudinary/custom" (dict "src" .image_url "params" $popupImageParams) }}
       </div>
       <div class="desc">
         <div class="category">{{ .category }}</div>

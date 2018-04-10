@@ -5,11 +5,36 @@
 {{ define "main" -}}
   {{ range $.Site.Data.workTypes.workType -}}
     {{- $workType := . -}}
-    {{- $works := index (index $.Site.Data.work $workType.data) $workType.type -}}
-    {{- $featuredWorks := first 6 $works }}
-    {{- partial "layout/work-single" (dict "workType" $workType "works" $featuredWorks "top" $) -}}
-    {{ if ge (len $works) 6 -}}
-    <
-    {{- end }}
+    {{- $allWorks := index (index $.Site.Data.work $workType.data) $workType.type -}}
+    {{- $works := first 5 $allWorks }}
+    <div class="section works">
+      <div class="content">
+        <div class="title">
+          <div class="title_inner">{{ $workType.title }}</div>
+        </div>
+        {{- $type := $workType.type -}}
+        <div class="box-items">
+          {{ range $works -}}
+            {{ partial (printf "work/%s.html" $type) . }}
+          {{- end }}
+          {{ if ge (len $allWorks) 5 -}}
+            <div class="box-item">
+              <div class="image">
+                <a href="/work/{{ $workType.data }}/">
+                  {{ partial "cloudinary/custom" (dict "src" "see-more" "params" "f_auto,w_500,h_250,c_lpad,bo_150px_solid_rgb:ffffff") }}
+                  <span class="info">
+                    <span class="centrize full-width">
+                      <span class="vertical-center">
+                        <span class="ion ion-link"></span>
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          {{- end }}
+        </div>
+      </div>
+    </div>
   {{- end }}
 {{- end }}
