@@ -30,7 +30,7 @@ function loaded() {
     $(".preloader .pre-inner").fadeOut(800, function(){
       loaded();
     });
-    $('header, .typed-bread').on('click', 'a', function(){
+    $('header, footer, .typed-bread').on('click', 'a', function(){
       var link = $(this).attr('href');
       $('body').removeClass('loaded');
       setTimeout(function() {
