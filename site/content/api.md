@@ -1,5 +1,4 @@
 +++
-layout = "single"
 menuTitle = "API"
 meta = "false"
 title = "dzello.com API documentation"

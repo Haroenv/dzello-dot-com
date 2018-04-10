@@ -1,6 +1,4 @@
 +++
-aliases = ["/hire"]
-layout = "single"
 menu = "main"
 meta = "false"
 title = "Consulting"

@@ -1,5 +1,4 @@
 +++
-layout = "single"
 menu = "main"
 meta = "false"
 menuTitle = "About"

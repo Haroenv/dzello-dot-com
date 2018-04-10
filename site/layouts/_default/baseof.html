@@ -49,7 +49,9 @@
     <div class="line right"></div>
   </div>
   {{- partial "analytics" . }}
-  {{- partial "algolia-variables" }}
-  {{- partial "javascripts" }}
+  {{- partial "algolia-variables" . }}
+  {{- partial "javascripts" . }}
+  {{- block "after-javascripts" . -}}
+  {{- end }}
 </body>
 </html>
