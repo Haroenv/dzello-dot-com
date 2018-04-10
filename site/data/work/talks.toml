@@ -174,7 +174,7 @@ Keen IO stores events in the same format that our customers send them in—JSON.
 
 [[ talk ]]
 title = "The New Analytics - In The Cloud, Behind the API"
-category = "Analytics"
+category = "Software"
 date = "2014-02-24"
 event = "IBM Pulse (dev@Pulse)"
 event_url = "https://www.ibm.com/developerworks/events/devpulse.html"
@@ -189,7 +189,7 @@ Keen IO tells their journey of creating APIs to enable custom analytics for web,
 
 [[ talk ]]
 title = "One Billion Per Second - The Rise of Designer Data Architectures"
-category = "Analytics"
+category = "Software"
 date = "2013-11-04"
 event = "Defrag"
 event_url = "http://gluecon.com/"
