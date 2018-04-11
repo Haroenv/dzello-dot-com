@@ -50,7 +50,7 @@ gulp.task("deploy-preview", ['build-preview'], () => { gulp.start("algolia"); })
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
-  gulp.src("./src/css/**/*.{css,less}")
+  gulp.src("./src/css/*.less")
     .pipe(less({ paths: [
       path.join(__dirname, 'src', 'css', 'glitch'),
       path.join(__dirname, 'src', 'css', 'glitch', 'settings'),
