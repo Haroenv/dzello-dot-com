@@ -1,5 +1,6 @@
 [[ project ]]
 title = "discourse-algolia"
+category = "Search"
 description = "A Discourse plugin that adds Algolia indexing and search."
 year = "2017"
 site_url = "https://meta.discourse.org/t/add-algolia-search-to-your-discourse/73517"
@@ -7,6 +8,7 @@ github_url = "https://github.com/algolia/discourse-algolia"
 
 [[ project ]]
 title = "discourse-webhook-collector"
+category = "APIs"
 description = "Listen to Discourse events and send to other APIs using webtask.io."
 year = "2017"
 video_url = "https://vimeo.com/223525087"
@@ -14,6 +16,7 @@ github_url = "https://github.com/algolia/discourse-webhook-collector"
 
 [[ project ]]
 title = "instantsearch-electron"
+category = "Search"
 description = "A boilerplate for building desktop React InstantSearch apps with Electron."
 year = "2016"
 github_url = "https://github.com/algolia/instantsearch-electron"
@@ -21,12 +24,14 @@ video_url = "https://www.youtube.com/watch?v=Dj5qF0ki6BY"
 
 [[ project ]]
 title = "keen-gem"
+category = "Backend"
 description = "Official Ruby client for the Keen IO API."
 year = "2013"
 github_url = "https://github.com/keenlabs/keen-gem"
 
 [[ project ]]
 title = "Holy Emoji"
+category = "Search"
 description = "An Algolia-powered emoji search engine built with React InstantSearch."
 year = "2016"
 site_url = "https://holy-emoji-search.glitch.me/"
@@ -34,19 +39,22 @@ glitch_url = "https://glitch.com/edit/#!/holy-emoji-search"
 
 [[ project ]]
 title = "mongoid-alize"
+category = "Backend"
 description = "Comprehensive, flexible denormalization for mongoid that stays in sync."
 year = "2012"
 github_url = "https://github.com/dzello/mongoid_alize"
 
 [[ project ]]
 title = "dzello-dot-com"
-description = "This site, built with Hugo making heavy use of data templates."
+category = "Frontend"
+description = "This site, built with Hugo making use of data templates and shortcodes."
 year = "2018"
 site_url = "https://dzello.com/"
 github_url = "https://github.com/dzello/dzello-dot-com"
 
 [[ project ]]
 title = "Estelle & Josh"
+category = "Frontend"
 year = "2018"
 description = "A wedding site for my wife and I, built with Hugo."
 site_url = "https://estelle.and.dzello.com/"
@@ -54,6 +62,7 @@ github_url = "https://github.com/dzello/estelle-and-josh"
 
 [[ project ]]
 title = "vue-keen-dashboards"
+category = "Frontend"
 description = "A secure, extensible dashboard for your Keen IO data built with Vue.js."
 year = "2017"
 site_url = "https://vue-keen-dashboards.dzello.com/"
@@ -61,6 +70,7 @@ github_url = "https://github.com/algolia/vue-keen-dashboards"
 
 [[ project ]]
 title = "Oval Quotes"
+category = "Search"
 description = "Search historical US presidential speeches, powered by Algolia."
 year = "2016"
 site_url = "http://dzello.github.io/oval-quotes/"
@@ -69,24 +79,28 @@ video_url = "https://www.youtube.com/watch?v=xZTNzNjwl3w"
 
 [[ project ]]
 title = "Dashboards by Keen IO"
+category = "Frontend"
 description = "Responsive dashboard templates for Bootstrap (built by @larimer, I helped launch it)"
 year = "2015"
 github_url = "https://github.com/keen/dashboards"
 
 [[ project ]]
 title = "aud"
+category = "Backend"
 description = "Play MIDI tones according to text patterns in log files."
 year = "2013"
 github_url = "https://github.com/dzello/aud"
 
 [[ project ]]
 title = "github-webhook-collector"
+category = "APIs"
 description = "Add a Keen IO webhook to all your Github repositories."
 year = "2014"
 github_url = "https://github.com/dzello/github-webhook-collector"
 
 [[ project ]]
 title = "keen-cli"
+category = "Backend"
 description = "A command line interface for Keen IO."
 year = "2014"
 site_url = "https://blog.keen.io/365-days-of-open-source-contributions-heres-what-happened-on-day-12-6dcb6c08ea31"
@@ -94,6 +108,7 @@ github_url = "https://github.com/keen/keen-cli"
 
 [[ project ]]
 title = "Pingpong"
+category = "APIs"
 description = "HTTP monitoring for developers."
 year = "2014"
 site_url = "http://keen.github.io/pingpong/"
@@ -101,6 +116,7 @@ github_url = "https://github.com/keen/pingpong"
 
 [[ project ]]
 title = "Pushpop"
+category = "APIs"
 description = "A framework for scheduled integrations between popular services."
 year = "2015"
 site_url = "http://pushpop.keen.io/pushpop-slack/"

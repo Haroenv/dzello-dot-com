@@ -14,7 +14,7 @@ categories = [
 title = "Articles"
 data = "articles"
 type = "article"
-image = "josh-dzielak-astronaut-2017"
+image = "josh-dzielak-algolia-search-party-2017"
 categories = [
   "Community",
   "Search",
@@ -36,9 +36,17 @@ categories = [
 title = "Projects"
 data = "projects"
 type = "project"
-categories = []
+image = "josh-dzielak-astronaut-2017"
+categories = [
+  "Frontend",
+  "Backend",
+  "APIs",
+  "Search"
+]
 
-# [[ workType ]]
-# title = "Activities"
-# data = "activities"
-# type = "activity"
+[[ workType ]]
+title = "Activities"
+data = "activities"
+type = "activity"
+image = "amazecamp-burning-man-2014"
+categories = []

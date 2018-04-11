@@ -7,7 +7,7 @@
   {{ range $.Site.Data.workTypes.workType -}}
     {{- $workType := . -}}
     {{- $allWorks := index (index $.Site.Data.work $workType.data) $workType.type -}}
-    {{- $works := first 5 (where $allWorks "hidden" "!=" true) }}
+    {{- $works := first 2 (where $allWorks "hidden" "!=" true) }}
     {{ if isset $workType "image" }}
       <div class="section photo">
         <div class="content">

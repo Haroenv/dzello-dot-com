@@ -1,44 +1,44 @@
 [[ activity ]]
-name = "500 Startups Geeks on a Plane alumni, Latin America"
-url = "http://geeksonaplane.com/"
-date = "2013"
-
-[[ activity ]]
-name = "Master of Ceremonies - Heavybit DevGuild, Developer Evangelism"
-url = "http://devguild.heavybit.com/developer-evangelism/"
-date = "2015"
-
-[[ activity ]]
-name = "Master of Ceremonies - KeenCon"
-url = "https://blog.keen.io/photos-and-videos-from-keencon-2014-ff9ba9051f09"
-date = "2014"
-
-[[ activity ]]
-name = "Guest Instructor at HackReactor"
-url = "http://www.hackreactor.com/"
-date = "2012"
-
-[[ activity ]]
-name = "Mentor at Hackbright Academy"
-url = "https://hackbrightacademy.com/"
-date = "2013"
-
-[[ activity ]]
-name = "Patent US 13/407,643 - Dynamic Trust Score for Evaluating Ongoing Online Relationships"
-url = "https://patents.google.com/patent/US20130227700"
-date = "2012"
-
-[[ activity ]]
-name = "Volunteer at the Mindfulness Project in Thailand"
-url = "https://medium.com/summer-in-thailand/a-day-in-the-life-of-the-mindfulness-project-7dd818d2c60"
-date = "2015"
-
-[[ activity ]]
-name = "Burning Man"
+title = "Burning Man (Playasophy, Amazecamp, Juicy Rootz)"
 url = "https://burningman.org/"
-date = "2011 - 2017..."
+year = "2011 - 2017"
 
 [[ activity ]]
-name = "BATS Improv - Foundation 1 / 2 / 3"
+title = "Master of Ceremonies - Heavybit DevGuild, Developer Evangelism"
+url = "http://devguild.heavybit.com/developer-evangelism/"
+year = "2015"
+
+[[ activity ]]
+title = "Master of Ceremonies - KeenCon"
+url = "https://blog.keen.io/photos-and-videos-from-keencon-2014-ff9ba9051f09"
+year = "2014"
+
+[[ activity ]]
+title = "500 Startups Geeks on a Plane alumni, Latin America"
+url = "http://geeksonaplane.com/"
+year = "2013"
+
+[[ activity ]]
+title = "Guest Instructor at HackReactor"
+url = "http://www.hackreactor.com/"
+year = "2012"
+
+[[ activity ]]
+title = "Mentor at Hackbright Academy"
+url = "https://hackbrightacademy.com/"
+year = "2013"
+
+[[ activity ]]
+title = "Patent US 13/407,643 - Dynamic Trust Score for Evaluating Ongoing Online Relationships"
+url = "https://patents.google.com/patent/US20130227700"
+year = "2012"
+
+[[ activity ]]
+title = "Volunteer at the Mindfulness Project in Thailand"
+url = "https://medium.com/summer-in-thailand/a-day-in-the-life-of-the-mindfulness-project-7dd818d2c60"
+year = "2015"
+
+[[ activity ]]
+title = "BATS Improv - Foundation 1 / 2 / 3"
 url = "https://improv.org/"
-date = "2014 - 2016"
+year = "2014 - 2016"

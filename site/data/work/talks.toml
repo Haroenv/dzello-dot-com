@@ -5,7 +5,7 @@ date = "2018-01-17"
 event = "Sentry Scouts"
 blog_url = "https://sentry.io/_/events/2018-01-17-sentry-scouts-1/"
 vimeo_id = "255440963"
-image_url = "talks/josh-dzielak-sentry-scouts-overlay"
+image_url = "talks/josh-dzielak-sentry-scouts-overlay-2018"
 tag = "devrel"
 description = '''
 I joined several other developers and developer advocates to discuss how first-time contributors can get into open source and how companies benefit from being good stewards of their open source projects and developer community.

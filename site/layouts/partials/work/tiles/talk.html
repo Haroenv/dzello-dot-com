@@ -1,11 +1,9 @@
-{{ $gridImageParams := "f_auto,q_auto,w_500,h_350,c_fill,g_auto,bo_2px_solid_rgb:f26b38" }}
 {{ $popupImageParams := "f_auto,q_auto,w_500" }}
 {{ $popupId := replace (base64Encode .work.title) "=" "" }}
-
 <div class="box-item f-{{ .work.category}}">
   <div class="image">
     <a href="#popup-{{ $popupId }}" class="has-popup">
-      {{ partial "cloudinary/custom" (dict "src" .work.image_url "params" $gridImageParams) }}
+      {{ partial "cloudinary/custom" (dict "src" .work.image_url "params" .page.Site.Params.cl_grid_image_params) }}
       <span class="info">
         <span class="centrize full-width">
           <span class="vertical-center">

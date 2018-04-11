@@ -1,8 +1,17 @@
-<a class="tile tile-half" href="{{ .url }}">
-  <i class="fa fa-fire fa-2x"></i>
-  <h2>
-    {{ .name }}
-    <br>
-    <span>{{ .date }}</span>
-  </h2>
-</a>
+<div class="box-item f-{{ .work.category}}">
+  <div class="image">
+    <a target="_blank" href="{{ .work.url }}">
+      <span class="info">
+        <span class="centrize full-width">
+          <span class="vertical-center">
+            <span class="ion ion-link"></span>
+          </span>
+        </span>
+      </span>
+    </a>
+  </div>
+  <div class="desc">
+    <div class="date">{{ .work.year }}</div>
+    <a target="_blank" href="{{ .work.url }}" class="name">{{ .work.title }}</a>
+  </div>
+</div>
