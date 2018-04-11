@@ -1,6 +1,7 @@
 <div class="box-item f-{{ .work.category}}">
   <div class="image">
     <a target="_blank" href="{{ .work.url }}">
+      {{ partial "cloudinary/custom" (dict "src" "pixel" "params" "f_auto,q_100,w_500,h_350,c_lpad,bo_3px_solid_rgb:f26b38/l_text:Roboto Mono_96:^_^") }}
       <span class="info">
         <span class="centrize full-width">
           <span class="vertical-center">
