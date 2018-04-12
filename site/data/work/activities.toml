@@ -1,44 +1,67 @@
 [[ activity ]]
 title = "Burning Man (Playasophy, Amazecamp, Juicy Rootz)"
+category = "Play"
 url = "https://burningman.org/"
+image_url = "activities/josh-dzielak-estelle-murail-burning-man-2017.jpg"
 year = "2011 - 2017"
 
 [[ activity ]]
 title = "Master of Ceremonies - Heavybit DevGuild, Developer Evangelism"
+category = "Work"
 url = "http://devguild.heavybit.com/developer-evangelism/"
+image_url = "activities/josh-dzielak-heavybit-devguild-mc-2015.jpg"
 year = "2015"
 
 [[ activity ]]
 title = "Master of Ceremonies - KeenCon"
+category = "Work"
+image_url = "activities/josh-dzielak-keencon-mc-2015"
 url = "https://blog.keen.io/photos-and-videos-from-keencon-2014-ff9ba9051f09"
 year = "2014"
 
 [[ activity ]]
-title = "500 Startups Geeks on a Plane alumni, Latin America"
-url = "http://geeksonaplane.com/"
-year = "2013"
-
-[[ activity ]]
-title = "Guest Instructor at HackReactor"
-url = "http://www.hackreactor.com/"
-year = "2012"
-
-[[ activity ]]
-title = "Mentor at Hackbright Academy"
-url = "https://hackbrightacademy.com/"
-year = "2013"
-
-[[ activity ]]
-title = "Patent US 13/407,643 - Dynamic Trust Score for Evaluating Ongoing Online Relationships"
-url = "https://patents.google.com/patent/US20130227700"
-year = "2012"
-
-[[ activity ]]
 title = "Volunteer at the Mindfulness Project in Thailand"
+category = "Play"
+image_url = "activities/josh-dzielak-mindfulness-project-2015"
 url = "https://medium.com/summer-in-thailand/a-day-in-the-life-of-the-mindfulness-project-7dd818d2c60"
 year = "2015"
 
 [[ activity ]]
 title = "BATS Improv - Foundation 1 / 2 / 3"
+category = "Play"
+image_url = "activities/josh-dzielak-improv-2015.jpg"
 url = "https://improv.org/"
 year = "2014 - 2016"
+
+[[ activity ]]
+title = "Geeks on a Plane 2013 Latin America - 500 Startups"
+category = "Work"
+url = "http://geeksonaplane.com/"
+image_url = "activities/geeks-on-a-plane-logo.png"
+image_logo = true
+year = "2013"
+
+[[ activity ]]
+title = "Guest Instructor at HackReactor"
+category = "Work"
+image_url = "activities/hack-reactor-logo.png"
+image_logo = true
+url = "http://www.hackreactor.com/"
+year = "2012"
+
+[[ activity ]]
+title = "Mentor at Hackbright Academy"
+category = "Work"
+image_url = "activities/hackbright-logo.png"
+image_logo = true
+url = "https://hackbrightacademy.com/"
+year = "2013"
+
+[[ activity ]]
+title = "Patent US 13/407,643 - Dynamic Trust Score for Evaluating Ongoing Online Relationships"
+category = "Work"
+image_url = "activities/uspto-logo.jpg"
+image_logo = true
+url = "https://patents.google.com/patent/US20130227700"
+year = "2012"
+

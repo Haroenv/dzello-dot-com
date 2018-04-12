@@ -49,4 +49,7 @@ title = "Activities"
 data = "activities"
 type = "activity"
 image = "amazecamp-burning-man-2014"
-categories = []
+categories = [
+  "Work",
+  "Play"
+]

@@ -1,7 +1,7 @@
 +++
 menu = "main"
 meta = "false"
-weight = "20"
+weight = "10"
 title = "About"
 type = "about"
 useSummaryForDescription = true
@@ -13,5 +13,6 @@ images = [
   "josh-dzielak-heavybit-devguild-2015",
   "josh-dzielak-frisbee-2015"
 ]
+themeColor = "pink"
 +++
 

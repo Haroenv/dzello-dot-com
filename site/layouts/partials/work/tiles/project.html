@@ -1,8 +1,12 @@
-{{ $href := (or .github_url .glitch_url) }}
+{{ $href := (or .work.github_url .work.glitch_url) }}
 <div class="box-item f-{{ .work.category}}">
   <div class="image">
     <a target="_blank" href="{{ $href }}">
-      {{ partial "cloudinary/custom" (dict "src" "pixel" "params" "f_auto,q_100,w_500,h_350,c_lpad,bo_3px_solid_rgb:f26b38/l_text:Roboto Mono_96:<%252F>") }}
+      {{ if .work.image_url -}}
+        {{ partial "cloudinary/custom" (dict "src" .work.image_url "params" .page.Site.Params.cl_grid_image_params) }}
+      {{ else -}}
+        {{ partial "cloudinary/custom" (dict "src" "pixel" "params" "f_auto,q_100,w_400,h_300,c_lpad,bo_3px_solid_rgb:f26b38/l_text:Roboto Mono_96:<%252F>") }}
+      {{- end }}
       <span class="info">
         <span class="centrize full-width">
           <span class="vertical-center">
