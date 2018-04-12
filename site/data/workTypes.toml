@@ -33,6 +33,16 @@ categories = [
 ]
 
 [[ workType ]]
+title = "Activities"
+data = "activities"
+type = "activity"
+image = "amazecamp-burning-man-2014"
+categories = [
+  "Work",
+  "Play"
+]
+
+[[ workType ]]
 title = "Projects"
 data = "projects"
 type = "project"
@@ -42,14 +52,4 @@ categories = [
   "Backend",
   "APIs",
   "Search"
-]
-
-[[ workType ]]
-title = "Activities"
-data = "activities"
-type = "activity"
-image = "amazecamp-burning-man-2014"
-categories = [
-  "Work",
-  "Play"
 ]

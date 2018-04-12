@@ -1,11 +1,4 @@
 [[ activity ]]
-title = "Burning Man (Playasophy, Amazecamp, Juicy Rootz)"
-category = "Play"
-url = "https://burningman.org/"
-image_url = "activities/josh-dzielak-estelle-murail-burning-man-2017.jpg"
-year = "2011 - 2017"
-
-[[ activity ]]
 title = "Master of Ceremonies - Heavybit DevGuild, Developer Evangelism"
 category = "Work"
 url = "http://devguild.heavybit.com/developer-evangelism/"
@@ -18,6 +11,13 @@ category = "Work"
 image_url = "activities/josh-dzielak-keencon-mc-2015"
 url = "https://blog.keen.io/photos-and-videos-from-keencon-2014-ff9ba9051f09"
 year = "2014"
+
+[[ activity ]]
+title = "Burning Man (Playasophy, Amazecamp, Juicy Rootz)"
+category = "Play"
+url = "https://burningman.org/"
+image_url = "activities/josh-dzielak-estelle-murail-burning-man-2017.jpg"
+year = "2011 - 2017"
 
 [[ activity ]]
 title = "Volunteer at the Mindfulness Project in Thailand"
