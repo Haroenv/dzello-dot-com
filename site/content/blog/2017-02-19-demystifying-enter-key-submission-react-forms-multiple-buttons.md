@@ -95,6 +95,7 @@ Plus, it's easy to read the code and determine what will happen without chasing 
 - Because the Save button is type="submit" and no click handler is registered, we know that clicking it will immediately trigger the form's onSubmit handler.
 - Because there are no type="submit" buttons with click handlers, we can be sure that pressing the enter key will immediately trigger the form's onSubmit handler.
 
+
 ## Best Practices
 
 Two best practices to take from this are **always remember to add type="button" to non-submit buttons** and **only have one type="submit" button per form**. That helps avoid ambiguity and makes following execution easy.
@@ -113,6 +114,3 @@ Here are some things **not** to do:
 
 - [Codepen - React Version](http://codepen.io/dzello/pen/wgLZYN)
 - [Codepen - Plain HTML Version](http://codepen.io/dzello/pen/LxwPQJ)
-
-![Photo of React codepen](/images/react-forms-codepen.png)
-<span class="caption" style="text-align: center">Play around with multiple forms in the React Codepen</span>

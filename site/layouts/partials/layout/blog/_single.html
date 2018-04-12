@@ -7,7 +7,9 @@
       {{ if isset .Page.Params "imageCaption" }}
       <div class="caption">{{ .Page.Params.imageCaption }}</div>
       {{ end }}
-      {{ .Content }}
+      <div class="blog-post-content">
+        {{ .Content }}
+      </div>
     </div>
     {{ if not .Page.Params.noDiscuss }}
       <hr>
