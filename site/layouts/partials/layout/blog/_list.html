@@ -1,15 +1,17 @@
 <section id="list">
-  {{ $baseurl := .Site.BaseURL }}
+  <ul>
   {{ range (.Paginate (.Data.Pages.GroupByDate "2006")).PageGroups  }}
-    <h3>{{ .Key }}</h3>
-    <ul>
-      {{ range .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
-            <time class="date-meta">{{ .Date.Format "Jan 2" }}</time>
-        </li>
+  {{ range .Pages }}
+    <li>
+      {{ if isset .Params "image" }}
+      <p><a href="{{ .Permalink }}">{{ partial "cloudinary" .Params.image }}<a></p>
       {{ end }}
-    </ul>
-    {{ end }}
+      <div class="date">{{ dateFormat "Jan 2, 2006" .Date }}</div>
+      <h1><a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title }}</a></h1>
+      <p>{{ .Summary }}..</p>
+    </li>
+  {{ end }}
+  {{ end }}
+  </ul>
 </section>
 {{ template "_internal/pagination.html" . }}
