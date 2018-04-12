@@ -1,17 +1,15 @@
-<section id="list">
-  <ul>
-  {{ range (.Paginate (.Data.Pages.GroupByDate "2006")).PageGroups  }}
-  {{ range .Pages }}
-    <li>
+{{ range (.Paginate (.Data.Pages.GroupByDate "2006")).PageGroups  }}
+{{ range .Pages }}
+  <div class="section">
+    <div class="content">
       {{ if isset .Params "image" }}
-      <p><a href="{{ .Permalink }}">{{ partial "cloudinary" .Params.image }}<a></p>
+      <p><a href="{{ .Permalink }}">{{ partial "cloudinary" .Params.image }}</a></p>
       {{ end }}
       <div class="date">{{ dateFormat "Jan 2, 2006" .Date }}</div>
       <h1><a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title }}</a></h1>
       <p>{{ .Summary }}..</p>
-    </li>
-  {{ end }}
-  {{ end }}
-  </ul>
-</section>
+    </div>
+  </div>
+{{ end }}
+{{ end }}
 {{ template "_internal/pagination.html" . }}

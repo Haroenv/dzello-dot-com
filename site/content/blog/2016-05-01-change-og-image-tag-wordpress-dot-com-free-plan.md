@@ -1,7 +1,8 @@
 +++
 categories = ["Technology"]
 date = "2016-05-01T00:00:00Z"
-image = "/images/estelle-murail-2016.jpg"
+image = "blog/estelle-murail-2016.jpg"
+imageCaption = "My wife, the Victorian scholar"
 title = "How to change the og:image tag on the wordpress.com free plan"
 
 +++
@@ -17,9 +18,6 @@ paste its URL into the [Facebook debugging tool](https://developers.facebook.com
 If the image isn't the one you want, there's a workaround to change it but stay on the free plan.
 Disclaimer: this workaround is based on trail and error from editing the Victorian Persistence blog's [team page](https://victorianpersistence.wordpress.com/team/)
 and could change at any time.
-
-{{< title-image >}}
-<span class="caption" style="text-align: center">I am not a Victorian scholar, but Estelle is!</span>
 
 The solution is to re-upload the image you want to be the og:image but make sure that
 its file name is alphabetically and numerically before any other images on the page. This is because

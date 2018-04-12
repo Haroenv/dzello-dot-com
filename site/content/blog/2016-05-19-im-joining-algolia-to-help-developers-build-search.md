@@ -1,7 +1,7 @@
 +++
 categories = ["Technology"]
 date = "2016-05-19"
-image = "/images/algolia-team.jpg"
+image = "blog/algolia-team.jpg"
 title = "I'm joining Algolia to help developers build search"
 
 +++

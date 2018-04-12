@@ -2,14 +2,12 @@
 categories = ["Technology"]
 date = "2017-05-29"
 description = "About my one-year anniversary at Algolia"
-image = "/images/one-year-cake.jpg"
+image = "blog/algolia-one-year-anniversary-cake.png"
 title = "Celebrating one year at Algolia"
 
 +++
 
 Last month was my 1-year anniversary at Algolia. Everyone gets a cake to share on both their birthday and work anniversaries. It's a very sweet tradition.
-
-{{< title-image >}}
 
 I spent 6 months of the year working out of our office in central Paris. Working in a different culture has been a great learning experience. I highly recommended working with people from different countries - I feel it's done a lot to improve my communication and listening skills.
 

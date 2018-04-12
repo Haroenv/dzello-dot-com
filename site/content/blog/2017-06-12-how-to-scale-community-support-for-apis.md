@@ -1,9 +1,7 @@
 +++
 categories = ["Technology"]
 date = "2017-06-12"
-image = "/images/talks/josh-dzielak-devxcon-2017.png"
-imageWidth = 779
-imageHeight = 452
+image = "talks/josh-dzielak-devxcon-2017.png"
 title = "How to scale community support for APIs presented at DevXCon 2017"
 
 +++

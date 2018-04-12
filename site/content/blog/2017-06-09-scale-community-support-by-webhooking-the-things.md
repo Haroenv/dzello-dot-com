@@ -1,9 +1,7 @@
 +++
 categories = ["Technology"]
 date = "2017-06-09"
-image = "images/talks/josh-dzielak-ossat-2017.jpg"
-imageWidth = 1200
-imageHeight = 900
+image = "talks/josh-dzielak-ossat-2017.jpg"
 title = "Scale community support by webhooking the things"
 
 +++

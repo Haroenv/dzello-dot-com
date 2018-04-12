@@ -1,6 +1,12 @@
 <div class="section">
   <div class="content">
     <div class="single-post-text">
+      {{ if isset .Page.Params "image" }}
+      <p><a href="{{ .Permalink }}">{{ partial "cloudinary" .Page.Params.image }}</a></p>
+      {{ end }}
+      {{ if isset .Page.Params "imageCaption" }}
+      <div class="caption">{{ .Page.Params.imageCaption }}</div>
+      {{ end }}
       {{ .Content }}
     </div>
     {{ if not .Page.Params.noDiscuss }}

@@ -2,12 +2,10 @@
 categories = ["Technology"]
 date = "2016-04-09T00:00:00Z"
 title = "Search Presidential Speeches with Oval Quotes"
-
+image = "blog/oval-quotes-home.png"
 +++
 
 [Oval Quotes](http://oval-quotes.dzello.com) is a mashup I made using data from [The Miller Center](http://millercenter.org) and search from [Algolia](https://algolia.com/). It's highly compact and lots of fun to play with.
-
-![Oval Quotes Screenshot](/images/oval-quotes-home.png)
 
 The app lets you search over 500 historical speeches by US presidents. You can search by full-text keywords, like *gettysburg civil war*, and you can filter results to one or more presidents. The results are delivered as quote-sized chunks that you can copy, paste and share.
 

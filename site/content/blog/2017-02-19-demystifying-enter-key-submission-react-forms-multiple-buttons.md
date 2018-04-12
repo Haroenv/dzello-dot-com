@@ -1,8 +1,8 @@
 +++
 categories = ["Technology"]
-date = "2017-02-19T00:00:00Z"
+date = "2017-02-19"
 description = "Several important facts and best practices to make sure the enter key behaves the way your users expect."
-image = "/images/react-forms-codepen.png"
+image = "v1523548333/blog/react-forms-codepen.png"
 title = "Demystifying enter key submission for React forms with multiple buttons"
 
 +++
