@@ -23,7 +23,7 @@ category = "Software"
 date = "2017-02-19"
 location = "dzello.com"
 location_url = "https://dzello.com/"
-url = "/blog/2017-02-19-demystifying-enter-key-submission-react-forms-multiple-buttons/"
+url = "/blog/2017/02/19/demystifying-enter-key-submission-react-forms-multiple-buttons/"
 hidden = true
 
 [[ article ]]
@@ -143,5 +143,5 @@ category = "Software"
 date = "2012-05-03"
 location = "dzello.com"
 location_url = "https://dzello.com/"
-url = "/blog/2012-05-03-releasing-mongoid-alize-comprehensive-field-denormalization-for-mongoid/"
+url = "/blog/2012/05/03/releasing-mongoid-alize-comprehensive-field-denormalization-for-mongoid/"
 hidden = true

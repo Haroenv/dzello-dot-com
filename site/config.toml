@@ -9,6 +9,7 @@ pygmentsCodeFences = true
 
 [permalinks]
 blog = "/blog/:year/:month/:day/:title/"
+thailand = "/thailand/:year/:month/:day/:title/"
 
 [blackfriday]
 smartypants = false

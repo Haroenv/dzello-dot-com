@@ -1,7 +1,7 @@
 +++
 date = "2015-08-27"
 title = "A Day In The Life Of The Mindfulness Project"
-image = "/images/thailand/thailand-13.png"
+image = "thailand/thailand-mindfulness-project-group-photo.jpeg"
 
 +++
 
@@ -9,7 +9,8 @@ I volunteered this summer at the Mindfulness Project, living and working in a sm
 
 This appreciation could not have come without the simple act of slowing down. The pace of the Mindfulness Project is like a café conversation with an old friend, utterly relaxed but passionate, calm but never for lack of intensity. At this pace the tight interconnection between the self, others, and the earth becomes clearer. The pace is set by the project’s schedule, which by my standards begins very, very early.
 
-{{< title-image >}}*It's a pretty full day*
+{{< cloudinary src="thailand/thailand-mindfulness-project-schedule.png" >}}
+{{< caption "It's a pretty full day" >}}
 
 ### Gong
 
@@ -29,7 +30,8 @@ We eat in silence. In fact, no one has said anything all morning. *Noble silence
 
 Noble silence is broken by a heart (and body) warming ritual. Everyone sitting in the breakfast circle is assigned a number. Two copies of each number are given out randomly to two different people. When Christian or one of the long term volunteers says "Go!" everybody jumps up and hugs the person who was given the same number. These are warm embraces, sometimes a minute or longer, that continue until whispered good mornings grow into energetic exchanges more suitable to arm’s length. Like distance, silence makes the heart grow fonder — any morning grumpiness I’ve been clinging to is hereby dissolved.
 
-![](/images/thailand/thailand-12.jpeg)*The Mindfulness Project house in 2015*
+{{< cloudinary src="thailand/thailand-mindfulness-project-house.jpeg" >}}
+{{< caption "The Mindfulness Project house in 2015" >}}
 
 ### The Seva
 
@@ -55,4 +57,3 @@ The final activity of the day is a teaching. Lessons about Buddhism are highly a
 
 At 10pm it’s lights out. No one protests. It’s been a long day, and to use an English expression popular in Thailand, tomorrow will be *same same but different*. The frequency might be a touch higher or lower, but at ten to five the gong will strike again.
 
-![Group shot ♥ Credit: Pavlína Cuberková](/images/thailand/thailand-11.jpeg)*Our volunteer family ♥ Credit: Pavlína Cuberková*
