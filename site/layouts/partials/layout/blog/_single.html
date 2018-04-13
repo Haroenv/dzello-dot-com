@@ -13,10 +13,17 @@
         {{ .Content }}
       </article>
     </div>
-    {{ if not .Page.Params.noDiscuss }}
-      <hr>
+  </div>
+</div>
+{{ if not .Page.Params.noDiscuss -}}
+<div class="section">
+  <div class="content">
       {{ partial "blog/discuss" . }}
-    {{ end }}
+  </div>
+</div>
+{{- end }}
+<div class="section">
+  <div class="content">
     {{ partial "blog/pagination" . }}
   </div>
 </div>

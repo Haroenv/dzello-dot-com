@@ -16,7 +16,7 @@ export default function() {
       success: function() {
         $("#discuss-form").addClass("status-success");
         $("#discuss-form .status").append(
-          `<p>✅<br><br>your message has been sent!</p>`);
+          `<p>✅ message sent</p>`);
         logEvent("COMMENT_SENT", { email, text });
       }
     });

@@ -1,9 +1,15 @@
 .discuss {
-  margin: 25px 0 0;
-  background: var(--greyBackgroundColor);
   display: flex;
   justify-content: space-around;
+  border: 1px solid @light-color;
   flex-wrap: wrap;
+  .title {
+    text-align: center;
+  }
+  .social-icon {
+    margin-top: 60px;
+    font-size: 17px;
+  }
 }
 
 .discuss iframe {
@@ -12,16 +18,15 @@
 
 .discuss p {
   text-align: center;
-  font-weight: bold;
 }
 
 .discuss > div {
   box-sizing: border-box;
   padding: 30px;
-  width: 50%;
+  width: 45%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 840px) {
   .discuss > div {
     width: 100%;
   }
@@ -32,15 +37,15 @@
 }
 
 .discuss input[type="email"] {
-  width: 90%;
+  padding: 10px;
+  border: 1px solid @light-color;
 }
 
 .discuss textarea {
-  width: 90%;
   outline: 0;
+  margin-top: 0;
   padding: 10px;
-  border: 2px dashed var(--inputBorderColor);
-  margin-top: 5px;
+  border: 1px solid @light-color;
 }
 
 #discuss-form .status,
@@ -51,6 +56,6 @@
 #discuss-form.status-success .status {
   display: block;
   margin-bottom: 0;
-  color: var(--successColor);
+  color: green;
   text-align: center;
 }
