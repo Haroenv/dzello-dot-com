@@ -1,10 +1,16 @@
-<section class="post-nav">
+<section class="blog-next-previous">
   <ul>
     {{ with .PrevInSection }}
-      <li><span class="ion ion-arrow-left-b"></span> <a href="{{.Permalink}}">{{ .Title }}</a></li>
+      <li>
+        <div class="title"><div class="title_inner">Older Post</div></div>
+        <span class="ion ion-arrow-left-b"></span> <a href="{{.Permalink}}">{{ .Title }}</a>
+      </li>
     {{ end }}
     {{ with .NextInSection }}
-      <li><a href="{{.Permalink}}">{{ .Title }}</a> <span class="ion ion-arrow-right-b"></span></li>
+      <li>
+        <div class="title"><div class="title_inner">Newer Post</div></div>
+        <a href="{{.Permalink}}">{{ .Title }}</a> <span class="ion ion-arrow-right-b"></span>
+      </li>
     {{ end }}
   </ul>
 </section>
