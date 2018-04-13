@@ -1,6 +1,6 @@
-<div class="image-outer {{ .Get "outer-class" }}">
+<div class="{{ .Get "outer-class" }}">
   <img title="{{ .Get "title" }}" alt="{{ .Get "alt" }}" src="{{ .Get "src" }}" class="{{ .Get "class" }}">
   {{ with .Get "caption" }}
-    <div class="image-caption">{{ . | markdownify }}</div>
+    <div class="caption">{{ . | markdownify }}</div>
   {{ end }}
 </div>

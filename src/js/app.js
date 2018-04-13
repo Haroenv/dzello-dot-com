@@ -6,7 +6,7 @@ import ascii from "./ascii";
 
 // search();
 // subscribe();
-// discuss();
+discuss();
 ascii();
 
 var cl = cloudinary.Cloudinary.new( { cloud_name: "dzello"});
