@@ -34,7 +34,6 @@ gulp.task("hugo-server", (cb) => {
     if (code === 0) {
       cb();
     } else {
-      browserSync.notify("Hugo build failed :(");
       cb("Hugo build failed");
     }
   });
@@ -48,15 +47,10 @@ gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArg
 gulp.task("deploy", ['build'], () => { gulp.start("algolia"); });
 gulp.task("deploy-preview", ['build-preview'], () => { gulp.start("algolia"); });
 
-// Compile CSS with PostCSS
+// Compile CSS with Less
 gulp.task("css", () => (
   gulp.src("./src/css/*.less")
-    .pipe(less({ paths: [
-      path.join(__dirname, 'src', 'css', 'glitch'),
-      path.join(__dirname, 'src', 'css', 'glitch', 'settings'),
-      path.join(__dirname, 'src', 'css', 'includes'),
-      path.join(__dirname, 'src', 'css', 'vendor')
-    ]}))
+    .pipe(less())
     .pipe(autoprefixer({browsers: [ 'ie >= 10', 'ie_mob >= 10', 'ff >= 30', 'chrome >= 34', 'safari >= 7', 'opera >= 23', 'ios >= 7', 'android >= 4.4', 'bb >= 10' ]}))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
