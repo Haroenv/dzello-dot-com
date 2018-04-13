@@ -1,0 +1,11 @@
+<script>
+{{ range (slice "orange" "blue" "pink" "purple" "green" "red") }}
+  $(window).load(function() {
+    var myCSS = document.createElement("link");
+    myCSS.rel = "preload";
+    myCSS.as = "style";
+    myCSS.href = "/css/main-{{ . }}.css";
+    document.head.insertBefore(myCSS, document.head.childNodes[document.head.childNodes.length - 1].nextSibling);
+  });
+{{ end }}
+</script>
