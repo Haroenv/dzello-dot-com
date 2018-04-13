@@ -5,7 +5,7 @@ title = "Use httparty with rspec and capybara"
 
 +++
 
-<p>httparty can be a useful supplement to Capybara drivers for use in a <a href="https://github.com/jnicklas/capybara">Capybara</a> test suite. Take the example of an <a href="http://blog.joshdzielak.com/easiest-possible-rspec-performance-test-w-sce">rspec-based load test</a>.</p>
+<p>httparty can be a useful supplement to Capybara drivers for use in a <a href="https://github.com/jnicklas/capybara">Capybara</a> test suite. Take the example of an <a href="http://dzello.com/easiest-possible-rspec-performance-test-w-sce">rspec-based load test</a>.</p>
 
 <p>For this purpose Selenium&rsquo;s <a href="http://rubygems.org/gems/selenium-webdriver">WebDriver</a> is too slow, rack-test doesn&rsquo;t work remotely, and <a href="https://github.com/jeroenvandijk/capybara-mechanize">capybara-mechanize</a> doesn&rsquo;t work well with pages that rely on AJAX or JavaScript to create elements (although otherwise it&rsquo;s quite well suited to this purpose).</p>
 

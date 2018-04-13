@@ -5,7 +5,7 @@ title = "Releasing Mongoid Alize - Comprehensive field denormalization for Mongo
 
 +++
 
-*<span style="color: red">Warning:</span> The API has evolved since the initial release - make sure to check out [this post](http://blog.joshdzielak.com/blog/2012/07/28/mongoid-alize-0-dot-3-1-is-out/) before diving in!*
+*<span style="color: red">Warning:</span> The API has evolved since the initial release - make sure to check out [this post](http://dzello.com/blog/2012/07/28/mongoid-alize-0-dot-3-1-is-out/) before diving in!*
 
 Today I'm releasing v0.1 of Mongoid Alizé. From [MongoSF](http://www.10gen.com/events/mongo-sf) nonetheless!
 

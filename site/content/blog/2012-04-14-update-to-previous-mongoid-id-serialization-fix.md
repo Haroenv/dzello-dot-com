@@ -5,7 +5,7 @@ title = "Update to previous Mongoid id serialization fix"
 
 +++
 
-Previously I had blogged about [one way](http://blog.joshdzielak.com/blog/2011/12/24/tame-the-mongoid-id-field-in-your-rails-and-backbone-js-app/) to get an `id` attribute included in the serialization of Mongoid documents.
+Previously I had blogged about [one way](http://dzello.com/blog/2011/12/24/tame-the-mongoid-id-field-in-your-rails-and-backbone-js-app/) to get an `id` attribute included in the serialization of Mongoid documents.
 
 The original solution involved a patch to the `as_json` method from `ActiveModel::Serialization` applied to `Mongoid::Document`. This patch ensured that the `id` attribute was included in the serialization for persisted documents.
 

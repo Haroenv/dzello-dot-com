@@ -5,7 +5,7 @@ title = "Spin up your Heroku dyno automatically after deploy"
 
 +++
 
-**See an update to this post with a more efficient solution [here](http://blog.joshdzielak.com/blog/2012/08/01/update-to-spin-up-heroku-dyno-automatically-after-deploy/)**.
+**See an update to this post with a more efficient solution [here](http://dzello.com/blog/2012/08/01/update-to-spin-up-heroku-dyno-automatically-after-deploy/)**.
 
 Here's my *former* Heroku manual acceptance testing workflow:
 
