@@ -1,6 +1,8 @@
 <script>
+var width = $(window).width();
+var height = $(window).height();
+$('.section.started').css({'height': height-60});
 function loaded() {
-  $('.preloader').fadeOut();
   $('body').addClass('loaded');
   $('.typed-subtitle').typed({
     stringsElement: $('.typing-subtitle'),
@@ -18,5 +20,5 @@ function loaded() {
 {{ if (eq (getenv "CONTEXT") "development") -}}
   {{ partial "layout/loading/instant" . }}
 {{- else }}
-  {{ partial "layout/loading/instant" . }}
+  {{ partial "layout/loading/transition" . }}
 {{- end }}

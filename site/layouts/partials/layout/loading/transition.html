@@ -3,17 +3,19 @@
     stringsElement: $('.typing-load'),
     loop: true
   });
-  $(window).load(function() {
-    $(".preloader .pre-inner").fadeOut(800, function(){
-      loaded();
-    });
-    $('header, footer, .typed-bread').on('click', 'a', function(){
-      var link = $(this).attr('href');
-      $('body').removeClass('loaded');
-      setTimeout(function() {
-        location.href = "" + link;
-      }, 500);
-      return false;
-    });
+  $(function() {
+    setTimeout(function() {
+      $(".preloader").fadeOut(250, function(){
+        loaded();
+      });
+    }, 750);
+  });
+  $('header, footer, .typed-bread').on('click', 'a', function(){
+    var link = $(this).attr('href');
+    $('body').removeClass('loaded');
+    setTimeout(function() {
+      location.href = "" + link;
+    }, 500);
+    return false;
   });
 </script>
