@@ -4,6 +4,7 @@ date = "2017-05-29"
 description = "About my one-year anniversary at Algolia"
 image = "blog/algolia-one-year-anniversary-cake.png"
 title = "Celebrating one year at Algolia"
+noDiscuss = true
 
 +++
 
