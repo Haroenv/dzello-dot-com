@@ -5,6 +5,8 @@ import hugoBin from "hugo-bin";
 import gutil from "gulp-util";
 import flatten from "gulp-flatten";
 import less from "gulp-less";
+import concat from "gulp-concat";
+import uglify from "gulp-uglify";
 import autoprefixer from "gulp-autoprefixer";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
@@ -56,9 +58,17 @@ gulp.task("css", () => (
     .pipe(browserSync.stream())
 ));
 
+gulp.task("static-js", () => {
+  return gulp.src(['./site/static/js/jquery-2.1.4.js', './site/static/js/*.js'])
+    .pipe(concat('static.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js/'));
+});
+
 // Watch all assets
 gulp.task("watch-assets", () => {
   gulp.watch("./src/js/**/*.js", ["js"]);
+  gulp.watch("./site/static/js/*.js", ["static-js"]);
   gulp.watch("./src/css/**/*.{css,less}", ["css"]);
   gulp.watch("./src/fonts/**/*", ["fonts"]);
 });
@@ -87,7 +97,7 @@ gulp.task('fonts', () => (
 ));
 
 // Development server with browsersync
-gulp.task("server-browsersync", ["hugo", "css", "js", "fonts"], () => {
+gulp.task("server-browsersync", ["hugo", "css", "js", "fonts", "watch-assets"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -95,9 +105,6 @@ gulp.task("server-browsersync", ["hugo", "css", "js", "fonts"], () => {
     open: false,
     notify: false
   });
-  gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.{css,less}", ["css"]);
-  gulp.watch("./src/fonts/**/*", ["fonts"]);
   gulp.watch("./site/**/*", ["hugo"]);
 });
 
