@@ -1,7 +1,11 @@
 <script>
 var width = $(window).width();
 var height = $(window).height();
-$('.section.started').css({'height': height-60});
+if(width < 840) {
+  $('.section.started').css({'height': height-30});
+} else {
+  $('.section.started').css({'height': height-60});
+}
 function loaded() {
   $('body').addClass('loaded');
   $('.typed-subtitle').typed({

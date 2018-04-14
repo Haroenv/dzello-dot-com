@@ -8,11 +8,6 @@ $(function () {
 
   $(window).unload(function() {});
 
-  /* Set full height in blocks */
-  var width = $(window).width();
-  var height = $(window).height();
-  $('.section.started').css({'height': height-60});
-
   /*Menu mobile*/
   $('header').on('click', '.menu-btn', function(){
     if($('header').hasClass('active')){
@@ -106,8 +101,4 @@ $(function () {
 
     $('.section.started').css({'height': height-60});
   });
-
-  if(width < 840) {
-    $('.section.started').css({'height': height-30});
-  }
 });
