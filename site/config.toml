@@ -16,6 +16,7 @@ smartypants = false
 
 [author]
 name = "Josh Dzielak"
+first_name = "Josh"
 email = "josh@dzello.com"
 twitter = "dzello"
 github = "dzello"

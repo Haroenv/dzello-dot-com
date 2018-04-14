@@ -1,6 +1,6 @@
 {{ define "started-content" -}}
-              <div class="h-title glitch-effect" data-text="I'm {{ .Site.Author.name }}">
-                I'm <span>{{ .Site.Author.name }}</span>
+              <div class="h-title glitch-effect" data-text="I'm {{ .Site.Author.first_name }}">
+                I'm <span>{{ .Site.Author.first_name }}</span>
               </div>
               <div class="h-subtitle typing-subtitle">
                 {{- range .Params.taglines }}
