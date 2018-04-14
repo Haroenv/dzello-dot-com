@@ -42,8 +42,8 @@ gulp.task("hugo-server", (cb) => {
 });
 
 // Build/production tasks
-gulp.task("build", ["css", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["css", "js", "static-js", "fonts"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["css", "js", "static-js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Build/production with algolia
 gulp.task("deploy", ['build'], () => { gulp.start("algolia"); });
@@ -97,7 +97,7 @@ gulp.task('fonts', () => (
 ));
 
 // Development server with browsersync
-gulp.task("server-browsersync", ["hugo", "css", "js", "fonts", "watch-assets"], () => {
+gulp.task("server-browsersync", ["hugo", "css", "js", "static-js", "fonts", "watch-assets"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -109,7 +109,7 @@ gulp.task("server-browsersync", ["hugo", "css", "js", "fonts", "watch-assets"], 
 });
 
 // Development server with hugo server
-gulp.task("server-hugo", ["hugo-server", "css", "js", "fonts", "watch-assets"]);
+gulp.task("server-hugo", ["hugo-server", "css", "js", "static-js", "fonts", "watch-assets"]);
 
 // Task to create algolia index and push data
 gulp.task("algolia", [], (cb) => {
