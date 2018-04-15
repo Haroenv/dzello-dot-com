@@ -7,7 +7,7 @@
   {{ partial "layout/meta-tags" . }}
   {{ partial "layout/link-tags" . }}
 </head>
-<body>
+<body class="loaded">
   <div class="preloader">
     <div class="centrize full-width">
       <div class="vertical-center">
@@ -21,6 +21,7 @@
   <div class="container">
     {{ partial "layout/top-menu" . }}
     <div class="wrapper">
+      {{ if (not .Page.Params.skipStarted) -}}
       <div class="section started">
         <div class="centrize full-width">
           <div class="vertical-center">
@@ -39,6 +40,7 @@
         <a href="#" class="mouse_btn"><span class="ion ion-mouse"></span></a>
         {{- end }}
       </div>
+      {{- end }}
       {{- block "main" . -}}
       {{- end }}
     </div>
@@ -48,7 +50,6 @@
     <div class="line left"></div>
     <div class="line right"></div>
   </div>
-  {{- partial "layout/subscribe-modal" . }}
   {{- partial "layout/javascripts" . }}
   {{- block "after-javascripts" . -}}
   {{- end }}

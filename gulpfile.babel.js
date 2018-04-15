@@ -61,7 +61,7 @@ gulp.task("css", () => (
 ));
 
 gulp.task("static-js", () => {
-  return gulp.src(['./site/static/js/jquery-2.1.4.js', './site/static/js/*.js'])
+  return gulp.src(['./site/static/js/bundle/jquery-2.1.4.js', './site/static/js/bundle/*.js'])
     .pipe(concat('static.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js/'));

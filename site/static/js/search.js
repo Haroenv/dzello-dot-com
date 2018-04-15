@@ -2,23 +2,21 @@ function initializeSearch() {
 
   var instantsearch = window.instantsearch;
 
-  const search = instantsearch({
+  var search = instantsearch({
     appId: window.algolia.appId,
     apiKey: window.algolia.searchApiKey,
     indexName: window.algolia.indexName,
     searchParameters: {
-      hitsPerPage: 5,
+      hitsPerPage: 3,
       filters: "kind:page"
     },
     searchFunction: function(helper) {
       if (helper.state.query) {
+        $("#algolia-attribution").hide();
         helper.search();
-        $("#main-inner, #social-media, .nav-menu").addClass("search-active");
-        $("#algolia-attribution").addClass("show");
       } else {
         document.getElementById("algolia-hits").innerHTML = "";
-        $("#main-inner, #social-media, .nav-menu").removeClass("search-active");
-        $("#algolia-attribution").removeClass("show");
+        $("#algolia-attribution").show();
       }
     }
   });
@@ -28,13 +26,13 @@ function initializeSearch() {
       container: '#algolia-hits',
       templates: {
         empty: '<p>N😭 RESULTS</p>',
-        item: `
-        <div>
-          <p>
-            <a href="{{{ url }}}">{{{_highlightResult.title.value}}}</a> &middot; <span>{{{_snippetResult.content.value}}}</span>
-          </p>
-        </div>
-        `,
+        item: " \
+        <div> \
+          <p> \
+            <a href='{{{ url }}}'>{{{_highlightResult.title.value}}}</a> &middot; <span>{{{_snippetResult.content.value}}}</span> \
+          </p> \
+        </div> \
+        ",
         footer: '<a href="https://algolia.com/"><img src="/images/search-by-algolia.svg"></a>'
       }
     })
@@ -54,8 +52,7 @@ function initializeSearch() {
 
 }
 
-export default function() {
-  if (window.algolia.appId) {
-    initializeSearch();
-  }
+if (window.algolia.appId) {
+  initializeSearch();
+  $("#algolia-search").focus();
 }

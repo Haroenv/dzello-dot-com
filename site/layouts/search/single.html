@@ -1,8 +1,14 @@
-{{ define "scroll-btn" -}}
-    <span></span>
+{{ define "main" -}}
+  <div class="section search">
+    <div class="content">
+      <input id="algolia-search" type="text" placeholder="🔎 search...">
+      {{- partial "algolia/hits" . -}}
+    </div>
+  </div>
 {{- end }}
 
 {{ define "after-javascripts" -}}
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
   {{- partial "algolia/variables" . }}
-  <script async src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
+  <script src="/js/search.js"></script>
 {{- end }}
