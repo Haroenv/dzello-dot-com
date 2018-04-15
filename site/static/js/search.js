@@ -6,6 +6,7 @@ function initializeSearch() {
     appId: window.algolia.appId,
     apiKey: window.algolia.searchApiKey,
     indexName: window.algolia.indexName,
+    urlSync: true,
     searchParameters: {
       hitsPerPage: 3,
       filters: "kind:page"
