@@ -9,12 +9,4 @@
       loaded();
     });
   }, 800);
-  $('header, footer, .typed-bread').on('click', 'a:not(.has-popup)', function(){
-    var link = $(this).attr('href');
-    $("body").addClass("unloaded");
-    setTimeout(function() {
-      location.href = "" + link;
-    }, 600);
-    return false;
-  });
 </script>
