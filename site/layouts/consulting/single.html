@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <div class="section photo">
+    <div class="content">
+      {{ partial "cloudinary" (index .Params.images 0) }}
+    </div>
+  </div>
+  <div class="section">
+    <div class="content">
+      <div class="title">
+        <div class="title_inner">{{ .Page.Title }}</div>
+      </div>
+      <p>{{ .Content }}</p>
+    </div>
+  </div>
+  <div class="section photo">
+    <div class="content">
+      {{ partial "cloudinary" (index .Params.images 1) }}
+    </div>
+  </div>
+{{ end }}

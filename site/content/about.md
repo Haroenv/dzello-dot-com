@@ -1,6 +1,5 @@
 +++
 menu = "main"
-meta = "false"
 weight = "10"
 title = "About"
 type = "about"
