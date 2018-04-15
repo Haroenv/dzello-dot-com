@@ -4,8 +4,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+input, textarea {
+  border: 1px solid @light-color;
+  padding: 10px 20px;
+  outline: 0;
+}
+
 .preloader .typing-load {
   visibility: hidden;
+}
+
+.mfp-hide {
+  display: none !important;
 }
 
 .section.started .started-content {
@@ -72,6 +82,10 @@ ul.pagination li {
 
 .box-items .box-item {
   overflow: visible;
+  .link-domain {
+    color: #FFF;
+    font-size: 13px;
+  }
 }
 
 .box-items .box-item .desc {
@@ -80,3 +94,14 @@ ul.pagination li {
     text-decoration: none;
   }
 }
+
+#subscribe-form.status-success .status {
+  display: block;
+  color: green;
+}
+
+#subscribe-form .status,
+#subscribe-form.status-success .fields {
+  display: none;
+}
+

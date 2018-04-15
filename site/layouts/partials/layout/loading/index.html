@@ -22,7 +22,7 @@ function loaded() {
 }
 </script>
 {{ if (eq (getenv "CONTEXT") "development") -}}
-  {{ partial "layout/loading/instant" . }}
+  {{- partial "layout/loading/instant" . -}}
 {{- else }}
-  {{ partial "layout/loading/transition" . }}
+  {{- partial "layout/loading/transition" . -}}
 {{- end }}

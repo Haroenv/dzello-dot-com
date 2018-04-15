@@ -5,7 +5,7 @@ import discuss from "./discuss";
 import ascii from "./ascii";
 
 // search();
-// subscribe();
+subscribe();
 discuss();
 ascii();
 

@@ -1,9 +1,7 @@
 export default function() {
 
-  $('a[data-modal]').click(function(event) {
-    $(this).modal();
+  $('a[href=#popup-subscribe]').click(function(event) {
     logEvent("SUBSCRIBE_MODAL_OPENED");
-    return false;
   });
 
   $("#subscribe-form").submit((event) => {
@@ -17,7 +15,7 @@ export default function() {
       success: function() {
         $("#subscribe-form").addClass("status-success");
         $("#subscribe-form .status").append(
-          `<p>✅<br><br>your ${email.match(/[^@]+$/)[0]} address is subscribed!</p>`);
+          `<p>✅ your ${email.match(/[^@]+$/)[0]} address is subscribed</p>`);
         logEvent("USER_SUBSCRIBED", { email: email });
         analytics.identify(email, { email });
       }
