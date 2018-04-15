@@ -2,6 +2,7 @@
 categories = ["Technology"]
 date = "2016-03-10"
 title = "A Crazy introduction"
+image = "blog/memex-vannevar-bush.jpeg"
 
 +++
 

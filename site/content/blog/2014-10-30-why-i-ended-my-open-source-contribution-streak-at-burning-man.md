@@ -2,6 +2,7 @@
 categories = ["Technology"]
 date = "2014-10-30T00:00:00Z"
 title = "The OSS Streak Ends, Day 67, at Burning Man"
+image = "blog/amazecamp.jpg"
 
 +++
 
@@ -9,9 +10,7 @@ title = "The OSS Streak Ends, Day 67, at Burning Man"
 
 ![Github snapshot](/images/github-66-snapshot.png)
 
-Then, like any *[Whole Earth Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog)*-carrying [cyber-counter-culturalist](http://fredturner.stanford.edu/books/from-counterculture-to-cyberculture/) living in northern California, I went to Burning Man. 2014 was my 3rd year, and a truly special one thanks to these good-looking, hard-working campmates.
-
-![Amazecamp Group Photo](/images/amazecamp.jpg)
+Then, like any *[Whole Earth Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog)*-carrying [cyber-counter-culturalist](http://fredturner.stanford.edu/books/from-counterculture-to-cyberculture/) living in northern California, I went to Burning Man. 2014 was my 3rd year, and a truly special one thanks to the truly amazing people of Amazecamp.
 
 The trip did, however, mark the end of my commit streak, a streak that had [started](http://dzello.com/blog/2014/06/23/open-source-365-ship-every-day-for-a-year/) back in June.
 

@@ -2,6 +2,7 @@
 categories = ["Technology"]
 date = "2015-05-15T00:00:00Z"
 title = "Not Goodbye. Until."
+image = "blog/keen_photo_booth.jpg"
 
 +++
 
@@ -18,8 +19,3 @@ Today, Keen's technology is in very capable hands. Teams of brilliant individual
 I'm sad I won't be seeing these [smiling faces](https://keen.io/team) every day, but I'm very excited about some of the new smiling faces I hope to meet. I'm embarking on a self-guided study of spontaneous creativity and human interconnection. My discoveries—if I'm fortunate enough to have them—will be shared through art, writing, and conversation. I'll keep you in the loop here and [on Medium](https://medium.com/@dzello).
 
 To the Keen family and the wonderful people I've met in my (tri-continental!) Keen travels: I will miss you, but I'll also be right here just doing my thing. Stay in touch and don't hesitate to reach out. There are no goodbyes, only until next times...
-
-<br>
-
-![Photo booth](/images/keen_photo_booth.jpg)
-<span class="caption">how did we fit six people in here?</span>
