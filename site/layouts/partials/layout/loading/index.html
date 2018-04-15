@@ -7,7 +7,6 @@ if(width < 840) {
   $('.section.started').css({'height': height-60});
 }
 function loaded() {
-  $('body').addClass('loaded');
   $('.typed-subtitle').typed({
     stringsElement: $('.typing-subtitle'),
     loop: true
@@ -16,6 +15,7 @@ function loaded() {
     stringsElement: $('.typing-bread'),
     showCursor: false
   });
+  $('body').addClass('loaded');
   setTimeout(function() {
     $(".h-title").removeClass("glitch-effect");
   }, 1500);
