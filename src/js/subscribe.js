@@ -1,7 +1,8 @@
 export default function() {
 
-  $('a[href=#popup-subscribe]').click(function(event) {
+  $('a.has-popup').click(function(event) {
     logEvent("SUBSCRIBE_MODAL_OPENED");
+    return false;
   });
 
   $("#subscribe-form").submit((event) => {

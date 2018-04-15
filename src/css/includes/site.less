@@ -1,3 +1,22 @@
+body {
+  header, footer, .section {
+    transition-property: opacity;
+    transition-duration: 0s;
+  }
+  &.loaded {
+    header, footer, .section {
+      transition-property: opacity;
+      transition-duration: 1.2s;
+    }
+  }
+  &.unloaded {
+    header, footer, .section {
+      opacity: 0 !important;
+      transition-duration: 0.5s;
+    }
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   a {
     text-decoration: none !important;
@@ -8,10 +27,6 @@ input, textarea {
   border: 1px solid @light-color;
   padding: 10px 20px;
   outline: 0;
-}
-
-.preloader .typing-load {
-  visibility: hidden;
 }
 
 .mfp-hide {
@@ -28,6 +43,10 @@ input, textarea {
 .section .content a,
 .popup-box .desc a {
   text-decoration: underline;
+}
+
+a.btn {
+  text-decoration: none !important;
 }
 
 code {
@@ -83,7 +102,7 @@ ul.pagination li {
 .box-items .box-item {
   overflow: visible;
   .link-domain {
-    color: #FFF;
+    color: @white-color;
     font-size: 13px;
   }
 }

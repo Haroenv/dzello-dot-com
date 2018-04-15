@@ -1,22 +1,20 @@
 <script>
-  $('.typed-load').css({ visibility: "visible" });
   $('.typed-load').typed({
     stringsElement: $('.typing-load'),
     loop: true
   });
-  $(function() {
-    setTimeout(function() {
-      $(".preloader").fadeOut(250, function(){
-        loaded();
-      });
-    }, 750);
-  });
-  $('header, footer, .typed-bread').on('click', 'a', function(){
+  // don't fade while the typing is happening
+  setTimeout(function() {
+    $(".preloader .pre-inner").fadeOut(250, function() {
+      loaded();
+    });
+  }, 800);
+  $('header, footer, .typed-bread').on('click', 'a:not(.has-popup)', function(){
     var link = $(this).attr('href');
-    $('body').removeClass('loaded');
+    $("body").addClass("unloaded");
     setTimeout(function() {
       location.href = "" + link;
-    }, 500);
+    }, 600);
     return false;
   });
 </script>
