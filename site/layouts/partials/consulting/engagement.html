@@ -1,13 +1,6 @@
-<li class="engagement">
-  <h2>{{ .name }}</h2>
-  <p>
-    {{ .description | markdownify }}
-  </p>
-  {{ with .examples }}
-    <p class="examples">
-      <strong>Experience</strong>: {{ . | markdownify }}
-    </p>
-   {{ end }}
+<li>
+  <h3>{{ .name }}</h3>
+  <p>{{ .description | markdownify }}</p>
   {{ with .typical }}
     <p class="examples">
       <strong>Typical engagement</strong>: {{ . | markdownify }}
