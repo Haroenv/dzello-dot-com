@@ -1,5 +1,5 @@
 <script>
-function loaded() {
+(function() {
 
   var width = $(window).width();
   var height = $(window).height();
@@ -24,10 +24,6 @@ function loaded() {
   setTimeout(function() {
     $(".h-title").removeClass("glitch-effect");
   }, 1500);
-}
+
+})();
 </script>
-{{ if (eq (getenv "CONTEXT") "development") -}}
-  {{- partial "layout/loading/instant" . -}}
-{{- else }}
-  {{- partial "layout/loading/transition" . -}}
-{{- end }}
