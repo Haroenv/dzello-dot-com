@@ -1,7 +1,5 @@
-function initializeSearch() {
-
+export default function() {
   var instantsearch = window.instantsearch;
-
   var search = instantsearch({
     appId: window.algolia.appId,
     apiKey: window.algolia.searchApiKey,
@@ -21,7 +19,6 @@ function initializeSearch() {
       }
     }
   });
-
   search.addWidget(
     instantsearch.widgets.hits({
       container: '#algolia-hits',
@@ -38,7 +35,6 @@ function initializeSearch() {
       }
     })
   );
-
   search.addWidget(
     instantsearch.widgets.searchBox({
       container: '#algolia-search',
@@ -48,12 +44,6 @@ function initializeSearch() {
       autofocus: false
     })
   );
-
   search.start();
-
-}
-
-if (window.algolia && window.algolia.appId) {
-  initializeSearch();
   $("#algolia-search").focus();
 }

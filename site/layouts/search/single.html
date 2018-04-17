@@ -8,7 +8,11 @@
 {{- end }}
 
 {{ define "after-javascripts" -}}
+  {{ partial "algolia/variables" . }}
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
-  {{- partial "algolia/variables" . }}
-  <script src="/js/search.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      window._search();
+    });
+  </script>
 {{- end }}

@@ -4,6 +4,7 @@ import ascii from "./ascii";
 import discuss from "./discuss";
 import initialize from "./initialize";
 import subscribe from "./subscribe";
+import search from "./search";
 
 (function() {
   window.$ = window.jQuery = jQuery;
@@ -19,6 +20,8 @@ initialize();
 subscribe();
 discuss();
 ascii();
+
+window._search = search;
 
 var cl = cloudinary.Cloudinary.new( { cloud_name: "dzello"});
 cl.responsive();

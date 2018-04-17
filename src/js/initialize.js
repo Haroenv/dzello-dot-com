@@ -6,10 +6,8 @@ export default function() {
   } else {
     $('.section.started').css({'height': height-60});
   }
-
   $('.preloader').hide();
   $('body').addClass('loaded');
-
   $('.typed-subtitle').typed({
     stringsElement: $('.typing-subtitle'),
     loop: true
@@ -18,7 +16,6 @@ export default function() {
     stringsElement: $('.typing-bread'),
     showCursor: false
   });
-
   setTimeout(function() {
     $(".h-title").removeClass("glitch-effect");
   }, 1500);

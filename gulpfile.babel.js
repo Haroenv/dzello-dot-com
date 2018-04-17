@@ -20,7 +20,7 @@ dotenv.load();
 const browserSync = BrowserSync.create();
 
 // Hugo arguments
-const hugoArgsDefault = ["-d", "../dist", "-s", "site"];
+const hugoArgsDefault = ["-d", "./dist", "-s", "./site"];
 const hugoArgsPreview = ["--buildDrafts", "--buildFuture"];
 
 // Development tasks
@@ -33,6 +33,7 @@ gulp.task("hugo-server", (cb) => {
   if (process.env.HUGO_PREVIEW) {
     args.push(...hugoArgsPreview);
   }
+  process.env.NODE_ENV = "development";
   return spawn(hugoBin, args, {stdio: "inherit"}).on("close", (code) => {
     if (code === 0) {
       cb();
@@ -56,7 +57,7 @@ gulp.task("css", () => (
     .pipe(less())
     .pipe(autoprefixer({browsers: [ 'ie >= 10', 'ie_mob >= 10', 'ff >= 30', 'chrome >= 34', 'safari >= 7', 'opera >= 23', 'ios >= 7', 'android >= 4.4', 'bb >= 10' ]}))
     .pipe(cleanCSS())
-    .pipe(gulp.dest("./dist/css"))
+    .pipe(gulp.dest("./site/dist/css"))
     .pipe(browserSync.stream())
 ));
 
@@ -86,7 +87,7 @@ gulp.task("js", (cb) => {
 gulp.task("server-browsersync", ["hugo", "css", "js", "watch-assets"], () => {
   browserSync.init({
     server: {
-      baseDir: "./dist"
+      baseDir: "./site/dist"
     },
     open: false,
     notify: false

@@ -1,0 +1,7 @@
+{{- $sectionThemeColor := (.Page.Site.GetPage "section" .Section).Param "themeColor" }}
+{{- $themeColor := or .Page.Params.themeColor $sectionThemeColor .Site.Params.themeColor -}}
+{{- if (eq (getenv "NODE_ENV") "development") -}}
+<link rel="stylesheet" type="text/css" href="/css/main-{{ $themeColor }}.css" />
+{{- else -}}
+<style>{{- readFile (printf "/dist/css/main-%s.css" $themeColor) | safeCSS -}}</style>
+{{- end }}

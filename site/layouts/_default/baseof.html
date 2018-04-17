@@ -1,23 +1,11 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
-  {{ block "main-css" . -}}
-  <link rel="stylesheet" type="text/css" href="/css/main-{{ or .Page.Params.themeColor .Site.Params.themeColor }}.css" />
-  {{- end }}
+  {{ partial "layout/styles" . }}
   {{ partial "layout/meta-tags" . }}
   {{ partial "layout/link-tags" . }}
 </head>
 <body>
-  <div class="preloader">
-    <div class="centrize full-width">
-      <div class="vertical-center">
-        <div class="pre-inner">
-          <div class="load typing-load"><p>loading...</p></div>
-          <span class="typed-load"></span>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="container">
     {{ partial "layout/top-menu" . }}
     <div class="wrapper">

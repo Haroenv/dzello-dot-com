@@ -1,4 +1,5 @@
 +++
 title = "Thailand"
+themeColor = "orange"
 
 +++
