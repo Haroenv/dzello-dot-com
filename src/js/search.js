@@ -53,7 +53,7 @@ function initializeSearch() {
 
 }
 
-if (window.algolia.appId) {
+if (window.algolia && window.algolia.appId) {
   initializeSearch();
   $("#algolia-search").focus();
 }

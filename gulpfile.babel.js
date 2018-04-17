@@ -43,8 +43,8 @@ gulp.task("hugo-server", (cb) => {
 });
 
 // Build/production tasks
-gulp.task("build", ["css", "js", "static-js", "fonts"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["css", "js", "static-js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["css", "js"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["css", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Build/production with algolia
 gulp.task("deploy", ['build'], () => { gulp.start("algolia"); });
@@ -60,27 +60,11 @@ gulp.task("css", () => (
     .pipe(browserSync.stream())
 ));
 
-gulp.task("static-js", () => {
-  return gulp.src([
-      './site/static/js/bundle/jquery-2.1.4.js',
-      './site/static/js/bundle/typed.js',
-      './site/static/js/bundle/initialize.js',
-      './site/static/js/bundle/magnific-popup.js',
-      './site/static/js/bundle/masonry.pkgd.js',
-      './site/static/js/bundle/masonry-filter.js',
-      './site/static/js/bundle/imageloaded.pkgd.js',
-      './site/static/js/bundle/glitch-scripts.js' ])
-    .pipe(concat('static.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('./dist/js/'));
-});
 
 // Watch all assets
 gulp.task("watch-assets", () => {
   gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./site/static/js/*.js", ["static-js"]);
   gulp.watch("./src/css/**/*.{css,less}", ["css"]);
-  gulp.watch("./src/fonts/**/*", ["fonts"]);
 });
 
 // Compile Javascript
@@ -98,16 +82,8 @@ gulp.task("js", (cb) => {
   });
 });
 
-// Move all fonts in a flattened directory
-gulp.task('fonts', () => (
-  gulp.src("./src/fonts/**/*")
-    .pipe(flatten())
-    .pipe(gulp.dest("./dist/fonts"))
-    .pipe(browserSync.stream())
-));
-
 // Development server with browsersync
-gulp.task("server-browsersync", ["hugo", "css", "js", "static-js", "fonts", "watch-assets"], () => {
+gulp.task("server-browsersync", ["hugo", "css", "js", "watch-assets"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -119,7 +95,7 @@ gulp.task("server-browsersync", ["hugo", "css", "js", "static-js", "fonts", "wat
 });
 
 // Development server with hugo server
-gulp.task("server-hugo", ["hugo-server", "css", "js", "static-js", "fonts", "watch-assets"]);
+gulp.task("server-hugo", ["hugo-server", "css", "js", "watch-assets"]);
 
 // Task to create algolia index and push data
 gulp.task("algolia", [], (cb) => {
