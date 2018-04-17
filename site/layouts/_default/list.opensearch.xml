@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://mozilla.org/2006/browser/search/">
+  <ShortName>{{ .Site.Params.opensearch_short_name }}</ShortName>
+  <Description>{{ .Site.Params.opensearch_description }}</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="32" height="32" type="image/png">{{ "/images/favicons/favicon.png" | absURL }}</Image>
+  <Url type="text/html" template="{{ "/search" | absURL }}?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="{{ "opensearch.xml" | absURL }}" />
+  <SearchForm>{{ "/search" | absURL }}</SearchForm>
+  <moz:SearchForm>{{ "/search" | absURL }}</moz:SearchForm>
+</OpenSearchDescription>

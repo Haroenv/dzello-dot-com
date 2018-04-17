@@ -41,13 +41,15 @@ ogImage = "josh-dzielak-frisbee-2015.png"
 githubURL = "https://github.com/dzello/dzello-dot-com"
 googleAnalytics = "UA-24132749-1"
 themeColor = "blue"
+opensearch_short_name = "dzello.com"
+opensearch_description = "Search for articles about developer relations on dzello.com"
 
 [params.algolia]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink", "content", "section", "path", "kind", "readingtime", "type", "weight", "url", "wordcount", "draft"]
 params = ["image", "categories"]
 
 [outputs]
-home = ["HTML", "RSS", "Algolia"]
+home = ["HTML", "RSS", "Algolia", "OpenSearch"]
 section = ["HTML", "RSS", "JSON"]
 page = ["HTML", "JSON"]
 
@@ -55,4 +57,10 @@ page = ["HTML", "JSON"]
 baseName = "algolia"
 mediaType = "application/json"
 isPlainText = true
+notAlternative = true
+
+[outputFormats.OpenSearch]
+baseName = "opensearch"
+isPlainText = true
+mediaType = "application/xml"
 notAlternative = true
