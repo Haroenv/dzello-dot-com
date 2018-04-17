@@ -13,29 +13,27 @@
 {{ define "main" -}}
   {{ $page := . }}
   {{- $workType := index (where $.Site.Data.workTypes.workType "data" .Page.Params.dataList) 0 -}}
-  {{ if $workType -}}
-    {{- $works := index (index $.Site.Data.work $workType.data) $workType.type -}}
-    <div class="section works">
-      <div class="content">
-        <div class="title">
-          <div class="title_inner">{{ $workType.title }}</div>
-        </div>
-        <div class="filter-menu">
-          <div class="filters">
-            <div class="btn-group">
-              {{ range $workType.categories }}
-              <label data-text="{{ . }}"><input type="checkbox" value="f-{{ . }}" />{{ . }}</label>
-              {{ end }}
-            </div>
+  {{- $works := index (index $.Site.Data.work $workType.data) $workType.type -}}
+  <div class="section works">
+    <div class="content">
+      <div class="title">
+        <div class="title_inner">{{ $workType.title }}</div>
+      </div>
+      <div class="filter-menu">
+        <div class="filters">
+          <div class="btn-group">
+            {{ range $workType.categories }}
+            <label data-text="{{ . }}"><input type="checkbox" value="f-{{ . }}" />{{ . }}</label>
+            {{ end }}
           </div>
         </div>
-        {{- $type := $workType.type -}}
-        <div class="box-items">
-          {{ range where $works "hidden" "!=" true -}}
-            {{ partial (printf "work/tiles/%s" $type) (dict "page" $page "work" .) }}
-          {{- end }}
-        </div>
+      </div>
+      {{- $type := $workType.type -}}
+      <div class="box-items">
+        {{ range where $works "hidden" "!=" true -}}
+          {{ partial (printf "work/tiles/%s" $type) (dict "page" $page "work" .) }}
+        {{- end }}
       </div>
     </div>
-  {{- end }}
+  </div>
 {{- end }}
