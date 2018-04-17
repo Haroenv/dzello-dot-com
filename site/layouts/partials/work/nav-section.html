@@ -1,0 +1,24 @@
+{{ $workType := .workType }}
+{{ $workTypes := .workTypes }}
+<div class="section service">
+  <div class="content">
+    <div class="title">
+      <div class="title_inner">See more work</div>
+    </div>
+    <ul class="service-items">
+      {{ range $workTypes }}
+      <li class="service-item">
+        <div class="icon">
+          <span class="ion {{ .icon }}"></span></div>
+        <div class="name">
+          {{ if (and $workType (eq $workType.title .title)) }}
+            <span>{{ .title }}</span>
+          {{ else }}
+            <a href="/work/{{ .data }}">{{ .title }}</a>
+          {{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

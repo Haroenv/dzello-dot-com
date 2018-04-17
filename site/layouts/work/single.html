@@ -36,4 +36,5 @@
       </div>
     </div>
   </div>
+  {{- partial "work/nav-section" (dict "workTypes" $.Site.Data.workTypes.workType "workType" $workType) -}}
 {{- end }}

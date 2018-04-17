@@ -2,6 +2,7 @@
 title = "Talks"
 data = "talks"
 type = "talk"
+icon = "ion-mic-c"
 image = "talks/josh-dzielak-sentry-scouts-audience-2018"
 categories = [
   "Community",
@@ -14,6 +15,7 @@ categories = [
 title = "Articles"
 data = "articles"
 type = "article"
+icon = "ion-edit"
 image = "josh-dzielak-algolia-search-party-2017"
 categories = [
   "Community",
@@ -25,6 +27,7 @@ categories = [
 title = "Mentions"
 data = "mentions"
 type = "mention"
+icon = "ion-at"
 image = "john-edgar-josh-dzielak-justin-johnson-london-2014"
 categories = [
   "Blogs",
@@ -36,6 +39,7 @@ categories = [
 title = "Activities"
 data = "activities"
 type = "activity"
+icon = "ion-fireball"
 image = "amazecamp-burning-man-2014"
 categories = [
   "Work",
@@ -46,6 +50,7 @@ categories = [
 title = "Projects"
 data = "projects"
 type = "project"
+icon = "ion-code-working"
 image = "josh-dzielak-astronaut-2017"
 categories = [
   "Frontend",
