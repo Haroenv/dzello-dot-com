@@ -1,9 +1,9 @@
   <script>
-  (function() {
-    var myCSS = document.createElement("link");
-    myCSS.rel = "stylesheet";
-    myCSS.href = "/css/vendor.css";
-    document.head.insertBefore(myCSS, document.head.childNodes[document.head.childNodes.length - 1].nextSibling);
-  })();
+    setTimeout(function() {
+      var myCSS = document.createElement("link");
+      myCSS.rel = "stylesheet";
+      myCSS.href = "/css/vendor.css";
+      document.body.appendChild(myCSS);
+    }, 1);
   </script>
   <script defer src="/app.js"></script>
