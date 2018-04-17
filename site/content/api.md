@@ -84,4 +84,3 @@ Here's a table with each work type and information about its API endpoint:
 
 {{< work-types-table >}}
 
-{{< spacing-icon "wrench" >}}
