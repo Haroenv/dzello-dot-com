@@ -61,7 +61,15 @@ gulp.task("css", () => (
 ));
 
 gulp.task("static-js", () => {
-  return gulp.src(['./site/static/js/bundle/jquery-2.1.4.js', './site/static/js/bundle/*.js'])
+  return gulp.src([
+      './site/static/js/bundle/jquery-2.1.4.js',
+      './site/static/js/bundle/typed.js',
+      './site/static/js/bundle/initialize.js',
+      './site/static/js/bundle/magnific-popup.js',
+      './site/static/js/bundle/masonry.pkgd.js',
+      './site/static/js/bundle/masonry-filter.js',
+      './site/static/js/bundle/imageloaded.pkgd.js',
+      './site/static/js/bundle/glitch-scripts.js' ])
     .pipe(concat('static.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js/'));

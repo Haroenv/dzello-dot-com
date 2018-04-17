@@ -1,6 +1,6 @@
 <script>
 {{ range (slice "orange" "blue" "pink" "purple" "green" "red") }}
-  $(window).load(function() {
+  window.addEventListener("load", function(event) {
     var myCSS = document.createElement("link");
     myCSS.rel = "preload";
     myCSS.as = "style";
