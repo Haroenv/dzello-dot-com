@@ -21,7 +21,9 @@
   <div class="container">
     {{ partial "layout/top-menu" . }}
     <div class="wrapper">
-      {{ if (not .Page.Params.skipStarted) -}}
+      {{ if .Page.Params.skipStarted -}}
+      <div class="no-section-started"></div>
+      {{ else -}}
       <div class="section started">
         <div class="centrize full-width">
           <div class="vertical-center">

@@ -2,7 +2,7 @@
 categories = ["Technology"]
 date = "2018-04-04"
 image = "josh-dzielak-heavybit-devguild-2015.jpg"
-imageCaption = "🎤 MC'ing Heavybit's dev evangelism conference in 2015"
+imageCaption = "MC'ing Heavybit's dev evangelism conference in 2015"
 title = "Helping startups get developer relations right from day one"
 noDiscuss = true
 

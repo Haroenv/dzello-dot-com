@@ -4,6 +4,9 @@
       {{ if isset .Page.Params "image" }}
       <div class="title-image">
         <a href="{{ .Permalink }}">{{ partial "cloudinary" .Page.Params.image }}</a>
+        {{ with .Page.Params.imageCaption }}
+        <div class="caption">{{ . }}</div>
+        {{ end }}
       </div>
       {{ end }}
       {{ if isset .Page.Params "imageCaption" }}

@@ -2,6 +2,7 @@
 categories = ["Technology"]
 date = "2017-06-09"
 image = "talks/josh-dzielak-ossat-2017.jpg"
+imageCaption = "Speaking at Open Source Show & Tell in San Francisco"
 title = "Scale community support by webhooking the things"
 
 +++
