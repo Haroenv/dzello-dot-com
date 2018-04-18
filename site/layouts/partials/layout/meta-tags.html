@@ -27,10 +27,10 @@
   <meta property="og:author" content="{{ .Params.Author | default .Site.Author.name }}" />
   {{ if isset .Params "image" -}}
   <meta property="og:image" content="{{ .Site.Params.cl }}/{{ .Site.Params.ogImageClParams }}/{{ .Params.image }}" />
-  <meta property="og:image:width" content="{{ .Site.Params.ogWidth }}" />
-  <meta property="og:image:height" content="{{ .Site.Params.ogHeight }}" />
+  <meta property="og:image:width" content="{{ .Site.Params.ogImageWidth }}" />
+  <meta property="og:image:height" content="{{ .Site.Params.ogImageHeight }}" />
   {{- else -}}
   <meta property="og:image" content="{{ .Site.Params.cl }}/{{ .Site.Params.ogImageClParams }}/{{ .Site.Params.ogImage }}" />
-  <meta property="og:image:width" content="{{ .Site.Params.ogWidth }}" />
-  <meta property="og:image:height" content="{{ .Site.Params.ogHeight }}" />
+  <meta property="og:image:width" content="{{ .Site.Params.ogImageWidth }}" />
+  <meta property="og:image:height" content="{{ .Site.Params.ogImageHeight }}" />
   {{- end -}}
