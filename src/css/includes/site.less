@@ -9,10 +9,21 @@ body {
       transition-duration: 1.2s;
     }
   }
-  &.unloaded {
-    header, footer, .section {
-      opacity: 0 !important;
-      transition-duration: 0.5s;
+  .btn, a.btn {
+    /* fixes a fouc when showing/hiding this element */
+    transition-property: color, background-color, border-color;
+  }
+  header {
+    &.active {
+      transition-property: opacity;
+      transition-duration: 0.3s;
+    }
+    .head-top {
+      .top-menu {
+        @media (max-width: 840px) {
+          .transition(opacity 0.3s ease 0s);
+        }
+      }
     }
   }
 }
