@@ -26,11 +26,11 @@
   <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}" />
   <meta property="og:author" content="{{ .Params.Author | default .Site.Author.name }}" />
   {{ if isset .Params "image" -}}
-  <meta property="og:image" content="{{ .Site.Params.cl }}/c_crop,f_auto,q_auto,w_1200,h_630/{{ .Params.image }}" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image" content="{{ .Site.Params.cl }}/{{ .Site.Params.ogImageClParams }}/{{ .Params.image }}" />
+  <meta property="og:image:width" content="{{ .Site.Params.ogWidth }}" />
+  <meta property="og:image:height" content="{{ .Site.Params.ogHeight }}" />
   {{- else -}}
-  <meta property="og:image" content="{{ .Site.Params.cl }}/c_crop,f_auto,q_auto,w_1200,h_630/{{ .Site.Params.ogImage }}" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image" content="{{ .Site.Params.cl }}/{{ .Site.Params.ogImageClParams }}/{{ .Site.Params.ogImage }}" />
+  <meta property="og:image:width" content="{{ .Site.Params.ogWidth }}" />
+  <meta property="og:image:height" content="{{ .Site.Params.ogHeight }}" />
   {{- end -}}
