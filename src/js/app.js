@@ -2,6 +2,7 @@ import jQuery from "jquery";
 import cloudinary from "cloudinary-core/cloudinary-core-shrinkwrap";
 import ascii from "./ascii";
 import discuss from "./discuss";
+import consulting from "./consulting";
 import initialize from "./initialize";
 import subscribe from "./subscribe";
 import search from "./search";
@@ -16,10 +17,11 @@ import search from "./search";
   var glitchScripts = require("./plugins/glitche-scripts.js");
 })();
 
+ascii();
+consulting();
+discuss();
 initialize();
 subscribe();
-discuss();
-ascii();
 
 window._search = search;
 

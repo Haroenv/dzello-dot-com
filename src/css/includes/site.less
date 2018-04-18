@@ -38,6 +38,11 @@ input, textarea {
   border: 1px solid @light-color;
   padding: 10px 20px;
   outline: 0;
+  margin-top: 0;
+}
+
+.form .btn {
+  margin-bottom: 0;
 }
 
 .mfp-hide {
@@ -138,13 +143,31 @@ ul.pagination li {
   }
 }
 
-#subscribe-form.status-success .status {
-  display: block;
-  color: green;
+.form .status,
+.form.status-success .fields {
+  display: none;
 }
 
-#subscribe-form .status,
-#subscribe-form.status-success .fields {
-  display: none;
+.form.status-success .status {
+  display: block;
+  margin-bottom: 0;
+  color: green;
+  text-align: center;
+}
+
+#consulting-form {
+  border: 1px solid @light-color;
+  padding: 40px;
+  margin: 0 auto;
+  text-align: center;
+  @media (min-width: 840px) {
+    width: 75%;
+  }
+  .fields {
+    margin: 0 auto;
+    @media (min-width: 840px) {
+      width: 75%;
+    }
+  }
 }
 
