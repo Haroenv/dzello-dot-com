@@ -1,7 +1,7 @@
 {{ range (.Paginate (.Data.Pages.GroupByDate "2006")).PageGroups  }}
 {{ range .Pages }}
   <div class="section">
-    <div class="content">
+    <div class="summary">
       {{ if isset .Params "image" }}
       <p><a href="{{ .Permalink }}">{{ partial "cloudinary" .Params.image }}</a></p>
       {{ end }}
@@ -12,4 +12,6 @@
   </div>
 {{ end }}
 {{ end }}
-{{ template "_internal/pagination.html" . }}
+<div class="section">
+  {{- template "_internal/pagination.html" . -}}
+</div>

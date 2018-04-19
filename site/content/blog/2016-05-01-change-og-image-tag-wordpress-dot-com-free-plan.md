@@ -30,4 +30,4 @@ to update the reference in the page/post to point to the new file. Publish
 your changes and then check the results with the [Facebook debug tool](https://developers.facebook.com/tools/debug/).
 
 This worked for me after trying many other strategies including changing
-image sizes, captions, order, CSS, etc. and I hope it will work for you. Let me know in the comments.
+image sizes, captions, order, CSS, etc. and I hope it will work for you.
