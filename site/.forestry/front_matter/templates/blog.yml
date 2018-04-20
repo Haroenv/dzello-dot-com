@@ -17,3 +17,7 @@ fields:
 - type: text
   name: imagecaption
   label: imageCaption
+- type: boolean
+  name: draft
+  label: draft
+  default: true
