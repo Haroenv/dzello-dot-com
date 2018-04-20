@@ -15,9 +15,12 @@ fields:
   label: image
   name: image
 - type: text
-  name: imagecaption
-  label: imageCaption
+  name: imageCaption
+  label: Image caption
 - type: boolean
   name: draft
   label: draft
   default: true
+- type: boolean
+  name: noDiscuss
+  label: No discuss
