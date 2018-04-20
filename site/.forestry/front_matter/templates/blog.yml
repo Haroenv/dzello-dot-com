@@ -1,0 +1,19 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: text
+  label: image
+  name: image
+- type: text
+  name: imagecaption
+  label: imageCaption
+- type: list
+  name: categories
+  label: categories
+- type: datetime
+  name: date
+  label: date
