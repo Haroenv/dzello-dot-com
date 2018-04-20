@@ -1,7 +1,7 @@
 ---
 pages:
 - blog/make-reusable-hugo-components-with-shortcodes-and-data-files.md
-hide_body: true
+hide_body: false
 is_partial: false
 fields:
 - type: text
@@ -26,6 +26,3 @@ fields:
 - type: boolean
   name: noDiscuss
   label: No discuss
-- type: textarea
-  name: body
-  label: body
