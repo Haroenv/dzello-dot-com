@@ -26,3 +26,6 @@ fields:
 - type: boolean
   name: noDiscuss
   label: No discuss
+- type: textarea
+  name: body
+  label: body
