@@ -1,4 +1,6 @@
 ---
+pages:
+- blog/make-reusable-hugo-components-with-shortcodes-and-data-files.md
 hide_body: true
 is_partial: false
 fields:
